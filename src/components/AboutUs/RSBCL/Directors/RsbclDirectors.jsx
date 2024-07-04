@@ -1,5 +1,6 @@
 import React from 'react'
 import { rsbclBoardOfDirectors } from "./RsbclBoardOfDirectors"
+
 const RsbclDirectors = () => {
   return (
     <div className='my-2 py-2 px-4 md:px-12 bg-slate-200 dark:bg-slate-900' >
@@ -36,24 +37,24 @@ const RsbclDirectors = () => {
       {/* table  */}
       <div className='my-4 bg-slate-300 dark:bg-slate-800 px-2 rounded sm:px-4 md:px-8 py-2'>
         {/* table here  */}
-        <div class="relative rounded overflow-x-auto shadow-md sm:rounded-lg">
-          <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-            <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-              <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+        <div className="relative rounded overflow-x-auto shadow-md sm:rounded-lg">
+          <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
+            <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+              <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
-                  <th scope="col" class="px-6 py-3">
+                  <th scope="col" className="px-6 py-3">
                     S. No.
                   </th>
-                  <th scope="col" class="px-6 py-3">
+                  <th scope="col" className="px-6 py-3">
                     Name
                   </th>
-                  <th scope="col" class="px-6 py-3">
+                  <th scope="col" className="px-6 py-3">
                     Address
                   </th>
-                  <th scope="col" class="px-6 py-3">
+                  <th scope="col" className="px-6 py-3">
                     Designation
                   </th>
-                  <th scope="col" class="px-6 py-3">
+                  <th scope="col" className="px-6 py-3">
                     Phone No.
                   </th>
                 </tr>
@@ -63,19 +64,19 @@ const RsbclDirectors = () => {
                   rsbclBoardOfDirectors.map((items, index) => {
                     return (
                       <tr key={index} className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           {items.sN}
                         </td>
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                           {items.name}
                         </th>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           {items.address}
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           {items.designation}
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           {items.phoneNo}
                         </td>
                       </tr>

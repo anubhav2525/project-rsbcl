@@ -2,9 +2,50 @@ import React from 'react'
 
 const ContactUs = () => {
     return (
-        <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis quae, magni at itaque consequuntur id reprehenderit similique, voluptates sequi alias sunt unde ex fugit! Placeat illum voluptatum, expedita quisquam aperiam temporibus repellendus quae est quaerat iste, recusandae error explicabo cupiditate voluptatem a odio veniam quia tenetur. Labore dolor alias iste similique hic deleniti atque minima dolores ullam, quam iure odit amet nobis quae excepturi incidunt quia perspiciatis debitis sit eveniet inventore beatae eligendi? Totam, sint officia. Enim ratione, autem, similique consectetur deserunt omnis quidem magnam cum quibusdam maxime amet nostrum alias possimus sed fugiat saepe, asperiores repellat nulla laborum perferendis cupiditate repellendus eum expedita odio! Ipsa laborum dignissimos at error, eaque, aperiam ratione quod perspiciatis, magnam ullam repellendus nostrum explicabo fuga velit facilis cumque nam necessitatibus! Nisi hic delectus nemo atque consectetur fuga harum iure ipsa quidem praesentium magnam architecto ducimus placeat accusantium recusandae quae omnis maiores aperiam laudantium, culpa doloremque eligendi a enim odio. Itaque quis repellat voluptatem unde numquam! Exercitationem vel repellendus illum voluptates unde. Voluptates provident minus deserunt odio magnam nisi natus rem quaerat, minima reiciendis voluptatem in obcaecati tempora velit eius! Dolorum labore recusandae quo quia eaque. Ducimus modi quidem natus nihil fuga expedita, nostrum odit repellat esse, quas tenetur saepe earum voluptatibus rem consectetur quam quod placeat quis eius. Eligendi veritatis praesentium omnis consequuntur, itaque veniam rem aperiam facilis modi quaerat non earum recusandae quo fugiat dicta voluptatem voluptas qui nesciunt assumenda excepturi maxime cumque! Perspiciatis, fugiat ab facere deleniti esse repudiandae autem voluptatibus iusto quaerat qui illum numquam debitis voluptas adipisci suscipit. Ipsa natus alias tenetur excepturi optio rerum corporis architecto eius ipsum provident nemo voluptate ex fuga enim iure perspiciatis, quasi laborum minima dolores unde quod veniam error hic similique. Itaque dolore quis aliquid nobis ipsum asperiores suscipit, iste culpa quisquam placeat ullam possimus, quos dolorem error optio deserunt! Placeat esse ducimus recusandae amet ex consequatur impedit corporis quis est aut animi labore, voluptates quasi vero reprehenderit quibusdam tempora sit, vitae porro asperiores cupiditate fuga molestias natus culpa. Dolor quibusdam maiores consequuntur suscipit molestias ullam quaerat minus ut magnam, ex, vero facilis placeat facere assumenda amet numquam dolores excepturi enim? Eligendi sapiente, ex possimus inventore qui minus nisi quasi provident sunt minima at libero dignissimos ut nostrum obcaecati voluptatem eius, eum aut, veritatis beatae. Natus, fugiat? Quod facere, ad sed maiores placeat praesentium vero et, animi iste qui saepe, esse reprehenderit cumque illum enim! Quidem, beatae ab itaque, corrupti eveniet dolores rem mollitia iure cupiditate aut eius aperiam provident neque deleniti cum ad magnam omnis. Omnis doloremque labore voluptas dolor totam repellendus ab accusantium rem voluptatum nam laborum fuga consequatur, nemo amet itaque soluta iure, similique tempora libero voluptatem, maiores blanditiis at provident fugit. Eius est sint quaerat, omnis voluptatum ipsa quam eum vitae esse accusantium aperiam, corporis reprehenderit quidem? Perferendis, ex non veritatis voluptates provident, eos veniam officia iusto impedit, necessitatibus odit minima. Vero, fuga quasi deleniti delectus quis cumque architecto sint autem distinctio dicta, quidem voluptatum amet quam error reiciendis eveniet facilis! Neque, sint illo? Distinctio impedit debitis nemo eligendi harum quisquam, magnam animi est ipsum aperiam repellendus repudiandae provident at consequatur minima porro! Nam pariatur voluptas obcaecati. Corrupti, unde molestias totam perferendis, ipsum modi porro delectus dicta quo, quisquam explicabo. Mollitia veritatis minus eius aliquam tempore, non praesentium aut error est ratione excepturi tempora odio vitae nisi harum adipisci assumenda, ex dolorum quas iste. Accusamus facere inventore in non totam rerum, magni quam quod est dicta maiores odit vel, officiis provident temporibus! Possimus, animi distinctio sint error, fugiat assumenda illo ullam iure dolore adipisci ipsam atque earum pariatur consequuntur et, ut quibusdam cumque vel? Repudiandae doloremque molestias deleniti perferendis non, consequuntur at ipsa sed facilis. Non porro, unde nulla, ipsum inventore accusamus suscipit at dolorum, aut ab illo? Quisquam obcaecati consectetur facilis, odio ipsa animi sunt ad sequi nisi maxime tempora praesentium adipisci eos tenetur rem facere et natus. Exercitationem corporis ut doloribus, pariatur amet quam explicabo omnis temporibus nulla repellat? Neque corporis natus quod incidunt asperiores. Quibusdam nam, sunt laudantium distinctio officia eligendi dolore cum tempora itaque rem consequuntur, maxime eaque tempore ipsum iste, modi deleniti quas voluptate magni. Nesciunt corporis facere pariatur numquam officia molestias magnam id deserunt repellendus, iusto impedit, ab aperiam aut harum modi nostrum error ea delectus, vero eveniet! Officia labore natus magni dicta vero quisquam id. Facere fugiat, recusandae nostrum nobis harum omnis accusantium dolore eveniet reprehenderit labore, quasi alias eos aliquid id assumenda placeat consequuntur porro repellat ullam explicabo quia minus? Nisi sit laborum excepturi culpa, est consequuntur nemo voluptatum nihil ducimus obcaecati aliquam eligendi itaque magni aperiam fugit. Reprehenderit tempore quod dolorum, odio illo expedita autem voluptas cum nesciunt omnis explicabo quam nam aliquam sunt adipisci nulla consectetur eius debitis maiores. Sint asperiores voluptas blanditiis illo quod eius natus rem delectus magnam adipisci facere et suscipit, repellat earum sapiente pariatur similique! Qui natus aliquid perferendis placeat optio recusandae consequuntur! Porro unde, dolore quis molestias sapiente voluptas libero autem excepturi molestiae accusantium veniam expedita facilis iusto quam assumenda, eaque repudiandae laudantium. Eum voluptas atque vel, quam tenetur minima nesciunt. Consequatur maiores atque veniam sunt voluptates nobis quisquam explicabo nesciunt eveniet? Atque est aliquam ex optio debitis facere harum quos asperiores dolore nostrum, deserunt possimus dolores? Maxime, illo ducimus? Velit fugit cupiditate nemo laboriosam, aperiam cum veritatis placeat quam quidem quaerat facere, sed aliquam. Atque, inventore. Laborum distinctio asperiores cumque recusandae soluta animi! Perspiciatis enim recusandae, nisi maiores quo neque explicabo eum officiis nihil quasi non odit quaerat necessitatibus cum aliquam corporis consequuntur? Doloremque omnis laboriosam soluta quae accusantium iure veniam tenetur ratione corrupti aut, enim dignissimos veritatis eum eaque perferendis molestiae voluptas quia facere accusamus. Eos neque nobis repellendus atque iure impedit reprehenderit maiores ex at? Animi perspiciatis ut blanditiis quam architecto. Placeat, eius? Quod officia perspiciatis sint iste non, sapiente rem, deleniti earum dolorem adipisci magni recusandae tempora optio beatae dignissimos vel facilis explicabo autem tenetur. Laborum rem non sapiente iure quo, quod dolores minima libero at vero saepe, esse ipsam.
+        <div className='my-2 py-2 px-4 md:px-12 bg-slate-200 dark:bg-slate-900' >
+            {/* Heading  */}
+            <h2 className="mb-4 text-2xl font-extrabold leading-none text-gray-600 md:text-3xl dark:text-slate-300 tracking-wide">Contact Us</h2>
+
+            {/* Lists  */}
+            <div className='my-4  bg-slate-300 dark:bg-slate-800 px-2 rounded sm:px-4 md:px-8 py-2 '>
+                <div className='grid  text-sm sm:text-base  sm:grid-cols-2 gap-10 md:gap-16 p-4'>
+                    <div className='tracking-wider text-gray-500 md:text-lg dark:text-gray-400'>
+                        <div>
+                            <div>OFFICE OF THE EXCISE COMMISSIONER, RAJASTHAN 2, Gumaniawala Panchwati UDAIPUR- 313001 INDIA</div>
+                            <div>Telephones: </div>
+                            <div>
+                                Excise Commissioner: +91.0294.2524911 Addl.
+                            </div>
+                            <div>
+                                Commissioner (ADM): +91.0294.2527074 Addl.
+                            </div>
+                            <div>
+                                Commissioner (EXCISE): +91.0294.2523124
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='tracking-wider text-gray-500 md:text-lg dark:text-gray-400'>
+                        <div>RAJASTHAN STATE BEVERAGES CORPORATION LIMITED (A Government of Rajasthan Undertaking) 5th Floor, O/o COERRA, Plot No - 2, Jhalana Bypass, Jaipur - 302004</div>
+                        <div>Phones: + 91-141-2744239</div>
+                        <div>Fax- + 91-141-2744237</div>
+                    </div>
+
+                    <div className='tracking-wider text-gray-500 md:text-lg dark:text-gray-400'>
+                        <div>Rajasthan State Ganganagar Sugar Mills Ltd. (RSGSM) COERRA, 3rd floor,opp. aranya bhawan,Jhalana Doongri, Jaipur, Rajasthan 302004</div>
+                        <div>Phone No. :- </div>
+                        <div>EPABX : 2740246, 2740040, 2740068</div>
+                        <div>FAX No. :- 0141-2740676</div>
+                    </div>
+
+                    <div className='tracking-wider text-gray-500 md:text-lg dark:text-gray-400'>
+                        <div>Sugar Factory, Sriganganagar</div>
+                        <div>Fax No. 01501-248016, Kanta:- 01501-248010, Gate:-01501-248011</div>
+                    </div>
+                </div>
+            </div>
         </div>
+
     )
 }
 

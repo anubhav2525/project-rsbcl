@@ -20,10 +20,7 @@ import RsbclLogin from "../components/Login/Rsbcl/RsbclLogin"
 import RsgsmLogin from "../components/Login/Rsgsm/RsgsmLogin"
 
 // directory excise
-import ExciseCircleOffice from "../components/Directory/Excise/CircleOffice/ExciseCircleOffice"
-import ExciseDeoOffice from "../components/Directory/Excise/DeoOffice/ExciseDeoOffice"
-import ExciseHeadOffice from "../components/Directory/Excise/HeadOffice/ExciseHeadOffice"
-import ExcideZoneOffice from "../components/Directory/Excise/ZoneOffice/ExciseZoneOffice"
+import DirectoryExciseOffice from "../components/Directory/Excise/DirectoryExciseOffice/DirectoryExciseOffice"
 
 // directory rsgsm
 import RsgsmDepots from "../components/Directory/RSGSM/Depots/RsgsmDepots"
@@ -139,26 +136,12 @@ export const withoutAuthRoute = createBrowserRouter([{
 
     // directory excise
 
-    // directory excise head office
+    // directory excise office
     {
-      path: "directory-excise-head-office",
-      element: <ExciseHeadOffice />
+      path: "directory-excise/:offices",
+      element: <DirectoryExciseOffice />
     },
-    // directory excise deo office
-    {
-      path: "directory-excise-deo-office",
-      element: <ExciseDeoOffice />
-    },
-    // directory excise zone office
-    {
-      path: "directory-excise-zone-office",
-      element: <ExcideZoneOffice />
-    },
-    // directory excise circle office
-    {
-      path: "directory-excise-circle-office",
-      element: <ExciseCircleOffice />
-    },
+
 
     // directory rsgsm
     // directory rsgsm head

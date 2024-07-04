@@ -295,22 +295,22 @@ const Navbar = () => {
                         aria-labelledby="doubleDropdownButton"
                       >
                         <li>
-                          <Link to='directory-excise-head-office' className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+                          <Link to='directory-excise/head-office' className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
                             Head Office
                           </Link>
                         </li>
                         <li>
-                          <Link to='directory-excise-zone-office' className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+                          <Link to='directory-excise/zone-office' className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
                             Zone Office
                           </Link>
                         </li>
                         <li>
-                          <Link to='directory-excise-deo-office' className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+                          <Link to='directory-excise/deo-office' className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
                             DEO Office
                           </Link>
                         </li>
                         <li>
-                          <Link to='directory-excise-circle-office' className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+                          <Link to='directory-excise/circle-office' className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
                             Circle Office
                           </Link>
                         </li>
@@ -537,7 +537,6 @@ const Navbar = () => {
                   </li>
                   <li aria-labelledby="dropdownNavbarLink">
                     <Link to='requirement-rsbcl'>
-
                       <button
                         type="button"
                         className="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
@@ -580,9 +579,7 @@ const Navbar = () => {
               <Link to='analytic-dashboard' className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-300 md:py-2 md:px-4 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white ">
                 Analytic Dashboard
               </Link>
-            </li>
-
-         
+            </li>         
           </ul>
         </div>
       </div>

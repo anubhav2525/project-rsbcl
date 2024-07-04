@@ -1,4 +1,4 @@
-const exciseHeadOffice = [
+export const exciseOffices = [
   {
     SNo: 1,
     Name: "Shri Akhil Arora",

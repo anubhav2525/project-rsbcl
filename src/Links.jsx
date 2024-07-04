@@ -17,10 +17,10 @@ const Links = () => {
             <Link to='/about-rsbcl-organization'>about-rsbcl-organization</Link>
             <Link to='/about-rsbcl-memorandom'>about-rsbcl-memorandom</Link>
             <Link to='/about-rsgsm'>about-rsgsm</Link>
-            <Link to='/directory-excise-head-office'>directory-excise-head-office</Link>
-            <Link to='/directory-excise-deo-office'>directory-excise-deo-office</Link>
-            <Link to='/directory-excise-circle-office'>directory-excise-circle-office</Link>
-            <Link to='/directory-excise-zone-office'>directory-excise-zone-office</Link>
+            <Link to='/directory-excise/head-office'>directory-excise-head-office</Link>
+            <Link to='/directory-excise/deo-office'>directory-excise-deo-office</Link>
+            <Link to='/directory-excise/circle-office'>directory-excise-circle-office</Link>
+            <Link to='/directory-excise/zone-office'>directory-excise-zone-office</Link>
             <Link to='/directory-rsgsm-sugar-mill'>directory-rsgsm-sugar-mill</Link>
             <Link to='/directory-rsgsm-reduction-center'>directory-rsgsm-reduction-center</Link>
             <Link to='/directory-rsgsm-depots'>directory-rsgsm-depots</Link>

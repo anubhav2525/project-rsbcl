@@ -1,4 +1,4 @@
-const rsbclHeadOffice = [
+export const rsbclHeadOfficeData = [
   {
     sNo: 1,
     designation: "Addl. Chief Secretary (Finance)",

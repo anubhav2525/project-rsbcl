@@ -1,4 +1,4 @@
-const rsgsmReductionCenters = [
+ export const rsgsmReductionCenterData = [
   {
     sNo: 1,
     rcName: "Bhilwara( R.C)",

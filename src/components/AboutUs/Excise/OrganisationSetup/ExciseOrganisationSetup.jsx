@@ -67,27 +67,27 @@ const ExciseOrganisationSetup = () => {
         <p className="tracking-widest font-medium text-gray-600 text-sm md:text-lg my-3 sm:text-center dark:text-gray-00">Excise Commissioner & Ex-Officio Prohibition Commissioner cum M.D., R.S.B.C.L. Rajasthan
         </p>
         {/* table here  */}
-        <div class="relative rounded overflow-x-auto shadow-md sm:rounded-lg">
-          <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-            <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-              <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+        <div className="relative rounded overflow-x-auto shadow-md sm:rounded-lg">
+          <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
+            <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+              <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
-                  <th scope="col" class="px-6 py-3">
+                  <th scope="col" className="px-6 py-3">
                     Additional Excise Commissioner (EPF)IPS
                   </th>
-                  <th scope="col" class="px-6 py-3">
+                  <th scope="col" className="px-6 py-3">
                     Additional Excise Commissioner (Adm)
                   </th>
-                  <th scope="col" class="px-6 py-3">
+                  <th scope="col" className="px-6 py-3">
                     F.A.
                   </th>
-                  <th scope="col" class="px-6 py-3">
+                  <th scope="col" className="px-6 py-3">
                     Jt. L.R.
                   </th>
-                  <th scope="col" class="px-6 py-3">
+                  <th scope="col" className="px-6 py-3">
                     System Annalist
                   </th>
-                  <th scope="col" class="px-6 py-3">
+                  <th scope="col" className="px-6 py-3">
                     Chemical Examiner
                   </th>
                 </tr>
@@ -97,22 +97,22 @@ const ExciseOrganisationSetup = () => {
                   data.map((items, index) => {
                     return (
                       <tr key={index} className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           {items.index1}
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           {items.index2}
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           {items.index3}
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           {items.index4}
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           {items.index5}
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           {items.index6}
                         </td>
                       </tr>
