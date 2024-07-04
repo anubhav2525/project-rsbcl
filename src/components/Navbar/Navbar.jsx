@@ -39,7 +39,7 @@ const Navbar = () => {
           className={`w-full  md:block ${isNavVisible ? "block" : "hidden"}`}
           id="navbar-multi-level"
         >
-          <ul className="flex flex-col flex-wrap gap-2 font-base tracking-wider p-4 md:p-0 mt-2 border text-xs sm:text-sm border-gray-100 rounded bg-gray-50 md:space-x-2 rtl:space-x-reverse md:flex-row md:justify-evenly md:items-center md:mt-0 md:border-1 md:bg-white dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700 ">
+          <ul className="flex flex-col flex-wrap gap-2 font-base tracking-wider p-4 md:p-0 md:px-2 mt-2 border text-xs sm:text-sm border-gray-100 rounded bg-gray-50 md:space-x-1 rtl:space-x-reverse md:flex-row md:justify-evenly md:items-center md:mt-0 md:border-1 md:bg-white dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700 ">
             <li>
               <Link to='/' className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-300 md:py-2 md:px-4 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white ">
                 Home
@@ -581,6 +581,8 @@ const Navbar = () => {
                 Analytic Dashboard
               </Link>
             </li>
+
+         
           </ul>
         </div>
       </div>

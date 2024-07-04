@@ -109,7 +109,7 @@ export const withoutAuthRoute = createBrowserRouter([{
     {
       path: "about-excise-introduction",
       element: <ExciseIntroduction />
-    }, 
+    },
     {
       path: "about-excise-organization",
       element: <ExciseOrganisationSetup />
@@ -138,7 +138,7 @@ export const withoutAuthRoute = createBrowserRouter([{
     },
 
     // directory excise
-    
+
     // directory excise head office
     {
       path: "directory-excise-head-office",
