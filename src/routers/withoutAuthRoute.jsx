@@ -23,7 +23,7 @@ import RsgsmLogin from "../components/Login/Rsgsm/RsgsmLogin"
 import ExciseCircleOffice from "../components/Directory/Excise/CircleOffice/ExciseCircleOffice"
 import ExciseDeoOffice from "../components/Directory/Excise/DeoOffice/ExciseDeoOffice"
 import ExciseHeadOffice from "../components/Directory/Excise/HeadOffice/ExciseHeadOffice"
-import ExcideZoneOffice from "../components/Directory/Excise/ZoneOffice/ExcideZoneOffice"
+import ExcideZoneOffice from "../components/Directory/Excise/ZoneOffice/ExciseZoneOffice"
 
 // directory rsgsm
 import RsgsmDepots from "../components/Directory/RSGSM/Depots/RsgsmDepots"
@@ -49,6 +49,20 @@ import RsbclOrganizationSetup from "../components/AboutUs/RSBCL/OrganisationSetu
 import RsgsmAboutUs from "../components/AboutUs/RSGSM/AboutUs/RsgsmAboutUs"
 
 
+// requirement
+import RequirementExcise from "../components/Requirement/Excide/RequirementExcise"
+import RequirementRsbcl from "../components/Requirement/RSBCL/RequirementRsbcl"
+import RequirementRsgsm from "../components/Requirement/RSGSM/RequirementRsgsm"
+
+// administrator dashboard
+import AdministatorDashboard from "../components/AdminstatorDashboard/AdministatorDashboard"
+
+// AnalyticDashboard
+import AnalyticDashboard from "../components/AnalyticDashboard/AnalyticDashboard"
+
+// ScreenReaderAccess
+import ScreenReaderAccess from "../components/ScreenReaderAccess/ScreenReaderAccess"
+
 export const withoutAuthRoute = createBrowserRouter([{
   path: "/",
   element: <WithNav />,
@@ -59,11 +73,44 @@ export const withoutAuthRoute = createBrowserRouter([{
       element: <Home />
 
     },
+    // ScreenReaderAccess
+    {
+      path: "screen-reader-access",
+      element: <ScreenReaderAccess />
+    },
+    // AnalyticDashboard
+    {
+      path: "analytic-dashboard",
+      element: <AnalyticDashboard />
+    },
+
+    //AdministatorDashboard
+    {
+      path: "administator-dashboard",
+      element: <AdministatorDashboard />
+    },
+
+    // Requirement Excise
+    {
+      path: "requirement-excise",
+      element: <RequirementExcise />
+    },
+    // Requirement Rsbcl
+    {
+      path: "requirement-rsbcl",
+      element: <RequirementRsbcl />
+    },
+    // Requirement Rsgsm
+    {
+      path: "requirement-rsgsm",
+      element: <RequirementRsgsm />
+    },
     // about excise 
     {
       path: "about-excise-introduction",
       element: <ExciseIntroduction />
-    }, {
+    }, 
+    {
       path: "about-excise-organization",
       element: <ExciseOrganisationSetup />
     },
@@ -91,6 +138,7 @@ export const withoutAuthRoute = createBrowserRouter([{
     },
 
     // directory excise
+    
     // directory excise head office
     {
       path: "directory-excise-head-office",
@@ -166,12 +214,12 @@ export const withoutAuthRoute = createBrowserRouter([{
     },
     // login rsbcl
     {
-      path: "excise-login",
+      path: "rsbcl-login",
       element: <RsbclLogin />
     },
     // login rsgsm
     {
-      path: "excise-login",
+      path: "rsgsm-login",
       element: <RsgsmLogin />
     },
 
