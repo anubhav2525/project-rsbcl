@@ -18,11 +18,11 @@ const UpperHeader = () => {
     };
 
     return (
-        <div className='grid grid-cols-2 gap-1 sm:grid-cols-4 md:grid-cols-6 w-full uppercase py-1 px-2'>
-            <Link to='/' className="text-white bg-orange-500 hover:bg-orange-600 font-medium rounded text-xs text-center px-3 py-2 ">राजस्थान सरकार</Link>
-            <Link to='/' className="text-white bg-orange-500 hover:bg-orange-600 font-medium rounded text-xs px-3 py-2 md:col-span-3">Government of Rajasthan</Link>
-            <Link to='/' className="text-white bg-orange-500 hover:bg-orange-600 font-medium rounded text-xs  px-3 py-2 text-center">Screen Access Reader</Link>
-            <button onClick={toggleDarkMode} className="text-white bg-orange-500 hover:bg-orange-600 font-medium rounded text-xs px-3 py-2 text-center">
+        <div className='grid grid-cols-2 gap-1 sm:grid-cols-4 md:grid-cols-6 w-full uppercase py-1 px-2' style={{ fontSize: 8 }}>
+            <Link to='/' className="text-white bg-orange-500 hover:bg-orange-600 font-medium rounded sm:text-xs text-center px-3 py-2 ">राजस्थान सरकार</Link>
+            <Link to='/' className="text-white bg-orange-500 hover:bg-orange-600 font-medium rounded sm:text-xs px-3 py-2 md:col-span-3">Government of Rajasthan</Link>
+            <Link to='/' className="text-white bg-orange-500 hover:bg-orange-600 font-medium rounded sm:text-xs  px-3 py-2 text-center">Screen Reader</Link>
+            <button onClick={toggleDarkMode} className="text-white bg-orange-500 hover:bg-orange-600 font-medium rounded sm:text-xs px-3 py-2 text-center">
                 Theme : {darkMode ? 'Dark' : 'Light'}
             </button>
         </div>
