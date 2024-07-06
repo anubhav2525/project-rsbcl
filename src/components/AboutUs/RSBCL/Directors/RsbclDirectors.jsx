@@ -33,14 +33,14 @@ const RsbclDirectors = () => {
 
       {/* Heading  */}
       <h2 className="mb-4 text-2xl font-extrabold leading-none text-gray-600 md:text-3xl dark:text-slate-300 tracking-wide">RSBCL Board of Directors</h2>
-      
+
       {/* table  */}
       <div className='my-4 bg-slate-300 dark:bg-slate-800 px-2 rounded sm:px-4 md:px-8 py-2'>
         {/* table here  */}
         <div className="relative rounded overflow-x-auto shadow-md sm:rounded-lg">
           <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
-            <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-              <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <table className="w-full text-sm text-left rtl:text-right text-gray-600 dark:text-gray-300">
+              <thead className="text-xs text-white uppercase bg-gray-400 dark:bg-gray-400 dark:text-white">
                 <tr>
                   <th scope="col" className="px-6 py-3">
                     S. No.
@@ -63,7 +63,7 @@ const RsbclDirectors = () => {
                 {
                   rsbclBoardOfDirectors.map((items, index) => {
                     return (
-                      <tr key={index} className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                      <tr key={index} className="bg-white tracking-wide border-b dark:bg-gray-600 dark:border-gray-700">
                         <td className="px-6 py-4">
                           {items.sN}
                         </td>
