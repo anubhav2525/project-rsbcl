@@ -1,0 +1,317 @@
+[
+  {
+    "sNo": 1,
+    "district": "Ajmer",
+    "whisky": 338274.42,
+    "rum": 12951.84,
+    "vodka": 287701.17,
+    "gin": 106100.49,
+    "total": 745027.92
+  },
+  {
+    "sNo": 2,
+    "district": "Alwar",
+    "whisky": 164578.86,
+    "rum": 0,
+    "vodka": 118260.36,
+    "gin": 0,
+    "total": 282839.22
+  },
+  {
+    "sNo": 3,
+    "district": "Banswara",
+    "whisky": 523275.12,
+    "rum": 464.4,
+    "vodka": 147826.98,
+    "gin": 0,
+    "total": 671566.5
+  },
+  {
+    "sNo": 4,
+    "district": "Baran",
+    "whisky": 170119.11,
+    "rum": 11729.7,
+    "vodka": 161488.62,
+    "gin": 1235.52,
+    "total": 344572.95
+  },
+  {
+    "sNo": 5,
+    "district": "Barmer",
+    "whisky": 141265.92,
+    "rum": 79.74,
+    "vodka": 207788.55,
+    "gin": 203433.78,
+    "total": 552567.99
+  },
+  {
+    "sNo": 6,
+    "district": "Behror",
+    "whisky": 230649.84,
+    "rum": 302.4,
+    "vodka": 170053.38,
+    "gin": 0,
+    "total": 401005.62
+  },
+  {
+    "sNo": 7,
+    "district": "Bharatpur",
+    "whisky": 166154.37,
+    "rum": 35.28,
+    "vodka": 117997.74,
+    "gin": 0,
+    "total": 284187.39
+  },
+  {
+    "sNo": 8,
+    "district": "Bhilwara",
+    "whisky": 208192.11,
+    "rum": 19008.54,
+    "vodka": 143556.09,
+    "gin": 91091.19,
+    "total": 461847.93
+  },
+  {
+    "sNo": 9,
+    "district": "Bikaner",
+    "whisky": 134639.49,
+    "rum": 665.64,
+    "vodka": 302491.77,
+    "gin": 5709.24,
+    "total": 443506.14
+  },
+  {
+    "sNo": 10,
+    "district": "Bundi",
+    "whisky": 108004.5,
+    "rum": 9224.28,
+    "vodka": 70079.4,
+    "gin": 39726.36,
+    "total": 227034.54
+  },
+  {
+    "sNo": 11,
+    "district": "Chittorgarh",
+    "whisky": 223651.23,
+    "rum": 1600.74,
+    "vodka": 64594.44,
+    "gin": 6729.48,
+    "total": 296575.89
+  },
+  {
+    "sNo": 12,
+    "district": "Churu",
+    "whisky": 44012.13,
+    "rum": 479.52,
+    "vodka": 238771.5,
+    "gin": 2622.96,
+    "total": 285886.11
+  },
+  {
+    "sNo": 13,
+    "district": "Dausa",
+    "whisky": 106431.84,
+    "rum": 0,
+    "vodka": 91128.42,
+    "gin": 353.88,
+    "total": 197914.14
+  },
+  {
+    "sNo": 14,
+    "district": "Dholpur",
+    "whisky": 107562.12,
+    "rum": 0,
+    "vodka": 58872.6,
+    "gin": 0,
+    "total": 166434.72
+  },
+  {
+    "sNo": 15,
+    "district": "Dungarpur",
+    "whisky": 200859.66,
+    "rum": 0,
+    "vodka": 310359.33,
+    "gin": 137.52,
+    "total": 511356.51
+  },
+  {
+    "sNo": 16,
+    "district": "Hanumangarh",
+    "whisky": 34431.42,
+    "rum": 99.09,
+    "vodka": 134938.8,
+    "gin": 34178.49,
+    "total": 203647.8
+  },
+  {
+    "sNo": 17,
+    "district": "Jaipur City",
+    "whisky": 427597.38,
+    "rum": 9,
+    "vodka": 409078.08,
+    "gin": 406.08,
+    "total": 837090.54
+  },
+  {
+    "sNo": 18,
+    "district": "Jaipur Rural",
+    "whisky": 218630.82,
+    "rum": 13.32,
+    "vodka": 326659.02,
+    "gin": 5473.53,
+    "total": 550776.69
+  },
+  {
+    "sNo": 19,
+    "district": "Jaisalmer",
+    "whisky": 47238.15,
+    "rum": 3141.36,
+    "vodka": 21720.24,
+    "gin": 56906.31,
+    "total": 129006.06
+  },
+  {
+    "sNo": 20,
+    "district": "Jalore",
+    "whisky": 74061.42,
+    "rum": 27,
+    "vodka": 769429.38,
+    "gin": 114744.42,
+    "total": 958262.22
+  },
+  {
+    "sNo": 21,
+    "district": "Jhalawar",
+    "whisky": 127203.99,
+    "rum": 43935.66,
+    "vodka": 117222.87,
+    "gin": 17233.38,
+    "total": 305595.9
+  },
+  {
+    "sNo": 22,
+    "district": "Jhunjhunu",
+    "whisky": 80053.59,
+    "rum": 380.16,
+    "vodka": 171066.06,
+    "gin": 0,
+    "total": 251499.81
+  },
+  {
+    "sNo": 23,
+    "district": "Jodhpur",
+    "whisky": 271322.1,
+    "rum": 35198.82,
+    "vodka": 210165.75,
+    "gin": 182292.36,
+    "total": 698979.03
+  },
+  {
+    "sNo": 24,
+    "district": "Karauli",
+    "whisky": 68514.39,
+    "rum": 48.75,
+    "vodka": 54802.17,
+    "gin": 2179.26,
+    "total": 125544.57
+  },
+  {
+    "sNo": 25,
+    "district": "Kota",
+    "whisky": 333320.7,
+    "rum": 20595.42,
+    "vodka": 134637.75,
+    "gin": 572.76,
+    "total": 489126.63
+  },
+  {
+    "sNo": 26,
+    "district": "Nagaur",
+    "whisky": 119666.91,
+    "rum": 2007.06,
+    "vodka": 182648.88,
+    "gin": 137091.9,
+    "total": 441414.75
+  },
+  {
+    "sNo": 27,
+    "district": "Pali",
+    "whisky": 130106.64,
+    "rum": 2517.6,
+    "vodka": 181223.79,
+    "gin": 51015.09,
+    "total": 364863.12
+  },
+  {
+    "sNo": 28,
+    "district": "Pratapgarh",
+    "whisky": 203028.84,
+    "rum": 0,
+    "vodka": 25003.08,
+    "gin": 457.92,
+    "total": 228489.84
+  },
+  {
+    "sNo": 29,
+    "district": "Rajsamand",
+    "whisky": 166244.7,
+    "rum": 37400.4,
+    "vodka": 202551.63,
+    "gin": 83928.66,
+    "total": 490125.39
+  },
+  {
+    "sNo": 30,
+    "district": "Sawai Madhopur",
+    "whisky": 126292.44,
+    "rum": 86.4,
+    "vodka": 125738.07,
+    "gin": 10329.84,
+    "total": 262446.75
+  },
+  {
+    "sNo": 31,
+    "district": "Sikar",
+    "whisky": 174376.2,
+    "rum": 8821.44,
+    "vodka": 348341.91,
+    "gin": 8877.93,
+    "total": 540417.48
+  },
+  {
+    "sNo": 32,
+    "district": "Sirohi",
+    "whisky": 78500.22,
+    "rum": 1.8,
+    "vodka": 538912.95,
+    "gin": 3206.7,
+    "total": 620621.67
+  },
+  {
+    "sNo": 33,
+    "district": "Sriganganagar",
+    "whisky": 140054.1,
+    "rum": 300.81,
+    "vodka": 207199.5,
+    "gin": 75228.09,
+    "total": 422782.5
+  },
+  {
+    "sNo": 34,
+    "district": "Tonk",
+    "whisky": 22479.27,
+    "rum": 3638.91,
+    "vodka": 75577.47,
+    "gin": 66217.2,
+    "total": 167912.85
+  },
+  {
+    "sNo": 35,
+    "district": "Udaipur",
+    "whisky": 354850.95,
+    "rum": 1370.34,
+    "vodka": 366100.23,
+    "gin": 9260.1,
+    "total": 731581.62
+  }
+]

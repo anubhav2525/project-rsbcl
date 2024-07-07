@@ -1,3 +1,4 @@
+// collection name = directory_excise_headOffice
 export const exciseOffices = [
   {
     SNo: 1,

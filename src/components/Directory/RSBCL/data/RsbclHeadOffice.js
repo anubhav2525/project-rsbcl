@@ -1,3 +1,4 @@
+// collection name = directory_rsbcl_headOffice
 export const rsbclHeadOfficeData = [
   {
     sNo: 1,

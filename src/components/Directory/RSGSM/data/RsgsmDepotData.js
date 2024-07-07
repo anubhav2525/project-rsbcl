@@ -1,3 +1,5 @@
+// collection name = directory_rsgsm_depots
+
 export const rsgsmDepotData = [
   {
     sno: 1,

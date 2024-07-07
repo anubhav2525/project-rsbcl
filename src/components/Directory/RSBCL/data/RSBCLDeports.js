@@ -1,3 +1,5 @@
+// collection name= directory_rsbcl_depots
+
 export const rsbclDepots = [
   {
     SNo: 1,

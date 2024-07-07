@@ -1,3 +1,5 @@
+ // collection name = directory_rsgsm_reductionCenters
+ 
  export const rsgsmReductionCenterData = [
   {
     sNo: 1,

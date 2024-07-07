@@ -1,3 +1,4 @@
+// collection name = about_rsbcl_directors
 export const rsbclBoardOfDirectors = [
   {
     sN: 1,
