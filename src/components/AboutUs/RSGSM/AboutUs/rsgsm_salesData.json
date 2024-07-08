@@ -1,0 +1,171 @@
+[
+  {
+    "year": "2010-11",
+    "ownManufactured": {
+      "countryLiquor": 422.62,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 422.62
+    },
+    "others": {
+      "countryLiquor": 592.5,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 592.5
+    }
+  },
+  {
+    "year": "2011-12",
+    "ownManufactured": {
+      "countryLiquor": 595.62,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 595.62
+    },
+    "others": {
+      "countryLiquor": 616.98,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 616.98
+    }
+  },
+  {
+    "year": "2012-13",
+    "ownManufactured": {
+      "countryLiquor": 601.83,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 601.83
+    },
+    "others": {
+      "countryLiquor": 891.6,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 891.6
+    }
+  },
+  {
+    "year": "2013-14",
+    "ownManufactured": {
+      "countryLiquor": 653.84,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 653.84
+    },
+    "others": {
+      "countryLiquor": 980.48,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 980.48
+    }
+  },
+  {
+    "year": "2014-15",
+    "ownManufactured": {
+      "countryLiquor": 774.44,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 774.44
+    },
+    "others": {
+      "countryLiquor": 1147.33,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 1147.33
+    }
+  },
+  {
+    "year": "2015-16",
+    "ownManufactured": {
+      "countryLiquor": 844.63,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 844.63
+    },
+    "others": {
+      "countryLiquor": 1337.91,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 1337.91
+    }
+  },
+  {
+    "year": "2016-17",
+    "ownManufactured": {
+      "countryLiquor": 796.68,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 796.68
+    },
+    "others": {
+      "countryLiquor": 1550.84,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 1550.84
+    }
+  },
+  {
+    "year": "2017-18",
+    "ownManufactured": {
+      "countryLiquor": 819.67,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 819.67
+    },
+    "others": {
+      "countryLiquor": 1755.49,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 1755.49
+    }
+  },
+  {
+    "year": "2018-19",
+    "ownManufactured": {
+      "countryLiquor": 899.63,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 899.63
+    },
+    "others": {
+      "countryLiquor": 1803.43,
+      "rajasthanMadeLiquor": 0.0,
+      "total": 1803.43
+    }
+  },
+  {
+    "year": "2019-20",
+    "ownManufactured": {
+      "countryLiquor": 912.37,
+      "rajasthanMadeLiquor": 10.46,
+      "total": 922.83
+    },
+    "others": {
+      "countryLiquor": 1718.59,
+      "rajasthanMadeLiquor": 0.84,
+      "total": 1719.44
+    }
+  },
+  {
+    "year": "2020-21",
+    "ownManufactured": {
+      "countryLiquor": 725.19,
+      "rajasthanMadeLiquor": 200.66,
+      "total": 925.85
+    },
+    "others": {
+      "countryLiquor": 1346.22,
+      "rajasthanMadeLiquor": 416.22,
+      "total": 1762.44
+    }
+  },
+  {
+    "year": "2021-22",
+    "ownManufactured": {
+      "countryLiquor": 611.88,
+      "rajasthanMadeLiquor": 294.47,
+      "total": 906.35
+    },
+    "others": {
+      "countryLiquor": 1294.18,
+      "rajasthanMadeLiquor": 657.28,
+      "total": 1951.45
+    }
+  },
+  {
+    "year": "2022-23",
+    "ownManufactured": {
+      "countryLiquor": 702.51,
+      "rajasthanMadeLiquor": 175.53,
+      "total": 878.04
+    },
+    "others": {
+      "countryLiquor": 1582.36,
+      "rajasthanMadeLiquor": 464.86,
+      "total": 2047.22
+    }
+  }
+]

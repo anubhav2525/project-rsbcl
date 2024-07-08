@@ -880,101 +880,101 @@ export const heritageLiquorData = [
 export const imes = [
   {
     sNo: 1,
-    work: "New Administrative MIS- Area & Office wise, Integrated with IFMS"
+    work: "New Administrative MIS- Area & Office wise, Integrated with IFMS",
   },
   {
     sNo: 2,
-    work: "Production, Transportation, Storage, Sale, Supply and Dispatch Management System"
+    work: "Production, Transportation, Storage, Sale, Supply and Dispatch Management System",
   },
   {
     sNo: 3,
-    work: "Material Management System"
+    work: "Material Management System",
   },
   {
     sNo: 4,
-    work: "Revenue & Tax Management System - Duty, Fee & Revenue Calculator"
+    work: "Revenue & Tax Management System - Duty, Fee & Revenue Calculator",
   },
   {
     sNo: 5,
-    work: "Revenue Analysis & Comparison"
+    work: "Revenue Analysis & Comparison",
   },
   {
     sNo: 6,
-    work: "EoDB (Process Simplification & Process Automation)"
+    work: "EoDB (Process Simplification & Process Automation)",
   },
   {
     sNo: 7,
-    work: "Stakeholders Integration, Reformation Suggestion System in Existing Regulation"
+    work: "Stakeholders Integration, Reformation Suggestion System in Existing Regulation",
   },
   {
     sNo: 8,
-    work: "Preparation of Expression of Interest (EoI) Request for Proposal (RFP), Service-level Agreement (SLA) & Other Bid Documents"
+    work: "Preparation of Expression of Interest (EoI) Request for Proposal (RFP), Service-level Agreement (SLA) & Other Bid Documents",
   },
   {
     sNo: 9,
-    work: "Providing Project Management Support (SCADA, Track & Trace)"
+    work: "Providing Project Management Support (SCADA, Track & Trace)",
   },
   {
     sNo: 10,
-    work: "Image Processing Engine for Label Approval"
+    work: "Image Processing Engine for Label Approval",
   },
   {
     sNo: 11,
-    work: "Intelligence & Vigilance Management System (App with Encryption of Informers Details)"
+    work: "Intelligence & Vigilance Management System (App with Encryption of Informers Details)",
   },
   {
     sNo: 12,
-    work: "Sugarcane and Sugar Production Management System with App"
+    work: "Sugarcane and Sugar Production Management System with App",
   },
   {
     sNo: 13,
-    work: "e-Commerce Portal for Non-Alcoholic Beverages products of RSGSM"
+    work: "e-Commerce Portal for Non-Alcoholic Beverages products of RSGSM",
   },
   {
     sNo: 14,
-    work: "Office Management System"
+    work: "Office Management System",
   },
   {
     sNo: 15,
-    work: "Integrated Human Resource Management System (IHRMS)"
+    work: "Integrated Human Resource Management System (IHRMS)",
   },
   {
     sNo: 16,
-    work: "Legal Judicial Case Monitoring System- Appeal Integration"
+    work: "Legal Judicial Case Monitoring System- Appeal Integration",
   },
   {
     sNo: 17,
-    work: "Accountancy, Audit & Enquiry Monitoring System"
-  }
+    work: "Accountancy, Audit & Enquiry Monitoring System",
+  },
 ];
 
 export const futurePlans = [
   {
     sNo: 1,
-    brandName: "Raajasi The Royal"
+    brandName: "Raajasi The Royal",
   },
   {
     sNo: 2,
-    brandName: "Raajasi Rajasthan"
+    brandName: "Raajasi Rajasthan",
   },
   {
     sNo: 3,
-    brandName: "Raajasi Rajputana"
+    brandName: "Raajasi Rajputana",
   },
   {
     sNo: 4,
-    brandName: "Raajasi Skekhawati"
+    brandName: "Raajasi Skekhawati",
   },
   {
     sNo: 5,
-    brandName: "Raajasi Kumbhalgarh"
+    brandName: "Raajasi Kumbhalgarh",
   },
   {
     sNo: 6,
-    brandName: "Raajasi Desert Dew"
+    brandName: "Raajasi Desert Dew",
   },
   {
     sNo: 7,
-    brandName: "Raajasi Madhu Kesar"
-  }
+    brandName: "Raajasi Madhu Kesar",
+  },
 ];

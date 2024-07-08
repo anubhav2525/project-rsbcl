@@ -1,282 +1,282 @@
 [
   {
-    "sNo": 1,
     "district": "Ajmer",
     "up40": 2423772.03,
     "up50": 1635835.11,
     "up5": 0,
-    "total": 4059607.14
+    "total": 4059607.14,
+    "year": 2024
   },
   {
-    "sNo": 2,
     "district": "Alwar",
     "up40": 724305.96,
     "up50": 626972.22,
     "up5": 0,
-    "total": 1351278.18
+    "total": 1351278.18,
+    "year": 2024
   },
   {
-    "sNo": 3,
     "district": "Banswara",
     "up40": 0,
     "up50": 177897.42,
     "up5": 0,
-    "total": 177897.42
+    "total": 177897.42,
+    "year": 2024
   },
   {
-    "sNo": 4,
     "district": "Baran",
     "up40": 1063725.48,
     "up50": 989095.32,
     "up5": 0,
-    "total": 2052820.8
+    "total": 2052820.8,
+    "year": 2024
   },
   {
-    "sNo": 5,
     "district": "Barmer",
     "up40": 147997.71,
     "up50": 1110218.58,
     "up5": 0,
-    "total": 1258216.29
+    "total": 1258216.29,
+    "year": 2024
   },
   {
-    "sNo": 6,
     "district": "Behror",
     "up40": 1054294.74,
     "up50": 1182454.02,
     "up5": 0,
-    "total": 2236748.76
+    "total": 2236748.76,
+    "year": 2024
   },
   {
-    "sNo": 7,
     "district": "Bharatpur",
     "up40": 431579.34,
     "up50": 1678338.18,
     "up5": 0,
-    "total": 2109917.52
+    "total": 2109917.52,
+    "year": 2024
   },
   {
-    "sNo": 8,
     "district": "Bhilwara",
     "up40": 1141374.93,
     "up50": 864928.62,
     "up5": 0,
-    "total": 2006303.55
+    "total": 2006303.55,
+    "year": 2024
   },
   {
-    "sNo": 9,
     "district": "Bikaner",
     "up40": 1210368.6,
     "up50": 1105670.16,
     "up5": 0,
-    "total": 2316038.76
+    "total": 2316038.76,
+    "year": 2024
   },
   {
-    "sNo": 10,
     "district": "Bundi",
     "up40": 395069.94,
     "up50": 872369.82,
     "up5": 0,
-    "total": 1267439.76
+    "total": 1267439.76,
+    "year": 2024
   },
   {
-    "sNo": 11,
     "district": "Chittorgarh",
     "up40": 593339.94,
     "up50": 1095445.08,
     "up5": 0,
-    "total": 1688785.02
+    "total": 1688785.02,
+    "year": 2024
   },
   {
-    "sNo": 12,
     "district": "Churu",
     "up40": 1294189.92,
     "up50": 1174773.96,
     "up5": 0,
-    "total": 2468963.88
+    "total": 2468963.88,
+    "year": 2024
   },
   {
-    "sNo": 13,
     "district": "Dausa",
     "up40": 572747.76,
     "up50": 527541.48,
     "up5": 0,
-    "total": 1100289.24
+    "total": 1100289.24,
+    "year": 2024
   },
   {
-    "sNo": 14,
     "district": "Dholpur",
     "up40": 271849.68,
     "up50": 825925.32,
     "up5": 0,
-    "total": 1097775
+    "total": 1097775,
+    "year": 2024
   },
   {
-    "sNo": 15,
     "district": "Dungarpur",
     "up40": 0,
     "up50": 239280.48,
     "up5": 0,
-    "total": 239280.48
+    "total": 239280.48,
+    "year": 2024
   },
   {
-    "sNo": 16,
     "district": "Hanumangarh",
     "up40": 2592373.41,
     "up50": 913387.32,
     "up5": 0,
-    "total": 3505760.73
+    "total": 3505760.73,
+    "year": 2024
   },
   {
-    "sNo": 17,
     "district": "Jaipur City",
     "up40": 942059.52,
     "up50": 3399775.38,
     "up5": 0,
-    "total": 4341834.9
+    "total": 4341834.9,
+    "year": 2024
   },
   {
-    "sNo": 18,
     "district": "Jaipur Rural",
     "up40": 1269028.44,
     "up50": 1753058.1,
     "up5": 0,
-    "total": 3022086.54
+    "total": 3022086.54,
+    "year": 2024
   },
   {
-    "sNo": 19,
     "district": "Jaisalmer",
     "up40": 162050.43,
     "up50": 502697.7,
     "up5": 0,
-    "total": 664748.13
+    "total": 664748.13,
+    "year": 2024
   },
   {
-    "sNo": 20,
     "district": "Jalore",
     "up40": 509762.49,
     "up50": 1093948.74,
     "up5": 0,
-    "total": 1603711.23
+    "total": 1603711.23,
+    "year": 2024
   },
   {
-    "sNo": 21,
     "district": "Jhalawar",
     "up40": 435730.86,
     "up50": 1552358.97,
     "up5": 0,
-    "total": 1988089.83
+    "total": 1988089.83,
+    "year": 2024
   },
   {
-    "sNo": 22,
     "district": "Jhunjhunu",
     "up40": 1099131.12,
     "up50": 1104548.76,
     "up5": 0,
-    "total": 2203679.88
+    "total": 2203679.88,
+    "year": 2024
   },
   {
-    "sNo": 23,
     "district": "Jodhpur",
     "up40": 1601480.76,
     "up50": 1809523.26,
     "up5": 0,
-    "total": 3411004.02
+    "total": 3411004.02,
+    "year": 2024
   },
   {
-    "sNo": 24,
     "district": "Karauli",
     "up40": 215460.9,
     "up50": 510472.98,
     "up5": 0,
-    "total": 725933.88
+    "total": 725933.88,
+    "year": 2024
   },
   {
-    "sNo": 25,
     "district": "Kota",
     "up40": 824878.08,
     "up50": 1585590.3,
     "up5": 0,
-    "total": 2410468.38
+    "total": 2410468.38,
+    "year": 2024
   },
   {
-    "sNo": 26,
     "district": "Nagaur",
     "up40": 772221.21,
     "up50": 1508302.26,
     "up5": 0,
-    "total": 2280523.47
+    "total": 2280523.47,
+    "year": 2024
   },
   {
-    "sNo": 27,
     "district": "Pali",
     "up40": 1240097.13,
     "up50": 596749.14,
     "up5": 0,
-    "total": 1836846.27
+    "total": 1836846.27,
+    "year": 2024
   },
   {
-    "sNo": 28,
     "district": "Pratapgarh",
     "up40": 116588.16,
     "up50": 506534.94,
     "up5": 0,
-    "total": 623123.1
+    "total": 623123.1,
+    "year": 2024
   },
   {
-    "sNo": 29,
     "district": "Rajsamand",
     "up40": 384445.8,
     "up50": 940450.86,
     "up5": 0,
-    "total": 1324896.66
+    "total": 1324896.66,
+    "year": 2024
   },
   {
-    "sNo": 30,
     "district": "Sawai Madhopur",
     "up40": 428585.58,
     "up50": 859399.38,
     "up5": 0,
-    "total": 1287984.96
+    "total": 1287984.96,
+    "year": 2024
   },
   {
-    "sNo": 31,
     "district": "Sikar",
     "up40": 1242265.86,
     "up50": 1867825.02,
     "up5": 0,
-    "total": 3110090.88
+    "total": 3110090.88,
+    "year": 2024
   },
   {
-    "sNo": 32,
     "district": "Sirohi",
     "up40": 672174.69,
     "up50": 585448.56,
     "up5": 0,
-    "total": 1257623.25
+    "total": 1257623.25,
+    "year": 2024
   },
   {
-    "sNo": 33,
     "district": "Sriganganagar",
     "up40": 2421059.58,
     "up50": 768946.5,
     "up5": 0,
-    "total": 3190006.08
+    "total": 3190006.08,
+    "year": 2024
   },
   {
-    "sNo": 34,
     "district": "Tonk",
     "up40": 428607.54,
     "up50": 819463.5,
     "up5": 0,
-    "total": 1248071.04
+    "total": 1248071.04,
+    "year": 2024
   },
   {
-    "sNo": 35,
     "district": "Udaipur",
     "up40": 389622.42,
     "up50": 1139702.94,
     "up5": 0,
-    "total": 1529325.36
+    "total": 1529325.36,
+    "year": 2024
   }
 ]

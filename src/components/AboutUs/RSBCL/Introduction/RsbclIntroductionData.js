@@ -12,7 +12,7 @@ export const rsbclIntroductionBody = [
   {
     id: 3,
     content:
-      "The Corporation operates its activities through 40 depots located in all districts. All depots have been established with sufficient staff and suitable IT infrastructure to conduct all commercial activities through online software. Some support staff for depots are outsourced. Manufacturers, both within and outside the state, store their stocks in the Corporation’s godowns across Rajasthan for distribution to retail licensees. The Corporation collects a 0.33% margin on the sale of IMFL/Beer from the depots. The following graph illustrates the Corporation's sales from the year 2005-06 to 2016-17.",
+      "The Corporation operates its activities through 40 depots located in all districts. All depots have been established with sufficient staff and suitable IT infrastructure to conduct all commercial activities through online software. Some support staff for depots are outsourced. Manufacturers, both within and outside the state, store their stocks in the Corporation's godowns across Rajasthan for distribution to retail licensees. The Corporation collects a 0.33% margin on the sale of IMFL/Beer from the depots. The following graph illustrates the Corporation's sales from the year 2005-06 to 2016-17.",
   },
 ];
 

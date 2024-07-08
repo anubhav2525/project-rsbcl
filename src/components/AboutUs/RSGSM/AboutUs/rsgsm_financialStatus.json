@@ -1,0 +1,80 @@
+[
+  {
+    "year": "2010-11",
+    "revenue": 10.01,
+    "expenditure": 25.99,
+    "profitLoss": -15.98
+  },
+  {
+    "year": "2011-12",
+    "revenue": 11.28,
+    "expenditure": 32.08,
+    "profitLoss": -20.8
+  },
+  {
+    "year": "2012-13",
+    "revenue": 7.98,
+    "expenditure": 27.14,
+    "profitLoss": -19.16
+  },
+  {
+    "year": "2013-14",
+    "revenue": 14.6,
+    "expenditure": 39.34,
+    "profitLoss": -24.74
+  },
+  {
+    "year": "2014-15",
+    "revenue": 9.31,
+    "expenditure": 39.12,
+    "profitLoss": -29.81
+  },
+  {
+    "year": "2015-16",
+    "revenue": 22.35,
+    "expenditure": 50.52,
+    "profitLoss": -28.17
+  },
+  {
+    "year": "2016-17",
+    "revenue": 32.0,
+    "expenditure": 75.26,
+    "profitLoss": -43.26
+  },
+  {
+    "year": "2017-18",
+    "revenue": 38.77,
+    "expenditure": 85.68,
+    "profitLoss": -46.91
+  },
+  {
+    "year": "2018-19",
+    "revenue": 27.19,
+    "expenditure": 86.42,
+    "profitLoss": -59.23
+  },
+  {
+    "year": "2019-20",
+    "revenue": 49.07,
+    "expenditure": 83.19,
+    "profitLoss": -34.12
+  },
+  {
+    "year": "2020-21",
+    "revenue": 33.54,
+    "expenditure": 72.42,
+    "profitLoss": -38.88
+  },
+  {
+    "year": "2021-22",
+    "revenue": 49.9,
+    "expenditure": 84.22,
+    "profitLoss": -34.32
+  },
+  {
+    "year": "2022-23",
+    "revenue": 48.53,
+    "expenditure": 88.79,
+    "profitLoss": -40.26
+  }
+]

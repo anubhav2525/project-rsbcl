@@ -1,812 +1,731 @@
 [
   {
-    "sno": 1,
-    "nameOfDepot": "Aburoad",
+    "depotName": "Aburoad",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Bhopal Singh",
-    "mobileNumber": "9950187812"
+    "person": "Sh. Bhopal Singh",
+    "mobileNo": "9950187812"
   },
   {
-    "sno": 2,
-    "nameOfDepot": "Ajmer",
+    "depotName": "Ajmer",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Daud Khan",
-    "mobileNumber": "9214567139"
+    "person": "Sh. Daud Khan",
+    "mobileNo": "9214567139"
   },
   {
-    "sno": 3,
-    "nameOfDepot": "Alwar",
+    "depotName": "Alwar",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Nemi Chand Yadav",
-    "mobileNumber": "9828619356"
+    "person": "Sh. Nemi Chand Yadav",
+    "mobileNo": "9828619356"
   },
   {
-    "sno": 4,
-    "nameOfDepot": "Anoopgarh",
+    "depotName": "Anoopgarh",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Babulal ji",
-    "mobileNumber": "9828834412"
+    "person": "Sh. Babulal ji",
+    "mobileNo": "9828834412"
   },
   {
-    "sno": 5,
-    "nameOfDepot": "Asind",
+    "depotName": "Asind",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Rajendar Singh ji",
-    "mobileNumber": "9928880943"
+    "person": "Sh. Rajendar Singh ji",
+    "mobileNo": "9928880943"
   },
   {
-    "sno": 6,
-    "nameOfDepot": "Balotra",
+    "depotName": "Balotra",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Parsa Ram",
-    "mobileNumber": "9460810928"
+    "person": "Sh. Parsa Ram",
+    "mobileNo": "9460810928"
   },
   {
-    "sno": 7,
-    "nameOfDepot": "Bandikui",
+    "depotName": "Bandikui",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Panaalal Saini",
-    "mobileNumber": "9783744307"
+    "person": "Sh. Panaalal Saini",
+    "mobileNo": "9783744307"
   },
   {
-    "sno": 8,
-    "nameOfDepot": "Banswara",
+    "depotName": "Banswara",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Mohan Lal Patel",
-    "mobileNumber": "9828027542"
+    "person": "Sh. Mohan Lal Patel",
+    "mobileNo": "9828027542"
   },
   {
-    "sno": 9,
-    "nameOfDepot": "Baran",
+    "depotName": "Baran",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Sudheer Shrma",
-    "mobileNumber": "9982072805"
+    "person": "Sh. Sudheer Shrma",
+    "mobileNo": "9982072805"
   },
   {
-    "sno": 10,
-    "nameOfDepot": "Barmer",
+    "depotName": "Barmer",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Narendra Singh",
-    "mobileNumber": "9660157577"
+    "person": "Sh. Narendra Singh",
+    "mobileNo": "9660157577"
   },
   {
-    "sno": 11,
-    "nameOfDepot": "Bayana",
+    "depotName": "Bayana",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Sanjay Sain",
-    "mobileNumber": "9929799769"
+    "person": "Sh. Sanjay Sain",
+    "mobileNo": "9929799769"
   },
   {
-    "sno": 12,
-    "nameOfDepot": "Beawar",
+    "depotName": "Beawar",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Manoj Meena",
-    "mobileNumber": "7296865302"
+    "person": "Sh. Manoj Meena",
+    "mobileNo": "7296865302"
   },
   {
-    "sno": 13,
-    "nameOfDepot": "Begun",
+    "depotName": "Begun",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Pappudan Singh",
-    "mobileNumber": "9783806151"
+    "person": "Sh. Pappudan Singh",
+    "mobileNo": "9783806151"
   },
   {
-    "sno": 14,
-    "nameOfDepot": "Behror",
+    "depotName": "Behror",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Abhay Singh",
-    "mobileNumber": "9050706538"
+    "person": "Sh. Abhay Singh",
+    "mobileNo": "9050706538"
   },
   {
-    "sno": 15,
-    "nameOfDepot": "Bhadra",
+    "depotName": "Bhadra",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Dhanraj Saini",
-    "mobileNumber": "9828474770"
+    "person": "Sh. Dhanraj Saini",
+    "mobileNo": "9828474770"
   },
   {
-    "sno": 16,
-    "nameOfDepot": "Bharatpur",
+    "depotName": "Bharatpur",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Anil Kumar",
-    "mobileNumber": "9983711094"
+    "person": "Sh. Anil Kumar",
+    "mobileNo": "9983711094"
   },
   {
-    "sno": 17,
-    "nameOfDepot": "Bhawanimandi",
+    "depotName": "Bhawanimandi",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Hari Narayan",
-    "mobileNumber": "9928539771"
+    "person": "Sh. Hari Narayan",
+    "mobileNo": "9928539771"
   },
   {
-    "sno": 18,
-    "nameOfDepot": "Bhilwara",
+    "depotName": "Bhilwara",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Raghuveer Singh",
-    "mobileNumber": "9024819297"
+    "person": "Sh. Raghuveer Singh",
+    "mobileNo": "9024819297"
   },
   {
-    "sno": 19,
-    "nameOfDepot": "Bhinmal",
+    "depotName": "Bhinmal",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Karan Singh",
-    "mobileNumber": "9784764073"
+    "person": "Sh. Karan Singh",
+    "mobileNo": "9784764073"
   },
   {
-    "sno": 20,
-    "nameOfDepot": "Bikaner",
+    "depotName": "Bikaner",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Ravi Acharya",
-    "mobileNumber": "7014938387"
+    "person": "Sh. Ravi Acharya",
+    "mobileNo": "7014938387"
   },
   {
-    "sno": 21,
-    "nameOfDepot": "Bundicity",
+    "depotName": "Bundicity",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Chotu Singh",
-    "mobileNumber": "6377664682"
+    "person": "Sh. Chotu Singh",
+    "mobileNo": "6377664682"
   },
   {
-    "sno": 22,
-    "nameOfDepot": "Chirawa",
+    "depotName": "Chirawa",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Dharmpal Singh",
-    "mobileNumber": "8058647007"
+    "person": "Sh. Dharmpal Singh",
+    "mobileNo": "8058647007"
   },
   {
-    "sno": 23,
-    "nameOfDepot": "Chittorgarh",
+    "depotName": "Chittorgarh",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Ashok Kumar Singh",
-    "mobileNumber": "9784125008"
+    "person": "Sh. Ashok Kumar Singh",
+    "mobileNo": "9784125008"
   },
   {
-    "sno": 24,
-    "nameOfDepot": "Chomu",
+    "depotName": "Chomu",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Sumer Singh",
-    "mobileNumber": "9680348810"
+    "person": "Sh. Sumer Singh",
+    "mobileNo": "9680348810"
   },
   {
-    "sno": 25,
-    "nameOfDepot": "Churu",
+    "depotName": "Churu",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Rangeet Mhecha",
-    "mobileNumber": "9950835424"
+    "person": "Sh. Rangeet Mhecha",
+    "mobileNo": "9950835424"
   },
   {
-    "sno": 26,
-    "nameOfDepot": "Dausa",
+    "depotName": "Dausa",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Mahendra Singh",
-    "mobileNumber": "9413453090"
+    "person": "Sh. Mahendra Singh",
+    "mobileNo": "9413453090"
   },
   {
-    "sno": 27,
-    "nameOfDepot": "Devgarh",
+    "depotName": "Devgarh",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Vijay Bharti",
-    "mobileNumber": "6377947422"
+    "person": "Sh. Vijay Bharti",
+    "mobileNo": "6377947422"
   },
   {
-    "sno": 28,
-    "nameOfDepot": "Dholpur",
+    "depotName": "Dholpur",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Virendra Avasthi",
-    "mobileNumber": "9413667590"
+    "person": "Sh. Virendra Avasthi",
+    "mobileNo": "9413667590"
   },
   {
-    "sno": 29,
-    "nameOfDepot": "Didwana",
+    "depotName": "Didwana",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Shaym Singh",
-    "mobileNumber": "9414113784"
+    "person": "Sh. Shaym Singh",
+    "mobileNo": "9414113784"
   },
   {
-    "sno": 30,
-    "nameOfDepot": "Dudu",
+    "depotName": "Dudu",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Ritesh Tanwar",
-    "mobileNumber": "9001147894"
+    "person": "Sh. Ritesh Tanwar",
+    "mobileNo": "9001147894"
   },
   {
-    "sno": 31,
-    "nameOfDepot": "Dungarpur",
+    "depotName": "Dungarpur",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Devilal Rot",
-    "mobileNumber": "8890574046"
+    "person": "Sh. Devilal Rot",
+    "mobileNo": "8890574046"
   },
   {
-    "sno": 32,
-    "nameOfDepot": "Falodi",
+    "depotName": "Falodi",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Devi Lal",
-    "mobileNumber": "9414721323"
+    "person": "Sh. Devi Lal",
+    "mobileNo": "9414721323"
   },
   {
-    "sno": 33,
-    "nameOfDepot": "Fatehpur",
+    "depotName": "Fatehpur",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Ramniwas Ji",
-    "mobileNumber": "9928187382"
+    "person": "Sh. Ramniwas Ji",
+    "mobileNo": "9928187382"
   },
   {
-    "sno": 34,
-    "nameOfDepot": "Gangapur (Swm)",
+    "depotName": "Gangapur (Swm)",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Pradeep Gujar",
-    "mobileNumber": "7976179006"
+    "person": "Sh. Pradeep Gujar",
+    "mobileNo": "7976179006"
   },
   {
-    "sno": 35,
-    "nameOfDepot": "Hanumangarh",
+    "depotName": "Hanumangarh",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Rajesh Khursija",
-    "mobileNumber": "9588264055"
+    "person": "Sh. Rajesh Khursija",
+    "mobileNo": "9588264055"
   },
   {
-    "sno": 36,
-    "nameOfDepot": "Hindon",
+    "depotName": "Hindon",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Gopal Singh",
-    "mobileNumber": "8619996525"
+    "person": "Gopal Singh",
+    "mobileNo": "8619996525"
   },
   {
-    "sno": 37,
-    "nameOfDepot": "Jaipur City",
+    "depotName": "Jaipur City",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Lal Chand Regar",
-    "mobileNumber": "9460117854"
+    "person": "Sh. Lal Chand Regar",
+    "mobileNo": "9460117854"
   },
   {
-    "sno": 38,
-    "nameOfDepot": "Jaisalmer",
+    "depotName": "Jaisalmer",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Dhan Singh",
-    "mobileNumber": "9610118085"
+    "person": "Sh. Dhan Singh",
+    "mobileNo": "9610118085"
   },
   {
-    "sno": 39,
-    "nameOfDepot": "Jalore",
+    "depotName": "Jalore",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Udaylal Balai",
-    "mobileNumber": "7568076993"
+    "person": "Sh. Udaylal Balai",
+    "mobileNo": "7568076993"
   },
   {
-    "sno": 40,
-    "nameOfDepot": "Jetaran",
+    "depotName": "Jetaran",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Suray Prakash Soni",
-    "mobileNumber": "9929250970"
+    "person": "Sh. Suray Prakash Soni",
+    "mobileNo": "9929250970"
   },
   {
-    "sno": 41,
-    "nameOfDepot": "Jhalawar",
+    "depotName": "Jhalawar",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Ghewar Chand",
-    "mobileNumber": "9571509363"
+    "person": "Sh. Ghewar Chand",
+    "mobileNo": "9571509363"
   },
   {
-    "sno": 42,
-    "nameOfDepot": "Jhunjhunu",
+    "depotName": "Jhunjhunu",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Ranjendar Singh",
-    "mobileNumber": "9571470906"
+    "person": "Sh. Ranjendar Singh",
+    "mobileNo": "9571470906"
   },
   {
-    "sno": 43,
-    "nameOfDepot": "Jodhpur (Mandore)",
+    "depotName": "Jodhpur (Mandore)",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Teja Ram",
-    "mobileNumber": "7976420521"
+    "person": "Sh. Teja Ram",
+    "mobileNo": "7976420521"
   },
   {
-    "sno": 44,
-    "nameOfDepot": "Karanpur",
+    "depotName": "Karanpur",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Upender Singh",
-    "mobileNumber": "7792024710"
+    "person": "Sh. Upender Singh",
+    "mobileNo": "7792024710"
   },
   {
-    "sno": 45,
-    "nameOfDepot": "Karoli",
+    "depotName": "Karoli",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Saabir Khan",
-    "mobileNumber": "7014308343"
+    "person": "Sh. Saabir Khan",
+    "mobileNo": "7014308343"
   },
   {
-    "sno": 46,
-    "nameOfDepot": "Kekri",
+    "depotName": "Kekri",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Surender Singh",
-    "mobileNumber": "9799266283"
+    "person": "Sh. Surender Singh",
+    "mobileNo": "9799266283"
   },
   {
-    "sno": 47,
-    "nameOfDepot": "Khairtal",
+    "depotName": "Khairtal",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Deepchand Meena",
-    "mobileNumber": "6375704638"
+    "person": "Sh. Deepchand Meena",
+    "mobileNo": "6375704638"
   },
   {
-    "sno": 48,
-    "nameOfDepot": "Khetri",
+    "depotName": "Khetri",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Arvind Kumar",
-    "mobileNumber": "7374818819"
+    "person": "Sh. Arvind Kumar",
+    "mobileNo": "7374818819"
   },
   {
-    "sno": 49,
-    "nameOfDepot": "Kishangarh",
+    "depotName": "Kishangarh",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Ronak Sharma",
-    "mobileNumber": "7014668113"
+    "person": "Sh. Ronak Sharma",
+    "mobileNo": "7014668113"
   },
   {
-    "sno": 50,
-    "nameOfDepot": "Kota",
+    "depotName": "Kota",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Omprakash Goswami",
-    "mobileNumber": "9571818269"
+    "person": "Sh. Omprakash Goswami",
+    "mobileNo": "9571818269"
   },
   {
-    "sno": 51,
-    "nameOfDepot": "Lunakaransarsar",
+    "depotName": "Lunakaransarsar",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Rupendra Singh",
-    "mobileNumber": "9782462737"
+    "person": "Sh. Rupendra Singh",
+    "mobileNo": "9782462737"
   },
   {
-    "sno": 52,
-    "nameOfDepot": "Malpura",
+    "depotName": "Malpura",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. prem Singh",
-    "mobileNumber": "9828719398"
+    "person": "Sh. prem Singh",
+    "mobileNo": "9828719398"
   },
   {
-    "sno": 53,
-    "nameOfDepot": "Mandalgarh",
+    "depotName": "Mandalgarh",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Raghuveer Singh Solanki",
-    "mobileNumber": "9588063366"
+    "person": "Sh. Raghuveer Singh Solanki",
+    "mobileNo": "9588063366"
   },
   {
-    "sno": 54,
-    "nameOfDepot": "Merta Road",
+    "depotName": "Merta Road",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Bhanu Prakash",
-    "mobileNumber": "9413856583"
+    "person": "Sh. Bhanu Prakash",
+    "mobileNo": "9413856583"
   },
   {
-    "sno": 55,
-    "nameOfDepot": "Nagaur",
+    "depotName": "Nagaur",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Khetaram",
-    "mobileNumber": "8000354410"
+    "person": "Sh. Khetaram",
+    "mobileNo": "8000354410"
   },
   {
-    "sno": 56,
-    "nameOfDepot": "Nawalgarh",
+    "depotName": "Nawalgarh",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Rakesh Kumar",
-    "mobileNumber": "7014787708"
+    "person": "Sh. Rakesh Kumar",
+    "mobileNo": "7014787708"
   },
   {
-    "sno": 57,
-    "nameOfDepot": "Neem Ka Thana",
+    "depotName": "Neem Ka Thana",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Kuldeep Singh",
-    "mobileNumber": "8741924201"
+    "person": "Sh. Kuldeep Singh",
+    "mobileNo": "8741924201"
   },
   {
-    "sno": 58,
-    "nameOfDepot": "Nimbahera",
+    "depotName": "Nimbahera",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Naresh Khateek",
-    "mobileNumber": "8890072995"
+    "person": "Sh. Naresh Khateek",
+    "mobileNo": "8890072995"
   },
   {
-    "sno": 59,
-    "nameOfDepot": "Nohar",
+    "depotName": "Nohar",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Lekhraj",
-    "mobileNumber": "9649797971"
+    "person": "Sh. Lekhraj",
+    "mobileNo": "9649797971"
   },
   {
-    "sno": 60,
-    "nameOfDepot": "Nokha",
+    "depotName": "Nokha",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Manoj Sharma",
-    "mobileNumber": "9928013555"
+    "person": "Sh. Manoj Sharma",
+    "mobileNo": "9928013555"
   },
   {
-    "sno": 61,
-    "nameOfDepot": "Pali",
+    "depotName": "Pali",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Ramesh Kumar Chauhan",
-    "mobileNumber": "9649436311"
+    "person": "Sh. Ramesh Kumar Chauhan",
+    "mobileNo": "9649436311"
   },
   {
-    "sno": 62,
-    "nameOfDepot": "Parbatsar",
+    "depotName": "Parbatsar",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Naurang Lal",
-    "mobileNumber": "8209541955"
+    "person": "Sh. Naurang Lal",
+    "mobileNo": "8209541955"
   },
   {
-    "sno": 63,
-    "nameOfDepot": "Pipad",
+    "depotName": "Pipad",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Kundan Singh",
-    "mobileNumber": "9461446900"
+    "person": "Sh. Kundan Singh",
+    "mobileNo": "9461446900"
   },
   {
-    "sno": 64,
-    "nameOfDepot": "Pokhran",
+    "depotName": "Pokhran",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Pardeep",
-    "mobileNumber": "7357019424"
+    "person": "Sh. Pardeep",
+    "mobileNo": "7357019424"
   },
   {
-    "sno": 65,
-    "nameOfDepot": "Pratapgarh",
+    "depotName": "Pratapgarh",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Laluram Meena",
-    "mobileNumber": "8107242434"
+    "person": "Sh. Laluram Meena",
+    "mobileNo": "8107242434"
   },
   {
-    "sno": 66,
-    "nameOfDepot": "Raisinghnagar",
+    "depotName": "Raisinghnagar",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Ajay Kumar",
-    "mobileNumber": "9782359381"
+    "person": "Sh. Ajay Kumar",
+    "mobileNo": "9782359381"
   },
   {
-    "sno": 67,
-    "nameOfDepot": "Rajgarh",
+    "depotName": "Rajgarh",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Sanjay Kumar",
-    "mobileNumber": "9772539859"
+    "person": "Sh. Sanjay Kumar",
+    "mobileNo": "9772539859"
   },
   {
-    "sno": 68,
-    "nameOfDepot": "Rajsamand",
+    "depotName": "Rajsamand",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Mahesh Chand Singh Solanki",
-    "mobileNumber": "9166426478"
+    "person": "Sh. Mahesh Chand Singh Solanki",
+    "mobileNo": "9166426478"
   },
   {
-    "sno": 69,
-    "nameOfDepot": "Ramgangmandi",
+    "depotName": "Ramgangmandi",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Manoj Berwa",
-    "mobileNumber": "7627089206"
+    "person": "Sh. Manoj Berwa",
+    "mobileNo": "7627089206"
   },
   {
-    "sno": 70,
-    "nameOfDepot": "Rani",
+    "depotName": "Rani",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Udailal Jee",
-    "mobileNumber": "9568076993"
+    "person": "Udailal Jee",
+    "mobileNo": "9568076993"
   },
   {
-    "sno": 71,
-    "nameOfDepot": "Sawaimadhopur",
+    "depotName": "Sawaimadhopur",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Ramesh Chand Kanchi",
-    "mobileNumber": "9413158256"
+    "person": "Sh. Ramesh Chand Kanchi",
+    "mobileNo": "9413158256"
   },
   {
-    "sno": 72,
-    "nameOfDepot": "Shahpura (Bhl)",
+    "depotName": "Shahpura (Bhl)",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Vikram kumar",
-    "mobileNumber": "7239944185"
+    "person": "Sh. Vikram kumar",
+    "mobileNo": "7239944185"
   },
   {
-    "sno": 73,
-    "nameOfDepot": "Shahpura (Jpr)",
+    "depotName": "Shahpura (Jpr)",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Mohan lal dariya",
-    "mobileNumber": "9549444242"
+    "person": "Sh. Mohan lal dariya",
+    "mobileNo": "9549444242"
   },
   {
-    "sno": 74,
-    "nameOfDepot": "Sikar",
+    "depotName": "Sikar",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Moonga Ram Choudhary",
-    "mobileNumber": "9828815113"
+    "person": "Sh. Moonga Ram Choudhary",
+    "mobileNo": "9828815113"
   },
   {
-    "sno": 75,
-    "nameOfDepot": "Sirohi",
+    "depotName": "Sirohi",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Ramesh Kumar",
-    "mobileNumber": "7742110758"
+    "person": "Sh. Ramesh Kumar",
+    "mobileNo": "7742110758"
   },
   {
-    "sno": 76,
-    "nameOfDepot": "Sojat",
+    "depotName": "Sojat",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Rajesh Parmer",
-    "mobileNumber": "7976775491"
+    "person": "Sh. Rajesh Parmer",
+    "mobileNo": "7976775491"
   },
   {
-    "sno": 77,
-    "nameOfDepot": "Sriganganagar",
+    "depotName": "Sriganganagar",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Gurdeep Singh",
-    "mobileNumber": "9950606022"
+    "person": "Sh. Gurdeep Singh",
+    "mobileNo": "9950606022"
   },
   {
-    "sno": 78,
-    "nameOfDepot": "Shrimadhopur",
+    "depotName": "Shrimadhopur",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Surendra Kumar Solera",
-    "mobileNumber": "9799172945"
+    "person": "Sh. Surendra Kumar Solera",
+    "mobileNo": "9799172945"
   },
   {
-    "sno": 79,
-    "nameOfDepot": "Suratgarh",
+    "depotName": "Suratgarh",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Anoj Kumar",
-    "mobileNumber": "9782943043"
+    "person": "Sh. Anoj Kumar",
+    "mobileNo": "9782943043"
   },
   {
-    "sno": 80,
-    "nameOfDepot": "Tonk",
+    "depotName": "Tonk",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Virander Singh",
-    "mobileNumber": "9784599728"
+    "person": "Sh. Virander Singh",
+    "mobileNo": "9784599728"
   },
   {
-    "sno": 81,
-    "nameOfDepot": "Udaipur",
+    "depotName": "Udaipur",
     "camera": 3,
     "nvr": 1,
     "poe": 1,
     "cableRoll": 150,
-    "contactPerson": "Sh. Narayan Lal Bunkar",
-    "mobileNumber": "9414977200"
+    "person": "Sh. Narayan Lal Bunkar",
+    "mobileNo": "9414977200"
   }
 ]

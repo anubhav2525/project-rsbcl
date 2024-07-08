@@ -1,410 +1,359 @@
 [
   {
-    "SNo": 1,
-    "DepotName": "Ajmer Depot",
-    "PhNo": "0",
-    "Address": "Near Janana Hospital, Sikar Road",
-    "Email": "ajmer1.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914801"
+    "depotName": "Ajmer Depot",
+    "phoneNo": null,
+    "address": "Near Janana Hospital, Sikar Road",
+    "email": "ajmer1.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914801"
   },
   {
-    "SNo": 2,
-    "DepotName": "Ajmer Makhupura Depot",
-    "PhNo": "",
-    "Address": "Near Trench House, Makhupura, Nasirabad Road",
-    "Email": "ajmer2.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914802"
+    "depotName": "Ajmer Makhupura Depot",
+    "phoneNo": null,
+    "address": "Near Trench House, Makhupura, Nasirabad Road",
+    "email": "ajmer2.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914802"
   },
   {
-    "SNo": 3,
-    "DepotName": "Alwar Depot",
-    "PhNo": "",
-    "Address": "F-48, Agro Food Park, Matasya Industrial Area",
-    "Email": "alwar.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914803"
+    "depotName": "Alwar Depot",
+    "phoneNo": null,
+    "address": "F-48, Agro Food Park, Matasya Industrial Area",
+    "email": "alwar.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914803"
   },
   {
-    "SNo": 4,
-    "DepotName": "Banswara Depot",
-    "PhNo": "",
-    "Address": "132/1, Ahead of Makodia Birdge, Near Mahi Filling Station, Dahod Road, Banswara",
-    "Email": "banswara.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914804"
+    "depotName": "Banswara Depot",
+    "phoneNo": null,
+    "address": "132/1, Ahead of Makodia Birdge, Near Mahi Filling Station, Dahod Road, Banswara",
+    "email": "banswara.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914804"
   },
   {
-    "SNo": 5,
-    "DepotName": "Baran Depot",
-    "PhNo": "",
-    "Address": "Madhusudan Vatika, Melkhedi Road, Baran",
-    "Email": "baran.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914805"
+    "depotName": "Baran Depot",
+    "phoneNo": null,
+    "address": "Madhusudan Vatika, Melkhedi Road, Baran",
+    "email": "baran.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914805"
   },
   {
-    "SNo": 6,
-    "DepotName": "Barmer Depot",
-    "PhNo": "",
-    "Address": "Opposite Central School, Jalipa, N. H. 15, Barmer",
-    "Email": "barmer.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914806"
+    "depotName": "Barmer Depot",
+    "phoneNo": null,
+    "address": "Opposite Central School, Jalipa, N. H. 15, Barmer",
+    "email": "barmer.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914806"
   },
   {
-    "SNo": 7,
-    "DepotName": "Beawar",
-    "PhNo": "",
-    "Address": "RSWC State Warehouse, Village Kesarpura, Udaipur Road",
-    "Email": "beawar.rsbcl@rajasthan.gov.in",
-    "Mobile": "9799176678"
+    "depotName": "Beawar",
+    "phoneNo": null,
+    "address": "RSWC State Warehouse, Village Kesarpura, Udaipur Road",
+    "email": "beawar.rsbcl@rajasthan.gov.in",
+    "mobileNo": "9799176678"
   },
   {
-    "SNo": 8,
-    "DepotName": "Behror Depot",
-    "PhNo": "",
-    "Address": "Behind Indira Colony, Behror",
-    "Email": "behror.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914807"
+    "depotName": "Behror Depot",
+    "phoneNo": null,
+    "address": "Behind Indira Colony, Behror",
+    "email": "behror.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914807"
   },
   {
-    "SNo": 9,
-    "DepotName": "Bharatpur Depot",
-    "PhNo": "",
-    "Address": "Scheme No. 14, Sewar-Mathura Bypass, Murwara Road",
-    "Email": "bharatpur.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914808"
+    "depotName": "Bharatpur Depot",
+    "phoneNo": null,
+    "address": "Scheme No. 14, Sewar-Mathura Bypass, Murwara Road",
+    "email": "bharatpur.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914808"
   },
   {
-    "SNo": 10,
-    "DepotName": "Bhilwara Depot",
-    "PhNo": "0148-2260263",
-    "Address": "Plot No.F-98-103, RIICO Indl Area (Extension), Biliya",
-    "Email": "bhilwara.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914809"
+    "depotName": "Bhilwara Depot",
+    "phoneNo": "0148-2260263",
+    "address": "Plot No.F-98-103, RIICO Indl Area (Extension), Biliya",
+    "email": "bhilwara.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914809"
   },
   {
-    "SNo": 11,
-    "DepotName": "Bikaner Depot",
-    "PhNo": "0151-2970148",
-    "Address": "Beechhwal Chauraha, Sri Ganganagar-Jaipur Bypass",
-    "Email": "bikaner.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914810"
+    "depotName": "Bikaner Depot",
+    "phoneNo": "0151-2970148",
+    "address": "Beechhwal Chauraha, Sri Ganganagar-Jaipur Bypass",
+    "email": "bikaner.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914810"
   },
   {
-    "SNo": 12,
-    "DepotName": "Bundi Depot",
-    "PhNo": "",
-    "Address": "Near Adani Factory, In front of Santosh Warehouse, Silor Road, Opp. FCI Godown",
-    "Email": "bundi.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914811"
+    "depotName": "Bundi Depot",
+    "phoneNo": null,
+    "address": "Near Adani Factory, In front of Santosh Warehouse, Silor Road, Opp. FCI Godown",
+    "email": "bundi.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914811"
   },
   {
-    "SNo": 13,
-    "DepotName": "Chittorgarh Depot",
-    "PhNo": "",
-    "Address": "Ranawat Krishi Farm House, Munga Ka Kheda, Teh. - Gangrar",
-    "Email": "chittor.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914812"
+    "depotName": "Chittorgarh Depot",
+    "phoneNo": null,
+    "address": "Ranawat Krishi Farm House, Munga Ka Kheda, Teh. - Gangrar",
+    "email": "chittor.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914812"
   },
   {
-    "SNo": 14,
-    "DepotName": "Churu Depot",
-    "PhNo": "",
-    "Address": "Churu-Rajgarh Road, NH-52, R. K. Service Station, RIICO Industrial Area, Churu",
-    "Email": "churu.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914813"
+    "depotName": "Churu Depot",
+    "phoneNo": null,
+    "address": "Churu-Rajgarh Road, NH-52, R. K. Service Station, RIICO Industrial Area, Churu",
+    "email": "churu.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914813"
   },
   {
-    "SNo": 15,
-    "DepotName": "Dausa Depot",
-    "PhNo": "",
-    "Address": "Opposite Saras Dairy, Karni Nagar, Agra Road, Industrial Area, Near Somnath Chauraha, Agra Road",
-    "Email": "dausa.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914814"
+    "depotName": "Dausa Depot",
+    "phoneNo": null,
+    "address": "Opposite Saras Dairy, Karni Nagar, Agra Road, Industrial Area, Near Somnath Chauraha, Agra Road",
+    "email": "dausa.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914814"
   },
   {
-    "SNo": 16,
-    "DepotName": "Dholpur Depot",
-    "PhNo": "",
-    "Address": "F-43, RIICO Industrial Area, Dholpur",
-    "Email": "dholpur.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914815"
+    "depotName": "Dholpur Depot",
+    "phoneNo": null,
+    "address": "F-43, RIICO Industrial Area, Dholpur",
+    "email": "dholpur.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914815"
   },
   {
-    "SNo": 17,
-    "DepotName": "Dungarpur Depot",
-    "PhNo": "",
-    "Address": "Teejwad Sagwada Road, Dungarpur",
-    "Email": "dungarpur.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914816"
+    "depotName": "Dungarpur Depot",
+    "phoneNo": null,
+    "address": "Teejwad Sagwada Road, Dungarpur",
+    "email": "dungarpur.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914816"
   },
   {
-    "SNo": 18,
-    "DepotName": "Hanumangarh Depot",
-    "PhNo": "",
-    "Address": "Old Hariyali Godam, Nawan Phatak, Sangariya Road, Hanumangarh Junction",
-    "Email": "hanumangarh.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914817"
+    "depotName": "Hanumangarh Depot",
+    "phoneNo": null,
+    "address": "Old Hariyali Godam, Nawan Phatak, Sangariya Road, Hanumangarh Junction",
+    "email": "hanumangarh.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914817"
   },
   {
-    "SNo": 19,
-    "DepotName": "Jaipur (Bhankrota)",
-    "PhNo": "0141-2251660",
-    "Address": "BEHIND POLICE THANA, BHANKROTA, AJMER ROAD",
-    "Email": "jaipur3.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914818"
+    "depotName": "Jaipur (Bhankrota)",
+    "phoneNo": "0141-2251660",
+    "address": "BEHIND POLICE THANA, BHANKROTA, AJMER ROAD",
+    "email": "jaipur3.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914818"
   },
   {
-    "SNo": 20,
-    "DepotName": "Jaipur (Durgapura)",
-    "PhNo": "0141-2553142",
-    "Address": "Godown No. 7, Durgapura Multipurpose Complex, Durgapura Railway Station Road",
-    "Email": "jaipur1.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914819"
+    "depotName": "Jaipur (Durgapura)",
+    "phoneNo": "0141-2553142",
+    "address": "Godown No. 7, Durgapura Multipurpose Complex, Durgapura Railway Station Road",
+    "email": "jaipur1.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914819"
   },
   {
-    "SNo": 21,
-    "DepotName": "Jaipur (Golyawas, Mansarovar)",
-    "PhNo": "",
-    "Address": "KHASARA NO. 8 & 9, SHRI BALAJI VIHAR, HEERA PATH ROAD, OPP. MAHIMA ENCLAVE, VILLAGE GOLYAWAS, TEH. SANGANER, JAIPUR",
-    "Email": "jaipur1.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914819"
+    "depotName": "Jaipur (Golyawas, Mansarovar)",
+    "phoneNo": null,
+    "address": "KHASARA NO. 8 & 9, SHRI BALAJI VIHAR, HEERA PATH ROAD, OPP. MAHIMA ENCLAVE, VILLAGE GOLYAWAS, TEH. SANGANER, JAIPUR",
+    "email": "jaipur1.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914819"
   },
   {
-    "SNo": 22,
-    "DepotName": "Jaipur (Goner Road, Jagatpura)",
-    "PhNo": "",
-    "Address": "Near Khatipura Railway Station, 300 Ft. Goner Road, Dantli",
-    "Email": "jaipur4.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914821"
+    "depotName": "Jaipur (Goner Road, Jagatpura)",
+    "phoneNo": null,
+    "address": "Near Khatipura Railway Station, 300 Ft. Goner Road, Dantli",
+    "email": "jaipur4.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914821"
   },
   {
-    "SNo": 23,
-    "DepotName": "Jaipur Bio Vend Ask Agencies",
-    "PhNo": "",
-    "Address": "74, Solitaire park,phase -1 village dehmi kalan bagru sanganer",
-    "Email": "jaipur6.rsbcl@rajasthan.gov.in",
-    "Mobile": "9460759523"
+    "depotName": "Jaipur Bio Vend Ask Agencies",
+    "phoneNo": null,
+    "address": "74, Solitaire park,phase -1 village dehmi kalan bagru sanganer",
+    "email": "jaipur6.rsbcl@rajasthan.gov.in",
+    "mobileNo": "9460759523"
   },
   {
-    "SNo": 24,
-    "DepotName": "Jaipur Bio Vend Parsan",
-    "PhNo": "6376914613",
-    "Address": "plot no.68,Balaji Industrial park, Dahmikalan Bagru Jaipur 303007",
-    "Email": "jaipur5.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914613"
+    "depotName": "Jaipur Bio Vend Parsan",
+    "phoneNo": "6376914613",
+    "address": "plot no.68,Balaji Industrial park, Dahmikalan Bagru Jaipur 303007",
+    "email": "jaipur5.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914613"
   },
   {
-    "SNo": 25,
-    "DepotName": "Jaipur Sikar Road",
-    "PhNo": "",
-    "Address": "Doctor Ki Dhani, Macheda, Loha Mandi, Jaipur",
-    "Email": "jaipur2.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914820"
+    "depotName": "Jaipur Sikar Road",
+    "phoneNo": null,
+    "address": "Doctor Ki Dhani, Macheda, Loha Mandi, Jaipur",
+    "email": "jaipur2.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914820"
   },
   {
-    "SNo": 26,
-    "DepotName": "Jaipur, Jagatpura",
-    "PhNo": "0141-2752680",
-    "Address": "Mahalan Farm Kho Nagorian Agra By Pass, Jagatpura",
-    "Email": "jaipur4.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914821"
+    "depotName": "Jaipur, Jagatpura",
+    "phoneNo": "0141-2752680",
+    "address": "Mahalan Farm Kho Nagorian Agra By Pass, Jagatpura",
+    "email": "jaipur4.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914821"
   },
   {
-    "SNo": 27,
-    "DepotName": "Jaisalmer Depot",
-    "PhNo": "",
-    "Address": "NH - 11, Near War Museum, Thaiyat, Jodhpur Road, Jaisalmer",
-    "Email": "jaisalmer.rsbcl@rajasthan.gov.in",
-    "Mobile": ""
+    "depotName": "Jaisalmer Depot",
+    "phoneNo": null,
+    "address": "NH - 11, Near War Museum, Thaiyat, Jodhpur Road, Jaisalmer",
+    "email": "jaisalmer.rsbcl@rajasthan.gov.in",
+    "mobileNo": ""
   },
   {
-    "SNo": 28,
-    "DepotName": "Jalore Depot",
-    "PhNo": "",
-    "Address": "Keshwana Road, Near KGN Colony, Bishan Garh Road",
-    "Email": "jalore.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914823"
+    "depotName": "Jalore Depot",
+    "phoneNo": null,
+    "address": "Keshwana Road, Near KGN Colony, Bishan Garh Road",
+    "email": "jalore.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914823"
   },
   {
-    "SNo": 29,
-    "DepotName": "Jhalawar Depot",
-    "PhNo": "0743-2230203",
-    "Address": "Briya kheri kalan Rundlao Near by Satellite Hospital Sunel Road, Jhalawar",
-    "Email": "jhalawar.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914824"
+    "depotName": "Jhalawar Depot",
+    "phoneNo": "0743-2230203",
+    "address": "Briya kheri kalan Rundlao Near by Satellite Hospital Sunel Road, Jhalawar",
+    "email": "jhalawar.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914824"
   },
   {
-    "SNo": 30,
-    "DepotName": "Jhunjhunu Depot",
-    "PhNo": "0159-2294019",
-    "Address": "Kedia Minerals Pvt. Ltd., Malsisar Road",
-    "Email": "jhunjhunu.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914825"
+    "depotName": "Jhunjhunu Depot",
+    "phoneNo": "0159-2294019",
+    "address": "Kedia Minerals Pvt. Ltd., Malsisar Road",
+    "email": "jhunjhunu.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914825"
   },
   {
-    "SNo": 31,
-    "DepotName": "Jodhpur (M.I.A.)",
-    "PhNo": "0291-2577222",
-    "Address": "Khasra No. 74/10, village Desuriya Vishnoyian Mandore Jodhpur Rajasthan",
-    "Email": "jodhpur2.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914826"
+    "depotName": "Jodhpur (M.I.A.)",
+    "phoneNo": "0291-2577222",
+    "address": "Khasra No. 74/10, village Desuriya Vishnoyian Mandore Jodhpur Rajasthan",
+    "email": "jodhpur2.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914826"
   },
   {
-    "SNo": 32,
-    "DepotName": "Jodhpur Depot",
-    "PhNo": "0291-2720607",
-    "Address": "Pali Road, Near Kudi River Bridge, Jodhpur",
-    "Email": "jodhpur1.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914827"
+    "depotName": "Jodhpur Depot",
+    "phoneNo": "0291-2720607",
+    "address": "Pali Road, Near Kudi River Bridge, Jodhpur",
+    "email": "jodhpur1.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914827"
   },
   {
-    "SNo": 33,
-    "DepotName": "Karauli Depot",
-    "PhNo": "",
-    "Address": "Gangapur Mod, Kailadevi Road",
-    "Email": "karauli.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914828"
+    "depotName": "Karauli Depot",
+    "phoneNo": "",
+    "address": "Gangapur Mod, Kailadevi Road",
+    "email": "karauli.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914828"
   },
   {
-    "SNo": 34,
-    "DepotName": "Kota (Ipia)",
-    "PhNo": "",
-    "Address": "A - 108, IPIA, Road No. 1",
-    "Email": "kota.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914829"
+    "depotName": "Kota (Ipia)",
+    "phoneNo": null,
+    "address": "A - 108, IPIA, Road No. 1",
+    "email": "kota.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914829"
   },
   {
-    "SNo": 35,
-    "DepotName": "Kota, Chatrapura",
-    "PhNo": "0744-2360217",
-    "Address": "back side of Govt. Polotechnique Collage, Nr. RTO Office DCM Road",
-    "Email": "kota.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914829"
+    "depotName": "Kota, Chatrapura",
+    "phoneNo": "0744-2360217",
+    "address": "back side of Govt. Polotechnique Collage, Nr. RTO Office DCM Road",
+    "email": "kota.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914829"
   },
   {
-    "SNo": 36,
-    "DepotName": "Kuchaman City",
-    "PhNo": "",
-    "Address": "RSWC State Warehouse, Kishangarh Mega Highway, In front of Navoday Vidhyalay",
-    "Email": "kuchaman.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914830"
+    "depotName": "Kuchaman City",
+    "phoneNo": null,
+    "address": "RSWC State Warehouse, Kishangarh Mega Highway, In front of Navoday Vidhyalay",
+    "email": "kuchaman.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914830"
   },
   {
-    "SNo": 37,
-    "DepotName": "Nagour Depot",
-    "PhNo": "",
-    "Address": "Jodhpur-Bikaner Bypass, Behind Krishi Upaj Mandi, Near MDH Park, RSWC Godown, Opp. Reliance Infocom",
-    "Email": "nagour.rsbcl@rajasthan.gov.in",
-    "Mobile": "6376914830"
+    "depotName": "Nagour Depot",
+    "phoneNo": null,
+    "address": "Jodhpur-Bikaner Bypass, Behind Krishi Upaj Mandi, Near MDH Park, RSWC Godown, Opp. Reliance Infocom",
+    "email": "nagour.rsbcl@rajasthan.gov.in",
+    "mobileNo": "6376914830"
   },
   {
-    "SNo": 38,
-    "DepotName": "Neem Ka Thana",
-    "PhNo": "",
-    "Address": "RSWC State Warehouse, Bhudoli Road, Dabar",
-    "Email": "neemkathanai.rsbcl@rajasthan.gov.in",
-    "Mobile": "9887709424"
+    "depotName": "Neem Ka Thana",
+    "phoneNo": null,
+    "address": "RSWC State Warehouse, Bhudoli Road, Dabar",
+    "email": "neemkathanai.rsbcl@rajasthan.gov.in",
+    "mobileNo": "9887709424"
   },
   {
-    "SNo": 39,
-    "DepotName": "Nohar",
-    "PhNo": "",
-    "Address": "RSWC State Warehouse, Near Krishi Upaj Mandi",
-    "Email": "nohar.rsbcl@rajasthan.gov.in",
-    "Mobile": ""
+    "depotName": "Nohar",
+    "phoneNo": null,
+    "address": "RSWC State Warehouse, Near Krishi Upaj Mandi",
+    "email": "nohar.rsbcl@rajasthan.gov.in",
+    "mobileNo": ""
   },
   {
-    "SNo": 40,
-    "DepotName": "Pali Depot",
-    "PhNo": "",
-    "Address": "NH-162 Tulsi Farm, 72 Feet Balaji ke Pass, Sojat- Jaipur Highway, Pali 306401",
-    "Email": "pali.rsbcl[at]rajasthan[dot]gov[dot]in",
-    "Mobile": "6376914831"
+    "depotName": "Pali Depot",
+    "phoneNo": null,
+    "address": "NH-162 Tulsi Farm, 72 Feet Balaji ke Pass, Sojat- Jaipur Highway, Pali 306401",
+    "email": "pali.rsbcl[at]rajasthan[dot]gov[dot]in",
+    "mobileNo": "6376914831"
   },
   {
-    "SNo": 41,
-    "DepotName": "Phalodi",
-    "PhNo": "",
-    "Address": "RSWC State Warehouse, Near Krishi Upaj Mandi, Jodhpur Road",
-    "Email": "phalodi[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
-    "Mobile": "6376914826"
+    "depotName": "Phalodi",
+    "phoneNo": null,
+    "address": "RSWC State Warehouse, Near Krishi Upaj Mandi, Jodhpur Road",
+    "email": "phalodi[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
+    "mobileNo": "6376914826"
   },
   {
-    "SNo": 42,
-    "DepotName": "Pratapgarh",
-    "PhNo": "",
-    "Address": "RSWC Godown, Near Gayatri Mandir Dhariyavad Road",
-    "Email": "pratapgarh[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
-    "Mobile": "6376914832"
+    "depotName": "Pratapgarh",
+    "phoneNo": null,
+    "address": "RSWC Godown, Near Gayatri Mandir Dhariyavad Road",
+    "email": "pratapgarh[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
+    "mobileNo": "6376914832"
   },
   {
-    "SNo": 43,
-    "DepotName": "Rajasamand Depot",
-    "PhNo": "",
-    "Address": "Kallakhedi, Badlawali Nathdwara",
-    "Email": "rajasamand[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
-    "Mobile": "6376914833"
+    "depotName": "Rajasamand Depot",
+    "phoneNo": null,
+    "address": "Kallakhedi, Badlawali Nathdwara",
+    "email": "rajasamand[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
+    "mobileNo": "6376914833"
   },
   {
-    "SNo": 44,
-    "DepotName": "Sawai Madhopur Depot",
-    "PhNo": "",
-    "Address": "SP-143-144, RSWC Warehouse, RIICO Ghudasi Mod, Khairda Kherda",
-    "Email": "swm[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
-    "Mobile": "6376914834"
+    "depotName": "Sawai Madhopur Depot",
+    "phoneNo": null,
+    "address": "SP-143-144, RSWC Warehouse, RIICO Ghudasi Mod, Khairda Kherda",
+    "email": "swm[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
+    "mobileNo": "6376914834"
   },
   {
-    "SNo": 45,
-    "DepotName": "Sikar Depot",
-    "PhNo": "0157-2245274",
-    "Address": "Opp. Spark Hotel, Jaipur bikaner bypass Gokulpura, sikar 332021",
-    "Email": "sikar[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
-    "Mobile": "6376914835"
+    "depotName": "Sikar Depot",
+    "phoneNo": "0157-2245274",
+    "address": "Opp. Spark Hotel, Jaipur bikaner bypass Gokulpura, sikar 332021",
+    "email": "sikar[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
+    "mobileNo": "6376914835"
   },
   {
-    "SNo": 46,
-    "DepotName": "Sirohi Depot",
-    "PhNo": "",
-    "Address": "RSBCL Godown Veer Baav ji, Sindrath",
-    "Email": "sirohi[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
-    "Mobile": "6376914836"
+    "depotName": "Sirohi Depot",
+    "phoneNo": null,
+    "address": "RSBCL Godown Veer Baav ji, Sindrath",
+    "email": "sirohi[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
+    "mobileNo": "6376914836"
   },
   {
-    "SNo": 47,
-    "DepotName": "Sri Ganganagar Depot",
-    "PhNo": "0154-2970950",
-    "Address": "CHAK-2 ML, Suratgarh-Hanumangarh Bypass Opposite Toyota Showroom",
-    "Email": "sriganganagar[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
-    "Mobile": "6376914837"
+    "depotName": "Sri Ganganagar Depot",
+    "phoneNo": "0154-2970950",
+    "address": "CHAK-2 ML, Suratgarh-Hanumangarh Bypass Opposite Toyota Showroom",
+    "email": "sriganganagar[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
+    "mobileNo": "6376914837"
   },
   {
-    "SNo": 48,
-    "DepotName": "Suratgarh",
-    "PhNo": "",
-    "Address": "RSWC State Warehouse, Post Office Road, Industrial Area",
-    "Email": "suratgarh[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
-    "Mobile": "9414230460"
+    "depotName": "Suratgarh",
+    "phoneNo": null,
+    "address": "RSWC State Warehouse, Post Office Road, Industrial Area",
+    "email": "suratgarh[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
+    "mobileNo": "9414230460"
   },
   {
-    "SNo": 49,
-    "DepotName": "Tonk Depot",
-    "PhNo": "0143-2245903",
-    "Address": "H - 88-89, RIICO Industrial Area Tonk",
-    "Email": "tonk[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
-    "Mobile": "6376914838"
+    "depotName": "Tonk Depot",
+    "phoneNo": "0143-2245903",
+    "address": "H - 88-89, RIICO Industrial Area Tonk",
+    "email": "tonk[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
+    "mobileNo": "6376914838"
   },
   {
-    "SNo": 50,
-    "DepotName": "Udaipur (Transport Nagar)",
-    "PhNo": "",
-    "Address": "RSWC Godown, Transport Nagar, Chittorgarh Road",
-    "Email": "udaipur2[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
-    "Mobile": ""
+    "depotName": "Udaipur (Transport Nagar)",
+    "phoneNo": null,
+    "address": "RSWC Godown, Transport Nagar, Chittorgarh Road",
+    "email": "udaipur2[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
+    "mobileNo": null
   },
   {
-    "SNo": 51,
-    "DepotName": "Udaipur Depot (Balicha)",
-    "PhNo": "",
-    "Address": "Sherji ki kundal Balicha Udaipur",
-    "Email": "udaipur1[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
-    "Mobile": "6376914839"
+    "depotName": "Udaipur Depot (Balicha)",
+    "phoneNo": null,
+    "address": "Sherji ki kundal Balicha Udaipur",
+    "email": "udaipur1[dot]rsbcl[at]rajasthan[dot]gov[dot]in",
+    "mobileNo": "6376914839"
   }
 ]
