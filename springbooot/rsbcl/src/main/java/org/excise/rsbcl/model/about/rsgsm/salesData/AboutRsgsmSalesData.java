@@ -7,7 +7,7 @@ import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document
+@Document(collection = "about_rsgsm_salesData")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

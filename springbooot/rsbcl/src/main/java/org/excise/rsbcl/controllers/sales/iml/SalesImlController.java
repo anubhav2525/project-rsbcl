@@ -3,6 +3,8 @@ package org.excise.rsbcl.controllers.sales.iml;
 import org.excise.rsbcl.model.sales.iml.SalesIml;
 import org.excise.rsbcl.services.sales.iml.SalesImlService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,12 +19,16 @@ public class SalesImlController {
     private SalesImlService salesImlService;
 
     @GetMapping("iml")
-    public List<SalesIml> getAll() {
-        return salesImlService.getAll();
+    public ResponseEntity<List<SalesIml>> getAll() {
+        List<SalesIml> salesImls = salesImlService.getAll();
+        if (salesImls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(salesImls, HttpStatus.OK);
     }
 
     @GetMapping("iml/{year}")
-    public List<SalesIml> getSalesImlByYear(@PathVariable int year) {
-        return salesImlService.getSalesImlByYear(year);
+    public ResponseEntity<List<SalesIml>> getSalesImlByYear(@PathVariable int year) {
+        List<SalesIml> salesImls = salesImlService.getSalesImlByYear(year);
+        if (salesImls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(salesImls, HttpStatus.OK);
     }
 }

@@ -1,5 +1,6 @@
 package org.excise.rsbcl.controllers.sales.beer;
 
+import org.apache.coyote.Response;
 import org.excise.rsbcl.model.sales.beer.SalesBeer;
 import org.excise.rsbcl.services.sales.beer.SalesBeerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,16 +20,16 @@ public class SalesBeerController {
     private SalesBeerService salesBeerService;
 
     @GetMapping("beer")
-    public List<SalesBeer> getAll() {
-        return salesBeerService.getAll();
+    public ResponseEntity<List<SalesBeer>> getAll() {
+        List<SalesBeer> salesBeers = salesBeerService.getAll();
+        if (salesBeers.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(salesBeers, HttpStatus.OK);
     }
 
     @GetMapping("beer/{year}")
     public ResponseEntity<List<SalesBeer>> getSalesBeerByYear(@PathVariable int year) {
         List<SalesBeer> salesBeers = salesBeerService.getSalesBeerByYear(year);
-        if (salesBeers.isEmpty()) {
-            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-        }
+        if (salesBeers.isEmpty()) return new ResponseEntity<>(HttpStatus.NO_CONTENT);
         return new ResponseEntity<>(salesBeers, HttpStatus.OK);
     }
 }
