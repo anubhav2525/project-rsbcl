@@ -10,7 +10,7 @@ const Work = () => {
                 Works :
             </h2>
 
-            <div className="my-4 text-xs sm:text-sm md:text-base text-justify text-gray-500 tracking-wider dark:text-gray-400 px-3 space-y-2">
+            <div className="my-4 text-xs sm:text-sm md:text-base text-justify text-gray-500 tracking-wider dark:text-gray-400 px-1 space-y-2">
                 {/* sugar division  */}
                 <div>Presently, the company has two divisions:-</div>
                 {/* sugar division  */}

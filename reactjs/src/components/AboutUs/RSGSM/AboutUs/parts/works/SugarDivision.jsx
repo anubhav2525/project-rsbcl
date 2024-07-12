@@ -24,10 +24,9 @@ const SugarDivision = () => {
                 </li>
             </ul>
 
-            <div className="my-4 px-4">
+            <div className="my-4 font-bold">
                 Some Details of Sugar Division are as follows-
             </div>
-
         </>
     )
 }

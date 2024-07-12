@@ -1,274 +1,894 @@
 [
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Ajmer",
     "up40": 6296717.22,
     "up50": 5156357.04,
     "up5": 7773,
-    "total": 11460847.26,
-    "year": 2022
+    "total": 11460847.26
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Alwar",
     "up40": 5742676.62,
     "up50": 5604915.42,
     "up5": 435.75,
-    "total": 11348027.79,
-    "year": 2022
+    "total": 11348027.79
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Banswara",
     "up40": 0,
     "up50": 934602.84,
     "up5": 1827.75,
-    "total": 936430.59,
-    "year": 2022
+    "total": 936430.59
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Baran",
     "up40": 3121383.24,
     "up50": 3747541.86,
     "up5": 3242.25,
-    "total": 6872167.35,
-    "year": 2022
+    "total": 6872167.35
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Barmer",
     "up40": 834707.25,
     "up50": 3709307.88,
     "up5": 711.75,
-    "total": 4544726.88,
-    "year": 2022
+    "total": 4544726.88
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Bharatpur",
     "up40": 1654566.66,
     "up50": 5447930.22,
     "up5": 721.5,
-    "total": 7103218.38,
-    "year": 2022
+    "total": 7103218.38
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Bhilwara",
     "up40": 3550404.72,
     "up50": 3433057.56,
     "up5": 9985.5,
-    "total": 6993447.78,
-    "year": 2022
+    "total": 6993447.78
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Bikaner",
     "up40": 3898417.5,
     "up50": 4029134.4,
     "up5": 995.34,
-    "total": 7928547.24,
-    "year": 2022
+    "total": 7928547.24
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Bundi",
     "up40": 1587043.8,
     "up50": 3011544.18,
     "up5": 1749,
-    "total": 4600336.98,
-    "year": 2022
+    "total": 4600336.98
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Chittorgarh",
     "up40": 2360462.4,
     "up50": 3018560.22,
     "up5": 8968.5,
-    "total": 5387991.12,
-    "year": 2022
+    "total": 5387991.12
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Churu",
     "up40": 4080398.58,
     "up50": 3648458.7,
     "up5": 334.53,
-    "total": 7729191.81,
-    "year": 2022
+    "total": 7729191.81
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Dausa",
     "up40": 1682283.78,
     "up50": 1784859.66,
     "up5": 344.25,
-    "total": 3467487.69,
-    "year": 2022
+    "total": 3467487.69
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Dholpur",
     "up40": 920701.26,
     "up50": 2929954.68,
     "up5": 355.5,
-    "total": 3851011.44,
-    "year": 2022
+    "total": 3851011.44
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Dungarpur",
     "up40": 862.74,
     "up50": 1041863.22,
     "up5": 1923,
-    "total": 1044648.96,
-    "year": 2022
+    "total": 1044648.96
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Hanumangarh",
     "up40": 7801245.63,
     "up50": 3247113.24,
     "up5": 2143.59,
-    "total": 11050502.46,
-    "year": 2022
+    "total": 11050502.46
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Jaipur City",
     "up40": 4051836,
     "up50": 12701088.36,
     "up5": 7832.25,
-    "total": 16760756.61,
-    "year": 2022
+    "total": 16760756.61
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Jaipur Rural",
     "up40": 4224861.36,
     "up50": 5332658.4,
     "up5": 1392.75,
-    "total": 9558912.51,
-    "year": 2022
+    "total": 9558912.51
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Jaisalmer",
     "up40": 618341.01,
     "up50": 1752807.42,
     "up5": 634.5,
-    "total": 2371782.93,
-    "year": 2022
+    "total": 2371782.93
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Jalore",
     "up40": 1709380.41,
     "up50": 3577985.28,
     "up5": 1605.75,
-    "total": 5288971.44,
-    "year": 2022
+    "total": 5288971.44
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Jhalawar",
     "up40": 1243828.08,
     "up50": 5371054.92,
     "up5": 17304.09,
-    "total": 6632187.09,
-    "year": 2022
+    "total": 6632187.09
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Jhunjhunu",
     "up40": 3980435.04,
     "up50": 4421112.12,
     "up5": 374.64,
-    "total": 8401921.8,
-    "year": 2022
+    "total": 8401921.80
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Jodhpur",
     "up40": 5437929.84,
     "up50": 6763087.08,
     "up5": 3758.25,
-    "total": 12204775.17,
-    "year": 2022
+    "total": 12204775.17
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Karauli",
     "up40": 1202603.58,
     "up50": 2345050.44,
     "up5": 577.5,
-    "total": 3548231.52,
-    "year": 2022
+    "total": 3548231.52
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Kota",
     "up40": 3013243.92,
     "up50": 5111591.04,
     "up5": 6300,
-    "total": 8131134.96,
-    "year": 2022
+    "total": 8131134.96
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Nagaur",
     "up40": 2828972.01,
     "up50": 5511105.72,
     "up5": 2376.75,
-    "total": 8342454.48,
-    "year": 2022
+    "total": 8342454.48
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Pali",
     "up40": 5144421.36,
     "up50": 3677046.48,
     "up5": 4034.22,
-    "total": 8825502.06,
-    "year": 2022
+    "total": 8825502.06
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Pratapgarh",
     "up40": 410427.18,
     "up50": 1380790.08,
     "up5": 2582.25,
-    "total": 1793799.51,
-    "year": 2022
+    "total": 1793799.51
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Rajsamand",
-    "up40": 1662150.6,
-    "up50": 2772323.46,
-    "up5": 4764.75,
-    "total": 4439238.81,
-    "year": 2022
+    "up40": 1662150.15,
+    "up50": 4632035.06,
+    "up5": 3412.25,
+    "total": 6305797.46
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Sawai Madhopur",
-    "up40": 1256038.02,
-    "up50": 2370319.74,
-    "up5": 835.53,
-    "total": 3627193.29,
-    "year": 2022
+    "up40": 1649594.43,
+    "up50": 3262442.04,
+    "up5": 4445.5,
+    "total": 4914490.97
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Sikar",
-    "up40": 4178368.08,
-    "up50": 5204943.18,
-    "up5": 1079.88,
-    "total": 9384391.14,
-    "year": 2022
+    "up40": 1943565.44,
+    "up50": 4935701.84,
+    "up5": 2622,
+    "total": 6881889.28
   },
   {
-    "district": "Sirohi",
-    "up40": 2304919.86,
-    "up50": 2387740.5,
-    "up5": 2394.06,
-    "total": 4695054.42,
-    "year": 2022
-  },
-  {
-    "district": "Sriganganagar",
-    "up40": 7676924.97,
-    "up50": 3444179.04,
-    "up5": 2996.34,
-    "total": 11124100.35,
-    "year": 2022
-  },
-  {
+    "category": "BL",
+    "year": 2022,
     "district": "Tonk",
-    "up40": 1542443.4,
-    "up50": 2247738.66,
-    "up5": 2802.75,
-    "total": 3792984.81,
-    "year": 2022
+    "up40": 1724692.94,
+    "up50": 3717526.18,
+    "up5": 2023.25,
+    "total": 5444242.37
   },
   {
+    "category": "BL",
+    "year": 2022,
     "district": "Udaipur",
-    "up40": 1497770.82,
-    "up50": 3735727.92,
-    "up5": 11482.5,
-    "total": 5244981.24,
-    "year": 2022
+    "up40": 4605794.08,
+    "up50": 4092784.01,
+    "up5": 6367,
+    "total": 8707569.09
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Ajmer",
+    "up40": 728463,
+    "up50": 596793,
+    "up5": 863,
+    "total": 1326119.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Alwar",
+    "up40": 664646,
+    "up50": 648702,
+    "up5": 48,
+    "total": 1313396.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Banswara",
+    "up40": 0,
+    "up50": 108170,
+    "up5": 203,
+    "total": 108373.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Baran",
+    "up40": 361269,
+    "up50": 433736,
+    "up5": 360,
+    "total": 795365.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Barmer",
+    "up40": 96476,
+    "up50": 429307,
+    "up5": 79,
+    "total": 525862.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Bharatpur",
+    "up40": 191496,
+    "up50": 630533,
+    "up5": 80,
+    "total": 822109.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Bhilwara",
+    "up40": 410596,
+    "up50": 397331,
+    "up5": 1109,
+    "total": 809036.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Bikaner",
+    "up40": 451202,
+    "up50": 466330,
+    "up5": 110,
+    "total": 917642.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Bundi",
+    "up40": 183681,
+    "up50": 348549,
+    "up5": 194,
+    "total": 532424.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Chittorgarh",
+    "up40": 273197,
+    "up50": 349362,
+    "up5": 996,
+    "total": 623555.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Churu",
+    "up40": 472261,
+    "up50": 422268,
+    "up5": 36,
+    "total": 894565.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Dausa",
+    "up40": 194705,
+    "up50": 206576,
+    "up5": 38,
+    "total": 401319.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Dholpur",
+    "up40": 106562,
+    "up50": 339108,
+    "up5": 39,
+    "total": 445709.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Dungarpur",
+    "up40": 99,
+    "up50": 120585,
+    "up5": 213,
+    "total": 120897.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Hanumangarh",
+    "up40": 899789,
+    "up50": 375813,
+    "up5": 240,
+    "total": 1275842.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Jaipur City",
+    "up40": 468956,
+    "up50": 1470023,
+    "up5": 870,
+    "total": 1939849.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Jaipur Rural",
+    "up40": 488974,
+    "up50": 617196,
+    "up5": 154,
+    "total": 1106324.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Jaisalmer",
+    "up40": 71514,
+    "up50": 202865,
+    "up5": 70,
+    "total": 274449.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Jalore",
+    "up40": 197643,
+    "up50": 414110,
+    "up5": 178,
+    "total": 611931.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Jhalawar",
+    "up40": 143958,
+    "up50": 621644,
+    "up5": 1923,
+    "total": 767525.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Jhunjhunu",
+    "up40": 460688,
+    "up50": 511690,
+    "up5": 41,
+    "total": 972419.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Jodhpur",
+    "up40": 628248,
+    "up50": 782759,
+    "up5": 417,
+    "total": 1411424.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Karauli",
+    "up40": 139187,
+    "up50": 271411,
+    "up5": 64,
+    "total": 410662.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Kota",
+    "up40": 348747,
+    "up50": 591612,
+    "up5": 700,
+    "total": 941059.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Nagaur",
+    "up40": 326954,
+    "up50": 637852,
+    "up5": 264,
+    "total": 965070.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Pali",
+    "up40": 594595,
+    "up50": 425574,
+    "up5": 448,
+    "total": 1020617.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Pratapgarh",
+    "up40": 47502,
+    "up50": 159810,
+    "up5": 286,
+    "total": 207598.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Rajsamand",
+    "up40": 192372,
+    "up50": 320867,
+    "up5": 529,
+    "total": 513768.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Sawai Madhopur",
+    "up40": 145373,
+    "up50": 274338,
+    "up5": 92,
+    "total": 419803.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Sikar",
+    "up40": 483597,
+    "up50": 602417,
+    "up5": 119,
+    "total": 1086133.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Sirohi",
+    "up40": 266623,
+    "up50": 276351,
+    "up5": 265,
+    "total": 543239.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Sriganganagar",
+    "up40": 888168,
+    "up50": 542525,
+    "up5": 171,
+    "total": 1431864.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Tonk",
+    "up40": 202109,
+    "up50": 482778,
+    "up5": 231,
+    "total": 685118.00
+  },
+  {
+    "category": "CASE",
+    "year": 2022,
+    "district": "Udaipur",
+    "up40": 518072,
+    "up50": 784106,
+    "up5": 238,
+    "total": 1302416.00
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Ajmer",
+    "up40": 698935611.42,
+    "up50": 476963026.2,
+    "up5": 1366104.75,
+    "total": 1177264742.37
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Alwar",
+    "up40": 637437104.82,
+    "up50": 518454676.35,
+    "up5": 76583.06,
+    "total": 1155968364.23
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Banswara",
+    "up40": 0,
+    "up50": 86450762.7,
+    "up5": 321227.06,
+    "total": 86771989.76
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Baran",
+    "up40": 346473539.64,
+    "up50": 346647622.05,
+    "up5": 569825.44,
+    "total": 693690987.13
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Barmer",
+    "up40": 92652504.75,
+    "up50": 343110978.9,
+    "up5": 125090.06,
+    "total": 435888573.71
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Bharatpur",
+    "up40": 183656899.26,
+    "up50": 503933545.35,
+    "up5": 126803.63,
+    "total": 687717248.24
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Bhilwara",
+    "up40": 394094923.92,
+    "up50": 317557824.3,
+    "up5": 1754951.63,
+    "total": 713407699.85
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Bikaner",
+    "up40": 432724342.5,
+    "up50": 372694932,
+    "up5": 174931.01,
+    "total": 805594205.51
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Bundi",
+    "up40": 176161861.8,
+    "up50": 278567836.65,
+    "up5": 307386.75,
+    "total": 455037085.20
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Chittorgarh",
+    "up40": 262011326.4,
+    "up50": 279216820.35,
+    "up5": 1576213.88,
+    "total": 542804360.63
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Churu",
+    "up40": 452924242.38,
+    "up50": 337482429.75,
+    "up5": 58793.65,
+    "total": 790465465.78
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Dausa",
+    "up40": 186733499.58,
+    "up50": 165099518.55,
+    "up5": 60501.94,
+    "total": 351893520.07
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Dholpur",
+    "up40": 102197839.86,
+    "up50": 271020807.9,
+    "up5": 62479.13,
+    "total": 373281126.89
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Dungarpur",
+    "up40": 95764.14,
+    "up50": 96372347.85,
+    "up5": 337967.25,
+    "total": 96806079.24
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Hanumangarh",
+    "up40": 865938264.93,
+    "up50": 300357974.7,
+    "up5": 376735.94,
+    "total": 1166672975.57
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Jaipur City",
+    "up40": 449753796,
+    "up50": 1174850673.3,
+    "up5": 1376517.94,
+    "total": 1625980987.24
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Jaipur Rural",
+    "up40": 468959610.96,
+    "up50": 493270902,
+    "up5": 244775.81,
+    "total": 962475288.77
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Jaisalmer",
+    "up40": 68635852.11,
+    "up50": 162134686.35,
+    "up5": 111513.38,
+    "total": 230882051.84
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Jalore",
+    "up40": 189741225.51,
+    "up50": 330963638.4,
+    "up5": 282210.56,
+    "total": 520987074.47
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Jhalawar",
+    "up40": 138064916.88,
+    "up50": 496822580.1,
+    "up5": 3041193.82,
+    "total": 637928690.80
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Jhunjhunu",
+    "up40": 441828289.44,
+    "up50": 408952871.1,
+    "up5": 65842.98,
+    "total": 850847003.52
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Jodhpur",
+    "up40": 603610212.24,
+    "up50": 625585554.9,
+    "up5": 660512.44,
+    "total": 1229856279.58
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Karauli",
+    "up40": 133488997.38,
+    "up50": 216917165.7,
+    "up5": 101495.63,
+    "total": 350507658.71
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Kota",
+    "up40": 334470075.12,
+    "up50": 472822171.2,
+    "up5": 1107225,
+    "total": 808399471.32
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Nagaur",
+    "up40": 314015893.11,
+    "up50": 509777279.1,
+    "up5": 417713.81,
+    "total": 824210886.02
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Pali",
+    "up40": 571030770.96,
+    "up50": 340126799.4,
+    "up5": 709014.17,
+    "total": 911866584.53
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Pratapgarh",
+    "up40": 45557416.98,
+    "up50": 127723082.4,
+    "up5": 25183.39,
+    "total": 172896682.77
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Rajsamand",
+    "up40": 236640843.56,
+    "up50": 228340298.5,
+    "up5": 161373.33,
+    "total": 465142535.39
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Sawai Madhopur",
+    "up40": 238573943.15,
+    "up50": 141722263.95,
+    "up5": 91998.86,
+    "total": 380416205.96
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Sikar",
+    "up40": 117698890.27,
+    "up50": 173919347.5,
+    "up5": 628415.39,
+    "total": 291246653.16
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Sirohi",
+    "up40": 132186132.89,
+    "up50": 182543135.55,
+    "up5": 357413.13,
+    "total": 315086681.57
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Tonk",
+    "up40": 167377725.15,
+    "up50": 325453526.6,
+    "up5": 118270.95,
+    "total": 493829422.70
+  },
+  {
+    "category": "DUTY",
+    "year": 2022,
+    "district": "Udaipur",
+    "up40": 533803169.86,
+    "up50": 564934860.3,
+    "up5": 246400.54,
+    "total": 1096931430.70
   }
 ]
+

@@ -4,237 +4,815 @@
     "strong": 12322346.18,
     "mild": 760203.25,
     "total": 13082549.43,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Alwar",
     "strong": 9848776.53,
     "mild": 353761.28,
     "total": 10202537.81,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Banswara",
     "strong": 7862673.77,
     "mild": 97401.7,
     "total": 7960075.47,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Baran",
     "strong": 2345918.17,
     "mild": 110349.36,
     "total": 2456267.53,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Barmer",
     "strong": 10517631.08,
     "mild": 227242.64,
     "total": 10744873.72,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Bharatpur",
     "strong": 5945138.28,
     "mild": 83724.89,
     "total": 6028863.17,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Bhilwara",
     "strong": 7574461.44,
     "mild": 446573.08,
     "total": 8021034.52,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Bikaner",
     "strong": 6468990.74,
     "mild": 403627.23,
     "total": 6872617.97,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Bundi",
     "strong": 2554915.62,
     "mild": 129701.52,
     "total": 2684617.14,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Chittorgarh",
     "strong": 6181256.53,
     "mild": 240405.55,
     "total": 6421662.08,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Churu",
     "strong": 4850256.73,
     "mild": 114379.89,
     "total": 4964636.62,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Dausa",
     "strong": 4436856.69,
     "mild": 109206.81,
     "total": 4546063.5,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Dholpur",
     "strong": 2462825.9,
     "mild": 36531.89,
     "total": 2499357.79,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Dungarpur",
     "strong": 8800366.44,
     "mild": 151891.61,
     "total": 8952258.05,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Hanumangarh",
     "strong": 3050299.36,
     "mild": 159541.23,
     "total": 3209840.59,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Jaipur City",
     "strong": 28516185.62,
     "mild": 4736868.03,
     "total": 33253053.65,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Jaipur Rural",
     "strong": 8519557.18,
     "mild": 531643.29,
     "total": 9051200.47,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Jaisalmer",
     "strong": 4366263.05,
     "mild": 298471.89,
     "total": 4664734.94,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Jalore",
     "strong": 8760086.88,
     "mild": 102829.48,
     "total": 8862916.36,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Jhalawar",
     "strong": 2953279.79,
     "mild": 193886.46,
     "total": 3147166.25,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Jhunjhunu",
     "strong": 5826803.53,
     "mild": 173431.93,
     "total": 6000235.46,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Jodhpur",
     "strong": 17064702.49,
     "mild": 1104824.74,
     "total": 18169527.23,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Karauli",
     "strong": 2457929.14,
     "mild": 67252.14,
     "total": 2525181.28,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Kota",
     "strong": 5968565.28,
     "mild": 452421.9,
     "total": 6420987.18,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Nagaur",
     "strong": 7366340.61,
     "mild": 154422.85,
     "total": 7520763.46,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Pali",
     "strong": 7997656.32,
     "mild": 261776.21,
     "total": 8259432.53,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Pratapgarh",
     "strong": 3763466.02,
     "mild": 46038.26,
     "total": 3809504.28,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Rajsamand",
     "strong": 5359778.84,
     "mild": 224176.39,
     "total": 5583955.23,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Sawai Madhopur",
     "strong": 3517433.71,
     "mild": 177548.49,
-    "total": 3694982.2,
-    "year": 2023
+    "total": 3694982.20,
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Sikar",
     "strong": 8300705.51,
     "mild": 333341.49,
-    "total": 8634047,
-    "year": 2023
+    "total": 8634047.00,
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Sirohi",
     "strong": 7404478.86,
     "mild": 423710.68,
     "total": 7828189.54,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Sriganganagar",
     "strong": 3545154.27,
     "mild": 203306.75,
     "total": 3748461.02,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Tonk",
     "strong": 3707699.45,
     "mild": 106158.64,
     "total": 3813858.09,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
   },
   {
     "district": "Udaipur",
     "strong": 21264311.06,
     "mild": 1600594.16,
     "total": 22864905.22,
-    "year": 2023
+    "year": 2023,
+    "category": "BL"
+  },
+  {
+    "district": "Ajmer",
+    "strong": 1501820,
+    "mild": 87991,
+    "total": 1589811.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Alwar",
+    "strong": 1199593,
+    "mild": 43159,
+    "total": 1242752.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Banswara",
+    "strong": 933901,
+    "mild": 11725,
+    "total": 945626.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Baran",
+    "strong": 286378,
+    "mild": 13974,
+    "total": 300352.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Barmer",
+    "strong": 1261160,
+    "mild": 26822,
+    "total": 1287982.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Bharatpur",
+    "strong": 692561,
+    "mild": 10109,
+    "total": 702670.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Bhilwara",
+    "strong": 928809,
+    "mild": 53681,
+    "total": 982490.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Bikaner",
+    "strong": 782239,
+    "mild": 46685,
+    "total": 828924.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Bundi",
+    "strong": 308750,
+    "mild": 16097,
+    "total": 324847.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Chittorgarh",
+    "strong": 741450,
+    "mild": 27792,
+    "total": 769242.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Churu",
+    "strong": 575849,
+    "mild": 13926,
+    "total": 589775.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Dausa",
+    "strong": 514745,
+    "mild": 12861,
+    "total": 527606.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Dholpur",
+    "strong": 258711,
+    "mild": 4524,
+    "total": 263235.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Dungarpur",
+    "strong": 1012357,
+    "mild": 18219,
+    "total": 1030576.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Hanumangarh",
+    "strong": 368689,
+    "mild": 18728,
+    "total": 387417.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Jaipur City",
+    "strong": 3318450,
+    "mild": 540621,
+    "total": 3859071.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Jaipur Rural",
+    "strong": 1019719,
+    "mild": 61657,
+    "total": 1081376.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Jaisalmer",
+    "strong": 533928,
+    "mild": 34909,
+    "total": 568837.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Jalore",
+    "strong": 979640,
+    "mild": 12484,
+    "total": 992124.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Jhalawar",
+    "strong": 338724,
+    "mild": 24204,
+    "total": 362928.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Jhunjhunu",
+    "strong": 711243.00,
+    "mild": 20586,
+    "total": 731829.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Jodhpur",
+    "strong": 2155253.00,
+    "mild": 124596,
+    "total": 2279849.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Karauli",
+    "strong": 294814.00,
+    "mild": 8422,
+    "total": 303236.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Kota",
+    "strong": 777430.00,
+    "mild": 52757,
+    "total": 830187.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Nagaur",
+    "strong": 905349.00,
+    "mild": 18336,
+    "total": 923685.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Pali",
+    "strong": 1008803.00,
+    "mild": 31503,
+    "total": 1030306.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Pratapgarh",
+    "strong": 438587.00,
+    "mild": 5335,
+    "total": 443922.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Rajsamand",
+    "strong": 658470.00,
+    "mild": 25932,
+    "total": 684402.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Sawai Madhopur",
+    "strong": 435756.00,
+    "mild": 21235,
+    "total": 456991.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Sikar",
+    "strong": 1012023.00,
+    "mild": 38265,
+    "total": 1050288.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Sirohi",
+    "strong": 889400.00,
+    "mild": 49186,
+    "total": 938586.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Sriganganagar",
+    "strong": 453904.00,
+    "mild": 23757,
+    "total": 477661.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Tonk",
+    "strong": 454022.00,
+    "mild": 12894,
+    "total": 466916.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Udaipur",
+    "strong": 2752017.00,
+    "mild": 183467,
+    "total": 2935484.00,
+    "year": 2023,
+    "category": "CASE"
+  },
+  {
+    "district": "Ajmer",
+    "strong": 1065268965.54,
+    "mild": 74234816.97,
+    "total": 1139503782.51,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Alwar",
+    "strong": 852566347.41,
+    "mild": 34814671.79,
+    "total": 887381019.2,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Banswara",
+    "strong": 673231838.99,
+    "mild": 8678635.5,
+    "total": 681910474.49,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Baran",
+    "strong": 201348632.92,
+    "mild": 8923560,
+    "total": 210272192.92,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Barmer",
+    "strong": 916478298.4,
+    "mild": 20849241.45,
+    "total": 937327539.85,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Bharatpur",
+    "strong": 514713769.89,
+    "mild": 7756077.62,
+    "total": 522469847.51,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Bhilwara",
+    "strong": 650862925.65,
+    "mild": 43716697.51,
+    "total": 694579623.16,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Bikaner",
+    "strong": 566184917.33,
+    "mild": 38464049.27,
+    "total": 604648966.6,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Bundi",
+    "strong": 219358011.56,
+    "mild": 11506280.21,
+    "total": 230864291.77,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Chittorgarh",
+    "strong": 534293064.99,
+    "mild": 23881874.05,
+    "total": 558174939.04,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Churu",
+    "strong": 423084089.46,
+    "mild": 11406325.16,
+    "total": 434490414.62,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Dausa",
+    "strong": 384378426.24,
+    "mild": 11086560.58,
+    "total": 395464986.82,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Dholpur",
+    "strong": 214225481.94,
+    "mild": 3250800.76,
+    "total": 217476282.7,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Dungarpur",
+    "strong": 759989197.2,
+    "mild": 15099291.03,
+    "total": 775088488.23,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Hanumangarh",
+    "strong": 268016449.78,
+    "mild": 15766226,
+    "total": 283782675.78,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Jaipur City",
+    "strong": 2529147404.73,
+    "mild": 503319057.75,
+    "total": 3032466462.48,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Jaipur Rural",
+    "strong": 743813024.99,
+    "mild": 53812654.71,
+    "total": 797625679.7,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Jaisalmer",
+    "strong": 376110518.23,
+    "mild": 27058607.1,
+    "total": 403169125.33,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Jalore",
+    "strong": 768556998.17,
+    "mild": 9624615.21,
+    "total": 778181613.38,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Jhalawar",
+    "strong": 254132357.95,
+    "mild": 16303422.47,
+    "total": 270435780.42,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Jhunjhunu",
+    "strong": 509840863.92,
+    "mild": 17563717.86,
+    "total": 527404581.78,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Jodhpur",
+    "strong": 1486694751.77,
+    "mild": 111555430.22,
+    "total": 1598250181.99,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Karauli",
+    "strong": 212073666.7,
+    "mild": 5603695.22,
+    "total": 217677361.92,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Kota",
+    "strong": 521345196.01,
+    "mild": 44664906.62,
+    "total": 566010102.63,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Nagaur",
+    "strong": 641791231.24,
+    "mild": 15585373.58,
+    "total": 657376604.82,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Pali",
+    "strong": 689010844.87,
+    "mild": 24449570.3,
+    "total": 713460415.17,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Pratapgarh",
+    "strong": 324336480.49,
+    "mild": 4674916.58,
+    "total": 329011397.07,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Rajsamand",
+    "strong": 463899795.35,
+    "mild": 22627096.73,
+    "total": 486526892.08,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Sawai Madhopur",
+    "strong": 304523047.06,
+    "mild": 16753316.9,
+    "total": 321276363.96,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Sikar",
+    "strong": 730796673.12,
+    "mild": 36653549.99,
+    "total": 767450223.11,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Sirohi",
+    "strong": 659362627.52,
+    "mild": 45588711.75,
+    "total": 704951339.27,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Sriganganagar",
+    "strong": 311872623.59,
+    "mild": 21149375.47,
+    "total": 333021999.06,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Tonk",
+    "strong": 319398946.21,
+    "mild": 10320178.66,
+    "total": 329719124.87,
+    "year": 2023,
+    "category": "DUTY"
+  },
+  {
+    "district": "Udaipur",
+    "strong": 1838912501.86,
+    "mild": 165043160.81,
+    "total": 2003955662.67,
+    "year": 2023,
+    "category": "DUTY"
   }
 ]

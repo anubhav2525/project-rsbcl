@@ -19,14 +19,14 @@ const TechnologicalEnhancement = () => {
     return (
         <div>
             {/* Technological Enhancement in RSGSM */}
-            <div className="my-4 px-4">
+            <div className="my-4">
                 <h2 className="my-4 text-lg font-semibold text-gray-900 dark:text-white">
                     Technological Enhancement in RSGSM :
                 </h2>
 
-                <p className="my-2 text-xs sm:text-sm md:text-base text-justify text-gray-500 tracking-wider dark:text-gray-400 px-3"><strong>To Provide seamless and unified IT system to Excise Department, Rajasthan State Ganganagar Sugar Mills Limited (RSGSM) and Rajasthan State Beverages Corporation Limited (RSBCL), an Integrated Excise Management System (IEMS)</strong> is being developed. This will be based on modern architecture and IT tools. It includes its Departments and Co-working Corporations, Concerned Institutions & Organisations, Internal Divisions and Sections, Development Partners and Stakeholders.</p>
+                <p className="my-2 text-xs sm:text-sm md:text-base text-justify text-gray-500 tracking-wider dark:text-gray-400"><strong>To Provide seamless and unified IT system to Excise Department, Rajasthan State Ganganagar Sugar Mills Limited (RSGSM) and Rajasthan State Beverages Corporation Limited (RSBCL), an Integrated Excise Management System (IEMS)</strong> is being developed. This will be based on modern architecture and IT tools. It includes its Departments and Co-working Corporations, Concerned Institutions & Organisations, Internal Divisions and Sections, Development Partners and Stakeholders.</p>
 
-                <p className="my-2 text-xs sm:text-sm md:text-base text-justify text-gray-500 tracking-wider dark:text-gray-400 px-3">Some of the details of <strong>Integrated Excise Management System (IEMS)</strong> are as follows-</p>
+                <p className="my-2 text-xs sm:text-sm md:text-base text-justify text-gray-500 tracking-wider dark:text-gray-400">Some of the details of <strong>Integrated Excise Management System (IEMS)</strong> are as follows-</p>
 
                 <div className="my-6 flex justify-center">
                     <img src="https://excise.rajasthan.gov.in/Images/IEMS.png" className="sm:h-64" alt="" />

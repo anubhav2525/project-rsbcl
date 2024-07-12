@@ -6,8 +6,8 @@ import Navbar from "../components/Navbar/Navbar"
 
 const WithNav = () => {
     return (
-        <div className='bg-slate-100 select-none dark:bg-slate-800'>
-            <header className='bg-slate-200 dark:bg-slate-900'>
+        <div className='bg-white select-none dark:bg-slate-800'>
+            <header className='bg-slate-100 dark:bg-slate-900'>
                 <Header />
                 <Navbar />
             </header>

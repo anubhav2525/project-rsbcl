@@ -1,0 +1,87 @@
+[
+  {
+    "sno": 1,
+    "rcName": "Bhilwara(R.C)",
+    "email": "BHILWARARC.RSGSM@RAJASTHAN.GOV.IN"
+  },
+  {
+    "sno": 2,
+    "rcName": "Ajmer(R.C)",
+    "email": "AJMERRC.RSGSM@RAJASTHAN.GOV.IN"
+  },
+  {
+    "sno": 3,
+    "rcName": "Bharatpur(R.C)",
+    "email": "BHARATPURRC.RSGSM@RAJASTHAN.GOV.IN"
+  },
+  {
+    "sno": 4,
+    "rcName": "Sawaimadhopur(R.C)",
+    "email": "SWMRC.RSGSM@RAJASTHAN.GOV.IN"
+  },
+  {
+    "sno": 5,
+    "rcName": "Dholpur(R.C)",
+    "email": "DHOLPURRC.RSGSM@RAJASTHAN.GOV.IN"
+  },
+  {
+    "sno": 6,
+    "rcName": "Alwar(R.C)",
+    "email": "ALWARRC.RSGSM@RAJASTHAN.GOV.IN"
+  },
+  {
+    "sno": 7,
+    "rcName": "Sikar(R.C)",
+    "email": "SIKARRC.RSGSM@RAJASTHAN.GOV.IN"
+  },
+  {
+    "sno": 8,
+    "rcName": "Jhunjhunu(R.C)",
+    "email": "JHUNJHUNURC.RSGSM@RAJASTHAN.GOV.IN"
+  },
+  {
+    "sno": 9,
+    "rcName": "Jaipur City(R.C)",
+    "email": "JAIPURRC.RSGSM@RAJASTHAN.GOV.IN"
+  },
+  {
+    "sno": 10,
+    "rcName": "Sirohi(R.C)",
+    "email": "SIROHIRC.RSGSM@RAJASTHAN.GOV.IN"
+  },
+  {
+    "sno": 11,
+    "rcName": "Jodhpur East(Mandore)(R.C)",
+    "email": "MANDORERC.RSGSM@RAJASTHAN.GOV.IN"
+  },
+  {
+    "sno": 12,
+    "rcName": "Bundicity(R.C)",
+    "email": "BUNDIRC.RSGSM@RAJASTHAN.GOV.IN"
+  },
+  {
+    "sno": 13,
+    "rcName": "Baran(R.C)",
+    "email": "BARANRC.RSGSM@RAJASTHAN.GOV.IN"
+  },
+  {
+    "sno": 14,
+    "rcName": "Kota(R.C)",
+    "email": "KOTARC.RSGSM@RAJASTHAN.GOV.IN"
+  },
+  {
+    "sno": 15,
+    "rcName": "Hanumangarh(R.C)",
+    "email": "HANUMANGARHRC.RSGSM@RAJASTHAN.GOV.IN"
+  },
+  {
+    "sno": 16,
+    "rcName": "Bikaner(R.C)",
+    "email": "BIKANERRC.RSGSM@RAJASTHAN.GOV.IN"
+  },
+  {
+    "sno": 17,
+    "rcName": "Udaipur(R.C.)",
+    "email": "UDAIPURRC.RSGSM@RAJASTHAN.GOV.IN"
+  }
+]

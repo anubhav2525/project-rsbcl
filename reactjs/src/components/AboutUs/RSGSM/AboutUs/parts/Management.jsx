@@ -18,12 +18,12 @@ const Management = () => {
 
     return (
         <>
-            <h2 className="my-4 text-lg font-semibold text-gray-900 dark:text-white">
+            <h2 className="my-2 text-lg font-semibold text-gray-900 dark:text-white">
                 Management :
             </h2>
 
 
-            <p className="my-4 text-xs sm:text-sm md:text-base text-justify text-gray-500 tracking-wider dark:text-gray-400 px-4">
+            <p className="my-3 text-xs sm:text-sm md:text-base text-justify text-gray-500 tracking-wider dark:text-gray-400">
                 The State Government owns 99.97 % shares of Rajasthan State Ganganagar
                 Sugar Mills Limited (RSGSM). The Company is managed by the Board of
                 Directors and the members of the Board are appointed by the Government

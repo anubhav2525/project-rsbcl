@@ -52,25 +52,25 @@ const RsbclHeadOffice = () => {
                 {/* Table  */}
                 <div className="relative rounded overflow-x-auto shadow-md sm:rounded-lg">
                     <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
-                        <table className="w-full text-sm text-left rtl:text-right text-gray-600 dark:text-gray-300">
-                            <thead className="text-xs text-white uppercase bg-gray-400 dark:bg-gray-400 dark:text-white">
+                        <table className="w-full text-xs text-left rtl:text-right text-gray-600 dark:text-gray-300">
+                            <thead className="text-white uppercase bg-gray-400 dark:bg-gray-500 dark:text-white">
                                 <tr>
-                                    <th scope="col" className="px-6 py-3">
+                                    <th scope="col" className="px-6 py-3 border-r border-slate-300 dark:border-slate-400">
                                         S. No.
                                     </th>
-                                    <th scope="col" className="px-6 py-3">
+                                    <th scope="col" className="px-6 py-3 border-r border-slate-300 dark:border-slate-400">
                                         Name
                                     </th>
-                                    <th scope="col" className="px-6 py-3">
+                                    <th scope="col" className="px-6 py-3 border-r border-slate-300 dark:border-slate-400">
                                         Designation
                                     </th>
-                                    <th scope="col" className="px-6 py-3">
+                                    <th scope="col" className="px-6 py-3 border-r border-slate-300 dark:border-slate-400">
                                         Mobile No.
                                     </th>
-                                    <th scope="col" className="px-6 py-3">
+                                    <th scope="col" className="px-6 py-3 border-r border-slate-300 dark:border-slate-400">
                                         Phone No.
                                     </th>
-                                    <th scope="col" className="px-6 py-3">
+                                    <th scope="col" className="px-6 py-3 ">
                                         Email
                                     </th>
                                 </tr>
@@ -80,19 +80,19 @@ const RsbclHeadOffice = () => {
                                     office.map((items, index) => {
                                         return (
                                             <tr key={index} className="bg-white tracking-wide border-b dark:bg-gray-600 dark:border-gray-700">
-                                                <td className="px-6 py-4">
+                                                <td className="px-6 py-4 border-r border-slate-300 dark:border-slate-400">
                                                     {index + 1}
                                                 </td>
-                                                <td className="px-6 py-4 font-medium ">
+                                                <td className="px-6 py-4 font-medium border-r border-slate-300 dark:border-slate-400">
                                                     {items.name}
                                                 </td>
-                                                <td className="px-6 py-4">
+                                                <td className="px-6 py-4 border-r border-slate-300 dark:border-slate-400">
                                                     {items.designation}
                                                 </td>
-                                                <td className="px-6 py-4">
+                                                <td className="px-6 py-4 border-r border-slate-300 dark:border-slate-400">
                                                     {items.mobileNo}
                                                 </td>
-                                                <td className="px-6 py-4">
+                                                <td className="px-6 py-4 border-r border-slate-300 dark:border-slate-400">
                                                     {items.phoneNo}
                                                 </td>
 

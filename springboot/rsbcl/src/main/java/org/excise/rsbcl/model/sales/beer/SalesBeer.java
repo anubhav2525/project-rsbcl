@@ -18,5 +18,6 @@ public class SalesBeer {
     public Double strong;
     public Double mild;
     public Double total;
+    public String category;
     public int year;
 }

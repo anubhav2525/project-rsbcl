@@ -14,7 +14,7 @@ const RsbclDirectors = () => {
         console.error('Error:', error); // Log any errors
       });
   }, []);
-  
+
   return (
     <div className='my-2 py-2 px-4 md:px-12 bg-slate-200 dark:bg-slate-900' >
       {/* Breadcrumb */}
@@ -52,19 +52,19 @@ const RsbclDirectors = () => {
         {/* table here  */}
         <div className="relative rounded overflow-x-auto shadow-md sm:rounded-lg">
           <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
-            <table className="w-full text-sm text-left rtl:text-right text-gray-600 dark:text-gray-300">
+            <table className="w-full  text-left rtl:text-right text-gray-600 dark:text-gray-300">
               <thead className="text-xs text-white uppercase bg-gray-400 dark:bg-gray-400 dark:text-white">
                 <tr>
-                  <th scope="col" className="px-6 py-3">
+                  <th scope="col" className="px-6 py-3 border-r border-slate-300">
                     S. No.
                   </th>
-                  <th scope="col" className="px-6 py-3">
+                  <th scope="col" className="px-6 py-3 border-r border-slate-300">
                     Name
                   </th>
-                  <th scope="col" className="px-6 py-3">
+                  <th scope="col" className="px-6 py-3 border-r border-slate-300">
                     Address
                   </th>
-                  <th scope="col" className="px-6 py-3">
+                  <th scope="col" className="px-6 py-3 border-r border-slate-300">
                     Designation
                   </th>
                   <th scope="col" className="px-6 py-3">
@@ -76,20 +76,20 @@ const RsbclDirectors = () => {
                 {
                   director.map((items, index) => {
                     return (
-                      <tr key={index} className="bg-white tracking-wide border-b dark:bg-gray-600 dark:border-gray-700">
-                        <td className="px-6 py-4">
+                      <tr key={index} className="bg-slate-200 text-xs tracking-wide border-b dark:bg-gray-600 dark:border-gray-700">
+                        <td className="px-6 py-4 border-r border-slate-300 dark:border-slate-400">
                           {index + 1}
                         </td>
-                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white border-r border-slate-300 dark:border-slate-400">
                           {items.name}
                         </th>
-                        <td className="px-6 py-4">
+                        <td className="px-6 py-4 border-r border-slate-300 dark:border-slate-400">
                           {items.address}
                         </td>
-                        <td className="px-6 py-4">
+                        <td className="px-6 py-4 border-r border-slate-300 dark:border-slate-400">
                           {items.designation}
                         </td>
-                        <td className="px-6 py-4">
+                        <td className="px-6 py-4 border-r border-slate-300 dark:border-slate-400">
                           {items.phoneNo}
                         </td>
                       </tr>

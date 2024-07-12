@@ -64,30 +64,30 @@ const ExciseOrganisationSetup = () => {
       {/* table  */}
       <div className='my-4 bg-slate-300 dark:bg-slate-800 px-2 rounded sm:px-4 md:px-8 py-2'>
 
-        <p className="tracking-widest font-medium text-gray-600 text-sm md:text-lg my-3 sm:text-center dark:text-gray-00">Excise Commissioner & Ex-Officio Prohibition Commissioner cum M.D., R.S.B.C.L. Rajasthan
+        <p className="tracking-widest font-medium text-gray-600 text-sm md:text-lg my-3 text-justify sm:text-center dark:text-gray-300">Excise Commissioner & Ex-Officio Prohibition Commissioner cum M.D., R.S.B.C.L. Rajasthan
         </p>
         {/* table here  */}
         <div className="relative rounded overflow-x-auto shadow-md sm:rounded-lg">
           <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
             <table className="w-full text-sm text-left rtl:text-right text-gray-600 dark:text-gray-300">
-              <thead className="text-xs text-white uppercase bg-gray-400 dark:bg-gray-400 dark:text-white">
+              <thead className="text-xs sm:text-sm text-white uppercase bg-gray-400 dark:bg-gray-500 dark:text-white">
                 <tr>
-                  <th scope="col" className="px-6 py-3">
-                    Additional Excise Commissioner (EPF)IPS
+                  <th scope="col" className="px-3 py-2 border-r border-slate-200">
+                    Additional Excise Commissioner (EPF) IPS
                   </th>
-                  <th scope="col" className="px-6 py-3">
+                  <th scope="col" className="px-3 py-2 border-r border-slate-200">
                     Additional Excise Commissioner (Adm)
                   </th>
-                  <th scope="col" className="px-6 py-3">
+                  <th scope="col" className="px-3 py-2 border-r border-slate-200">
                     F.A.
                   </th>
-                  <th scope="col" className="px-6 py-3">
+                  <th scope="col" className="px-3 py-2 border-r border-slate-200">
                     Jt. L.R.
                   </th>
-                  <th scope="col" className="px-6 py-3">
+                  <th scope="col" className="px-3 py-2 border-r border-slate-200">
                     System Annalist
                   </th>
-                  <th scope="col" className="px-6 py-3">
+                  <th scope="col" className="px-3 py-2">
                     Chemical Examiner
                   </th>
                 </tr>
@@ -96,23 +96,23 @@ const ExciseOrganisationSetup = () => {
                 {
                   data.map((items, index) => {
                     return (
-                      <tr key={index} className="bg-white tracking-wide border-b dark:bg-gray-600 dark:border-gray-700">
-                        <td className="px-6 py-4">
+                      <tr key={index} className="bg-slate-200 text-xs sm:text-sm tracking-wide border-b dark:bg-gray-600 dark:border-gray-700">
+                        <td className="px-3 py-2 border-r dark:border-slate-300 border-slate-50">
                           {items.index1}
                         </td>
-                        <td className="px-6 py-4">
+                        <td className="px-3 py-2 border-r dark:border-slate-300 border-slate-50">
                           {items.index2}
                         </td>
-                        <td className="px-6 py-4">
+                        <td className="px-3 py-2 border-r dark:border-slate-300 border-slate-50">
                           {items.index3}
                         </td>
-                        <td className="px-6 py-4">
+                        <td className="px-3 py-2 border-r dark:border-slate-300 border-slate-50">
                           {items.index4}
                         </td>
-                        <td className="px-6 py-4">
+                        <td className="px-3 py-2 border-r dark:border-slate-300 border-slate-50">
                           {items.index5}
                         </td>
-                        <td className="px-6 py-4">
+                        <td className="px-3 py-2">
                           {items.index6}
                         </td>
                       </tr>

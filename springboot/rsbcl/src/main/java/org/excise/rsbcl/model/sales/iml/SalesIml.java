@@ -26,5 +26,6 @@ public class SalesIml {
     public Double scotch;
     public Double other;
     public Double total;
+    public String category;
     public int year;
 }

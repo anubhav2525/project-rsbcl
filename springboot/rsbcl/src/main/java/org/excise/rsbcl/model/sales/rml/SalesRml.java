@@ -20,5 +20,6 @@ public class SalesRml {
     public Double vodka;
     public Double gin;
     public Double total;
+    public String category;
     public int year;
 }

@@ -6,7 +6,7 @@ import SalesTable from './liquorDivision/SalesTable'
 const LiquorDivision = () => {
     return (
         <>
-            <div className="my-4 text-justify px-4">
+            <div className="my-4 text-justify ">
                 <strong>2. Liquor Division:- </strong> This Divisions mainly looks
                 after production of Liquor. Apart from this, wine production is also
                 introduced recently. Hand Sanitizers production were also introduced
@@ -19,7 +19,7 @@ const LiquorDivision = () => {
                     className="sm:h-64"
                 />
             </div>
-            <div className="my-4 py-4">
+            <div className="my-6">
                 Presently there are 17 Reduction Centres & 85 Depots across Rajasthan.
                 The RSGSM manufactures its liquors mainly in 3 categories-
             </div>
@@ -27,13 +27,13 @@ const LiquorDivision = () => {
             {/* RSGSM Manufactured Liquors table*/}
             <ManufacturedLiquors />
 
-            <div className="my-4 py-2 text-justify">
+            <div className="my-4 text-justify">
                 Raj Mahua was also introduced on 19th October, 2021 by RSGSM as new
                 brand, using Mahua of Udaipur Division, as per guidelines of Excise
                 Policy of 2021-22.
             </div>
 
-            <div className="my-4 py-2 text-justify">
+            <div className="my-4 text-justify">
                 <div>
                     All the brands were available in the packings of 12, 24 and 48 case
                     of quarts, pints and nips respectively.
@@ -53,7 +53,7 @@ const LiquorDivision = () => {
                 />
             </div>
 
-            <div className="my-4 px-4">
+            <div className="my-4">
                 After expansion of upto 20 Reduction Centres (RCs) and 99 Depots, it
                 has reorganized its RC &Depots to manage its economy of scale. At
                 Present, Country Liquor (CL) and Rajasthan Made Liquor (RML) are
@@ -80,7 +80,7 @@ const LiquorDivision = () => {
             {/* table  */}
             <SalesTable />
 
-            <div className="my-4 px-4">
+            <div className="my-4">
                 RSGSM is also selling the Country Liquor (CL) and Rajasthan Made
                 Liquor (RML) of Private Supplier through same Depots.
             </div>

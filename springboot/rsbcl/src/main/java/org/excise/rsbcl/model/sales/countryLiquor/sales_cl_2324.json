@@ -5,6 +5,7 @@
     "up50": 5091158.7,
     "up5": 3643.5,
     "total": 12456227.25,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -13,6 +14,7 @@
     "up50": 5651137.98,
     "up5": 1293,
     "total": 10966843.14,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -21,6 +23,7 @@
     "up50": 595416.24,
     "up5": 900,
     "total": 596729.16,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -29,6 +32,7 @@
     "up50": 3440394.18,
     "up5": 1271.25,
     "total": 6614370.27,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -37,6 +41,7 @@
     "up50": 3688065.18,
     "up5": 898.5,
     "total": 4565642.28,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -45,6 +50,7 @@
     "up50": 5674569.3,
     "up5": 1416,
     "total": 7566026.88,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -53,6 +59,7 @@
     "up50": 3647313.72,
     "up5": 3953.13,
     "total": 7704223.41,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -61,6 +68,7 @@
     "up50": 4213766.34,
     "up5": 970.74,
     "total": 8094073.32,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -69,6 +77,7 @@
     "up50": 3207680.28,
     "up5": 899.25,
     "total": 4710173.91,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -77,6 +86,7 @@
     "up50": 3289581.36,
     "up5": 1297.5,
     "total": 5355217.86,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -85,6 +95,7 @@
     "up50": 3892908.6,
     "up5": 649.65,
     "total": 8411350.53,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -93,6 +104,7 @@
     "up50": 1856930.22,
     "up5": 270,
     "total": 3482869.14,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -101,6 +113,7 @@
     "up50": 2976788.88,
     "up5": 654.75,
     "total": 3964967.73,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -109,6 +122,7 @@
     "up50": 850405.32,
     "up5": 468,
     "total": 850873.32,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -117,6 +131,7 @@
     "up50": 3421136.16,
     "up5": 1361.67,
     "total": 12605648.88,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -124,7 +139,8 @@
     "up40": 5369986.26,
     "up50": 14631609.24,
     "up5": 3205.5,
-    "total": 20004801,
+    "total": 20004801.00,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -133,6 +149,7 @@
     "up50": 5407719.48,
     "up5": 844.5,
     "total": 9648530.76,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -141,6 +158,7 @@
     "up50": 1783636.38,
     "up5": 512.25,
     "total": 2504348.64,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -149,6 +167,7 @@
     "up50": 3369739.5,
     "up5": 906.75,
     "total": 5217299.19,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -157,118 +176,745 @@
     "up50": 4916312.64,
     "up5": 5227.5,
     "total": 6182633.46,
+    "category": "BL",
     "year": 2023
   },
   {
+    "category": "BL",
+    "year": 2023,
     "district": "Jhunjhunu",
     "up40": 4227803.28,
     "up50": 4822927.2,
     "up5": 1150.23,
-    "total": 9051880.71,
-    "year": 2023
+    "total": 9051880.71
   },
   {
+    "category": "BL",
+    "year": 2023,
     "district": "Jodhpur",
     "up40": 6014283.12,
     "up50": 6920352.18,
     "up5": 2628.75,
-    "total": 12937264.05,
-    "year": 2023
+    "total": 12937264.05
   },
   {
+    "category": "BL",
+    "year": 2023,
     "district": "Karauli",
     "up40": 1057724.46,
     "up50": 1742237.64,
     "up5": 345,
-    "total": 2800307.1,
-    "year": 2023
+    "total": 2800307.10
   },
   {
+    "category": "BL",
+    "year": 2023,
     "district": "Kota",
     "up40": 2988756.18,
     "up50": 5492303.28,
     "up5": 2941.5,
-    "total": 8484000.96,
-    "year": 2023
+    "total": 8484000.96
   },
   {
+    "category": "BL",
+    "year": 2023,
     "district": "Nagaur",
     "up40": 3185808.57,
     "up50": 5572392.66,
     "up5": 914.25,
-    "total": 8759115.48,
-    "year": 2023
+    "total": 8759115.48
   },
   {
+    "category": "BL",
+    "year": 2023,
     "district": "Pali",
     "up40": 5726040.72,
     "up50": 3640786.92,
     "up5": 3112.08,
-    "total": 9369939.72,
-    "year": 2023
+    "total": 9369939.72
   },
   {
+    "category": "BL",
+    "year": 2023,
     "district": "Pratapgarh",
     "up40": 507328.02,
     "up50": 1435027.14,
     "up5": 0,
-    "total": 1942355.16,
-    "year": 2023
+    "total": 1942355.16
   },
   {
+    "category": "BL",
+    "year": 2023,
     "district": "Rajsamand",
     "up40": 1675331.64,
     "up50": 2969617.32,
     "up5": 1263,
-    "total": 4646211.96,
-    "year": 2023
+    "total": 4646211.96
   },
   {
+    "category": "BL",
+    "year": 2023,
     "district": "Sawai Madhopur",
     "up40": 1277809.2,
     "up50": 2379482.64,
     "up5": 417.75,
-    "total": 3657709.59,
-    "year": 2023
+    "total": 3657709.59
   },
   {
+    "category": "BL",
+    "year": 2023,
     "district": "Sikar",
     "up40": 4329499.14,
     "up50": 5430725.46,
     "up5": 706.5,
-    "total": 9760931.1,
-    "year": 2023
+    "total": 9760931.10
   },
   {
+    "category": "BL",
+    "year": 2023,
     "district": "Sirohi",
     "up40": 2338993.47,
     "up50": 2181203.82,
     "up5": 84,
-    "total": 4520281.29,
-    "year": 2023
+    "total": 4520281.29
   },
   {
+    "category": "BL",
+    "year": 2023,
     "district": "Sriganganagar",
     "up40": 8269410.33,
     "up50": 3112492.32,
     "up5": 3067.71,
-    "total": 11384970.36,
-    "year": 2023
+    "total": 11384970.36
   },
   {
+    "category": "BL",
+    "year": 2023,
     "district": "Tonk",
     "up40": 1889894.7,
     "up50": 2669410.08,
     "up5": 1539.75,
-    "total": 4560844.53,
-    "year": 2023
+    "total": 4560844.53
   },
   {
+    "category": "BL",
+    "year": 2023,
     "district": "Udaipur",
     "up40": 1401643.8,
     "up50": 3573510.84,
     "up5": 3013.5,
-    "total": 4978168.14,
+    "total": 4978168.14
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Ajmer",
+    "up40": 851466,
+    "up50": 589243,
+    "up5": 404,
+    "total": 1441113.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Alwar",
+    "up40": 615071,
+    "up50": 654044,
+    "up5": 143,
+    "total": 1269258.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Banswara",
+    "up40": 47,
+    "up50": 68911,
+    "up5": 100,
+    "total": 69058.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Baran",
+    "up40": 367204,
+    "up50": 398183,
+    "up5": 141,
+    "total": 765528.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Barmer",
+    "up40": 101322,
+    "up50": 426846,
+    "up5": 99,
+    "total": 528267.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Bharatpur",
+    "up40": 218749,
+    "up50": 656761,
+    "up5": 157,
+    "total": 875667.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Bhilwara",
+    "up40": 468736,
+    "up50": 422125,
+    "up5": 440,
+    "total": 891301.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Bikaner",
+    "up40": 448982,
+    "up50": 487691,
+    "up5": 107,
+    "total": 936780.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Bundi",
+    "up40": 173791,
+    "up50": 371248,
+    "up5": 99,
+    "total": 545138.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Chittorgarh",
+    "up40": 238924,
+    "up50": 380726,
+    "up5": 144,
+    "total": 619794.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Churu",
+    "up40": 522876,
+    "up50": 450551,
+    "up5": 72,
+    "total": 973499.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Dausa",
+    "up40": 188152,
+    "up50": 214915,
+    "up5": 30,
+    "total": 403097.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Dholpur",
+    "up40": 114289,
+    "up50": 344525,
+    "up5": 72,
+    "total": 458886.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Dungarpur",
+    "up40": 0,
+    "up50": 98423,
+    "up5": 51,
+    "total": 98474.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Hanumangarh",
+    "up40": 1059480,
+    "up50": 395952,
+    "up5": 151,
+    "total": 1455583.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Jaipur City",
+    "up40": 621517,
+    "up50": 1693459,
+    "up5": 356,
+    "total": 2315332.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Jaipur Rural",
+    "up40": 490721,
+    "up50": 625879,
+    "up5": 93,
+    "total": 1116693.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Jaisalmer",
+    "up40": 83296,
+    "up50": 206434,
+    "up5": 56,
+    "total": 289786.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Jalore",
+    "up40": 213390,
+    "up50": 390006,
+    "up5": 100,
+    "total": 603496.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Jhalawar",
+    "up40": 145954,
+    "up50": 569006,
+    "up5": 580,
+    "total": 715540.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Jhunjhunu",
+    "up40": 489321,
+    "up50": 558194,
+    "up5": 127,
+    "total": 1047642.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Jodhpur",
+    "up40": 694950,
+    "up50": 800957,
+    "up5": 292,
+    "total": 1496199.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Karauli",
+    "up40": 122414,
+    "up50": 201641,
+    "up5": 38,
+    "total": 324093.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Kota",
+    "up40": 345917,
+    "up50": 635671,
+    "up5": 326,
+    "total": 981914.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Nagaur",
+    "up40": 368267,
+    "up50": 644940,
+    "up5": 101,
+    "total": 1013308.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Pali",
+    "up40": 661534,
+    "up50": 421369,
+    "up5": 345,
+    "total": 1083248.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Pratapgarh",
+    "up40": 58717,
+    "up50": 166083,
+    "up5": 0,
+    "total": 224800.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Rajsamand",
+    "up40": 193898,
+    "up50": 343694,
+    "up5": 140,
+    "total": 537732.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Sawai Madhopur",
+    "up40": 147892,
+    "up50": 275391,
+    "up5": 46,
+    "total": 423329.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Sikar",
+    "up40": 501085,
+    "up50": 628533,
+    "up5": 78,
+    "total": 1129696.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Sirohi",
+    "up40": 270495,
+    "up50": 252442,
+    "up5": 9,
+    "total": 522946.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Sriganganagar",
+    "up40": 956603,
+    "up50": 360229,
+    "up5": 340,
+    "total": 1317172.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Tonk",
+    "up40": 218728,
+    "up50": 308950,
+    "up5": 171,
+    "total": 527849.00
+  },
+  {
+    "category": "CASE",
+    "year": 2023,
+    "district": "Udaipur",
+    "up40": 162221,
+    "up50": 413587,
+    "up5": 334,
+    "total": 576142.00
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Ajmer",
+    "up40": 817118180.55,
+    "up50": 470932179.75,
+    "up5": 640345.13,
+    "total": 1288690705.43
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Alwar",
+    "up40": 589899764.59,
+    "up50": 522730263.15,
+    "up5": 227244.75,
+    "total": 1112857272.49
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Banswara",
+    "up40": 45834.12,
+    "up50": 55076002.2,
+    "up5": 158175,
+    "total": 55280011.32
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Baran",
+    "up40": 352170237.24,
+    "up50": 318236461.65,
+    "up5": 223422.19,
+    "total": 670630121.08
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Barmer",
+    "up40": 97311324.63,
+    "up50": 341146029.15,
+    "up5": 157911.38,
+    "total": 438615265.16
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Bharatpur",
+    "up40": 209794625.18,
+    "up50": 524897660.25,
+    "up5": 248862,
+    "total": 734941147.43
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Bhilwara",
+    "up40": 449878178.16,
+    "up50": 337376519.1,
+    "up5": 694762.6,
+    "total": 787949459.86
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Bikaner",
+    "up40": 430606322.64,
+    "up50": 389773386.45,
+    "up5": 170607.56,
+    "total": 820550316.65
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Bundi",
+    "up40": 166676976.18,
+    "up50": 296710425.9,
+    "up5": 158043.19,
+    "total": 463545445.27
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Chittorgarh",
+    "up40": 229141630.79,
+    "up50": 304286275.8,
+    "up5": 228035.63,
+    "total": 533655942.22
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Churu",
+    "up40": 501474943.08,
+    "up50": 360094045.5,
+    "up5": 114175.99,
+    "total": 861683164.57
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Dausa",
+    "up40": 180449250.12,
+    "up50": 171766045.35,
+    "up5": 47452.5,
+    "total": 352262747.97
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Dholpur",
+    "up40": 109615175.1,
+    "up50": 275352971.4,
+    "up5": 115072.31,
+    "total": 385083218.81
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Dungarpur",
+    "up40": 0,
+    "up50": 78662492.1,
+    "up5": 82251,
+    "total": 78744743.10
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Hanumangarh",
+    "up40": 1019329766.55,
+    "up50": 316455094.8,
+    "up5": 239313.5,
+    "total": 1336024174.85
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Jaipur City",
+    "up40": 596068474.86,
+    "up50": 1353423854.7,
+    "up5": 563366.63,
+    "total": 1950055696.19
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Jaipur Rural",
+    "up40": 470636314.01,
+    "up50": 500214051.9,
+    "up5": 148420.88,
+    "total": 970998786.79
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Jaisalmer",
+    "up40": 79942204.63,
+    "up50": 164986365.15,
+    "up5": 90027.94,
+    "total": 245018597.72
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Jalore",
+    "up40": 204978476.34,
+    "up50": 311700903.75,
+    "up5": 159361.31,
+    "total": 516838741.40
+  },
+  {
+    "category": "DUTY",
+    "year": 2023,
+    "district": "Jhalawar",
+    "up40": 139981358.52,
+    "up50": 454758919.2,
+    "up5": 918733.13,
+    "total": 595659010.85
+  },
+  {
+    "district": "Jhunjhunu",
+    "up40": 469286164.08,
+    "up50": 446120766,
+    "up5": 202152.93,
+    "total": 915609083.01,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Jodhpur",
+    "up40": 667585442.82,
+    "up50": 640132576.65,
+    "up5": 462002.81,
+    "total": 1308180022.28,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Karauli",
+    "up40": 117407415.94,
+    "up50": 161156981.7,
+    "up5": 60633.75,
+    "total": 278625031.39,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Kota",
+    "up40": 331751935.98,
+    "up50": 508038053.4,
+    "up5": 516968.63,
+    "total": 840306958.01,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Nagaur",
+    "up40": 353624769.28,
+    "up50": 515446321.05,
+    "up5": 160679.44,
+    "total": 869231769.77,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Pali",
+    "up40": 635590535.75,
+    "up50": 336772790.1,
+    "up5": 546948.06,
+    "total": 972910273.91,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Pratapgarh",
+    "up40": 56313410.22,
+    "up50": 132740010.45,
+    "up5": 0,
+    "total": 189053420.67,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Rajsamand",
+    "up40": 185961815.04,
+    "up50": 274689602.1,
+    "up5": 221972.25,
+    "total": 460873389.39,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Sawai Madhopur",
+    "up40": 141836821.2,
+    "up50": 220102144.2,
+    "up5": 73419.56,
+    "total": 362012384.96,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Sikar",
+    "up40": 480574404.54,
+    "up50": 502342105.05,
+    "up5": 124167.38,
+    "total": 983040676.97,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Sirohi",
+    "up40": 259628296.14,
+    "up50": 201761353.35,
+    "up5": 14763,
+    "total": 461404412.49,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Sriganganagar",
+    "up40": 917904546.63,
+    "up50": 287905539.6,
+    "up5": 539150.03,
+    "total": 1206349236.26,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Tonk",
+    "up40": 209778311.7,
+    "up50": 246920432.4,
+    "up5": 270611.06,
+    "total": 456969355.16,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Udaipur",
+    "up40": 155582467.35,
+    "up50": 330549752.7,
+    "up5": 529622.63,
+    "total": 486661842.68,
+    "category": "DUTY",
     "year": 2023
   }
 ]

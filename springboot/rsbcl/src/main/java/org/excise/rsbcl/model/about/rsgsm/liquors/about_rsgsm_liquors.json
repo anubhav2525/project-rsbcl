@@ -1,20 +1,32 @@
 [
   {
+    "sno": 1,
     "liquorCategory": "Country Liquor (CL)",
     "subCategory": "Plain, Gulab & Raj Mahua",
-    "packagingSize": [180, 750],
+    "packagingSize": [
+      180,
+      750
+    ],
     "year": "1956-57"
   },
   {
+    "sno": 2,
     "liquorCategory": "Rajasthan Made Liquor (RML)",
     "subCategory": "Whisky, Gin, Rum, Vodka",
-    "packagingSize": [180, 750],
+    "packagingSize": [
+      180,
+      750
+    ],
     "year": "2019-20"
   },
   {
+    "sno": 3,
     "liquorCategory": "Rajasthan Heritage Liquor (RHL)",
     "subCategory": "Royal RHL, Folk RHL",
-    "packagingSize": [180, 750],
+    "packagingSize": [
+      180,
+      750
+    ],
     "year": "2006-07"
   }
 ]

@@ -1,5 +1,6 @@
 [
   {
+    "sno": 1,
     "category": "A",
     "brand": "",
     "ingredients": "",
@@ -7,6 +8,7 @@
     "exDistilleryPrice": "Per case of 6 Bottles"
   },
   {
+    "sno": 2,
     "category": "1",
     "brand": "Royal Jag Mohan",
     "ingredients": 26,
@@ -14,6 +16,7 @@
     "exDistilleryPrice": "4700"
   },
   {
+    "sno": 3,
     "category": "2",
     "brand": "Royal Chandrahas Haas",
     "ingredients": 75,
@@ -21,6 +24,7 @@
     "exDistilleryPrice": "3000"
   },
   {
+    "sno": 4,
     "category": "3",
     "brand": "Royal Kesar Kasturi",
     "ingredients": 20,
@@ -28,6 +32,7 @@
     "exDistilleryPrice": "2480"
   },
   {
+    "sno": 5,
     "category": "B",
     "brand": "",
     "ingredients": "",
@@ -35,6 +40,7 @@
     "exDistilleryPrice": "Per case of 12 Bottles"
   },
   {
+    "sno": 6,
     "category": "1",
     "brand": "Royal Saunf",
     "ingredients": 2,
@@ -42,6 +48,7 @@
     "exDistilleryPrice": "2650"
   },
   {
+    "sno": 7,
     "category": "2",
     "brand": "Royal Elaichi",
     "ingredients": 4,
@@ -50,6 +57,7 @@
     "packagingType": "Per case of 12 Bottles"
   },
   {
+    "sno": 8,
     "category": "3",
     "brand": "Royal Rose",
     "ingredients": 5,

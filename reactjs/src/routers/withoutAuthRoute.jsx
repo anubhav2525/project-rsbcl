@@ -81,12 +81,6 @@ export const withoutAuthRoute = createBrowserRouter([{
       element: <AnalyticDashboard />
     },
 
-    //AdministatorDashboard
-    {
-      path: "administator-dashboard",
-      element: <AdministatorDashboard />
-    },
-
     // Requirement Excise
     {
       path: "requirement-excise",
@@ -208,12 +202,13 @@ export const withoutAuthRoute = createBrowserRouter([{
 
   ]
 }, {
-  path: "/something",
+  path: "/v2/",
   element: <WithoutNav />,
   children: [
+    //AdministatorDashboard
     {
-      path: "",
-      element: <Home />
+      path: "administator-dashboard",
+      element: <AdministatorDashboard />
     }
   ]
 }

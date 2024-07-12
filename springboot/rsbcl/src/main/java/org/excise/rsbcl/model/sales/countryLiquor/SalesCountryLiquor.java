@@ -19,5 +19,6 @@ public class SalesCountryLiquor {
     public Double up50;
     public Double up5;
     public Double total;
+    public String category;
     public int year;
 }

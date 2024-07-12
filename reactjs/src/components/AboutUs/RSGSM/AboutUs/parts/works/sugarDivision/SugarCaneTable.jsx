@@ -20,7 +20,7 @@ const SugarCaneTable = () => {
       {/* sugar cane table here  */}
       <div className="relative rounded overflow-x-auto shadow-md sm:rounded-lg" >
         <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
-          <table className="w-full text-sm text-left rtl:text-right text-gray-600 dark:text-gray-300">
+          <table className="w-full text-left rtl:text-right text-gray-600 dark:text-gray-300">
             <caption className=" text-center py-3 font-semibold text-gray-900 bg-white dark:text-white dark:bg-gray-800">
               <p className=" text-xs sm:text-sm text-gray-500 dark:text-gray-400">
                 Sugar Cane Crushing, Sugar Production, Rectified Spirit

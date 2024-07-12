@@ -1,23 +1,30 @@
 [
   {
+    "sno": 1,
     "brandName": "Raajasi The Royal"
   },
   {
+    "sno": 2,
     "brandName": "Raajasi Rajasthan"
   },
   {
+    "sno": 3,
     "brandName": "Raajasi Rajputana"
   },
   {
+    "sno": 4,
     "brandName": "Raajasi Skekhawati"
   },
   {
+    "sno": 5,
     "brandName": "Raajasi Kumbhalgarh"
   },
   {
+    "sno": 6,
     "brandName": "Raajasi Desert Dew"
   },
   {
+    "sno": 7,
     "brandName": "Raajasi Madhu Kesar"
   }
 ]

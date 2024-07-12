@@ -43,7 +43,7 @@ const ReductionCenterTable = () => {
 
     return (
         <>
-            <div className="my-6 px-4 font-bold">
+            <div className="my-6 font-bold">
                 List of Reduction Centers is as below-
             </div>
 

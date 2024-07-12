@@ -6,6 +6,7 @@
     "vodka": 996707.28,
     "gin": 296829.93,
     "total": 2954086.74,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -14,7 +15,8 @@
     "rum": 32097.9,
     "vodka": 1055168.07,
     "gin": 807.12,
-    "total": 2757505.2,
+    "total": 2757505.20,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -24,6 +26,7 @@
     "vodka": 162491.55,
     "gin": 207.36,
     "total": 887698.38,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -33,6 +36,7 @@
     "vodka": 730048.74,
     "gin": 4055.94,
     "total": 1581947.01,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -42,6 +46,7 @@
     "vodka": 308035.35,
     "gin": 517650,
     "total": 1410417.36,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -51,6 +56,7 @@
     "vodka": 576996.78,
     "gin": 129.6,
     "total": 1410220.44,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -60,6 +66,7 @@
     "vodka": 371361.39,
     "gin": 438488.79,
     "total": 1956945.87,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -68,7 +75,8 @@
     "rum": 55221.18,
     "vodka": 1263673.38,
     "gin": 33524.46,
-    "total": 2007759,
+    "total": 2007759.00,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -78,6 +86,7 @@
     "vodka": 314804.55,
     "gin": 194901.66,
     "total": 1032109.05,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -87,6 +96,7 @@
     "vodka": 210560.67,
     "gin": 25125.63,
     "total": 1169310.24,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -95,7 +105,8 @@
     "rum": 21891.99,
     "vodka": 1367301.45,
     "gin": 60575.76,
-    "total": 1831341.3,
+    "total": 1831341.30,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -105,6 +116,7 @@
     "vodka": 437216.37,
     "gin": 948.78,
     "total": 789560.04,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -114,6 +126,7 @@
     "vodka": 323530.56,
     "gin": 0,
     "total": 893623.05,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -122,7 +135,8 @@
     "rum": 17656.59,
     "vodka": 385704.69,
     "gin": 279.36,
-    "total": 784439.4,
+    "total": 784439.40,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -131,7 +145,8 @@
     "rum": 52371.27,
     "vodka": 1150236.66,
     "gin": 404603.76,
-    "total": 1941564.3,
+    "total": 1941564.30,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -141,6 +156,7 @@
     "vodka": 2137400.22,
     "gin": 3142.08,
     "total": 4238038.98,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -150,6 +166,7 @@
     "vodka": 1410565.11,
     "gin": 28626.3,
     "total": 2413746.03,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -159,6 +176,7 @@
     "vodka": 77452.11,
     "gin": 204359.55,
     "total": 553839.93,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -168,6 +186,7 @@
     "vodka": 849930.81,
     "gin": 371327.07,
     "total": 1647435.45,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -176,7 +195,8 @@
     "rum": 201054.72,
     "vodka": 350174.16,
     "gin": 60669.18,
-    "total": 1240663.2,
+    "total": 1240663.20,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -186,6 +206,7 @@
     "vodka": 1239106.59,
     "gin": 4038.48,
     "total": 1822212.33,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -195,6 +216,7 @@
     "vodka": 769413.36,
     "gin": 658984.26,
     "total": 3016128.78,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -204,6 +226,7 @@
     "vodka": 237893.52,
     "gin": 24811.56,
     "total": 664517.04,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -213,6 +236,7 @@
     "vodka": 650637.96,
     "gin": 2271.6,
     "total": 2236193.37,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -222,6 +246,7 @@
     "vodka": 767223.27,
     "gin": 462714.03,
     "total": 1924184.37,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -231,6 +256,7 @@
     "vodka": 835233.42,
     "gin": 286221.81,
     "total": 2134469.19,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -240,16 +266,17 @@
     "vodka": 33941.82,
     "gin": 628.2,
     "total": 506741.76,
+    "category": "BL",
     "year": 2023
   },
   {
     "district": "Rajsamand",
     "whisky": 629522.64,
-
     "rum": 211833.69,
     "vodka": 327467.13,
     "gin": 292661.97,
     "total": 1461485.43,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -259,6 +286,7 @@
     "vodka": 393799.86,
     "gin": 46409.94,
     "total": 924611.43,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -268,6 +296,7 @@
     "vodka": 1314518.64,
     "gin": 40115.16,
     "total": 2259603.3,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -277,6 +306,7 @@
     "vodka": 809669.07,
     "gin": 14399.64,
     "total": 1160022.54,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -286,6 +316,7 @@
     "vodka": 1117216.26,
     "gin": 382751.37,
     "total": 2432283.63,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -295,6 +326,7 @@
     "vodka": 300160.53,
     "gin": 282074.58,
     "total": 885569.22,
+    "category": "BL",
     "year": 2023
   },
   {
@@ -304,6 +336,687 @@
     "vodka": 521888.88,
     "gin": 26773.5,
     "total": 1701205.2,
+    "category": "BL",
+    "year": 2023
+  },
+  {
+    "district": "Ajmer",
+    "whisky": 176861,
+    "rum": 15005,
+    "vodka": 115194,
+    "gin": 34328,
+    "total": 341388.00,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Alwar",
+    "whisky": 193203,
+    "rum": 3702,
+    "vodka": 122086,
+    "gin": 92,
+    "total": 319083.00,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Banswara",
+    "whisky": 83042,
+    "rum": 837,
+    "vodka": 18765,
+    "gin": 24,
+    "total": 102668.00,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Baran",
+    "whisky": 86746,
+    "rum": 11349,
+    "vodka": 84426,
+    "gin": 469,
+    "total": 182990.00,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Barmer",
+    "whisky": 59873,
+    "rum": 7614,
+    "vodka": 35486,
+    "gin": 59832,
+    "total": 162805.00,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Bharatpur",
+    "whisky": 94062,
+    "rum": 2327,
+    "vodka": 66735,
+    "gin": 15,
+    "total": 163139.00,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Bhilwara",
+    "whisky": 115825,
+    "rum": 16802,
+    "vodka": 42895,
+    "gin": 50722,
+    "total": 226244.00,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Bikaner",
+    "whisky": 75779,
+    "rum": 6345,
+    "vodka": 146135,
+    "gin": 3876,
+    "total": 232135.00,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Bundi",
+    "whisky": 48036,
+    "rum": 12349,
+    "vodka": 36334,
+    "gin": 22543,
+    "total": 119262.00,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Chittorgarh",
+    "whisky": 103657,
+    "rum": 4317,
+    "vodka": 24329,
+    "gin": 2901,
+    "total": 135204.00,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Churu",
+    "whisky": 44113,
+    "rum": 2518,
+    "vodka": 158177,
+    "gin": 6994,
+    "total": 211802.00,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Dausa",
+    "whisky": 39433,
+    "rum": 1110,
+    "vodka": 50573,
+    "gin": 108,
+    "total": 91224.00,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Dholpur",
+    "whisky": 64744,
+    "rum": 1188,
+    "vodka": 37431,
+    "gin": 0,
+    "total": 103363.00,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Dungarpur",
+    "whisky": 44023,
+    "rum": 2012,
+    "vodka": 44416,
+    "gin": 32,
+    "total": 90483.00,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Hanumangarh",
+    "whisky": 38638,
+    "rum": 6024,
+    "vodka": 132875,
+    "gin": 46763,
+    "total": 224300.00,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Jaipur City",
+    "whisky": 233907,
+    "rum": 8620,
+    "vodka": 247032,
+    "gin": 361,
+    "total": 489920,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Jaipur Rural",
+    "whisky": 104468,
+    "rum": 8231,
+    "vodka": 163187,
+    "gin": 3309,
+    "total": 279195,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Jaisalmer",
+    "whisky": 23192,
+    "rum": 8085,
+    "vodka": 8926,
+    "gin": 23585,
+    "total": 63788,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Jalore",
+    "whisky": 48416,
+    "rum": 869,
+    "vodka": 98115,
+    "gin": 42946,
+    "total": 190346,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Jhalawar",
+    "whisky": 72756,
+    "rum": 23260,
+    "vodka": 40494,
+    "gin": 7021,
+    "total": 143531,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Jhunjhunu",
+    "whisky": 61357,
+    "rum": 5551,
+    "vodka": 143292,
+    "gin": 464,
+    "total": 210664,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Jodhpur",
+    "whisky": 152675,
+    "rum": 30408,
+    "vodka": 88843,
+    "gin": 76069,
+    "total": 347995,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Karauli",
+    "whisky": 45510,
+    "rum": 950,
+    "vodka": 27514,
+    "gin": 2870,
+    "total": 76844,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Kota",
+    "whisky": 158197,
+    "rum": 24751,
+    "vodka": 75170,
+    "gin": 258,
+    "total": 258376,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Nagaur",
+    "whisky": 73504,
+    "rum": 6722,
+    "vodka": 88709,
+    "gin": 53478,
+    "total": 222413,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Pali",
+    "whisky": 111490,
+    "rum": 5595,
+    "vodka": 96588,
+    "gin": 33103,
+    "total": 246776,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Pratapgarh",
+    "whisky": 54057,
+    "rum": 530,
+    "vodka": 3908,
+    "gin": 71,
+    "total": 58566,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Rajsamand",
+    "whisky": 72838,
+    "rum": 24423,
+    "vodka": 37828,
+    "gin": 33827,
+    "total": 168916,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Sawai Madhopur",
+    "whisky": 53289,
+    "rum": 2639,
+    "vodka": 45533,
+    "gin": 5364,
+    "total": 106825,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Sikar",
+    "whisky": 92595,
+    "rum": 12008,
+    "vodka": 152083,
+    "gin": 4640,
+    "total": 261326,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Sirohi",
+    "whisky": 36494,
+    "rum": 2298,
+    "vodka": 93371,
+    "gin": 1666,
+    "total": 133829,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Sriganganagar",
+    "whisky": 92815,
+    "rum": 14901,
+    "vodka": 129151,
+    "gin": 44235,
+    "total": 281102,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Tonk",
+    "whisky": 28764,
+    "rum": 6285,
+    "vodka": 34711,
+    "gin": 32616,
+    "total": 102376,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Udaipur",
+    "whisky": 129818,
+    "rum": 3366,
+    "vodka": 60148,
+    "gin": 3088,
+    "total": 196420,
+    "category": "CASE",
+    "year": 2023
+  },
+  {
+    "district": "Ajmer",
+    "whisky": 229479417,
+    "rum": 19603012.5,
+    "vodka": 149506092,
+    "gin": 44524489.5,
+    "total": 443113011.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Alwar",
+    "whisky": 250414816.5,
+    "rum": 4814685,
+    "vodka": 158275210.5,
+    "gin": 121068,
+    "total": 413625780.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Banswara",
+    "whisky": 107649733.5,
+    "rum": 1100187,
+    "vodka": 24373732.5,
+    "gin": 31104,
+    "total": 133154757.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Baran",
+    "whisky": 112452043.5,
+    "rum": 14726628,
+    "vodka": 109507311,
+    "gin": 608391,
+    "total": 237294373.50,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Barmer",
+    "whisky": 77757876,
+    "rum": 9951925.5,
+    "vodka": 46205302.5,
+    "gin": 77647500,
+    "total": 211562604.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Bharatpur",
+    "whisky": 121936761,
+    "rum": 3027348,
+    "vodka": 86549517,
+    "gin": 19440,
+    "total": 211533066.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Bhilwara",
+    "whisky": 150213298.5,
+    "rum": 21851055,
+    "vodka": 55704208.5,
+    "gin": 65773318.5,
+    "total": 293541880.50,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Bikaner",
+    "whisky": 98301591,
+    "rum": 8283177,
+    "vodka": 189551007,
+    "gin": 5028669,
+    "total": 301164444.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Bundi",
+    "whisky": 62308674,
+    "rum": 16051752,
+    "vodka": 47220682.5,
+    "gin": 29235249,
+    "total": 154816357.50,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Chittorgarh",
+    "whisky": 134430786,
+    "rum": 5612805,
+    "vodka": 31584100.5,
+    "gin": 3768844.5,
+    "total": 175396536.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Churu",
+    "whisky": 57235815,
+    "rum": 3283798.5,
+    "vodka": 205095217.5,
+    "gin": 9086364,
+    "total": 274701195.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Dausa",
+    "whisky": 51259716,
+    "rum": 1452055.5,
+    "vodka": 65582455.5,
+    "gin": 142317,
+    "total": 118436544.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Dholpur",
+    "whisky": 83964573,
+    "rum": 1549948.5,
+    "vodka": 48529584,
+    "gin": 0,
+    "total": 134044105.50,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Dungarpur",
+    "whisky": 57119814,
+    "rum": 2648488.5,
+    "vodka": 57855703.5,
+    "gin": 41904,
+    "total": 117665910.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Hanumangarh",
+    "whisky": 50152891.5,
+    "rum": 7855690.5,
+    "vodka": 172535499,
+    "gin": 60690564,
+    "total": 291234645.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Jaipur City",
+    "whisky": 303394081.5,
+    "rum": 11230420.5,
+    "vodka": 320610033,
+    "gin": 471312,
+    "total": 635705847.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Jaipur Rural",
+    "whisky": 135478953,
+    "rum": 10704240,
+    "vodka": 211584766.5,
+    "gin": 4293945,
+    "total": 362061904.50,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Jaisalmer",
+    "whisky": 30208162.5,
+    "rum": 10596078,
+    "vodka": 11617816.5,
+    "gin": 30653932.5,
+    "total": 83075989.50,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Jalore",
+    "whisky": 62792365.5,
+    "rum": 1134270,
+    "vodka": 127489621.5,
+    "gin": 55699060.5,
+    "total": 247115317.50,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Jhalawar",
+    "whisky": 94314987,
+    "rum": 30158208,
+    "vodka": 52526124,
+    "gin": 9100377,
+    "total": 186099696.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Ajmer",
+    "whisky": 79595338.5,
+    "rum": 7265020.5,
+    "vodka": 185865988.5,
+    "gin": 605772,
+    "total": 273332119.50,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Jodhpur",
+    "whisky": 198222871.5,
+    "rum": 39936910.5,
+    "vodka": 115412004,
+    "gin": 98847639,
+    "total": 452419425.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Karauli",
+    "whisky": 59026513.5,
+    "rum": 1245280.5,
+    "vodka": 35684028,
+    "gin": 3721734,
+    "total": 99677556.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Kota",
+    "whisky": 205347568.5,
+    "rum": 32148081,
+    "vodka": 97595694,
+    "gin": 340740,
+    "total": 335432083.50,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Nagaur",
+    "whisky": 95361628.5,
+    "rum": 8775432,
+    "vodka": 115083490.5,
+    "gin": 69407104.5,
+    "total": 288627655.50,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Pali",
+    "whisky": 144624906,
+    "rum": 7327188,
+    "vodka": 125285013,
+    "gin": 42933271.5,
+    "total": 320170378.50,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Pratapgarh",
+    "whisky": 70127163,
+    "rum": 698598,
+    "vodka": 5091273,
+    "gin": 94230,
+    "total": 76011264.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Rajsamand",
+    "whisky": 94428396,
+    "rum": 31775053.5,
+    "vodka": 49120069.5,
+    "gin": 43899295.5,
+    "total": 219222814.50,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Sawai Madhopur",
+    "whisky": 69209878.5,
+    "rum": 3450366,
+    "vodka": 59069979,
+    "gin": 6961491,
+    "total": 138691714.50,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Sikar",
+    "whisky": 120096184.5,
+    "rum": 15649240.5,
+    "vodka": 197177796,
+    "gin": 6017274,
+    "total": 338940495.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Sirohi",
+    "whisky": 47352262.5,
+    "rum": 3040812,
+    "vodka": 121450360.5,
+    "gin": 2159946,
+    "total": 174003381.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Sriganganagar",
+    "whisky": 120474004.5,
+    "rum": 19375011,
+    "vodka": 167582439,
+    "gin": 57412705.5,
+    "total": 364844160.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Tonk",
+    "whisky": 37314985.5,
+    "rum": 8185131,
+    "vodka": 45024079.5,
+    "gin": 42311187,
+    "total": 132835383.00,
+    "category": "DUTY",
+    "year": 2023
+  },
+  {
+    "district": "Udaipur",
+    "whisky": 168446268,
+    "rum": 4435155,
+    "vodka": 78283332,
+    "gin": 4016025,
+    "total": 255180780.00,
+    "category": "DUTY",
     "year": 2023
   }
 ]

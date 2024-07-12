@@ -1,77 +1,90 @@
 [
   {
+    "sno": 1,
     "year": "2010-11",
     "sugarFactory": -15.98,
     "distillery": null,
     "total": -15.98
   },
   {
+    "sno": 2,
     "year": "2011-12",
     "sugarFactory": -20.8,
     "distillery": null,
     "total": -20.8
   },
   {
+    "sno": 3,
     "year": "2012-13",
     "sugarFactory": -19.16,
     "distillery": null,
     "total": -19.16
   },
   {
+    "sno": 4,
     "year": "2013-14",
     "sugarFactory": -24.74,
     "distillery": null,
     "total": -24.74
   },
   {
+    "sno": 5,
     "year": "2014-15",
     "sugarFactory": -29.81,
     "distillery": null,
     "total": -29.81
   },
   {
+    "sno": 6,
     "year": "2015-16",
     "sugarFactory": -28.17,
     "distillery": null,
     "total": -28.17
   },
   {
+    "sno": 7,
     "year": "2016-17",
     "sugarFactory": -35.41,
     "distillery": -7.85,
     "total": -43.26
   },
   {
+    "sno": 8,
     "year": "2017-18",
     "sugarFactory": -36.8,
     "distillery": -10.01,
     "total": -46.81
   },
   {
+    "sno": 9,
     "year": "2018-19",
     "sugarFactory": -53.83,
     "distillery": -12.16,
     "total": -65.99
   },
   {
+    "sno": 10,
     "year": "2019-20",
     "sugarFactory": -30.62,
     "distillery": -3.5,
     "total": -34.12
   },
   {
+    "sno": 11,
     "year": "2020-21",
     "sugarFactory": -30.27,
     "distillery": -8.61,
     "total": -38.89
   },
   {
+    "sno": 12,
     "year": "2021-22",
     "sugarFactory": -27.28,
     "distillery": -7.04,
     "total": -34.32
   },
   {
+    "sno": 13,
     "year": "2022-23",
     "sugarFactory": -35.14,
     "distillery": -5.12,

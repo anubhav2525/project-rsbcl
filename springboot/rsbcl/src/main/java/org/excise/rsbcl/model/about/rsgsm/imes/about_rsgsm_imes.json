@@ -1,53 +1,70 @@
 [
   {
+    "sno": 1,
     "work": "New Administrative MIS- Area & Office wise, Integrated with IFMS"
   },
   {
+    "sno": 2,
     "work": "Production, Transportation, Storage, Sale, Supply and Dispatch Management System"
   },
   {
+    "sno": 3,
     "work": "Material Management System"
   },
   {
+    "sno": 4,
     "work": "Revenue & Tax Management System - Duty, Fee & Revenue Calculator"
   },
   {
+    "sno": 5,
     "work": "Revenue Analysis & Comparison"
   },
   {
+    "sno": 6,
     "work": "EoDB (Process Simplification & Process Automation)"
   },
   {
+    "sno": 7,
     "work": "Stakeholders Integration, Reformation Suggestion System in Existing Regulation"
   },
   {
+    "sno": 8,
     "work": "Preparation of Expression of Interest (EoI) Request for Proposal (RFP), Service-level Agreement (SLA) & Other Bid Documents"
   },
   {
+    "sno": 9,
     "work": "Providing Project Management Support (SCADA, Track & Trace)"
   },
   {
+    "sno": 10,
     "work": "Image Processing Engine for Label Approval"
   },
   {
+    "sno": 11,
     "work": "Intelligence & Vigilance Management System (App with Encryption of Informers Details)"
   },
   {
+    "sno": 12,
     "work": "Sugarcane and Sugar Production Management System with App"
   },
   {
+    "sno": 13,
     "work": "e-Commerce Portal for Non-Alcoholic Beverages products of RSGSM"
   },
   {
+    "sno": 14,
     "work": "Office Management System"
   },
   {
+    "sno": 15,
     "work": "Integrated Human Resource Management System (IHRMS)"
   },
   {
+    "sno": 16,
     "work": "Legal Judicial Case Monitoring System- Appeal Integration"
   },
   {
+    "sno": 17,
     "work": "Accountancy, Audit & Enquiry Monitoring System"
   }
 ]

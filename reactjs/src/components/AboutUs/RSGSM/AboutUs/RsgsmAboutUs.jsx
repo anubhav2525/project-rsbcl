@@ -13,7 +13,7 @@ import FuturePlans from "./parts/FuturePlans";
 
 const RsgsmAboutUs = () => {
     return (
-        <div className="my-2 py-2 px-4 md:px-12 bg-slate-200 dark:bg-slate-900">
+        <div className="my-2 py-2 px-4 md:px-12 bg-slate-100 dark:bg-slate-900">
             {/* Breadcrumb */}
             <BreadCrumb />
 

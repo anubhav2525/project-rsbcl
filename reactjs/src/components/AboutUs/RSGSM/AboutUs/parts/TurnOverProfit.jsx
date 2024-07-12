@@ -17,16 +17,16 @@ const TurnOverProfit = () => {
     return (
         <>
             {/* turnover and profit  */}
-            <div className="my-4 px-4">
+            <div className="my-4">
                 <h2 className="my-4 text-lg font-semibold text-gray-900 dark:text-white">
                     Over All Revenue, Turn Over & Profit :
                 </h2>
 
-                <p className="my-4 text-xs sm:text-sm md:text-base text-justify text-gray-500 tracking-wider dark:text-gray-400 px-3">
+                <p className="my-4 text-xs sm:text-sm md:text-base text-justify text-gray-500 tracking-wider dark:text-gray-400">
                     RSGSM has played a vital role in safeguarding the excise revenue of the State Government by way of successful implementation of the Excise Policy and has earned reasonable rate of return on the investments made.
                 </p>
 
-                <p className="my-4 text-xs sm:text-sm md:text-base text-justify text-gray-500 tracking-wider dark:text-gray-400 px-3">
+                <p className="my-4 text-xs sm:text-sm md:text-base text-justify text-gray-500 tracking-wider dark:text-gray-400">
                     Some Details of Turn Over & Profit are as follows-
                 </p>
 

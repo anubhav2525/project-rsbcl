@@ -1,0 +1,632 @@
+[
+  {
+    "sno": 1,
+    "name": "Shri Akhil Arora",
+    "designation": "Additional Chief Secretary (Finance)",
+    "mobileNo": null,
+    "stdCode": "141",
+    "office": "2227664",
+    "faxNo": "2227741",
+    "email": "psf@rajasthan.gov.in"
+  },
+  {
+    "sno": 2,
+    "name": "DR. KRISHNA KANT PATHAK",
+    "designation": "F. S. (Revenue)",
+    "mobileNo": null,
+    "stdCode": "141",
+    "office": "2227711",
+    "faxNo": "2227711",
+    "email": "secyfinr@rajasthan.gov.in"
+  },
+  {
+    "sno": 3,
+    "name": "Sh. Jaswant Singh",
+    "designation": "Jt. Sec., (Excise)",
+    "mobileNo": null,
+    "stdCode": "141",
+    "office": "2227239",
+    "faxNo": "2227239",
+    "email": "dsfexcise@rajasthan.gov.in"
+  },
+  {
+    "sno": 4,
+    "name": "Sh. K.K. Khandelwal",
+    "designation": "Asst. Sec. Fin(Excise)",
+    "mobileNo": "9414389147",
+    "stdCode": "141",
+    "office": "2924458",
+    "faxNo": null,
+    "email": "dsfexcise@rajasthan.gov.in"
+  },
+  {
+    "sno": 5,
+    "name": "SH. ANSH DEEP",
+    "designation": "Excise Commissioner Udaipur ; Camp Jaipur",
+    "mobileNo": null,
+    "stdCode": "294; 141",
+    "office": "2524911; 2744230,2740829",
+    "faxNo": "2526801; 2740829",
+    "email": "ecjaipur.excise@rajasthan.gov.in; commissioner.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 6,
+    "name": "Sh. Arun Kumar Hasija",
+    "designation": "Addl. Commissioner (Policy)",
+    "mobileNo": "2527074",
+    "stdCode": "294",
+    "office": "2523124",
+    "faxNo": "2523124",
+    "email": "acpolicy.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 7,
+    "name": "Sh. Arun Kumar Hasija (Addl. Charge)",
+    "designation": "Addl. Commissioner (Adm)",
+    "mobileNo": "2412274",
+    "stdCode": "294",
+    "office": "2412274",
+    "faxNo": "2412274",
+    "email": "aca.udaipur.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 8,
+    "name": "Smt Manju Bala Jain",
+    "designation": "Financial Advisor",
+    "mobileNo": null,
+    "stdCode": "294",
+    "office": "2528397",
+    "faxNo": "2528397",
+    "email": "fa.udaipur.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 9,
+    "name": "Sh. Devendra Dashora",
+    "designation": "Addl. Commissioner (Legal)",
+    "mobileNo": "9414263186",
+    "stdCode": "294",
+    "office": "2523124",
+    "faxNo": "2523124",
+    "email": "aclegal.ho.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 10,
+    "name": "Sh.",
+    "designation": "Addl. Comm., Ajmer",
+    "mobileNo": null,
+    "stdCode": "145",
+    "office": "2940008",
+    "faxNo": "2423516",
+    "email": "ac.ajmer.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 11,
+    "name": "Sh. Shiv Singh",
+    "designation": "Addl. Comm., Bharatpur",
+    "mobileNo": "9829168800",
+    "stdCode": "5644",
+    "office": "220325",
+    "faxNo": "220325",
+    "email": "ac.bharatpur.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 12,
+    "name": "Sh.",
+    "designation": "Addl. Comm., Bikaner",
+    "mobileNo": null,
+    "stdCode": "151",
+    "office": "2530017",
+    "faxNo": "2530017",
+    "email": "ac.bikaner.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 13,
+    "name": "Smt Deepti Kachhwaha(RAS)",
+    "designation": "AC,Zone, Jaipur",
+    "mobileNo": "9784212284",
+    "stdCode": "141",
+    "office": "2741087",
+    "faxNo": "2740829",
+    "email": "ac.jaipur.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 14,
+    "name": "Sh. Udaibhanu Charan (RAS)",
+    "designation": "Addl. Comm., Jodhpur",
+    "mobileNo": "9414384783",
+    "stdCode": "291",
+    "office": "2650396",
+    "faxNo": "2650396",
+    "email": "ac.jodhpur.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 15,
+    "name": "Sh. Rakesh Kumar Gupta (RAS)",
+    "designation": "Addl. Comm. Kota",
+    "mobileNo": "9660173799",
+    "stdCode": "744",
+    "office": "2364577",
+    "faxNo": "2364577",
+    "email": "ac.kota.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 16,
+    "name": "Sh. Arun Kumar Hasija (Addl. Charge)",
+    "designation": "Addl. Comm. Zone Udaipur",
+    "mobileNo": null,
+    "stdCode": "294",
+    "office": "2527074",
+    "faxNo": "2527074",
+    "email": "ac.uda.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 17,
+    "name": null,
+    "designation": "Excise Controlroom",
+    "mobileNo": null,
+    "stdCode": "294",
+    "office": "2412274",
+    "faxNo": "2524308",
+    "email": "ctrlroom.ho.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 18,
+    "name": "Sh. G. L. Jat",
+    "designation": "Dy. F.A.",
+    "mobileNo": "912942427094",
+    "stdCode": "294",
+    "office": "2427094",
+    "faxNo": "2526801",
+    "email": "fa.udaipur.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 19,
+    "name": "Sh.",
+    "designation": "Deputy Legal Remembrancer",
+    "mobileNo": null,
+    "stdCode": "0294",
+    "office": "2527086 (115)",
+    "faxNo": "2526801",
+    "email": "sjlr.ho.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 20,
+    "name": "Sh.-",
+    "designation": "Sr. Legal officer",
+    "mobileNo": null,
+    "stdCode": "0294",
+    "office": "2527086(114)",
+    "faxNo": "0294-2526801",
+    "email": "sjlr.ho.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 21,
+    "name": "Mrs Shweta Damor",
+    "designation": "Additional Director, HO Udaipur [IT Section]",
+    "mobileNo": "912942527086",
+    "stdCode": "0294",
+    "office": "2527086",
+    "faxNo": null,
+    "email": "shweta.doit@rajasthan.gov.in"
+  },
+  {
+    "sno": 22,
+    "name": "Sh. Ramesh Chandra Sharma",
+    "designation": "ACP (Dy.Director), Zone Jaipur",
+    "mobileNo": "8559975883",
+    "stdCode": "0141",
+    "office": "2744236",
+    "faxNo": null,
+    "email": "acp.jaipur.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 23,
+    "name": "Sh. K.K. Khandelwal",
+    "designation": "ACP (Dy.Director), HO Udaipur [IT Section]",
+    "mobileNo": "912942527086",
+    "stdCode": "0294",
+    "office": "2527086",
+    "faxNo": null,
+    "email": "kkkhandelwal.doit@rajasthan.gov.in"
+  },
+  {
+    "sno": 24,
+    "name": "Mrs Preeti Gupta",
+    "designation": "ACP (Dy. Director), HO Udaipur [IT Section]",
+    "mobileNo": "912942527086",
+    "stdCode": "0294",
+    "office": "2527086",
+    "faxNo": null,
+    "email": "preetigupta.doit@rajasthan.gov.in"
+  },
+  {
+    "sno": 25,
+    "name": "Sh.Narayan Singh Bisht",
+    "designation": "Programmer, HO, Udaipur [IT Section]",
+    "mobileNo": "912942527086",
+    "stdCode": "0294",
+    "office": "2527086",
+    "faxNo": null,
+    "email": "prog2.ho.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 26,
+    "name": "Sh. Riyajuddin Usmani",
+    "designation": "Deo Ajmer",
+    "mobileNo": "8769000786; 9414249464",
+    "stdCode": "145",
+    "office": "2970364",
+    "faxNo": "2970364",
+    "email": "deo.ajmer.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 27,
+    "name": "Sh Gaurav Mani Johari",
+    "designation": "DEO Bhilwara",
+    "mobileNo": "9929050130",
+    "stdCode": "1482",
+    "office": "232718",
+    "faxNo": null,
+    "email": "deo.bhilwara.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 28,
+    "name": "Sh. Manoj Bissa",
+    "designation": "DEO Nagour",
+    "mobileNo": "8619258121",
+    "stdCode": "1582",
+    "office": "240019",
+    "faxNo": "240019",
+    "email": "deo.nagaur.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 29,
+    "name": "Sh. Babu Lal Jat",
+    "designation": "DEO Tonk",
+    "mobileNo": "9829083162",
+    "stdCode": "1432",
+    "office": "294561",
+    "faxNo": "248282",
+    "email": "deo.tonk.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 30,
+    "name": "Sh. Aad ram",
+    "designation": "DEO Bharatpur",
+    "mobileNo": "9461714258",
+    "stdCode": "5644",
+    "office": "225477",
+    "faxNo": null,
+    "email": "deo.bharatpur.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 31,
+    "name": "Sh. Ghanshyam Sharma",
+    "designation": "DEO Dholpur",
+    "mobileNo": "9413948052",
+    "stdCode": "5642",
+    "office": "220763",
+    "faxNo": "220763",
+    "email": "deo.dholpur.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 32,
+    "name": "Sh. Rana Pratap Singh",
+    "designation": "DEO Karauli",
+    "mobileNo": "8078683365",
+    "stdCode": "7464",
+    "office": "220271",
+    "faxNo": null,
+    "email": "deo.karauli@rajasthan.gov.in"
+  },
+  {
+    "sno": 33,
+    "name": "Sh. Anil Yadav",
+    "designation": "DEO Sawai Madhopur",
+    "mobileNo": "9928086194",
+    "stdCode": "7462",
+    "office": "222008",
+    "faxNo": "223636",
+    "email": "deo.sawaima.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 34,
+    "name": "Sh. Mohan Ram Pooniya",
+    "designation": "DEO Bikaner",
+    "mobileNo": "8829015875",
+    "stdCode": "151",
+    "office": "2200884",
+    "faxNo": "2530017",
+    "email": "deo.bikaner.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 35,
+    "name": "Sh. Laxmi Narayan",
+    "designation": "DEO Churu",
+    "mobileNo": "9413345077",
+    "stdCode": "1562",
+    "office": "250307",
+    "faxNo": "250275",
+    "email": "deo.churu.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 36,
+    "name": "Sh. Sanjeev Patawari",
+    "designation": "DEO Hanumangarh",
+    "mobileNo": "9414026122",
+    "stdCode": "1552",
+    "office": "222088",
+    "faxNo": "223507",
+    "email": "deo.hanuamn.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 37,
+    "name": "Smt Reena (RAS)",
+    "designation": "DEO Ganganagar",
+    "mobileNo": "8302772152",
+    "stdCode": "154",
+    "office": "2470182",
+    "faxNo": "2471045",
+    "email": "deo.sgnr.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 38,
+    "name": "Smt. Archana Jaiman",
+    "designation": "DEO Alwar",
+    "mobileNo": "9413471531",
+    "stdCode": "144",
+    "office": "2732400",
+    "faxNo": "2732400",
+    "email": "deo.alwar.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 39,
+    "name": "Sh.Giriver Sharma",
+    "designation": "DEO Behror",
+    "mobileNo": "9829181904",
+    "stdCode": "01494",
+    "office": null,
+    "faxNo": "243764",
+    "email": "deo.behror.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 40,
+    "name": "Sh. Kailash Prajapati",
+    "designation": "DEO Dausa",
+    "mobileNo": "9828171729",
+    "stdCode": "1427",
+    "office": "224180",
+    "faxNo": "230990",
+    "email": "deo.dausa.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 41,
+    "name": "Miss Devika Tomar (RAS)",
+    "designation": "DEO Jaipur City",
+    "mobileNo": "9953922266 ; 9983992999",
+    "stdCode": "141",
+    "office": "2743196",
+    "faxNo": "2743196",
+    "email": "deo.jaipur.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 42,
+    "name": "Sh. Rajendra Kumar Garg",
+    "designation": "DEO Jaipur Rural",
+    "mobileNo": "9414060352",
+    "stdCode": "141",
+    "office": "2744580",
+    "faxNo": "2740829",
+    "email": "deo.jaipurr.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 43,
+    "name": "Ms Deepti Mishra",
+    "designation": "DEO (Pros.) Jaipur",
+    "mobileNo": "9414606189",
+    "stdCode": "141",
+    "office": "2740706",
+    "faxNo": "2742489",
+    "email": "deopros.jpr.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 44,
+    "name": "Sh. Amarjeet Singh",
+    "designation": "DEO Jhunjhunu",
+    "mobileNo": "9414084226",
+    "stdCode": "1592",
+    "office": "232904",
+    "faxNo": "232904",
+    "email": "deo.jhunjhunu.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 45,
+    "name": "Sh. Sumer Singh Meena",
+    "designation": "DEO Sikar",
+    "mobileNo": "9414055949",
+    "stdCode": "1572",
+    "office": "248650",
+    "faxNo": "248650",
+    "email": "deo.sikar.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 46,
+    "name": "Sh. Dinesh Gehlot",
+    "designation": "DEO Barmer",
+    "mobileNo": "9414205169",
+    "stdCode": null,
+    "office": null,
+    "faxNo": null,
+    "email": "deo.barmer.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 47,
+    "name": "Sh. Hajia Ram Rathore",
+    "designation": "DEO Jaisalmer",
+    "mobileNo": "9414429527",
+    "stdCode": "2992",
+    "office": "251608",
+    "faxNo": null,
+    "email": "deo.jaisal.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 48,
+    "name": "Sh. Sudarshan Singh Bhati",
+    "designation": "DEO Jalore",
+    "mobileNo": "9772342255",
+    "stdCode": "2973",
+    "office": "222543",
+    "faxNo": "222207",
+    "email": "deo.jalore.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 49,
+    "name": "Sh. Dalveer Singh Dadda (RAS)",
+    "designation": "DEO Jodhpur",
+    "mobileNo": "9799847001 ; 9460232858",
+    "stdCode": "291",
+    "office": "2555324",
+    "faxNo": "2650394",
+    "email": "deo.jodhpur.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 50,
+    "name": "Smt. Rashmi Jain",
+    "designation": "DEO (Pros.), Jodhpur",
+    "mobileNo": "9983956325",
+    "stdCode": "291",
+    "office": "2650394",
+    "faxNo": "2650394, 2650396",
+    "email": "deopros.jdp.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 51,
+    "name": "Sh. Vinod Vaishnav",
+    "designation": "DEO Pali",
+    "mobileNo": "9460959351",
+    "stdCode": "2932",
+    "office": "297111",
+    "faxNo": "257806",
+    "email": "deo.pali.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 52,
+    "name": "Sh. Ajay Jain",
+    "designation": "DEO Sirohi",
+    "mobileNo": "9983201234",
+    "stdCode": "2972",
+    "office": "220709",
+    "faxNo": "220709",
+    "email": "deo.sirohi.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 53,
+    "name": "Sh. Sahdev Singh Ratnoo",
+    "designation": "DEO Baran",
+    "mobileNo": "9414431249",
+    "stdCode": "7453",
+    "office": "231526",
+    "faxNo": "231526",
+    "email": "deo.baran.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 54,
+    "name": "Sh. B L Meena",
+    "designation": "DEO Bundi",
+    "mobileNo": "8290979439",
+    "stdCode": "747",
+    "office": "2457249",
+    "faxNo": "2444958",
+    "email": "deo.bundi.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 55,
+    "name": "Sh. Santosh kumar Poonia",
+    "designation": "DEO Jhalawar",
+    "mobileNo": "9252550001",
+    "stdCode": "7432",
+    "office": "232651",
+    "faxNo": "0",
+    "email": "deo.jhalawa.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 56,
+    "name": "Sh. Bhanwar Lal Janagal (RAS)",
+    "designation": "DEO Kota",
+    "mobileNo": "9667095599",
+    "stdCode": "744",
+    "office": "2365623",
+    "faxNo": "5122744",
+    "email": "deo.kota.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 57,
+    "name": "Sh. Vivekanand Sharma",
+    "designation": "DEO Banswara",
+    "mobileNo": "9829044264",
+    "stdCode": "2962",
+    "office": "250560",
+    "faxNo": "250560",
+    "email": "deo.bans.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 58,
+    "name": "Sh. Gajender Singh",
+    "designation": "DEO Chittorgarh",
+    "mobileNo": "7427008335",
+    "stdCode": "1472",
+    "office": "241587",
+    "faxNo": "241587",
+    "email": "deo.chittor.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 59,
+    "name": "Sh. Devendra Giri",
+    "designation": "DEO Dungarpur",
+    "mobileNo": "9414005065",
+    "stdCode": "2964",
+    "office": "230009",
+    "faxNo": "230009",
+    "email": "deo.dungarpur.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 60,
+    "name": "Sh. Yogesh Shrivastav",
+    "designation": "DEO Pratapgarh",
+    "mobileNo": "94141 55826",
+    "stdCode": "1478",
+    "office": "222330",
+    "faxNo": "222330",
+    "email": "deo.prtpgarh.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 61,
+    "name": "Sh. Lokesh Joshi",
+    "designation": "DEO Rajsamand",
+    "mobileNo": "9530078868",
+    "stdCode": null,
+    "office": null,
+    "faxNo": null,
+    "email": "deo.rajsamand.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 62,
+    "name": "Sh. Neelam Lakhara(RAS)",
+    "designation": "DEO Udaipur",
+    "mobileNo": "9116765599",
+    "stdCode": "294",
+    "office": "2427360",
+    "faxNo": null,
+    "email": "deo.udaipur.excise@rajasthan.gov.in"
+  },
+  {
+    "sno": 63,
+    "name": "Sh. Harish Rolan",
+    "designation": "DEO, Distillery. Udaipur",
+    "mobileNo": "9928912551",
+    "stdCode": "294",
+    "office": "2411640",
+    "faxNo": null,
+    "email": "deoprod.udr.excise@rajasthan.gov.in"
+  }
+]

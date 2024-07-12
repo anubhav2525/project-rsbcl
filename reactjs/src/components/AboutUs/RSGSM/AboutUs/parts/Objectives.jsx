@@ -3,7 +3,7 @@ import React from 'react'
 const Objectives = () => {
     return (
         <>
-            <h2 className="my-4 text-lg font-semibold text-gray-900 dark:text-white">
+            <h2 className="mt-4 text-lg font-semibold text-gray-900 dark:text-white">
                 Objectives :
             </h2>
 

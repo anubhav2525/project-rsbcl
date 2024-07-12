@@ -566,7 +566,7 @@ const Navbar = () => {
             </li>
 
             <li>
-              <Link to='administator-dashboard' className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-300 md:py-2 md:px-4 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white ">
+              <Link to='v2/administator-dashboard' className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-300 md:py-2 md:px-4 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white ">
                 Administration Dashboard
               </Link>
             </li>
@@ -579,7 +579,7 @@ const Navbar = () => {
               <Link to='analytic-dashboard' className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-300 md:py-2 md:px-4 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white ">
                 Analytic Dashboard
               </Link>
-            </li>         
+            </li>
           </ul>
         </div>
       </div>

@@ -1,5 +1,6 @@
 [
   {
+    "sno": 1,
     "year": "2010-11",
     "caneCrushed": 4.85,
     "days": 70,
@@ -9,6 +10,7 @@
     "rectifiedSpirit": null
   },
   {
+    "sno": 2,
     "year": "2011-12",
     "caneCrushed": 2.87,
     "days": 72,
@@ -18,6 +20,7 @@
     "rectifiedSpirit": null
   },
   {
+    "sno": 3,
     "year": "2012-13",
     "caneCrushed": 5.17,
     "days": 70,
@@ -27,6 +30,7 @@
     "rectifiedSpirit": null
   },
   {
+    "sno": 4,
     "year": "2013-14",
     "caneCrushed": 6.7,
     "days": 82,
@@ -36,6 +40,7 @@
     "rectifiedSpirit": null
   },
   {
+    "sno": 5,
     "year": "2014-15",
     "caneCrushed": 7.83,
     "days": 105,
@@ -45,6 +50,7 @@
     "rectifiedSpirit": null
   },
   {
+    "sno": 6,
     "year": "2015-16",
     "caneCrushed": 8.89,
     "days": 117,
@@ -54,6 +60,7 @@
     "rectifiedSpirit": null
   },
   {
+    "sno": 7,
     "year": "2016-17",
     "caneCrushed": 11.89,
     "days": 119,
@@ -63,6 +70,7 @@
     "rectifiedSpirit": 15.98
   },
   {
+    "sno": 8,
     "year": "2017-18",
     "caneCrushed": 7.73,
     "days": 71,
@@ -72,6 +80,7 @@
     "rectifiedSpirit": 14.89
   },
   {
+    "sno": 9,
     "year": "2018-19",
     "caneCrushed": 11.61,
     "days": 106,
@@ -81,6 +90,7 @@
     "rectifiedSpirit": 1.32
   },
   {
+    "sno": 10,
     "year": "2019-20",
     "caneCrushed": 10.83,
     "days": 95,
@@ -90,6 +100,7 @@
     "rectifiedSpirit": 20.18
   },
   {
+    "sno": 11,
     "year": "2020-21",
     "caneCrushed": 12.04,
     "days": 88,
@@ -99,6 +110,7 @@
     "rectifiedSpirit": 16.4
   },
   {
+    "sno": 12,
     "year": "2021-22",
     "caneCrushed": 7.87,
     "days": 66,
@@ -108,6 +120,7 @@
     "rectifiedSpirit": 10.38
   },
   {
+    "sno": 13,
     "year": "2022-23",
     "caneCrushed": 11.67,
     "days": 89,
