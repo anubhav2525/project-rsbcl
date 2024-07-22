@@ -5,10 +5,7 @@ import org.excise.rsbcl.services.sales.countryLiquor.SalesCountryLiquorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -16,18 +13,29 @@ import java.util.List;
 @RequestMapping("/api/v1/sales/")
 public class SalesCountryLiquorController {
     @Autowired
-    private SalesCountryLiquorService salesCountryLiquorService;
+    private final SalesCountryLiquorService salesCountryLiquorService;
 
-    @GetMapping("countryLiquor")
+    public SalesCountryLiquorController(SalesCountryLiquorService salesCountryLiquorService) {
+        this.salesCountryLiquorService = salesCountryLiquorService;
+    }
+
+    @GetMapping("countryLiquors")
     public ResponseEntity<List<SalesCountryLiquor>> getAll() {
         List<SalesCountryLiquor> salesCountryLiquors = salesCountryLiquorService.getAll();
         if (salesCountryLiquors.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(salesCountryLiquors, HttpStatus.OK);
     }
 
-    @GetMapping("countryLiquor/{year}")
-    public ResponseEntity<List<SalesCountryLiquor>> getSalesCountryLiquorByYear(@PathVariable int year) {
+    @GetMapping("countryLiquor-by-year")
+    public ResponseEntity<List<SalesCountryLiquor>> getSalesCountryLiquorByYear(@RequestParam int year) {
         List<SalesCountryLiquor> salesCountryLiquors = salesCountryLiquorService.getSalesCountryLiquorByYear(year);
+        if (salesCountryLiquors.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(salesCountryLiquors, HttpStatus.OK);
+    }
+
+    @GetMapping("countryLiquor")
+    public ResponseEntity<List<SalesCountryLiquor>> getSalesCountryLiquorYearAndCategory(@RequestParam int year, String category) {
+        List<SalesCountryLiquor> salesCountryLiquors = salesCountryLiquorService.getSalesBeerByYearAndCategory(year, category);
         if (salesCountryLiquors.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(salesCountryLiquors, HttpStatus.OK);
     }

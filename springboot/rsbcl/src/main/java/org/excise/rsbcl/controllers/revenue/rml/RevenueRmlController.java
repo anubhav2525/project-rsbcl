@@ -5,10 +5,7 @@ import org.excise.rsbcl.services.revenue.rml.RevenueRmlService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -17,17 +14,21 @@ import java.util.List;
 public class RevenueRmlController {
 
     @Autowired
-    private RevenueRmlService revenueRmlService;
+    private final RevenueRmlService revenueRmlService;
 
-    @GetMapping("rml")
+    public RevenueRmlController(RevenueRmlService revenueRmlService) {
+        this.revenueRmlService = revenueRmlService;
+    }
+
+    @GetMapping("rmls")
     public ResponseEntity<List<RevenueRml>> getAll() {
         List<RevenueRml> revenueRmls = revenueRmlService.getAll();
         if (revenueRmls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(revenueRmls, HttpStatus.OK);
     }
 
-    @GetMapping("rml/{year}")
-    public ResponseEntity<List<RevenueRml>> getRevenueRmlByYear(@PathVariable int year) {
+    @GetMapping("rml")
+    public ResponseEntity<List<RevenueRml>> getRevenueRmlByYear(@RequestParam int year) {
         List<RevenueRml> revenueRmls = revenueRmlService.getRevenueRmlByYear(year);
         if (revenueRmls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(revenueRmls, HttpStatus.OK);

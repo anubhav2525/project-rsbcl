@@ -10,7 +10,11 @@ import java.util.List;
 @Service
 public class SalesRmlService {
     @Autowired
-    private SalesRmlRepo salesRmlRepo;
+    private final SalesRmlRepo salesRmlRepo;
+
+    public SalesRmlService(SalesRmlRepo salesRmlRepo) {
+        this.salesRmlRepo = salesRmlRepo;
+    }
 
     public List<SalesRml> getAll() {
         return salesRmlRepo.findAll();
@@ -19,5 +23,9 @@ public class SalesRmlService {
     public List<SalesRml> getSalesRmlByYear(int year) {
         List<SalesRml> salesRmls = salesRmlRepo.findAll();
         return salesRmls.stream().filter(salesRml -> salesRml.getYear() == year).toList();
+    }
+
+    public List<SalesRml> getSalesBeerByYearAndCategory(int year, String category) {
+        return salesRmlRepo.findByYearAndCategory(year, category);
     }
 }

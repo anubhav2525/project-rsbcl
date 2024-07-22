@@ -15,7 +15,11 @@ import java.util.List;
 @RequestMapping("/api/v1/about-rsgsm/")
 public class AboutRsgsmHeritageLiquorsController {
     @Autowired
-    private AboutRsgsmHeritageLiquorsService aboutRsgsmHeritageLiquorsService;
+    private final AboutRsgsmHeritageLiquorsService aboutRsgsmHeritageLiquorsService;
+
+    public AboutRsgsmHeritageLiquorsController(AboutRsgsmHeritageLiquorsService aboutRsgsmHeritageLiquorsService) {
+        this.aboutRsgsmHeritageLiquorsService = aboutRsgsmHeritageLiquorsService;
+    }
 
     @GetMapping("heritage-liquors")
     public ResponseEntity<List<AboutRsgsmHeritageLiquors>> getAll() {

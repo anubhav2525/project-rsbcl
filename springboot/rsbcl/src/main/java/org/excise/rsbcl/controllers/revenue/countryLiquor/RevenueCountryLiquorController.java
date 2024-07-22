@@ -5,10 +5,7 @@ import org.excise.rsbcl.services.revenue.countryLiquor.RevenueCountryLiquorServi
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -16,17 +13,21 @@ import java.util.List;
 @RequestMapping("/api/v1/revenue/")
 public class RevenueCountryLiquorController {
     @Autowired
-    private RevenueCountryLiquorService revenueCountryLiquorService;
+    private final RevenueCountryLiquorService revenueCountryLiquorService;
 
-    @GetMapping("countryLiquor")
+    public RevenueCountryLiquorController(RevenueCountryLiquorService revenueCountryLiquorService) {
+        this.revenueCountryLiquorService = revenueCountryLiquorService;
+    }
+
+    @GetMapping("countryLiquors")
     public ResponseEntity<List<RevenueCountryLiquor>> getAll() {
         List<RevenueCountryLiquor> revenueCountryLiquors = revenueCountryLiquorService.getAll();
         if (revenueCountryLiquors.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(revenueCountryLiquors, HttpStatus.OK);
     }
 
-    @GetMapping("countryLiquor/{year}")
-    public ResponseEntity<List<RevenueCountryLiquor>> getRevenueCountryLiquorByYear(@PathVariable int year) {
+    @GetMapping("countryLiquor")
+    public ResponseEntity<List<RevenueCountryLiquor>> getRevenueCountryLiquorByYear(@RequestParam int year) {
         List<RevenueCountryLiquor> revenueCountryLiquors = revenueCountryLiquorService.getRevenueCountryLiquorByYear(year);
         if (revenueCountryLiquors.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(revenueCountryLiquors, HttpStatus.OK);

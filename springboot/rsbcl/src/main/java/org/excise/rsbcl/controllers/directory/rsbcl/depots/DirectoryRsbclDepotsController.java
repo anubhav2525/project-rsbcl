@@ -15,7 +15,11 @@ import java.util.List;
 @RequestMapping("/api/v1/directory-rsbcl-depots")
 public class DirectoryRsbclDepotsController {
     @Autowired
-    private DirectoryRsbclDepotsService directoryRsbclDepotsService;
+    private final DirectoryRsbclDepotsService directoryRsbclDepotsService;
+
+    public DirectoryRsbclDepotsController(DirectoryRsbclDepotsService directoryRsbclDepotsService) {
+        this.directoryRsbclDepotsService = directoryRsbclDepotsService;
+    }
 
     @GetMapping
     public ResponseEntity<List<DirectoryRsbclDepots>> getAll() {

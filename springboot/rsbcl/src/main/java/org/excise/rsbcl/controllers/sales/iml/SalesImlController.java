@@ -5,10 +5,7 @@ import org.excise.rsbcl.services.sales.iml.SalesImlService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -16,18 +13,29 @@ import java.util.List;
 @RequestMapping("/api/v1/sales/")
 public class SalesImlController {
     @Autowired
-    private SalesImlService salesImlService;
+    private final SalesImlService salesImlService;
 
-    @GetMapping("iml")
+    public SalesImlController(SalesImlService salesImlService) {
+        this.salesImlService = salesImlService;
+    }
+
+    @GetMapping("imls")
     public ResponseEntity<List<SalesIml>> getAll() {
         List<SalesIml> salesImls = salesImlService.getAll();
         if (salesImls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(salesImls, HttpStatus.OK);
     }
 
-    @GetMapping("iml/{year}")
-    public ResponseEntity<List<SalesIml>> getSalesImlByYear(@PathVariable int year) {
+    @GetMapping("iml-by-year")
+    public ResponseEntity<List<SalesIml>> getSalesImlByYear(@RequestParam int year) {
         List<SalesIml> salesImls = salesImlService.getSalesImlByYear(year);
+        if (salesImls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(salesImls, HttpStatus.OK);
+    }
+
+    @GetMapping("iml")
+    public ResponseEntity<List<SalesIml>> getSalesImlByYearAndCategory(@RequestParam int year, String category) {
+        List<SalesIml> salesImls = salesImlService.getSalesBeerByYearAndCategory(year, category);
         if (salesImls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(salesImls, HttpStatus.OK);
     }

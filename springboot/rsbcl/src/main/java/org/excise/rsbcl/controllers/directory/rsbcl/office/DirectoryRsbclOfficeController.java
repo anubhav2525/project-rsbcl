@@ -15,7 +15,11 @@ import java.util.List;
 @RequestMapping("/api/v1/directory-rsbcl-office")
 public class DirectoryRsbclOfficeController {
     @Autowired
-    private DirectoryRsbclOfficeService directoryRsbclOfficeService;
+    private final DirectoryRsbclOfficeService directoryRsbclOfficeService;
+
+    public DirectoryRsbclOfficeController(DirectoryRsbclOfficeService directoryRsbclOfficeService) {
+        this.directoryRsbclOfficeService = directoryRsbclOfficeService;
+    }
 
     @GetMapping
     public ResponseEntity<List<DirectoryRsbclOffice>> getAll() {

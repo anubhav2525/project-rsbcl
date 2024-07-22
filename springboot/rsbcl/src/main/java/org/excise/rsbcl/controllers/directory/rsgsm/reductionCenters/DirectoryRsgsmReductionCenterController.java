@@ -15,7 +15,11 @@ import java.util.List;
 @RequestMapping("/api/v1/directory-rsgsm-reductionCenters")
 public class DirectoryRsgsmReductionCenterController {
     @Autowired
-    private DirectoryRsgsmReductionCenterService directoryRsgsmReductionCenterService;
+    private final DirectoryRsgsmReductionCenterService directoryRsgsmReductionCenterService;
+
+    public DirectoryRsgsmReductionCenterController(DirectoryRsgsmReductionCenterService directoryRsgsmReductionCenterService) {
+        this.directoryRsgsmReductionCenterService = directoryRsgsmReductionCenterService;
+    }
 
     @GetMapping
     public ResponseEntity<List<DirectoryRsgsmReductionCenter>> getAll() {

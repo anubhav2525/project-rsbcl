@@ -16,7 +16,11 @@ import java.util.List;
 @RequestMapping("/api/v1/about-rsgsm/")
 public class AboutRsgsmFinancialStatusController {
     @Autowired
-    private AboutRsgsmFinancialStatusService aboutRsgsmFinancialStatusService;
+    private final AboutRsgsmFinancialStatusService aboutRsgsmFinancialStatusService;
+
+    public AboutRsgsmFinancialStatusController(AboutRsgsmFinancialStatusService aboutRsgsmFinancialStatusService) {
+        this.aboutRsgsmFinancialStatusService = aboutRsgsmFinancialStatusService;
+    }
 
     @GetMapping("financial-status")
     public ResponseEntity<List<AboutRsgsmFinancialStatus>> getAll() {

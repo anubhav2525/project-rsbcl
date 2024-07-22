@@ -15,7 +15,7 @@ const SalesTable = () => {
             });
     }, []);
     return (
-        <div className="my-4 bg-slate-300 dark:bg-slate-800 px-2 rounded sm:px-4  py-2">
+        <div className="my-4 bg-slate-300 dark:bg-slate-800 px-2 rounded sm:px-4 py-2">
             <div className="relative rounded overflow-x-auto shadow-md sm:rounded-lg">
                 <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
                     <table className="w-full text-sm text-left rtl:text-right text-gray-600 dark:text-gray-300">

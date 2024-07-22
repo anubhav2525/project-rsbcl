@@ -5,10 +5,7 @@ import org.excise.rsbcl.services.sales.rml.SalesRmlService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -16,18 +13,29 @@ import java.util.List;
 @RequestMapping("/api/v1/sales/")
 public class SalesRmlController {
     @Autowired
-    private SalesRmlService salesRmlService;
+    private final SalesRmlService salesRmlService;
 
-    @GetMapping("rml")
+    public SalesRmlController(SalesRmlService salesRmlService) {
+        this.salesRmlService = salesRmlService;
+    }
+
+    @GetMapping("rmls")
     public ResponseEntity<List<SalesRml>> getAll() {
         List<SalesRml> salesRmls = salesRmlService.getAll();
         if (salesRmls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(salesRmls, HttpStatus.OK);
     }
 
-    @GetMapping("rml/{year}")
-    public ResponseEntity<List<SalesRml>> getSalesRmlByYear(@PathVariable int year) {
+    @GetMapping("rml-by-year")
+    public ResponseEntity<List<SalesRml>> getSalesRmlByYear(@RequestParam int year) {
         List<SalesRml> salesRmls = salesRmlService.getSalesRmlByYear(year);
+        if (salesRmls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(salesRmls, HttpStatus.OK);
+    }
+
+    @GetMapping("rml")
+    public ResponseEntity<List<SalesRml>> getSalesRmlByYearAndCategory(@RequestParam int year, String category) {
+        List<SalesRml> salesRmls = salesRmlService.getSalesBeerByYearAndCategory(year, category);
         if (salesRmls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(salesRmls, HttpStatus.OK);
     }

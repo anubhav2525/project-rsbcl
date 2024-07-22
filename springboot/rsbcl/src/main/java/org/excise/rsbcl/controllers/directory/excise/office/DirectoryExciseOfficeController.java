@@ -15,7 +15,11 @@ import java.util.List;
 @RequestMapping("/api/v1/directory-excise-office")
 public class DirectoryExciseOfficeController {
     @Autowired
-    private DirectoryExciseOfficeService directoryExciseOfficeService;
+    private final DirectoryExciseOfficeService directoryExciseOfficeService;
+
+    public DirectoryExciseOfficeController(DirectoryExciseOfficeService directoryExciseOfficeService) {
+        this.directoryExciseOfficeService = directoryExciseOfficeService;
+    }
 
     @GetMapping
     public ResponseEntity<List<DirectoryExciseOffice>> getAll() {

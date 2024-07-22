@@ -10,7 +10,11 @@ import java.util.List;
 @Service
 public class RevenueBeerService {
     @Autowired
-    private RevenueBeerRepo revenueBeerRepo;
+    private final RevenueBeerRepo revenueBeerRepo;
+
+    public RevenueBeerService(RevenueBeerRepo revenueBeerRepo) {
+        this.revenueBeerRepo = revenueBeerRepo;
+    }
 
     public List<RevenueBeer> getAll() {
         return revenueBeerRepo.findAll();

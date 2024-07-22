@@ -11,7 +11,11 @@ import java.util.stream.Collectors;
 @Service
 public class SalesCountryLiquorService {
     @Autowired
-    private SalesCountryLiquorRepo salesCountryLiquorRepo;
+    private final SalesCountryLiquorRepo salesCountryLiquorRepo;
+
+    public SalesCountryLiquorService(SalesCountryLiquorRepo salesCountryLiquorRepo) {
+        this.salesCountryLiquorRepo = salesCountryLiquorRepo;
+    }
 
     public List<SalesCountryLiquor> getAll() {
         return salesCountryLiquorRepo.findAll();
@@ -22,5 +26,9 @@ public class SalesCountryLiquorService {
         return salesCountryLiquors.stream()
                 .filter(salesCountryLiquor -> salesCountryLiquor.getYear() == year)
                 .collect(Collectors.toList());
+    }
+
+    public List<SalesCountryLiquor> getSalesBeerByYearAndCategory(int year, String category) {
+        return salesCountryLiquorRepo.findByYearAndCategory(year, category);
     }
 }

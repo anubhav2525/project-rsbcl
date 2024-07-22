@@ -15,7 +15,11 @@ import java.util.List;
 @RequestMapping("/api/v1/about-rsgsm/")
 public class AboutRsgsmSugarDivisionController {
     @Autowired
-    private AboutRsgsmSugarDivisionService aboutRsgsmSugarDivisionService;
+    private final AboutRsgsmSugarDivisionService aboutRsgsmSugarDivisionService;
+
+    public AboutRsgsmSugarDivisionController(AboutRsgsmSugarDivisionService aboutRsgsmSugarDivisionService) {
+        this.aboutRsgsmSugarDivisionService = aboutRsgsmSugarDivisionService;
+    }
 
     @GetMapping("sugar-cane-division")
     public ResponseEntity<List<AboutRsgsmSugarDivision>> getAll() {

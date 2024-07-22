@@ -15,7 +15,11 @@ import java.util.List;
 @RequestMapping("/api/v1/about-rsgsm/")
 public class AboutRsgsmSalesDataController {
     @Autowired
-    private AboutRsgsmSalesDataService aboutRsgsmSalesDataService;
+    private final AboutRsgsmSalesDataService aboutRsgsmSalesDataService;
+
+    public AboutRsgsmSalesDataController(AboutRsgsmSalesDataService aboutRsgsmSalesDataService) {
+        this.aboutRsgsmSalesDataService = aboutRsgsmSalesDataService;
+    }
 
     @GetMapping("sales-data")
     public ResponseEntity<List<AboutRsgsmSalesData>> getAll() {

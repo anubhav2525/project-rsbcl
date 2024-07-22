@@ -15,7 +15,11 @@ import java.util.List;
 @RequestMapping("/api/v1/about-rsbcl/")
 public class AboutRsbclIntroductionController {
     @Autowired
-    private AboutRsbclIntroductionService aboutRsbclIntroductionService;
+    private final AboutRsbclIntroductionService aboutRsbclIntroductionService;
+
+    public AboutRsbclIntroductionController(AboutRsbclIntroductionService aboutRsbclIntroductionService) {
+        this.aboutRsbclIntroductionService = aboutRsbclIntroductionService;
+    }
 
     @GetMapping("introduction")
     public ResponseEntity<List<AboutRsbclIntroduction>> getAll() {

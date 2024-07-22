@@ -15,7 +15,11 @@ import java.util.List;
 @RequestMapping("/api/v1/about-rsgsm/")
 public class AboutRsgsmTurnOverProfitController {
     @Autowired
-    private AboutRsgsmTurnOverProfitService aboutRsgsmTurnOverProfitService;
+    private final AboutRsgsmTurnOverProfitService aboutRsgsmTurnOverProfitService;
+
+    public AboutRsgsmTurnOverProfitController(AboutRsgsmTurnOverProfitService aboutRsgsmTurnOverProfitService) {
+        this.aboutRsgsmTurnOverProfitService = aboutRsgsmTurnOverProfitService;
+    }
 
     @GetMapping("turnover-profit")
     public ResponseEntity<List<AboutRsgsmTurnOverProfit>> getAll() {

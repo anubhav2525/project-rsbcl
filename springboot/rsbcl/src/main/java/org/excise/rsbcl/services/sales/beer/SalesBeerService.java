@@ -20,4 +20,9 @@ public class SalesBeerService {
         List<SalesBeer> salesBeers = salesBeerRepo.findAll();
         return salesBeers.stream().filter(salesBeer -> salesBeer.getYear() == year).toList();
     }
+
+    public List<SalesBeer> getSalesBeerByYearAndCategory(int year, String category) {
+        return salesBeerRepo.findByYearAndCategory(year, category);
+
+    }
 }

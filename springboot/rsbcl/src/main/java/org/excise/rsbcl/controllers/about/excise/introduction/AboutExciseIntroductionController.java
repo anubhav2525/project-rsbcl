@@ -15,7 +15,11 @@ import java.util.List;
 @RequestMapping("/api/v1/about-excise/")
 public class AboutExciseIntroductionController {
     @Autowired
-    private AboutExciseIntroductionService aboutExciseIntroductionService;
+    private final AboutExciseIntroductionService aboutExciseIntroductionService;
+
+    public AboutExciseIntroductionController(AboutExciseIntroductionService aboutExciseIntroductionService) {
+        this.aboutExciseIntroductionService = aboutExciseIntroductionService;
+    }
 
     @GetMapping("introduction")
     public ResponseEntity<List<AboutExciseIntroduction>> getAll() {
