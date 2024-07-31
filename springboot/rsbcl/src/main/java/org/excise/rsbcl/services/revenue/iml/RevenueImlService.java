@@ -20,4 +20,13 @@ public class RevenueImlService {
         List<RevenueIml> revenueImls = revenueImlRepo.findAll();
         return revenueImls.stream().filter(revenueIml -> revenueIml.getYear() == year).toList();
     }
+
+    public List<RevenueIml> getRevenueBeerByYearAndDistrict(int year, String district, String month) {
+        return revenueImlRepo.findByYearAndDistrictAndMonth(year, district, month);
+    }
+
+    public List<RevenueIml> getRevenueBeerByYearAndRange(int year) {
+        List<RevenueIml> revenueImls = revenueImlRepo.findByYear(year);
+        return revenueImls.subList(0, 10);
+    }
 }

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/sales/")
+@RequestMapping("/api/")
 public class SalesRmlController {
     @Autowired
     private final SalesRmlService salesRmlService;
@@ -19,21 +19,21 @@ public class SalesRmlController {
         this.salesRmlService = salesRmlService;
     }
 
-    @GetMapping("rmls")
+    @GetMapping("v1/sales/rmls")
     public ResponseEntity<List<SalesRml>> getAll() {
         List<SalesRml> salesRmls = salesRmlService.getAll();
         if (salesRmls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(salesRmls, HttpStatus.OK);
     }
 
-    @GetMapping("rml-by-year")
+    @GetMapping("v1/sales/rml-by-year")
     public ResponseEntity<List<SalesRml>> getSalesRmlByYear(@RequestParam int year) {
         List<SalesRml> salesRmls = salesRmlService.getSalesRmlByYear(year);
         if (salesRmls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(salesRmls, HttpStatus.OK);
     }
 
-    @GetMapping("rml")
+    @GetMapping("v1/sales/rml")
     public ResponseEntity<List<SalesRml>> getSalesRmlByYearAndCategory(@RequestParam int year, String category) {
         List<SalesRml> salesRmls = salesRmlService.getSalesBeerByYearAndCategory(year, category);
         if (salesRmls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);

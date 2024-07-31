@@ -13,7 +13,7 @@ import org.w3c.dom.ls.LSInput;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/about-rsgsm/")
+@RequestMapping("/api/v1/")
 public class AboutRsgsmFinancialStatusController {
     @Autowired
     private final AboutRsgsmFinancialStatusService aboutRsgsmFinancialStatusService;
@@ -22,7 +22,7 @@ public class AboutRsgsmFinancialStatusController {
         this.aboutRsgsmFinancialStatusService = aboutRsgsmFinancialStatusService;
     }
 
-    @GetMapping("financial-status")
+    @GetMapping("about-rsgsm/financial-status")
     public ResponseEntity<List<AboutRsgsmFinancialStatus>> getAll() {
         List<AboutRsgsmFinancialStatus> aboutRsgsmFinancialStatuses = aboutRsgsmFinancialStatusService.getAll();
         if (aboutRsgsmFinancialStatuses.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);

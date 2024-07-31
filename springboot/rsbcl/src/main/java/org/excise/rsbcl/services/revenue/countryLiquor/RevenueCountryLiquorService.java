@@ -20,4 +20,13 @@ public class RevenueCountryLiquorService {
         List<RevenueCountryLiquor> revenueCountryLiquors = revenueCountryLiquorRepo.findAll();
         return revenueCountryLiquors.stream().filter(revenueCountryLiquor -> revenueCountryLiquor.getYear() == year).toList();
     }
+
+    public List<RevenueCountryLiquor> getRevenueBeerByYearAndDistrict(int year, String district, String month) {
+        return revenueCountryLiquorRepo.findByYearAndDistrictAndMonth(year, district, month);
+    }
+
+    public List<RevenueCountryLiquor> getRevenueBeerByYearAndRange(int year) {
+        List<RevenueCountryLiquor> revenueCountryLiquors = revenueCountryLiquorRepo.findByYear(year);
+        return revenueCountryLiquors.subList(0, 10);
+    }
 }

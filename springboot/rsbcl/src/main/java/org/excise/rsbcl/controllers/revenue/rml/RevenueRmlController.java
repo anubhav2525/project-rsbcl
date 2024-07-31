@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/revenue/")
+@RequestMapping("/api/")
 public class RevenueRmlController {
 
     @Autowired
@@ -20,16 +20,23 @@ public class RevenueRmlController {
         this.revenueRmlService = revenueRmlService;
     }
 
-    @GetMapping("rmls")
+    @GetMapping("v1/revenue/rmls")
     public ResponseEntity<List<RevenueRml>> getAll() {
         List<RevenueRml> revenueRmls = revenueRmlService.getAll();
         if (revenueRmls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(revenueRmls, HttpStatus.OK);
     }
 
-    @GetMapping("rml")
+    @GetMapping("v1/revenue/rml")
     public ResponseEntity<List<RevenueRml>> getRevenueRmlByYear(@RequestParam int year) {
         List<RevenueRml> revenueRmls = revenueRmlService.getRevenueRmlByYear(year);
+        if (revenueRmls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(revenueRmls, HttpStatus.OK);
+    }
+
+    @GetMapping("v1/revenue/rml-by-year-and-range")
+    public ResponseEntity<List<RevenueRml>> getRevenueBeerByYearAndRange(@RequestParam int year) {
+        List<RevenueRml> revenueRmls = revenueRmlService.getRevenueBeerByYearAndRange(year);
         if (revenueRmls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(revenueRmls, HttpStatus.OK);
     }

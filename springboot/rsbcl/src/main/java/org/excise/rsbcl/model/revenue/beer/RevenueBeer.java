@@ -15,12 +15,13 @@ public class RevenueBeer {
     @Id
     private ObjectId id;
     private String district;
-    private double a;
-    private double b;
-    private double c;
-    private double d;
-    private double e;
-    private double f;
-    private double total;
+    private Double a;
+    private Double b;
+    private Double c;
+    private Double d;
+    private Double e;
+    private Double f;
+    private Double total;
+    private String month;
     private int year;
 }

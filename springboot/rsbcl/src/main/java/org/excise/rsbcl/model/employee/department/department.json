@@ -1,0 +1,20 @@
+[
+  {
+    "departmentName": "excise",
+    "description": "Excise Department",
+    "departmentSize": 100,
+    "status": true
+  },
+  {
+    "departmentName": "rsbcl",
+    "description": "Rajasthan State Beverage Corporation Limited",
+    "departmentSize": 150,
+    "status": true
+  },
+  {
+    "departmentName": "rsgsm",
+    "description": "Rajasthan State Sugar Mils",
+    "departmentSize": 500,
+    "status": true
+  }
+]

@@ -1,18 +1,17 @@
 package org.excise.rsbcl.controllers.directory.rsbcl.depots;
 
+import org.bson.types.ObjectId;
 import org.excise.rsbcl.model.directory.rsbcl.depots.DirectoryRsbclDepots;
 import org.excise.rsbcl.services.directory.rsbcl.depots.DirectoryRsbclDepotsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/directory-rsbcl-depots")
+@RequestMapping("/api")
 public class DirectoryRsbclDepotsController {
     @Autowired
     private final DirectoryRsbclDepotsService directoryRsbclDepotsService;
@@ -21,10 +20,48 @@ public class DirectoryRsbclDepotsController {
         this.directoryRsbclDepotsService = directoryRsbclDepotsService;
     }
 
-    @GetMapping
-    public ResponseEntity<List<DirectoryRsbclDepots>> getAll() {
-        List<DirectoryRsbclDepots> directoryRsbclDepots = directoryRsbclDepotsService.getAll();
-        if (directoryRsbclDepots.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        return new ResponseEntity<>(directoryRsbclDepots, HttpStatus.OK);
+    @GetMapping("/v1/public/directory/rsbcl-depots")
+    public ResponseEntity<?> getAll() {
+        DirectoryRsbclDepotsService.Response<List<DirectoryRsbclDepots>> response = directoryRsbclDepotsService.getAll();
+        return createResponseEntity(response);
+    }
+
+    @GetMapping("/v1/auth/directory/rsbcl-depot/id/{id}")
+    public ResponseEntity<?> getById(@PathVariable("id") ObjectId id) {
+        DirectoryRsbclDepotsService.Response<DirectoryRsbclDepots> response = directoryRsbclDepotsService.getDepotsById(id);
+        return createResponseEntity(response);
+    }
+
+    @PostMapping("/v1/auth/directory/rsbcl-depot")
+    public ResponseEntity<?> saveDepot(@RequestBody DirectoryRsbclDepots directoryRsbclDepots) {
+        DirectoryRsbclDepotsService.Response<DirectoryRsbclDepots> response = directoryRsbclDepotsService.saveDepot(directoryRsbclDepots);
+        return createResponseEntity(response);
+    }
+
+    @PostMapping("/v1/auth/directory/rsbcl-depot/save-entries")
+    public ResponseEntity<?> saveDepots(@RequestBody List<DirectoryRsbclDepots> directoryRsbclDepotsList) {
+        DirectoryRsbclDepotsService.Response<List<DirectoryRsbclDepots>> response = directoryRsbclDepotsService.saveDepots(directoryRsbclDepotsList);
+        return createResponseEntity(response);
+    }
+
+    @PutMapping("/v1/auth/directory/rsbcl-depot/id/{id}")
+    public ResponseEntity<?> updateDepotById(@PathVariable("id") ObjectId id, @RequestBody DirectoryRsbclDepots directoryRsbclDepots) {
+        DirectoryRsbclDepotsService.Response<DirectoryRsbclDepots> response = directoryRsbclDepotsService.updateDepot(id, directoryRsbclDepots);
+        return createResponseEntity(response);
+    }
+
+    @DeleteMapping("/v1/auth/directory/rsbcl-depot/id/{id}")
+    public ResponseEntity<?> deleteById(@PathVariable("id") ObjectId id) {
+        DirectoryRsbclDepotsService.Response<Void> response = directoryRsbclDepotsService.deleteById(id);
+        return createResponseEntity(response);
+    }
+
+    private <T> ResponseEntity<?> createResponseEntity(DirectoryRsbclDepotsService.Response<T> response) {
+        return switch (response.getStatus()) {
+            case "Success" -> new ResponseEntity<>(response, HttpStatus.OK);
+            case "Error" -> new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
+            case "Error404" -> new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
+            default -> new ResponseEntity<>("Unknown status", HttpStatus.INTERNAL_SERVER_ERROR);
+        };
     }
 }

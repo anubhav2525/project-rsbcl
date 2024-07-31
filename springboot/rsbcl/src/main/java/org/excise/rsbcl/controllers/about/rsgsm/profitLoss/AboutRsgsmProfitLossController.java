@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/about-rsgsm/")
+@RequestMapping("/api/v1/")
 public class AboutRsgsmProfitLossController {
     @Autowired
     private final AboutRsgsmProfitLossService aboutRsgsmProfitLossService;
@@ -21,7 +21,7 @@ public class AboutRsgsmProfitLossController {
         this.aboutRsgsmProfitLossService = aboutRsgsmProfitLossService;
     }
 
-    @GetMapping("profit-loss")
+    @GetMapping("about-rsgsm/profit-loss")
     public ResponseEntity<List<AboutRsgsmProfitLoss>> getAll() {
         List<AboutRsgsmProfitLoss> aboutRsgsmProfitLosses = aboutRsgsmProfitLossService.getAll();
         if (aboutRsgsmProfitLosses.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);

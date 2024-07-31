@@ -15,11 +15,12 @@ public class RevenueCountryLiquor {
     @Id
     private ObjectId _id;
     private String district;
-    private double a;
-    private double b;
-    private double c;
-    private double d;
-    private double e;
-    private double total;
+    private Double a;
+    private Double b;
+    private Double c;
+    private Double d;
+    private Double e;
+    private Double total;
+    private String month;
     private int year;
 }

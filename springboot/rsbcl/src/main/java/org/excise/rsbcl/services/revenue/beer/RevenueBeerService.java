@@ -25,5 +25,12 @@ public class RevenueBeerService {
         return revenueBeers.stream().filter(revenueBeer -> revenueBeer.getYear() == year).toList();
     }
 
+    public List<RevenueBeer> getRevenueBeerByYearAndDistrict(int year, String district, String month) {
+        return revenueBeerRepo.findByYearAndDistrictAndMonth(year, district, month);
+    }
 
+    public List<RevenueBeer> getRevenueBeerByYearAndRange(int year) {
+        List<RevenueBeer> revenueBeers = revenueBeerRepo.findByYear(year);
+        return revenueBeers.subList(0, 10);
+    }
 }

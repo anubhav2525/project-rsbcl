@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/about-rsgsm/")
+@RequestMapping("/api/v1/")
 public class AboutRsgsmImesController {
     @Autowired
     private final AboutRsgsmImesService aboutRsgsmImesService;
@@ -21,7 +21,7 @@ public class AboutRsgsmImesController {
         this.aboutRsgsmImesService = aboutRsgsmImesService;
     }
 
-    @GetMapping("imes")
+    @GetMapping("about-rsgsm/imes")
     public ResponseEntity<List<AboutRsgsmImes>> getAll() {
         List<AboutRsgsmImes> aboutRsgsmImes = aboutRsgsmImesService.getAll();
         if (aboutRsgsmImes.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);

@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/about-rsbcl/")
+@RequestMapping("/api")
 public class AboutRsbclIntroductionController {
     @Autowired
     private final AboutRsbclIntroductionService aboutRsbclIntroductionService;
@@ -21,10 +21,18 @@ public class AboutRsbclIntroductionController {
         this.aboutRsbclIntroductionService = aboutRsbclIntroductionService;
     }
 
-    @GetMapping("introduction")
-    public ResponseEntity<List<AboutRsbclIntroduction>> getAll() {
-        List<AboutRsbclIntroduction> aboutRsbclIntroductions = aboutRsbclIntroductionService.getAll();
-        if (aboutRsbclIntroductions.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        return new ResponseEntity<>(aboutRsbclIntroductions, HttpStatus.OK);
+    @GetMapping("/v1/public/about/rsbcl-introductions")
+    public ResponseEntity<?> getAll() {
+        AboutRsbclIntroductionService.Response<List<AboutRsbclIntroduction>> response = aboutRsbclIntroductionService.getAll();
+        return createResponseEntity(response);
+    }
+
+    private <T> ResponseEntity<?> createResponseEntity(AboutRsbclIntroductionService.Response<T> response) {
+        return switch (response.getStatus()) {
+            case "Success" -> new ResponseEntity<>(response, HttpStatus.OK);
+            case "Error" -> new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
+            case "Error404" -> new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
+            default -> new ResponseEntity<>("Unknown status", HttpStatus.INTERNAL_SERVER_ERROR);
+        };
     }
 }

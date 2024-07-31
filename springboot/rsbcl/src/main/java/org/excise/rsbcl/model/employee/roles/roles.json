@@ -1,0 +1,22 @@
+[
+  {
+    "role": "admin",
+    "description": "Administration Department"
+  },
+  {
+    "role": "hr",
+    "description": "Human Resources Department"
+  },
+  {
+    "role": "employee",
+    "description": "Employee Department"
+  },
+  {
+    "role": "it",
+    "description": "IT Department"
+  },
+  {
+    "role": "manager",
+    "description": "Management Department"
+  }
+]

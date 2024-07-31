@@ -1,0 +1,312 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "gender": "Male",
+    "dateOfBirth": "1990-05-15",
+    "aadharNumber": "123456789012",
+    "phoneNumber": "9876543210",
+    "email": "john.doe@example.com",
+    "address": {
+      "city": "New York",
+      "state": "NY",
+      "pincode": 10001,
+      "country": "USA",
+      "streetAddress": "123 Main St"
+    },
+    "dateOfJoining": "2021-06-01",
+    "jobTitle": "Software Engineer",
+    "salary": 75000.00,
+    "employmentType": "Full-Time",
+    "createdBy": "admin",
+    "status": true,
+    "username": "jdoe",
+    "roles": [
+      "it",
+      "employee"
+    ],
+    "departmentName": "excise"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "gender": "Female",
+    "dateOfBirth": "1985-03-22",
+    "aadharNumber": "234567890123",
+    "phoneNumber": "8765432109",
+    "email": "jane.smith@example.com",
+    "address": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "pincode": 90001,
+      "country": "USA",
+      "streetAddress": "456 Elm St"
+    },
+    "dateOfJoining": "2020-09-15",
+    "jobTitle": "Project Manager",
+    "salary": 85000.00,
+    "employmentType": "Full-Time",
+    "createdBy": "admin",
+    "status": true,
+    "username": "jsmith",
+    "roles": [
+      "manager",
+      "employee"
+    ],
+    "departmentName": "rsbcl"
+  },
+  {
+    "firstName": "Robert",
+    "lastName": "Johnson",
+    "gender": "Male",
+    "dateOfBirth": "1975-12-05",
+    "aadharNumber": "345678901234",
+    "phoneNumber": "7654321098",
+    "email": "robert.johnson@example.com",
+    "address": {
+      "city": "Chicago",
+      "state": "IL",
+      "pincode": 60601,
+      "country": "USA",
+      "streetAddress": "789 Maple Ave"
+    },
+    "dateOfJoining": "2019-04-23",
+    "jobTitle": "System Analyst",
+    "salary": 68000.00,
+    "employmentType": "Part-Time",
+    "createdBy": "admin",
+    "status": true,
+    "username": "rjohnson",
+    "roles": [
+      "it",
+      "employee"
+    ],
+    "departmentName": "rsgsm"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "gender": "Female",
+    "dateOfBirth": "1995-08-19",
+    "aadharNumber": "456789012345",
+    "phoneNumber": "6543210987",
+    "email": "emily.davis@example.com",
+    "address": {
+      "city": "Houston",
+      "state": "TX",
+      "pincode": 77001,
+      "country": "USA",
+      "streetAddress": "321 Oak St"
+    },
+    "dateOfJoining": "2022-01-10",
+    "jobTitle": "HR Specialist",
+    "salary": 62000.00,
+    "employmentType": "Full-Time",
+    "createdBy": "admin",
+    "status": true,
+    "username": "edavis",
+    "roles": [
+      "hr",
+      "employee"
+    ],
+    "departmentName": "rsbcl"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Brown",
+    "gender": "Male",
+    "dateOfBirth": "1980-11-30",
+    "aadharNumber": "567890123456",
+    "phoneNumber": "5432109876",
+    "email": "michael.brown@example.com",
+    "address": {
+      "city": "Phoenix",
+      "state": "AZ",
+      "pincode": 85001,
+      "country": "USA",
+      "streetAddress": "654 Pine St"
+    },
+    "dateOfJoining": "2018-07-18",
+    "jobTitle": "Database Administrator",
+    "salary": 78000.00,
+    "employmentType": "Full-Time",
+    "createdBy": "admin",
+    "status": true,
+    "username": "mbrown",
+    "password": "FCeELEyb7ujf8Om",
+    "roles": [
+      "it",
+      "employee"
+    ],
+    "departmentName": "excise"
+  },
+  {
+    "firstName": "Lisa",
+    "lastName": "White",
+    "gender": "Female",
+    "dateOfBirth": "1988-02-14",
+    "aadharNumber": "678901234567",
+    "phoneNumber": "4321098765",
+    "email": "lisa.white@example.com",
+    "address": {
+      "city": "San Francisco",
+      "state": "CA",
+      "pincode": 94101,
+      "country": "USA",
+      "streetAddress": "1234 Market St"
+    },
+    "dateOfJoining": "2021-03-12",
+    "jobTitle": "Network Engineer",
+    "salary": 71000.00,
+    "employmentType": "Full-Time",
+    "createdBy": "admin",
+    "status": true,
+    "username": "lwhite",
+    "roles": [
+      "it",
+      "employee"
+    ],
+    "departmentName": "rsgsm"
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "Taylor",
+    "gender": "Male",
+    "dateOfBirth": "1992-11-27",
+    "aadharNumber": "789012345678",
+    "phoneNumber": "3210987654",
+    "email": "chris.taylor@example.com",
+    "address": {
+      "city": "Austin",
+      "state": "TX",
+      "pincode": 73301,
+      "country": "USA",
+      "streetAddress": "5678 Congress Ave"
+    },
+    "dateOfJoining": "2017-05-24",
+    "jobTitle": "DevOps Engineer",
+    "salary": 82000.00,
+    "employmentType": "Full-Time",
+    "createdBy": "admin",
+    "status": true,
+    "username": "ctaylor",
+    "roles": [
+      "it",
+      "employee"
+    ],
+    "departmentName": "excise"
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Brown",
+    "gender": "Female",
+    "dateOfBirth": "1993-09-30",
+    "aadharNumber": "890123456789",
+    "phoneNumber": "2109876543",
+    "email": "sarah.brown@example.com",
+    "address": {
+      "city": "Seattle",
+      "state": "WA",
+      "pincode": 98101,
+      "country": "USA",
+      "streetAddress": "91011 Pike St"
+    },
+    "dateOfJoining": "2019-11-11",
+    "jobTitle": "UX Designer",
+    "salary": 67000.00,
+    "employmentType": "Full-Time",
+    "createdBy": "admin",
+    "status": true,
+    "username": "sbrown",
+    "roles": [
+      "it",
+      "employee"
+    ],
+    "departmentName": "rsbcl"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Lee",
+    "gender": "Male",
+    "dateOfBirth": "1986-07-18",
+    "aadharNumber": "901234567890",
+    "phoneNumber": "1098765432",
+    "email": "david.lee@example.com",
+    "address": {
+      "city": "Boston",
+      "state": "MA",
+      "pincode": 02101,
+      "country": "USA",
+      "streetAddress": "1213 Boylston St"
+    },
+    "dateOfJoining": "2016-10-05",
+    "jobTitle": "Product Manager",
+    "salary": 91000.00,
+    "employmentType": "Full-Time",
+    "createdBy": "admin",
+    "status": true,
+    "username": "dlee",
+    "roles": [
+      "manager",
+      "employee"
+    ],
+    "departmentName": "rsgsm"
+  },
+  {
+    "firstName": "Karen",
+    "lastName": "Martinez",
+    "gender": "Female",
+    "dateOfBirth": "1979-04-25",
+    "aadharNumber": "012345678901",
+    "phoneNumber": "0987654321",
+    "email": "karen.martinez@example.com",
+    "address": {
+      "city": "Denver",
+      "state": "CO",
+      "pincode": 80201,
+      "country": "USA",
+      "streetAddress": "1415 Broadway St"
+    },
+    "dateOfJoining": "2020-02-21",
+    "jobTitle": "Chief Financial Officer",
+    "salary": 150000.00,
+    "employmentType": "Full-Time",
+    "createdBy": "admin",
+    "status": true,
+    "username": "kmartinez",
+    "roles": [
+      "admin",
+      "employee"
+    ],
+    "departmentName": "excise"
+  },
+  {
+    "firstName": "James",
+    "lastName": "Wilson",
+    "gender": "Male",
+    "dateOfBirth": "1983-03-14",
+    "aadharNumber": "123456789011",
+    "phoneNumber": "9876543219",
+    "email": "james.wilson@example.com",
+    "address": {
+      "city": "Miami",
+      "state": "FL",
+      "pincode": 33101,
+      "country": "USA",
+      "streetAddress": "1617 Ocean Dr"
+    },
+    "dateOfJoining": "2018-08-30",
+    "jobTitle": "Operations Manager",
+    "salary": 89000.00,
+    "employmentType": "Full-Time",
+    "createdBy": "admin",
+    "status": true,
+    "username": "jwilson",
+    "password": "WL2J8aw9k8oCaip",
+    "roles": [
+      "manager",
+      "employee"
+    ],
+    "departmentName": "rsbcl"
+  }
+]

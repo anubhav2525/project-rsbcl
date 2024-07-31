@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/sales/")
+@RequestMapping("/api/")
 public class SalesCountryLiquorController {
     @Autowired
     private final SalesCountryLiquorService salesCountryLiquorService;
@@ -19,21 +19,21 @@ public class SalesCountryLiquorController {
         this.salesCountryLiquorService = salesCountryLiquorService;
     }
 
-    @GetMapping("countryLiquors")
+    @GetMapping("v1/sales/countryLiquors")
     public ResponseEntity<List<SalesCountryLiquor>> getAll() {
         List<SalesCountryLiquor> salesCountryLiquors = salesCountryLiquorService.getAll();
         if (salesCountryLiquors.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(salesCountryLiquors, HttpStatus.OK);
     }
 
-    @GetMapping("countryLiquor-by-year")
+    @GetMapping("v1/sales/countryLiquor-by-year")
     public ResponseEntity<List<SalesCountryLiquor>> getSalesCountryLiquorByYear(@RequestParam int year) {
         List<SalesCountryLiquor> salesCountryLiquors = salesCountryLiquorService.getSalesCountryLiquorByYear(year);
         if (salesCountryLiquors.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(salesCountryLiquors, HttpStatus.OK);
     }
 
-    @GetMapping("countryLiquor")
+    @GetMapping("v1/sales/countryLiquor")
     public ResponseEntity<List<SalesCountryLiquor>> getSalesCountryLiquorYearAndCategory(@RequestParam int year, String category) {
         List<SalesCountryLiquor> salesCountryLiquors = salesCountryLiquorService.getSalesBeerByYearAndCategory(year, category);
         if (salesCountryLiquors.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);

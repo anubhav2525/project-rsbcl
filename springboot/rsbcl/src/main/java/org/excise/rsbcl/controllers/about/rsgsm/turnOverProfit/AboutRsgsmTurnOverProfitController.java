@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/about-rsgsm/")
+@RequestMapping("/api/v1/")
 public class AboutRsgsmTurnOverProfitController {
     @Autowired
     private final AboutRsgsmTurnOverProfitService aboutRsgsmTurnOverProfitService;
@@ -21,7 +21,7 @@ public class AboutRsgsmTurnOverProfitController {
         this.aboutRsgsmTurnOverProfitService = aboutRsgsmTurnOverProfitService;
     }
 
-    @GetMapping("turnover-profit")
+    @GetMapping("about-rsgsm/turnover-profit")
     public ResponseEntity<List<AboutRsgsmTurnOverProfit>> getAll() {
         List<AboutRsgsmTurnOverProfit> aboutRsgsmTurnOverProfits = aboutRsgsmTurnOverProfitService.getAll();
         if (aboutRsgsmTurnOverProfits.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/revenue/")
+@RequestMapping("/api/")
 public class RevenueImlController {
     @Autowired
     private final RevenueImlService revenueImlService;
@@ -19,16 +19,23 @@ public class RevenueImlController {
         this.revenueImlService = revenueImlService;
     }
 
-    @GetMapping("imls")
+    @GetMapping("v1/revenue/imls")
     public ResponseEntity<List<RevenueIml>> getAll() {
         List<RevenueIml> revenueImls = revenueImlService.getAll();
         if (revenueImls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(revenueImls, HttpStatus.OK);
     }
 
-    @GetMapping("iml")
+    @GetMapping("v1/revenue/iml")
     public ResponseEntity<List<RevenueIml>> getRevenueImlByYear(@RequestParam int year) {
         List<RevenueIml> revenueImls = revenueImlService.getRevenueImlByYear(year);
+        if (revenueImls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(revenueImls, HttpStatus.OK);
+    }
+
+    @GetMapping("v1/revenue/iml-by-year-and-range")
+    public ResponseEntity<List<RevenueIml>> getRevenueBeerByYearAndRange(@RequestParam int year) {
+        List<RevenueIml> revenueImls = revenueImlService.getRevenueBeerByYearAndRange(year);
         if (revenueImls.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(revenueImls, HttpStatus.OK);
     }

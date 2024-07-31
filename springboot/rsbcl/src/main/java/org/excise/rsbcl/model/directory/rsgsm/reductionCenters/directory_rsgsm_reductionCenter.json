@@ -1,83 +1,83 @@
 [
   {
     "sno": 1,
-    "rcName": "Bhilwara(R.C)",
-    "email": "bhilwararc.rsgsm@rajasthan.gov.in"
-  },
-  {
-    "sno": 2,
     "rcName": "Ajmer(R.C)",
     "email": "ajmerrc.rsgsm@rajasthan.gov.in"
   },
   {
-    "sno": 3,
-    "rcName": "Bharatpur(R.C)",
-    "email": "bharatpurrc.rsgsm@rajasthan.gov.in"
-  },
-  {
-    "sno": 4,
-    "rcName": "Sawaimadhopur(R.C)",
-    "email": "swmrc.rsgsm@rajasthan.gov.in"
-  },
-  {
-    "sno": 5,
-    "rcName": "Dholpur(R.C)",
-    "email": "dholpurrc.rsgsm@rajasthan.gov.in"
-  },
-  {
-    "sno": 6,
+    "sno": 2,
     "rcName": "Alwar(R.C)",
     "email": "alwarrc.rsgsm@rajasthan.gov.in"
   },
   {
-    "sno": 7,
-    "rcName": "Sikar(R.C)",
-    "email": "sikarrc.rsgsm@rajasthan.gov.in"
-  },
-  {
-    "sno": 8,
-    "rcName": "Jhunjhunu(R.C)",
-    "email": "jhunjhunurc.rsgsm@rajasthan.gov.in"
-  },
-  {
-    "sno": 9,
-    "rcName": "Jaipur City(R.C)",
-    "email": "jaipurrc.rsgsm@rajasthan.gov.in"
-  },
-  {
-    "sno": 10,
-    "rcName": "Sirohi(R.C)",
-    "email": "sirohirc.rsgsm@rajasthan.gov.in"
-  },
-  {
-    "sno": 11,
-    "rcName": "Jodhpur East(Mandore)(R.C)",
-    "email": "mandorerc.rsgsm@rajasthan.gov.in"
-  },
-  {
-    "sno": 12,
-    "rcName": "Bundicity(R.C)",
-    "email": "bundirc.rsgsm@rajasthan.gov.in"
-  },
-  {
-    "sno": 13,
+    "sno": 3,
     "rcName": "Baran(R.C)",
     "email": "baranrc.rsgsm@rajasthan.gov.in"
   },
   {
-    "sno": 14,
-    "rcName": "Kota(R.C)",
-    "email": "kotarc.rsgsm@rajasthan.gov.in"
+    "sno": 4,
+    "rcName": "Bharatpur(R.C)",
+    "email": "bharatpurrc.rsgsm@rajasthan.gov.in"
   },
   {
-    "sno": 15,
+    "sno": 5,
+    "rcName": "Bhilwara(R.C)",
+    "email": "bhilwararc.rsgsm@rajasthan.gov.in"
+  },
+  {
+    "sno": 6,
+    "rcName": "Bikaner(R.C)",
+    "email": "bikanerrc.rsgsm@rajasthan.gov.in"
+  },
+  {
+    "sno": 7,
+    "rcName": "Bundicity(R.C)",
+    "email": "bundirc.rsgsm@rajasthan.gov.in"
+  },
+  {
+    "sno": 8,
+    "rcName": "Dholpur(R.C)",
+    "email": "dholpurrc.rsgsm@rajasthan.gov.in"
+  },
+  {
+    "sno": 9,
     "rcName": "Hanumangarh(R.C)",
     "email": "hanumangarhrc.rsgsm@rajasthan.gov.in"
   },
   {
+    "sno": 10,
+    "rcName": "Jaipur City(R.C)",
+    "email": "jaipurrc.rsgsm@rajasthan.gov.in"
+  },
+  {
+    "sno": 11,
+    "rcName": "Jhunjhunu(R.C)",
+    "email": "jhunjhunurc.rsgsm@rajasthan.gov.in"
+  },
+  {
+    "sno": 12,
+    "rcName": "Jodhpur East(Mandore)(R.C)",
+    "email": "mandorerc.rsgsm@rajasthan.gov.in"
+  },
+  {
+    "sno": 13,
+    "rcName": "Kota(R.C)",
+    "email": "kotarc.rsgsm@rajasthan.gov.in"
+  },
+  {
+    "sno": 14,
+    "rcName": "Sawaimadhopur(R.C)",
+    "email": "swmrc.rsgsm@rajasthan.gov.in"
+  },
+  {
+    "sno": 15,
+    "rcName": "Sikar(R.C)",
+    "email": "sikarrc.rsgsm@rajasthan.gov.in"
+  },
+  {
     "sno": 16,
-    "rcName": "Bikaner(R.C)",
-    "email": "bikanerrc.rsgsm@rajasthan.gov.in"
+    "rcName": "Sirohi(R.C)",
+    "email": "sirohirc.rsgsm@rajasthan.gov.in"
   },
   {
     "sno": 17,

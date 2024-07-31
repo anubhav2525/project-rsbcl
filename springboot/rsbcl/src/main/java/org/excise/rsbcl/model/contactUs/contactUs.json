@@ -1,0 +1,122 @@
+[
+  {
+    "branch": "Greenfield Branch",
+    "address": "808 Green St, Cityville",
+    "contactNo": [
+      "123-654-7890",
+      "321-456-9870"
+    ],
+    "faxNo": "123-654-7891",
+    "email": "contact@greenfield.com",
+    "imageLink": "http://example.com/image11.jpg",
+    "status": true
+  },
+  {
+    "branch": "Seaside Branch",
+    "address": "909 Sea St, Cityville",
+    "contactNo": [
+      "234-765-8901",
+      "432-567-8901"
+    ],
+    "faxNo": "234-765-8902",
+    "email": "contact@seaside.com",
+    "imageLink": "http://example.com/image12.jpg",
+    "status": false
+  },
+  {
+    "branch": "Mountainview Branch",
+    "address": "1010 Mountain St, Cityville",
+    "contactNo": [
+      "345-876-9012",
+      "543-678-9012"
+    ],
+    "faxNo": "345-876-9013",
+    "email": "contact@mountainview.com",
+    "imageLink": "http://example.com/image13.jpg",
+    "status": true
+  },
+  {
+    "branch": "Sunset Branch",
+    "address": "1111 Sunset St, Cityville",
+    "contactNo": [
+      "456-987-0123",
+      "654-789-0123"
+    ],
+    "faxNo": "456-987-0124",
+    "email": "contact@sunset.com",
+    "imageLink": "http://example.com/image14.jpg",
+    "status": false
+  },
+  {
+    "branch": "Parkview Branch",
+    "address": "1212 Park St, Cityville",
+    "contactNo": [
+      "567-098-1234",
+      "765-890-1234"
+    ],
+    "faxNo": "567-098-1235",
+    "email": "contact@parkview.com",
+    "imageLink": "http://example.com/image15.jpg",
+    "status": true
+  },
+  {
+    "branch": "Beachside Branch",
+    "address": "1313 Beach St, Cityville",
+    "contactNo": [
+      "678-109-2345",
+      "876-901-2345"
+    ],
+    "faxNo": "678-109-2346",
+    "email": "contact@beachside.com",
+    "imageLink": "http://example.com/image16.jpg",
+    "status": false
+  },
+  {
+    "branch": "Valley Branch",
+    "address": "1414 Valley St, Cityville",
+    "contactNo": [
+      "789-210-3456",
+      "987-012-3456"
+    ],
+    "faxNo": "789-210-3457",
+    "email": "contact@valley.com",
+    "imageLink": "http://example.com/image17.jpg",
+    "status": true
+  },
+  {
+    "branch": "Forest Branch",
+    "address": "1515 Forest St, Cityville",
+    "contactNo": [
+      "890-321-4567",
+      "098-123-4567"
+    ],
+    "faxNo": "890-321-4568",
+    "email": "contact@forest.com",
+    "imageLink": "http://example.com/image18.jpg",
+    "status": false
+  },
+  {
+    "branch": "Highland Branch",
+    "address": "1616 Highland St, Cityville",
+    "contactNo": [
+      "901-432-5678",
+      "109-234-5678"
+    ],
+    "faxNo": "901-432-5679",
+    "email": "contact@highland.com",
+    "imageLink": "http://example.com/image19.jpg",
+    "status": true
+  },
+  {
+    "branch": "Riverbank Branch",
+    "address": "1717 Riverbank St, Cityville",
+    "contactNo": [
+      "012-543-6789",
+      "210-345-6789"
+    ],
+    "faxNo": "012-543-6790",
+    "email": "contact@riverbank.com",
+    "imageLink": "http://example.com/image20.jpg",
+    "status": false
+  }
+]

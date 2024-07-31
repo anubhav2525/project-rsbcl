@@ -1,0 +1,262 @@
+[
+  {
+    "appName": "Fitness Tracker",
+    "description": "A comprehensive app for tracking fitness and health metrics.",
+    "link": "https://play.google.com/store/apps/details?id=com.fitness.tracker",
+    "documentLink": "https://example.com/fitness-tracker-doc",
+    "videoLink": "https://example.com/fitness-tracker-video",
+    "suggestion": "Add more workout plans.",
+    "version": "2.5.3",
+    "status": true
+  },
+  {
+    "appName": "Weather Wizard",
+    "description": "Get the latest weather updates and forecasts.",
+    "link": "https://play.google.com/store/apps/details?id=com.weather.wizard",
+    "documentLink": "https://example.com/weather-wizard-doc",
+    "videoLink": "https://example.com/weather-wizard-video",
+    "suggestion": "Improve weather prediction accuracy.",
+    "version": "1.8.1",
+    "status": true
+  },
+  {
+    "appName": "Recipe Master",
+    "description": "Discover new recipes and cooking tips from top chefs.",
+    "link": "https://play.google.com/store/apps/details?id=com.recipe.master",
+    "documentLink": "https://example.com/recipe-master-doc",
+    "videoLink": "https://example.com/recipe-master-video",
+    "suggestion": "Add more vegetarian options.",
+    "version": "3.2.7",
+    "status": false
+  },
+  {
+    "appName": "Travel Buddy",
+    "description": "Plan your trips and find the best destinations to visit.",
+    "link": "https://play.google.com/store/apps/details?id=com.travel.buddy",
+    "documentLink": "https://example.com/travel-buddy-doc",
+    "videoLink": "https://example.com/travel-buddy-video",
+    "suggestion": "Include more off-the-beaten-path destinations.",
+    "version": "4.0.0",
+    "status": true
+  },
+  {
+    "appName": "Language Learner",
+    "description": "Learn new languages with interactive exercises and quizzes.",
+    "link": "https://play.google.com/store/apps/details?id=com.language.learner",
+    "documentLink": "https://example.com/language-learner-doc",
+    "videoLink": "https://example.com/language-learner-video",
+    "suggestion": "Add support for more languages.",
+    "version": "5.1.4",
+    "status": true
+  },
+  {
+    "appName": "Finance Manager",
+    "description": "Manage your personal finances and track expenses.",
+    "link": "https://play.google.com/store/apps/details?id=com.finance.manager",
+    "documentLink": "https://example.com/finance-manager-doc",
+    "videoLink": "https://example.com/finance-manager-video",
+    "suggestion": "Integrate with more banking services.",
+    "version": "6.0.2",
+    "status": true
+  },
+  {
+    "appName": "Music Stream",
+    "description": "Stream your favorite music and discover new artists.",
+    "link": "https://play.google.com/store/apps/details?id=com.music.stream",
+    "documentLink": "https://example.com/music-stream-doc",
+    "videoLink": "https://example.com/music-stream-video",
+    "suggestion": "Add more playlist customization options.",
+    "version": "7.3.5",
+    "status": false
+  },
+  {
+    "appName": "Photo Edit Pro",
+    "description": "Edit and enhance your photos with professional tools.",
+    "link": "https://play.google.com/store/apps/details?id=com.photo.editpro",
+    "documentLink": "https://example.com/photo-editpro-doc",
+    "videoLink": "https://example.com/photo-editpro-video",
+    "suggestion": "Include more advanced filters.",
+    "version": "8.2.1",
+    "status": true
+  },
+  {
+    "appName": "Task Organizer",
+    "description": "Organize your tasks and improve productivity.",
+    "link": "https://play.google.com/store/apps/details?id=com.task.organizer",
+    "documentLink": "https://example.com/task-organizer-doc",
+    "videoLink": "https://example.com/task-organizer-video",
+    "suggestion": "Add recurring task options.",
+    "version": "9.0.4",
+    "status": true
+  },
+  {
+    "appName": "Meditation Guide",
+    "description": "Guided meditation sessions for relaxation and mindfulness.",
+    "link": "https://play.google.com/store/apps/details?id=com.meditation.guide",
+    "documentLink": "https://example.com/meditation-guide-doc",
+    "videoLink": "https://example.com/meditation-guide-video",
+    "suggestion": "Include more meditation styles.",
+    "version": "10.1.6",
+    "status": true
+  },
+  {
+    "appName": "Grocery List",
+    "description": "Create and manage your grocery shopping lists.",
+    "link": "https://play.google.com/store/apps/details?id=com.grocery.list",
+    "documentLink": "https://example.com/grocery-list-doc",
+    "videoLink": "https://example.com/grocery-list-video",
+    "suggestion": "Add barcode scanning feature.",
+    "version": "11.0.3",
+    "status": true
+  },
+  {
+    "appName": "News Update",
+    "description": "Stay updated with the latest news from around the world.",
+    "link": "https://play.google.com/store/apps/details?id=com.news.update",
+    "documentLink": "https://example.com/news-update-doc",
+    "videoLink": "https://example.com/news-update-video",
+    "suggestion": "Improve article recommendation engine.",
+    "version": "12.0.7",
+    "status": false
+  },
+  {
+    "appName": "Game Zone",
+    "description": "Play and discover new mobile games.",
+    "link": "https://play.google.com/store/apps/details?id=com.game.zone",
+    "documentLink": "https://example.com/game-zone-doc",
+    "videoLink": "https://example.com/game-zone-video",
+    "suggestion": "Add multiplayer features.",
+    "version": "13.1.0",
+    "status": true
+  },
+  {
+    "appName": "Health Monitor",
+    "description": "Track your health metrics and get insights.",
+    "link": "https://play.google.com/store/apps/details?id=com.health.monitor",
+    "documentLink": "https://example.com/health-monitor-doc",
+    "videoLink": "https://example.com/health-monitor-video",
+    "suggestion": "Integrate with wearable devices.",
+    "version": "14.2.4",
+    "status": true
+  },
+  {
+    "appName": "Book Reader",
+    "description": "Read and manage your e-books in one place.",
+    "link": "https://play.google.com/store/apps/details?id=com.book.reader",
+    "documentLink": "https://example.com/book-reader-doc",
+    "videoLink": "https://example.com/book-reader-video",
+    "suggestion": "Add support for more e-book formats.",
+    "version": "15.0.8",
+    "status": true
+  },
+  {
+    "appName": "Cooking Helper",
+    "description": "Get cooking tips and recipe suggestions.",
+    "link": "https://play.google.com/store/apps/details?id=com.cooking.helper",
+    "documentLink": "https://example.com/cooking-helper-doc",
+    "videoLink": "https://example.com/cooking-helper-video",
+    "suggestion": "Include meal planning features.",
+    "version": "16.3.2",
+    "status": true
+  },
+  {
+    "appName": "Pet Care",
+    "description": "Manage your pet’s health and wellness.",
+    "link": "https://play.google.com/store/apps/details?id=com.pet.care",
+    "documentLink": "https://example.com/pet-care-doc",
+    "videoLink": "https://example.com/pet-care-video",
+    "suggestion": "Add pet training resources.",
+    "version": "17.1.9",
+    "status": true
+  },
+  {
+    "appName": "Workout Buddy",
+    "description": "Create and track your workout routines.",
+    "link": "https://play.google.com/store/apps/details?id=com.workout.buddy",
+    "documentLink": "https://example.com/workout-buddy-doc",
+    "videoLink": "https://example.com/workout-buddy-video",
+    "suggestion": "Include workout tracking integrations.",
+    "version": "18.2.6",
+    "status": false
+  },
+  {
+    "appName": "Recipe Finder",
+    "description": "Find recipes based on ingredients you have at home.",
+    "link": "https://play.google.com/store/apps/details?id=com.recipe.finder",
+    "documentLink": "https://example.com/recipe-finder-doc",
+    "videoLink": "https://example.com/recipe-finder-video",
+    "suggestion": "Add recipe sharing features.",
+    "version": "19.1.5",
+    "status": true
+  },
+  {
+    "appName": "Meditation Focus",
+    "description": "Focus and meditate to improve concentration.",
+    "link": "https://play.google.com/store/apps/details?id=com.meditation.focus",
+    "documentLink": "https://example.com/meditation-focus-doc",
+    "videoLink": "https://example.com/meditation-focus-video",
+    "suggestion": "Add personalized meditation plans.",
+    "version": "20.0.0",
+    "status": true
+  },
+  {
+    "appName": "Photo Gallery",
+    "description": "Organize and view your photos and videos.",
+    "link": "https://play.google.com/store/apps/details?id=com.photo.gallery",
+    "documentLink": "https://example.com/photo-gallery-doc",
+    "videoLink": "https://example.com/photo-gallery-video",
+    "suggestion": "Include better photo editing tools.",
+    "version": "21.1.3",
+    "status": true
+  },
+  {
+    "appName": "Event Planner",
+    "description": "Plan and manage your events effortlessly.",
+    "link": "https://play.google.com/store/apps/details?id=com.event.planner",
+    "documentLink": "https://example.com/event-planner-doc",
+    "videoLink": "https://example.com/event-planner-video",
+    "suggestion": "Add guest management features.",
+    "version": "22.2.0",
+    "status": false
+  },
+  {
+    "appName": "Fitness Coach",
+    "description": "Get personalized fitness coaching and tips.",
+    "link": "https://play.google.com/store/apps/details?id=com.fitness.coach",
+    "documentLink": "https://example.com/fitness-coach-doc",
+    "videoLink": "https://example.com/fitness-coach-video",
+    "suggestion": "Integrate with nutrition tracking.",
+    "version": "23.1.7",
+    "status": true
+  },
+  {
+    "appName": "Sleep Monitor",
+    "description": "Track your sleep patterns and improve your rest.",
+    "link": "https://play.google.com/store/apps/details?id=com.sleep.monitor",
+    "documentLink": "https://example.com/sleep-monitor-doc",
+    "videoLink": "https://example.com/sleep-monitor-video",
+    "suggestion": "Add sleep improvement tips.",
+    "version": "24.2.5",
+    "status": true
+  },
+  {
+    "appName": "Mindfulness App",
+    "description": "Practice mindfulness with guided exercises.",
+    "link": "https://play.google.com/store/apps/details?id=com.mindfulness.app",
+    "documentLink": "https://example.com/mindfulness-app-doc",
+    "videoLink": "https://example.com/mindfulness-app-video",
+    "suggestion": "Include more meditation techniques.",
+    "version": "25.0.9",
+    "status": true
+  },
+  {
+    "appName": "Shopping List",
+    "description": "Create and manage shopping lists for groceries and more.",
+    "link": "https://play.google.com/store/apps/details?id=com.shopping.list",
+    "documentLink": "https://example.com/shopping-list-doc",
+    "videoLink": "https://example.com/shopping-list-video",
+    "suggestion": "Add location-based reminders.",
+    "version": "26.1.4",
+    "status": true
+  }
+]

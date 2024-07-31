@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/sales/")
+@RequestMapping("/api/")
 public class SalesBeerController {
     @Autowired
     private final SalesBeerService salesBeerService;
@@ -19,21 +19,21 @@ public class SalesBeerController {
         this.salesBeerService = salesBeerService;
     }
 
-    @GetMapping("beers")
+    @GetMapping("v1/sales/beers")
     public ResponseEntity<List<SalesBeer>> getAll() {
         List<SalesBeer> salesBeers = salesBeerService.getAll();
         if (salesBeers.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(salesBeers, HttpStatus.OK);
     }
 
-    @GetMapping("beer-by-year")
+    @GetMapping("v1/sales/beer-by-year")
     public ResponseEntity<List<SalesBeer>> getSalesBeerByYear(@RequestParam int year) {
         List<SalesBeer> salesBeers = salesBeerService.getSalesBeerByYear(year);
         if (salesBeers.isEmpty()) return new ResponseEntity<>(HttpStatus.NO_CONTENT);
         return new ResponseEntity<>(salesBeers, HttpStatus.OK);
     }
 
-    @GetMapping("beer")
+    @GetMapping("v1/sales/beer")
     public ResponseEntity<List<SalesBeer>> getSalesByYearAndcategory(@RequestParam int year, String category) {
         List<SalesBeer> salesBeerList = salesBeerService.getSalesBeerByYearAndCategory(year, category);
         if (salesBeerList.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);

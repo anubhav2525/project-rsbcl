@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/about-rsgsm/")
+@RequestMapping("/api/v1/")
 public class AboutRsgsmReductionCentersController {
     @Autowired
     private final AboutRsgsmReductionCentersService aboutRsgsmReductionCentersService;
@@ -21,7 +21,7 @@ public class AboutRsgsmReductionCentersController {
         this.aboutRsgsmReductionCentersService = aboutRsgsmReductionCentersService;
     }
 
-    @GetMapping("reduction-centers")
+    @GetMapping("about-rsgsm/reduction-centers")
     public ResponseEntity<List<AboutRsgsmReductionCenters>> getAll() {
         List<AboutRsgsmReductionCenters> aboutRsgsmReductionCenters = aboutRsgsmReductionCentersService.getAll();
         if (aboutRsgsmReductionCenters.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);

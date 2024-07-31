@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/about-rsgsm/")
+@RequestMapping("/api/v1/")
 public class AboutRsgsmSugarDivisionController {
     @Autowired
     private final AboutRsgsmSugarDivisionService aboutRsgsmSugarDivisionService;
@@ -21,7 +21,7 @@ public class AboutRsgsmSugarDivisionController {
         this.aboutRsgsmSugarDivisionService = aboutRsgsmSugarDivisionService;
     }
 
-    @GetMapping("sugar-cane-division")
+    @GetMapping("about-rsgsm/sugar-cane-division")
     public ResponseEntity<List<AboutRsgsmSugarDivision>> getAll() {
         List<AboutRsgsmSugarDivision> aboutRsgsmSugarDivisions = aboutRsgsmSugarDivisionService.getAll();
         if (aboutRsgsmSugarDivisions.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
