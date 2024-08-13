@@ -8,6 +8,8 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.time.LocalDateTime;
+
 @Document(collection = "about_rsgsm_imes")
 @Data
 @NoArgsConstructor
@@ -18,4 +20,5 @@ public class AboutRsgsmImes {
     @Indexed(unique = true)
     private int sno;
     private String work;
+    private LocalDateTime lastUpdate;
 }

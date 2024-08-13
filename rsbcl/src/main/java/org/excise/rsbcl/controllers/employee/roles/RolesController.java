@@ -22,7 +22,7 @@ public class RolesController {
         this.rolesService = rolesService;
     }
 
-    @GetMapping("/v1/auth/roles")
+    @GetMapping("/v1/public/roles")
     public ResponseEntity<?> getAllRoles() {
         RolesService.Response<List<Roles>> response = rolesService.getAllRoles();
         return createResponseEntity(response);

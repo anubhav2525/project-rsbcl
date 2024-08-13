@@ -39,6 +39,5 @@ public class DirectoryExciseOffice {
     @Size(min = 10,max = 50,message = "Email should be characters between 10 to 50")
     @Indexed(unique = true)
     private String email;
-
     private LocalDateTime lastUpdate;
 }

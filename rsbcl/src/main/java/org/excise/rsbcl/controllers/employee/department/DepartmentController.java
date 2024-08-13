@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Set;
 
 @RestController
-@RequestMapping("/api/v1/auth/department/")
+@RequestMapping("/api")
 public class DepartmentController {
     @Autowired
     private final DepartmentService departmentService;
@@ -29,25 +29,25 @@ public class DepartmentController {
         this.departmentService = departmentService;
     }
 
-    @GetMapping
+    @GetMapping("/v1/public/departments")
     public ResponseEntity<?> getAllDepartments() {
         DepartmentService.Response<List<Department>> response = departmentService.getAllDepartments();
         return createResponseEntity(response);
     }
 
-    @GetMapping("id/{id}")
+    @GetMapping("/v1/auth/department/id/{id}")
     public ResponseEntity<?> getDepartmentById(@PathVariable("id") ObjectId id) {
         DepartmentService.Response<Department> response = departmentService.getDepartmentById(id);
         return createResponseEntity(response);
     }
 
-    @GetMapping("name/{departmentName}")
+    @GetMapping("/v1/auth/department/name/{departmentName}")
     public ResponseEntity<?> getDepartmentByDepartmentName(@PathVariable("departmentName") String departmentName) {
         DepartmentService.Response<Department> response = departmentService.getDepartmentByDepartmentName(departmentName);
         return createResponseEntity(response);
     }
 
-    @PostMapping
+    @PostMapping("/v1/auth/department")
     public ResponseEntity<?> saveDepartment(@Valid @RequestBody Department department, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             return ResponseEntity.badRequest().body(bindingResult.getAllErrors());
@@ -56,7 +56,7 @@ public class DepartmentController {
         return createResponseEntity(response);
     }
 
-    @PostMapping("save-entries")
+    @PostMapping("/v1/auth/department/save-entries")
     public ResponseEntity<?> saveDepartmentList(@Valid @RequestBody List<Department> departmentList, BindingResult bindingResult) {
         List<ObjectError> allErrors = new ArrayList<>(bindingResult.getAllErrors());
 

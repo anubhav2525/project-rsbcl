@@ -5,33 +5,49 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.bson.types.ObjectId;
+import org.excise.rsbcl.dao.MobileAppDao;
 import org.excise.rsbcl.model.mobileApp.MobileApp;
 import org.excise.rsbcl.repository.mobileApp.MobileAppRepo;
+import org.excise.rsbcl.services.cloudinary.CloudinaryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class MobileAppService {
     @Autowired
     private final MobileAppRepo mobileAppRepo;
+    @Autowired
+    private final CloudinaryService cloudinaryService;
 
-    public MobileAppService(MobileAppRepo mobileAppRepo) {
+    public MobileAppService(MobileAppRepo mobileAppRepo, CloudinaryService cloudinaryService) {
         this.mobileAppRepo = mobileAppRepo;
+        this.cloudinaryService = cloudinaryService;
     }
 
     public Response<List<MobileApp>> getMobileApps() {
         try {
             List<MobileApp> mobileApps = mobileAppRepo.findAll();
             if (mobileApps.isEmpty()) {
-                return new Response<>("Error", "Mobile Apps not found", null);
+                return new Response<>("Error404", "Mobile Apps not found", null);
             } else {
                 return new Response<>("Success", "Mobile apps found", mobileApps);
             }
+        } catch (Exception e) {
+            return new Response<>("Error", e.getMessage(), null);
+        }
+    }
+
+    public Response<MobileApp> getMobileAppByName(String name) {
+        try {
+            MobileApp mobileApp = mobileAppRepo.findByAppName(name).orElse(null);
+            if (mobileApp != null) return new Response<>("Success", "Mobile App found", mobileApp);
+            return new Response<>("Error404", "Mobile app not found", null);
         } catch (Exception e) {
             return new Response<>("Error", e.getMessage(), null);
         }
@@ -47,13 +63,32 @@ public class MobileAppService {
         }
     }
 
-    public Response<MobileApp> saveMobileApp(MobileApp mobileApp) {
+    @Transactional
+    public Response<MobileApp> saveMobileApp(MobileAppDao mobileAppDao) {
         try {
-            MobileApp oldMobileApp = mobileAppRepo.findByAppName(mobileApp.getAppName()).orElse(null);
-            if (oldMobileApp != null) {
-                mobileApp.setLastUpdate(LocalDateTime.now());
-                MobileApp savedApp = mobileAppRepo.save(mobileApp);
-                return new Response<>("Success", "Mobile app saved successfully", savedApp);
+            MobileApp oldMobileApp = mobileAppRepo.findByAppName(mobileAppDao.getAppName()).orElse(null);
+            if (oldMobileApp == null) {
+                // Upload files to Cloudinary and get the links
+                String documentLink = cloudinaryService.uploadFileToCloudinary(mobileAppDao.getDocument());
+                String videoLink = cloudinaryService.uploadFileToCloudinary(mobileAppDao.getVideo());
+                String applicationImageLink = cloudinaryService.uploadFileToCloudinary(mobileAppDao.getApplicationImage());
+
+                // Create new MobileApp entity
+                MobileApp newMobileApp = new MobileApp();
+                newMobileApp.setAppName(mobileAppDao.getAppName());
+                newMobileApp.setDescription(mobileAppDao.getDescription());
+                newMobileApp.setLink(mobileAppDao.getLink());
+                newMobileApp.setSuggestion(mobileAppDao.getSuggestion());
+                newMobileApp.setVersion(mobileAppDao.getVersion());
+                newMobileApp.setDocumentLink(documentLink);
+                newMobileApp.setApplicationImageLink(applicationImageLink);
+                newMobileApp.setVideoLink(videoLink);
+                newMobileApp.setStatus(mobileAppDao.isStatus());
+                newMobileApp.setLastUpdate(LocalDateTime.now());
+
+                // Save to MongoDB
+                MobileApp savedApp = mobileAppRepo.save(newMobileApp);
+                return new Response<>("Saved", "Mobile app saved successfully", savedApp);
             } else {
                 return new Response<>("Error208", "This Mobile App already exists !!", null);
             }
@@ -62,6 +97,7 @@ public class MobileAppService {
         }
     }
 
+    @Transactional
     public Response<List<MobileApp>> saveMobileApps(List<MobileApp> mobileApps) {
         try {
             List<MobileApp> mobileAppList = new ArrayList<>();
@@ -99,18 +135,42 @@ public class MobileAppService {
         }
     }
 
+    @Transactional
     public Response<Void> deleteMobileApp(ObjectId id) {
         try {
-            Optional<MobileApp> existingMobileApp = mobileAppRepo.findById(id);
-            if (existingMobileApp.isPresent()) {
+            MobileApp oldMobileApp = mobileAppRepo.findById(id).orElse(null);
+            if (oldMobileApp != null) {
+                // Delete files from Cloudinary
+                if (oldMobileApp.getDocumentLink() != null) {
+                    String documentPublicId = getCloudinaryPublicId(oldMobileApp.getDocumentLink());
+                    cloudinaryService.deleteFileFromCloudinary(documentPublicId);
+                }
+                if (oldMobileApp.getVideoLink() != null) {
+                    String videoPublicId = getCloudinaryPublicId(oldMobileApp.getVideoLink());
+                    cloudinaryService.deleteFileFromCloudinary(videoPublicId);
+                }
+                if (oldMobileApp.getApplicationImageLink() != null) {
+                    String applicationPublicId = getCloudinaryPublicId(oldMobileApp.getApplicationImageLink());
+                    cloudinaryService.deleteFileFromCloudinary(applicationPublicId);
+                }
+                // Delete the mobile app from the database
                 mobileAppRepo.deleteById(id);
                 return new Response<>("Success", "Mobile app deleted successfully", null);
             } else {
-                return new Response<>("Error", "Mobile App not found", null);
+                return new Response<>("Error404", "Mobile app not found", null);
             }
+        } catch (IOException e) {
+            return new Response<>("Error", "Failed to delete files from Cloudinary: " + e.getMessage(), null);
         } catch (Exception e) {
             return new Response<>("Error", e.getMessage(), null);
         }
+    }
+
+    private String getCloudinaryPublicId(String url) {
+        // Extract the public ID from the URL
+        String[] parts = url.split("/");
+        String publicIdWithExtension = parts[parts.length - 1];
+        return publicIdWithExtension.split("\\.")[0];
     }
 
     @Setter

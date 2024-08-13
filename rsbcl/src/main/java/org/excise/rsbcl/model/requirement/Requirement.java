@@ -35,7 +35,6 @@ public class Requirement {
 
     @NotNull(message = "created By not be empty")
     private String createdBy;
-
     private boolean status;
     private LocalDate lastUpdate;
 }

@@ -44,7 +44,6 @@ public class ContactUs {
 
     @Size(max = 255, message = "Image link cannot exceed 255 characters")
     private String imageLink;
-
     private boolean status;
     private LocalDateTime lastUpdate;
 }

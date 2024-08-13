@@ -12,6 +12,8 @@ import org.excise.rsbcl.services.employee.department.DepartmentService;
 import org.excise.rsbcl.services.employee.roles.RolesService;
 import org.excise.rsbcl.services.employee.users.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -82,6 +84,15 @@ public class EmployeeService {
             return new Response<>("Error404", "Employee not exists", null);
         } catch (Exception e) {
             return new Response<>("Error", e.getMessage(), null);
+        }
+    }
+
+    public Response<Page<Employee>> getEmployees(int page, int size) {
+        try {
+            Page<Employee> employees = employeeRepo.findAll(PageRequest.of(page, size));
+            return new Response<>("Success", "Employees found", employees);
+        } catch (Exception e) {
+            return new Response<>("Error", "Employees not found", null);
         }
     }
 

@@ -8,6 +8,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Document(collection = "about_rsgsm_liquors")
@@ -23,4 +24,5 @@ public class AboutRsgsmLiquors {
     private String subCategory;
     private List<Integer> packagingSize;
     private String year;
+    private LocalDateTime lastUpdate;
 }

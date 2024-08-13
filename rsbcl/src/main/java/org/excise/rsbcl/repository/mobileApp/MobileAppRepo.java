@@ -10,4 +10,5 @@ import java.util.Optional;
 @Repository
 public interface MobileAppRepo extends MongoRepository<MobileApp, ObjectId> {
     Optional<MobileApp> findByAppName(String appName);
+
 }

@@ -31,7 +31,6 @@ public class Department {
 
     @Min(value = 1, message = "Department size must be at least 1")
     private int departmentSize;
-
-    private LocalDateTime lastUpdate;
     private boolean status = true;
+    private LocalDateTime lastUpdate;
 }

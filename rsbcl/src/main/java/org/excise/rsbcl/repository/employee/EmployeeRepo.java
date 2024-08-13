@@ -2,6 +2,8 @@ package org.excise.rsbcl.repository.employee;
 
 import org.bson.types.ObjectId;
 import org.excise.rsbcl.model.employee.Employee;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
@@ -16,5 +18,5 @@ public interface EmployeeRepo extends MongoRepository<Employee, ObjectId> {
     void deleteByEmail(String email);
 
     void deleteByUsername(String username);
-
+    Page<Employee> findAllByUsernameContaining(String username, Pageable pageable);
 }
