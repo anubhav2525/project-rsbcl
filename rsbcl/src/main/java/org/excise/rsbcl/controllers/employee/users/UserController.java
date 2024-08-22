@@ -31,17 +31,17 @@ public class UserController {
         }
     }
 
-    @PostMapping("/username/{username}")
-    public ResponseEntity<?> forgetPassword(@PathVariable("username") String username) {
-        UsersService.Response<?> response = usersService.forgetPassword(username);
-        return createResponseEntity(response);
-    }
+//    @PostMapping("/username/{username}")
+//    public ResponseEntity<?> forgetPassword(@PathVariable("username") String username) {
+//        UsersService.Response<?> response = usersService.forgetPassword(username);
+//        return createResponseEntity(response);
+//    }
 
-    @PutMapping("/reset-account")
-    public ResponseEntity<?> updatePassword(@RequestBody UsersService.ResetEntity resetEntity) {
-        UsersService.Response<?> response = usersService.resetPassword(resetEntity);
-        return createResponseEntity(response);
-    }
+//    @PutMapping("/reset-account")
+//    public ResponseEntity<?> updatePassword(@RequestBody UsersService.ResetEntity resetEntity) {
+//        UsersService.Response<?> response = usersService.resetPassword(resetEntity);
+//        return createResponseEntity(response);
+//    }
 
     private ResponseEntity<?> createResponseEntity(UsersService.Response<?> response) {
         return switch (response.getStatus()) {

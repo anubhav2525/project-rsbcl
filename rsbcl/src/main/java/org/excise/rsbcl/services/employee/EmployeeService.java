@@ -20,8 +20,6 @@ import org.springframework.transaction.annotation.Transactional;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
-import java.util.concurrent.atomic.AtomicReference;
 
 @Service
 public class EmployeeService {
@@ -47,6 +45,11 @@ public class EmployeeService {
         this.emailService = emailService;
     }
 
+    // checking existence of username
+    public boolean emailExists(String email) {
+        return employeeRepo.findByEmail(email).isPresent();
+    }
+
     public Response<List<Employee>> getAllEmployees() {
         try {
             List<Employee> employees = employeeRepo.findAll();
@@ -67,26 +70,6 @@ public class EmployeeService {
         }
     }
 
-    public Response<Employee> getEmployeeByEmail(String email) {
-        try {
-            Employee employee = employeeRepo.findByEmail(email).orElse(null);
-            if (employee != null) return new Response<>("Success", "Employee exists", employee);
-            return new Response<>("Error404", "Employee not exists", null);
-        } catch (Exception e) {
-            return new Response<>("Error", e.getMessage(), null);
-        }
-    }
-
-    public Response<Employee> getEmployeeByUsername(String username) {
-        try {
-            Employee employee = employeeRepo.findByUsername(username).orElse(null);
-            if (employee != null) return new Response<>("Success", "Employee exists", employee);
-            return new Response<>("Error404", "Employee not exists", null);
-        } catch (Exception e) {
-            return new Response<>("Error", e.getMessage(), null);
-        }
-    }
-
     public Response<Page<Employee>> getEmployees(int page, int size) {
         try {
             Page<Employee> employees = employeeRepo.findAll(PageRequest.of(page, size));
@@ -96,35 +79,44 @@ public class EmployeeService {
         }
     }
 
-    //    save employee
     @Transactional
-    public Response<Employee> saveEmployee(Employee employee) {
+    public Response<?> saveEmployee(Employee employee) {
         try {
-            // role verification
+            // Role verification
             List<Boolean> roleVerification = new ArrayList<>();
-
-            // get roles from the new employee
             List<String> roles = employee.getRoles();
             for (String role : roles) {
                 roleVerification.add(rolesService.roleExists(role));
             }
-            if (roleVerification.contains(false))
-                return new Response<>("Error404", "Data error roles not match", employee);
+            if (roleVerification.contains(false)) {
+                return new Response<>("Error404", "Data error: roles not match", employee);
+            }
 
-            // department verification
+            // Department verification
             boolean departmentVerification = departmentService.departmentExists(employee.getDepartmentName());
-            if (!departmentVerification) return new Response<>("Error404", "Data error department not match", employee);
+            if (!departmentVerification) {
+                return new Response<>("Error404", "Data error: department not match", employee);
+            }
 
-            // username verification
+            // Username verification
             boolean usernameVerification = usersService.usernameExists(employee.getUsername());
-            if (usernameVerification)
-                return new Response<>("Error208", "Data error username already exists change it", employee);
+            if (usernameVerification) {
+                return new Response<>("Error208", "Data error: username already exists, please change it", employee);
+            }
 
-            // if all correct then save employee
+            // email verification
+            boolean emailVerification = emailExists(employee.getEmail());
+            if (emailVerification) {
+                return new Response<>("Error208", "Data error: email already exists, please change it", employee);
+            }
+
+            // Set the last updated time for the employee DAO
             employee.setLastUpdated(LocalDateTime.now());
-            Employee savedEmployee = employeeRepo.save(employee); // saving new employee
 
-            // user save
+            // Save the employee entity to the repository
+            Employee savedEmployee = employeeRepo.save(employee);
+
+            // Generate user for the saved employee
             String randomPassword = randomPasswordGenerator.generateRandomPassword();
             EmployeeService.UserGenerator userGenerator = new EmployeeService.UserGenerator();
             userGenerator.setEmployeeId(savedEmployee.getId());
@@ -132,298 +124,18 @@ public class EmployeeService {
             userGenerator.setPassword(randomPassword);
             userGenerator.setRoles(savedEmployee.getRoles());
             userGenerator.setLastUpdate(LocalDateTime.now());
-            usersService.saveUser(userGenerator); // saving the new employee users details
 
-            // email sent code
-            EmailService.Response<Void> response = emailService.sendEmail(employee.getEmail(), "Welcome to the " + employee.getDepartmentName() + " !", "Dear " + employee.getFirstName() + ", Welcome to the company!" + " Here are your login details: username : " + employee.getUsername() + ": password : " + randomPassword + "   " + "Please keep this information secure." + "Best regards, Company HR");
-            if (Objects.equals(response.getStatus(), "Success")) {
-                return new Response<>("Success", "Employee saved successfully and a mail sent to employee registered email", savedEmployee);
+            // Save user information
+            usersService.saveUser(userGenerator);
+
+            // Send welcome email to the employee
+            EmailService.Response<Void> response = emailService.sendEmail(savedEmployee.getEmail(), "Welcome to the " + savedEmployee.getDepartmentName() + "!", "Dear " + savedEmployee.getFirstName() + ",\n" + "Welcome to the company! Here are your login details:\n" + "Username: " + savedEmployee.getUsername() + "\n" + "Password: " + randomPassword + "\n\n" + "Please keep this information secure.\n" + "Best regards,\nCompany HR");
+
+            if ("Success".equals(response.getStatus())) {
+                return new Response<>("Success", "Employee saved successfully and a mail was sent to the registered email", savedEmployee);
+            } else {
+                return new Response<>("Success", "Employee saved successfully but email could not be sent. Please check it.", savedEmployee);
             }
-
-            return new Response<>("Success", "Employee saved successfully but email could not be send please check it", savedEmployee);
-        } catch (Exception e) {
-            return new Response<>("Error", e.getMessage(), null);
-        }
-    }
-
-    @Transactional
-    public Response<Employee> updateEmployeeById(ObjectId id, Employee employee) {
-        try {
-            AtomicReference<Boolean> emailChanged = new AtomicReference<>(false);
-            Boolean emailChangeValue = emailChanged.get();
-            return employeeRepo.findById(id).map(oldEmployee -> {
-                if (employee.getFirstName() != null && !employee.getFirstName().isEmpty()) {
-                    oldEmployee.setFirstName(employee.getFirstName());
-                }
-                if (employee.getLastName() != null && !employee.getLastName().isEmpty()) {
-                    oldEmployee.setLastName(employee.getLastName());
-                }
-                if (employee.getGender() != null && !employee.getGender().isEmpty()) {
-                    oldEmployee.setGender(employee.getGender());
-                }
-                if (employee.getDateOfBirth() != null && !employee.getDateOfBirth().isEmpty()) {
-                    oldEmployee.setDateOfBirth(employee.getDateOfBirth());
-                }
-                if (employee.getAadharNumber() != null && !employee.getAadharNumber().isEmpty()) {
-                    oldEmployee.setAadharNumber(employee.getAadharNumber());
-                }
-                if (employee.getPhoneNumber() != null && !employee.getPhoneNumber().isEmpty()) {
-                    oldEmployee.setPhoneNumber(employee.getPhoneNumber());
-                }
-                if (employee.getEmail() != null && !employee.getEmail().isEmpty()) {
-                    emailChanged.set(true);
-                    oldEmployee.setEmail(employee.getEmail());
-                }
-                if (employee.getAddress() != null) {
-                    oldEmployee.setAddress(employee.getAddress());
-                }
-                if (employee.getDateOfJoining() != null && !employee.getDateOfJoining().isEmpty()) {
-                    oldEmployee.setDateOfJoining(employee.getDateOfJoining());
-                }
-                if (employee.getJobTitle() != null && !employee.getJobTitle().isEmpty()) {
-                    oldEmployee.setJobTitle(employee.getJobTitle());
-                }
-                if (employee.getSalary() != null) {
-                    oldEmployee.setSalary(employee.getSalary());
-                }
-                if (employee.getEmploymentType() != null && !employee.getEmploymentType().isEmpty()) {
-                    oldEmployee.setEmploymentType(employee.getEmploymentType());
-                }
-                if (employee.getCreatedBy() != null && !employee.getCreatedBy().isEmpty()) {
-                    oldEmployee.setCreatedBy(employee.getCreatedBy());
-                }
-                oldEmployee.setStatus(employee.isStatus());
-                oldEmployee.setLastUpdated(LocalDateTime.now());
-                if (employee.getUsername() != null && !employee.getUsername().isEmpty()) {
-                    oldEmployee.setUsername(employee.getUsername());
-                }
-                if (employee.getRoles() != null && !employee.getRoles().isEmpty()) {
-                    oldEmployee.setRoles(employee.getRoles());
-                }
-                if (employee.getDepartmentName() != null && !employee.getDepartmentName().isEmpty()) {
-                    oldEmployee.setDepartmentName(employee.getDepartmentName());
-                }
-
-                employeeRepo.save(oldEmployee); // update user to db
-                if (emailChangeValue) {
-                    // email sent code
-                    EmailService.Response<Void> response = emailService.sendEmail(employee.getEmail(), "Your information has been changed for department : " + employee.getDepartmentName() + " !", "Dear " + employee.getFirstName() + ", Your information has been changed in the " + employee.getDepartmentName() + " Here are your new login details: username : " + employee.getUsername() + "   " + "Please keep this information secure." + "Best regards, Company HR");
-                    if (Objects.equals(response.getStatus(), "Success")) {
-                        return new Response<>("Success", "Employee updated successfully and a mail sent to employee registered email", oldEmployee);
-                    }
-                    return new Response<>("Success", "Employee updated successfully but email could not be send please check it", oldEmployee);
-                }
-                return new Response<>("Success", "Employee updated successfully", oldEmployee);
-            }).orElseGet(() -> new Response<>("Error404", "Employee not found", null));
-        } catch (Exception e) {
-            return new Response<>("Error", e.getMessage(), null);
-        }
-    }
-
-    @Transactional
-    public Response<Employee> updateEmployeeByUsername(String username, Employee employee) {
-        try {
-            AtomicReference<Boolean> emailChanged = new AtomicReference<>(false);
-            Boolean emailChangeValue = emailChanged.get();
-            return employeeRepo.findByUsername(username).map(oldEmployee -> {
-                if (employee.getFirstName() != null && !employee.getFirstName().isEmpty()) {
-                    oldEmployee.setFirstName(employee.getFirstName());
-                }
-                if (employee.getLastName() != null && !employee.getLastName().isEmpty()) {
-                    oldEmployee.setLastName(employee.getLastName());
-                }
-                if (employee.getGender() != null && !employee.getGender().isEmpty()) {
-                    oldEmployee.setGender(employee.getGender());
-                }
-                if (employee.getDateOfBirth() != null && !employee.getDateOfBirth().isEmpty()) {
-                    oldEmployee.setDateOfBirth(employee.getDateOfBirth());
-                }
-                if (employee.getAadharNumber() != null && !employee.getAadharNumber().isEmpty()) {
-                    oldEmployee.setAadharNumber(employee.getAadharNumber());
-                }
-                if (employee.getPhoneNumber() != null && !employee.getPhoneNumber().isEmpty()) {
-                    oldEmployee.setPhoneNumber(employee.getPhoneNumber());
-                }
-                if (employee.getEmail() != null && !employee.getEmail().isEmpty()) {
-                    emailChanged.set(true);
-                    oldEmployee.setEmail(employee.getEmail());
-                }
-                if (employee.getAddress() != null) {
-                    oldEmployee.setAddress(employee.getAddress());
-                }
-                if (employee.getDateOfJoining() != null && !employee.getDateOfJoining().isEmpty()) {
-                    oldEmployee.setDateOfJoining(employee.getDateOfJoining());
-                }
-                if (employee.getJobTitle() != null && !employee.getJobTitle().isEmpty()) {
-                    oldEmployee.setJobTitle(employee.getJobTitle());
-                }
-                if (employee.getSalary() != null) {
-                    oldEmployee.setSalary(employee.getSalary());
-                }
-                if (employee.getEmploymentType() != null && !employee.getEmploymentType().isEmpty()) {
-                    oldEmployee.setEmploymentType(employee.getEmploymentType());
-                }
-                if (employee.getCreatedBy() != null && !employee.getCreatedBy().isEmpty()) {
-                    oldEmployee.setCreatedBy(employee.getCreatedBy());
-                }
-                oldEmployee.setStatus(employee.isStatus());
-                oldEmployee.setLastUpdated(LocalDateTime.now());
-                if (employee.getUsername() != null && !employee.getUsername().isEmpty()) {
-                    oldEmployee.setUsername(employee.getUsername());
-                }
-                if (employee.getRoles() != null && !employee.getRoles().isEmpty()) {
-                    oldEmployee.setRoles(employee.getRoles());
-                }
-                if (employee.getDepartmentName() != null && !employee.getDepartmentName().isEmpty()) {
-                    oldEmployee.setDepartmentName(employee.getDepartmentName());
-                }
-
-                employeeRepo.save(oldEmployee); // update user to db
-                if (emailChangeValue) {
-                    // email sent code
-                    EmailService.Response<Void> response = emailService.sendEmail(employee.getEmail(), "Your information has been changed for department : " + employee.getDepartmentName() + " !", "Dear " + employee.getFirstName() + ", Your information has been changed in the " + employee.getDepartmentName() + " Here are your new login details: username : " + employee.getUsername() + "   " + "Please keep this information secure." + "Best regards, Company HR");
-                    if (Objects.equals(response.getStatus(), "Success")) {
-                        return new Response<>("Success", "Employee updated successfully and a mail sent to employee registered email", oldEmployee);
-                    }
-                    return new Response<>("Success", "Employee updated successfully but email could not be send please check it", oldEmployee);
-                }
-                return new Response<>("Success", "Employee updated successfully", oldEmployee);
-            }).orElseGet(() -> new Response<>("Error404", "Employee not found", null));
-        } catch (Exception e) {
-            return new Response<>("Error", e.getMessage(), null);
-        }
-    }
-
-    @Transactional
-    public Response<Employee> updateEmployeeByEmail(String email, Employee employee) {
-        try {
-            AtomicReference<Boolean> emailChanged = new AtomicReference<>(false);
-            Boolean emailChangeValue = emailChanged.get();
-            return employeeRepo.findByEmail(email).map(oldEmployee -> {
-                if (employee.getFirstName() != null && !employee.getFirstName().isEmpty()) {
-                    oldEmployee.setFirstName(employee.getFirstName());
-                }
-                if (employee.getLastName() != null && !employee.getLastName().isEmpty()) {
-                    oldEmployee.setLastName(employee.getLastName());
-                }
-                if (employee.getGender() != null && !employee.getGender().isEmpty()) {
-                    oldEmployee.setGender(employee.getGender());
-                }
-                if (employee.getDateOfBirth() != null && !employee.getDateOfBirth().isEmpty()) {
-                    oldEmployee.setDateOfBirth(employee.getDateOfBirth());
-                }
-                if (employee.getAadharNumber() != null && !employee.getAadharNumber().isEmpty()) {
-                    oldEmployee.setAadharNumber(employee.getAadharNumber());
-                }
-                if (employee.getPhoneNumber() != null && !employee.getPhoneNumber().isEmpty()) {
-                    oldEmployee.setPhoneNumber(employee.getPhoneNumber());
-                }
-                if (employee.getEmail() != null && !employee.getEmail().isEmpty()) {
-                    emailChanged.set(true);
-                    oldEmployee.setEmail(employee.getEmail());
-                }
-                if (employee.getAddress() != null) {
-                    oldEmployee.setAddress(employee.getAddress());
-                }
-                if (employee.getDateOfJoining() != null && !employee.getDateOfJoining().isEmpty()) {
-                    oldEmployee.setDateOfJoining(employee.getDateOfJoining());
-                }
-                if (employee.getJobTitle() != null && !employee.getJobTitle().isEmpty()) {
-                    oldEmployee.setJobTitle(employee.getJobTitle());
-                }
-                if (employee.getSalary() != null) {
-                    oldEmployee.setSalary(employee.getSalary());
-                }
-                if (employee.getEmploymentType() != null && !employee.getEmploymentType().isEmpty()) {
-                    oldEmployee.setEmploymentType(employee.getEmploymentType());
-                }
-                if (employee.getCreatedBy() != null && !employee.getCreatedBy().isEmpty()) {
-                    oldEmployee.setCreatedBy(employee.getCreatedBy());
-                }
-                oldEmployee.setStatus(employee.isStatus());
-                oldEmployee.setLastUpdated(LocalDateTime.now());
-                if (employee.getUsername() != null && !employee.getUsername().isEmpty()) {
-                    oldEmployee.setUsername(employee.getUsername());
-                }
-                if (employee.getRoles() != null && !employee.getRoles().isEmpty()) {
-                    oldEmployee.setRoles(employee.getRoles());
-                }
-                if (employee.getDepartmentName() != null && !employee.getDepartmentName().isEmpty()) {
-                    oldEmployee.setDepartmentName(employee.getDepartmentName());
-                }
-
-                employeeRepo.save(oldEmployee); // update user to db
-                if (emailChangeValue) {
-                    // email sent code
-                    EmailService.Response<Void> response = emailService.sendEmail(employee.getEmail(), "Your information has been changed for department : " + employee.getDepartmentName() + " !", "Dear " + employee.getFirstName() + ", Your information has been changed in the " + employee.getDepartmentName() + " Here are your new login details: username : " + employee.getUsername() + "   " + "Please keep this information secure." + "Best regards, Company HR");
-                    if (Objects.equals(response.getStatus(), "Success")) {
-                        return new Response<>("Success", "Employee updated successfully and a mail sent to employee registered email", oldEmployee);
-                    }
-                    return new Response<>("Success", "Employee updated successfully but email could not be send please check it", oldEmployee);
-                }
-                return new Response<>("Success", "Employee updated successfully", oldEmployee);
-            }).orElseGet(() -> new Response<>("Error404", "Employee not found", null));
-        } catch (Exception e) {
-            return new Response<>("Error", e.getMessage(), null);
-        }
-    }
-
-    @Transactional
-    public Response<Void> deleteEmployeeByEmail(String email) {
-        try {
-            Employee employee = employeeRepo.findByEmail(email).orElse(null);
-            if (employee != null) {
-                employeeRepo.deleteByEmail(email);
-                usersService.deleteByUsername(employee.getUsername());
-
-                // email sent code
-                EmailService.Response<Void> response = emailService.sendEmail(employee.getEmail(), "Your information has been removed for department : " + employee.getDepartmentName() + " !", "Dear " + employee.getFirstName() + ", Your information has been removed in the " + employee.getDepartmentName() + ". Now YOu can not able to login. " + "Best regards, Company HR");
-                if (Objects.equals(response.getStatus(), "Success")) {
-                    return new Response<>("Success", "Employee removed successfully and a mail sent to employee registered email", null);
-                }
-                return new Response<>("Success", "Employee removed successfully but email could not be send please check it", null);
-            }
-            return new Response<>("Error404", "Employee not found", null);
-        } catch (Exception e) {
-            return new Response<>("Error", e.getMessage(), null);
-        }
-    }
-
-    @Transactional
-    public Response<Void> deleteEmployeeByUsername(String username) {
-        try {
-            Employee employee = employeeRepo.findByUsername(username).orElse(null);
-            if (employee != null) {
-                employeeRepo.deleteByUsername(username);
-                usersService.deleteByUsername(employee.getUsername());
-                // email sent code
-                EmailService.Response<Void> response = emailService.sendEmail(employee.getEmail(), "Your information has been removed for department : " + employee.getDepartmentName() + " !", "Dear " + employee.getFirstName() + ", Your information has been removed in the " + employee.getDepartmentName() + ". Now YOu can not able to login. " + "Best regards, Company HR");
-                if (Objects.equals(response.getStatus(), "Success")) {
-                    return new Response<>("Success", "Employee removed successfully and a mail sent to employee registered email", null);
-                }
-                return new Response<>("Success", "Employee removed successfully but email could not be send please check it", null);
-            }
-            return new Response<>("Error404", "Employee not found", null);
-        } catch (Exception e) {
-            return new Response<>("Error", e.getMessage(), null);
-        }
-    }
-
-    @Transactional
-    public Response<Void> deleteEmployeeById(ObjectId id) {
-        try {
-            Employee employee = employeeRepo.findById(id).orElse(null);
-            if (employee != null) {
-                employeeRepo.deleteById(id);
-                usersService.deleteByUsername(employee.getUsername());
-                // email sent code
-                EmailService.Response<Void> response = emailService.sendEmail(employee.getEmail(), "", "");
-                if (Objects.equals(response.getStatus(), "Success")) {
-                    return new Response<>("Success", "Employee removed successfully and a mail sent to employee registered email", null);
-                }
-                return new Response<>("Success", "Employee removed successfully but email could not be send please check it", null);
-            }
-            return new Response<>("Error404", "Employee not found", null);
         } catch (Exception e) {
             return new Response<>("Error", e.getMessage(), null);
         }

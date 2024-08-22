@@ -115,84 +115,84 @@ public class UsersService {
     }
 
     // update user for employee
-    @Transactional
-    public Response<?> forgetPassword(String username) {
-        try {
-            Users oldUser = usersRepo.findByUsername(username).orElse(null);
-            if (oldUser == null) return new Response<>("Error404", "Username not found", null);
-            Employee employee = employeeRepo.findByUsername(username).orElse(null);
-            if (employee == null) return new Response<>("Error404", "Employee not found", null);
+//    @Transactional
+//    public Response<?> forgetPassword(String username) {
+//        try {
+//            Users oldUser = usersRepo.findByUsername(username).orElse(null);
+//            if (oldUser == null) return new Response<>("Error404", "Username not found", null);
+//            Employee employee = employeeRepo.findByUsername(username).orElse(null);
+//            if (employee == null) return new Response<>("Error404", "Employee not found", null);
+//
+//            String emailAddress = employee.getContactInfo().getEmail(); // get email address of employee db
+//
+//            // generate OTP
+//            int otp = OtpGenerator.generateOtp();
+//
+//            // finding in UserForget
+//            // Find or create UserForget entry
+//            UserForget userForget = userForgetRepo.findByUsername(username).orElse(new UserForget());
+//            userForget.setTime(LocalDateTime.now());
+//            userForget.setUsername(username);
+//            userForget.setOtp(otp);
+//
+//            // Send email
+//            EmailService.Response<Void> response = emailService.sendEmail(emailAddress, "Forget password for username : " + employee.getJobInfo().getUsername(), "OTP received for forget password : " + otp);
+//
+//            if (response.getStatus().equals("Success")) {
+//                userForgetRepo.save(userForget);
+//                return new Response<>("Success", "Otp has been sent to the registered mail", userForget);
+//            } else {
+//                return new Response<>("Error", "Email could not be sent", null);
+//            }
+//        } catch (Exception e) {
+//            return new Response<>("Error", e.getMessage(), null);
+//        }
+//    }
 
-            String emailAddress = employee.getEmail(); // get email address of employee db
-
-            // generate OTP
-            int otp = OtpGenerator.generateOtp();
-
-            // finding in UserForget
-            // Find or create UserForget entry
-            UserForget userForget = userForgetRepo.findByUsername(username).orElse(new UserForget());
-            userForget.setTime(LocalDateTime.now());
-            userForget.setUsername(username);
-            userForget.setOtp(otp);
-
-            // Send email
-            EmailService.Response<Void> response = emailService.sendEmail(emailAddress, "Forget password for username : " + employee.getUsername(), "OTP received for forget password : " + otp);
-
-            if (response.getStatus().equals("Success")) {
-                userForgetRepo.save(userForget);
-                return new Response<>("Success", "Otp has been sent to the registered mail", userForget);
-            } else {
-                return new Response<>("Error", "Email could not be sent", null);
-            }
-        } catch (Exception e) {
-            return new Response<>("Error", e.getMessage(), null);
-        }
-    }
-
-    @Transactional
-    public Response<?> resetPassword(ResetEntity resetEntity) {
-        try {
-            // Find the user by username
-            Users oldUser = usersRepo.findByUsername(resetEntity.getUsername()).orElse(null);
-            if (oldUser == null) {
-                return new Response<>("Error404", "No valid credentials", null);
-            }
-
-            // Find the UserForget entity by username
-            UserForget userForget = userForgetRepo.findByUsername(resetEntity.getUsername()).orElse(null);
-            if (userForget == null) {
-                return new Response<>("Error404", "No valid token generated", null);
-            }
-
-            // Match the OTP
-            if (resetEntity.getOtp() == userForget.getOtp()) {
-                // Update the user's password
-                oldUser.setPassword(randomPasswordGenerator.hashPassword(resetEntity.getPassword()));
-                oldUser.setLastUpdate(LocalDateTime.now());
-                usersRepo.save(oldUser);
-
-                // Find the employee by username
-                Employee employee = employeeRepo.findByUsername(resetEntity.getUsername()).orElse(null);
-                if (employee == null) {
-                    return new Response<>("Error404", "Employee not found", null);
-                }
-
-                // Send confirmation email
-                EmailService.Response<Void> response = emailService.sendEmail(employee.getEmail(), "Password changed for department: " + employee.getDepartmentName(), "Your password has been changed. Username: " + resetEntity.getUsername() + ", new password: " + resetEntity.getPassword());
-
-                if (response.getStatus().equals("Success")) {
-                    userForgetRepo.deleteById(userForget.getId());
-                    return new Response<>("Success", "Password has been changed and email sent", null);
-                } else {
-                    return new Response<>("Error", "Password changed but email could not be sent", null);
-                }
-            } else {
-                return new Response<>("Error404", "OTP didn't match", resetEntity);
-            }
-        } catch (Exception e) {
-            return new Response<>("Error", "reset token : "+ e.getMessage(), null);
-        }
-    }
+//    @Transactional
+//    public Response<?> resetPassword(ResetEntity resetEntity) {
+//        try {
+//            // Find the user by username
+//            Users oldUser = usersRepo.findByUsername(resetEntity.getUsername()).orElse(null);
+//            if (oldUser == null) {
+//                return new Response<>("Error404", "No valid credentials", null);
+//            }
+//
+//            // Find the UserForget entity by username
+//            UserForget userForget = userForgetRepo.findByUsername(resetEntity.getUsername()).orElse(null);
+//            if (userForget == null) {
+//                return new Response<>("Error404", "No valid token generated", null);
+//            }
+//
+//            // Match the OTP
+//            if (resetEntity.getOtp() == userForget.getOtp()) {
+//                // Update the user's password
+//                oldUser.setPassword(randomPasswordGenerator.hashPassword(resetEntity.getPassword()));
+//                oldUser.setLastUpdate(LocalDateTime.now());
+//                usersRepo.save(oldUser);
+//
+//                // Find the employee by username
+//                Employee employee = employeeRepo.findByUsername(resetEntity.getUsername()).orElse(null);
+//                if (employee == null) {
+//                    return new Response<>("Error404", "Employee not found", null);
+//                }
+//
+//                // Send confirmation email
+//                EmailService.Response<Void> response = emailService.sendEmail(employee.getContactInfo().getEmail(), "Password changed for department: " + employee.getJobInfo().getDepartmentName(), "Your password has been changed. Username: " + resetEntity.getUsername() + ", new password: " + resetEntity.getPassword());
+//
+//                if (response.getStatus().equals("Success")) {
+//                    userForgetRepo.deleteById(userForget.getId());
+//                    return new Response<>("Success", "Password has been changed and email sent", null);
+//                } else {
+//                    return new Response<>("Error", "Password changed but email could not be sent", null);
+//                }
+//            } else {
+//                return new Response<>("Error404", "OTP didn't match", resetEntity);
+//            }
+//        } catch (Exception e) {
+//            return new Response<>("Error", "reset token : "+ e.getMessage(), null);
+//        }
+//    }
 
     @Setter
     @Getter

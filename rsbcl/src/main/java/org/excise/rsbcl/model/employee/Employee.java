@@ -41,6 +41,10 @@ public class Employee {
     @NotNull(message = "Date of birth cannot be empty")
     private LocalDate dateOfBirth;
 
+    @Size(max = 50, message = "Marital status must be between 0 and 50 characters")
+    private String maritalStatus;
+    private String profilePictureUrl;
+
     @NotNull(message = "Phone number cannot be empty")
     @Size(min = 10, max = 10, message = "Phone number must be 10 digits")
     private String phoneNumber;
@@ -50,73 +54,68 @@ public class Employee {
     @Email(message = "Email should be valid")
     private String email;
 
+    @NotNull(message = "Emergency contact cannot be empty")
+    @Size(min = 10, max = 10, message = "Emergency contact must be 10 digits")
+    private String emergencyContact;
+
+    @NotNull(message = "Address cannot be empty")
+    private Address address;
+
     @NotNull(message = "Aadhar number cannot be empty")
     @Size(min = 12, max = 12, message = "Aadhar number must be 12 digits")
     private String aadharNumber;
 
-    @NotNull(message = "Aadhar document cannot be empty")
-    private String aadharDocument;
+//        @NotNull(message = "Aadhar document cannot be empty")
+//        private String aadharDocumentUrl;
 
     @NotNull(message = "Pancard id cannot be empty")
     @Size(min = 10, max = 10, message = "Pancard must be 10 characters")
     private String pancardId;
 
-    @NotNull(message = "Pancard document cannot be empty")
-    private String pancardDocument;
-
-    @NotNull(message = "Address cannot be empty")
-    private Address address;
-
-    @NotNull(message = "Date of joining cannot be empty")
-    private LocalDate dateOfJoining;
-
-    @NotNull(message = "Job title cannot be empty")
-    @Size(min = 1, max = 100, message = "Job title must be between 1 and 100 characters")
-    private String jobTitle;
-
-    @NotNull(message = "Salary cannot be empty")
-    @DecimalMin(value = "0.0", inclusive = false, message = "Salary must be greater than 0")
-    private BigDecimal salary;
-
-    @NotNull(message = "Employment type cannot be empty")
-    private EmploymentType employmentType;
-
     @NotNull(message = "Created by cannot be empty")
     @Size(min = 1, max = 50, message = "Created by must be between 1 and 50 characters")
     private String createdBy;
 
-    private boolean status = true;
-    private LocalDateTime lastUpdated;
-
     @NotNull(message = "Username cannot be empty")
     @Size(min = 1, max = 50, message = "Username must be between 1 and 50 characters")
     private String username;
-    private List<String> roles = new ArrayList<>();
 
     @NotNull(message = "Department name cannot be empty")
     @Size(min = 1, max = 100, message = "Department name must be between 1 and 100 characters")
     private String departmentName;
 
-    @Size(max = 50, message = "Marital status must be between 0 and 50 characters")
-    private String maritalStatus;
+    @NotNull(message = "Job details cannot be empty")
+    private JobDetail jobDetail;
+    private List<String> roles = new ArrayList<>();
 
-    @NotNull(message = "Emergency contact cannot be empty")
-    @Size(min = 10, max = 10, message = "Emergency contact must be 10 digits")
-    private String emergencyContact;
-
-    @Size(max = 255, message = "Profile picture URL must be between 0 and 255 characters")
-    private String profilePictureUrl;
-
+    @NotNull(message = "Branch name cannot be empty")
+    @Size(min = 1, max = 100, message = "Branch name must be between 1 and 100 characters")
+    private String branch;
     private List<EmploymentHistory> employmentHistory = new ArrayList<>();
-    private List<Education> education = new ArrayList<>();
+    private List<Education> educations = new ArrayList<>();
     private List<String> skills = new ArrayList<>();
     private boolean documentsVerified = false;
+    private LocalDateTime lastUpdated;
 
-    public enum EmploymentType {
-        FULL_TIME,
-        PART_TIME,
-        CONTRACT,
-        INTERN
+    @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class JobDetail {
+        @NotNull(message = "Job title cannot be empty")
+        @Size(min = 1, max = 100, message = "Job title must be between 1 and 100 characters")
+        private String jobTitle;
+
+        @NotNull(message = "Salary cannot be empty")
+        @DecimalMin(value = "0.00", inclusive = false, message = "Salary must be greater than 0")
+        private BigDecimal salary;
+        private List<String> skills = new ArrayList<>();
+
+        @NotNull(message = "Employment type cannot be empty")
+        private String employmentType;
+        private String employeeStatus;
+
+        @NotNull(message = "Date of joining cannot be empty")
+        private LocalDate dateOfJoining;
     }
 
     @Data
@@ -148,15 +147,13 @@ public class Employee {
     @NoArgsConstructor
     @AllArgsConstructor
     public static class EmploymentHistory {
-        @NotNull(message = "Job title cannot be empty")
         @Size(min = 1, max = 100, message = "Job title must be between 1 and 100 characters")
         private String jobTitle;
 
-        @NotNull(message = "Company name cannot be empty")
         @Size(min = 1, max = 100, message = "Company name must be between 1 and 100 characters")
         private String companyName;
 
-        @NotNull(message = "Start date cannot be empty")
+        private String yearOfExperience;
         private LocalDate startDate;
         private LocalDate endDate;
     }
@@ -174,7 +171,7 @@ public class Employee {
         private String institutionName;
 
         @NotNull(message = "Year cannot be empty")
-        private LocalDate year;
-        private String documentUrl;
+        private String year;
+//        private String documentUrl;
     }
 }

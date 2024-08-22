@@ -33,19 +33,6 @@ public class EmployeeController {
         return createResponseEntity(response);
     }
 
-//    @GetMapping("/v1/auth/employee/username/{username}")
-//    public ResponseEntity<?> getEmployeeByUsername(@PathVariable("username") String username) {
-//        EmployeeService.Response<Employee> response = employeeService.getEmployeeByUsername(username);
-//        return createResponseEntity(response);
-//    }
-
-//    @GetMapping("/v1/auth/employee/email/{email}")
-//    public ResponseEntity<?> getEmployeeByEmail(@PathVariable("email") String email) {
-//        EmployeeService.Response<Employee> response = employeeService.getEmployeeByEmail(email);
-//        return createResponseEntity(response);
-//    }
-
-
     @GetMapping("/v1/auth/employees")
     public ResponseEntity<?> getEmployees(@RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "10") int size) {
         EmployeeService.Response<Page<Employee>> response = employeeService.getEmployees(page, size);
@@ -60,42 +47,6 @@ public class EmployeeController {
         EmployeeService.Response<?> response = employeeService.saveEmployee(employee);
         return createResponseEntity(response);
     }
-
-//    @PutMapping("/v1/auth/employee/username/{username}")
-//    public ResponseEntity<?> updateEmployeeByUsername(@PathVariable("username") String username, @RequestBody Employee employee) {
-//        EmployeeService.Response<Employee> response = employeeService.updateEmployeeByUsername(username, employee);
-//        return createResponseEntity(response);
-//    }
-
-    @PutMapping("/v1/auth/employee/id/{id}")
-    public ResponseEntity<?> updateEmployeeById(@PathVariable("id") ObjectId id, @RequestBody Employee employee) {
-        EmployeeService.Response<Employee> response = employeeService.updateEmployeeById(id, employee);
-        return createResponseEntity(response);
-    }
-
-//    @PutMapping("/v1/auth/employee/email/{email}")
-//    public ResponseEntity<?> updateEmployeeByEmail(@PathVariable("email") String email, @RequestBody Employee employee) {
-//        EmployeeService.Response<Employee> response = employeeService.updateEmployeeByEmail(email, employee);
-//        return createResponseEntity(response);
-//    }
-
-    @DeleteMapping("/v1/auth/employee/id/{id}")
-    public ResponseEntity<?> deleteEmployeeById(@PathVariable("id") ObjectId id) {
-        EmployeeService.Response<Void> response = employeeService.deleteEmployeeById(id);
-        return createResponseEntity(response);
-    }
-
-//    @DeleteMapping("/v1/auth/employee/username/{username}")
-//    public ResponseEntity<?> deleteEmployeeByUsername(@PathVariable("username") String username) {
-//        EmployeeService.Response<Void> response = employeeService.deleteEmployeeByUsername(username);
-//        return createResponseEntity(response);
-//    }
-
-//    @DeleteMapping("/v1/auth/employee/email/{email}")
-//    public ResponseEntity<?> deleteEmployeeByEmail(@PathVariable("email") String email) {
-//        EmployeeService.Response<Void> response = employeeService.deleteEmployeeByEmail(email);
-//        return createResponseEntity(response);
-//    }
 
     private <T> ResponseEntity<?> createResponseEntity(EmployeeService.Response<T> response) {
         return switch (response.getStatus()) {
