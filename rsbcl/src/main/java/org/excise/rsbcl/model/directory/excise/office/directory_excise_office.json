@@ -5,7 +5,7 @@
     "designation": "Additional Chief Secretary (Finance)",
     "mobileNo": null,
     "stdCode": "141",
-    "office": "2227664",
+    "officeAddress": "2227664",
     "faxNo": "2227741",
     "email": "psf@rajasthan.gov.in"
   },
@@ -15,7 +15,7 @@
     "designation": "F. S. (Revenue)",
     "mobileNo": null,
     "stdCode": "141",
-    "office": "2227711",
+    "officeAddress": "2227711",
     "faxNo": "2227711",
     "email": "secyfinr@rajasthan.gov.in"
   },
@@ -25,7 +25,7 @@
     "designation": "Jt. Sec., (Excise)",
     "mobileNo": null,
     "stdCode": "141",
-    "office": "2227239",
+    "officeAddress": "2227239",
     "faxNo": "2227239",
     "email": "dsfexcise@rajasthan.gov.in"
   },
@@ -35,7 +35,7 @@
     "designation": "Asst. Sec. Fin(Excise)",
     "mobileNo": "9414389147",
     "stdCode": "141",
-    "office": "2924458",
+    "officeAddress": "2924458",
     "faxNo": null,
     "email": "dsfexcise@rajasthan.gov.in"
   },
@@ -45,7 +45,7 @@
     "designation": "Excise Commissioner Udaipur ; Camp Jaipur",
     "mobileNo": null,
     "stdCode": "294; 141",
-    "office": "2524911; 2744230,2740829",
+    "officeAddress": "2524911; 2744230,2740829",
     "faxNo": "2526801; 2740829",
     "email": "ecjaipur.excise@rajasthan.gov.in; commissioner.excise@rajasthan.gov.in"
   },
@@ -55,7 +55,7 @@
     "designation": "Addl. Commissioner (Policy)",
     "mobileNo": "2527074",
     "stdCode": "294",
-    "office": "2523124",
+    "officeAddress": "2523124",
     "faxNo": "2523124",
     "email": "acpolicy.excise@rajasthan.gov.in"
   },
@@ -65,7 +65,7 @@
     "designation": "Addl. Commissioner (Adm)",
     "mobileNo": "2412274",
     "stdCode": "294",
-    "office": "2412274",
+    "officeAddress": "2412274",
     "faxNo": "2412274",
     "email": "aca.udaipur.excise@rajasthan.gov.in"
   },
@@ -75,7 +75,7 @@
     "designation": "Financial Advisor",
     "mobileNo": null,
     "stdCode": "294",
-    "office": "2528397",
+    "officeAddress": "2528397",
     "faxNo": "2528397",
     "email": "fa.udaipur.excise@rajasthan.gov.in"
   },
@@ -85,7 +85,7 @@
     "designation": "Addl. Commissioner (Legal)",
     "mobileNo": "9414263186",
     "stdCode": "294",
-    "office": "2523124",
+    "officeAddress": "2523124",
     "faxNo": "2523124",
     "email": "aclegal.ho.excise@rajasthan.gov.in"
   },
@@ -95,7 +95,7 @@
     "designation": "Addl. Comm., Ajmer",
     "mobileNo": null,
     "stdCode": "145",
-    "office": "2940008",
+    "officeAddress": "2940008",
     "faxNo": "2423516",
     "email": "ac.ajmer.excise@rajasthan.gov.in"
   },
@@ -105,7 +105,7 @@
     "designation": "Addl. Comm., Bharatpur",
     "mobileNo": "9829168800",
     "stdCode": "5644",
-    "office": "220325",
+    "officeAddress": "220325",
     "faxNo": "220325",
     "email": "ac.bharatpur.excise@rajasthan.gov.in"
   },
@@ -115,7 +115,7 @@
     "designation": "Addl. Comm., Bikaner",
     "mobileNo": null,
     "stdCode": "151",
-    "office": "2530017",
+    "officeAddress": "2530017",
     "faxNo": "2530017",
     "email": "ac.bikaner.excise@rajasthan.gov.in"
   },
@@ -125,7 +125,7 @@
     "designation": "AC,Zone, Jaipur",
     "mobileNo": "9784212284",
     "stdCode": "141",
-    "office": "2741087",
+    "officeAddress": "2741087",
     "faxNo": "2740829",
     "email": "ac.jaipur.excise@rajasthan.gov.in"
   },
@@ -135,7 +135,7 @@
     "designation": "Addl. Comm., Jodhpur",
     "mobileNo": "9414384783",
     "stdCode": "291",
-    "office": "2650396",
+    "officeAddress": "2650396",
     "faxNo": "2650396",
     "email": "ac.jodhpur.excise@rajasthan.gov.in"
   },
@@ -145,7 +145,7 @@
     "designation": "Addl. Comm. Kota",
     "mobileNo": "9660173799",
     "stdCode": "744",
-    "office": "2364577",
+    "officeAddress": "2364577",
     "faxNo": "2364577",
     "email": "ac.kota.excise@rajasthan.gov.in"
   },
@@ -155,7 +155,7 @@
     "designation": "Addl. Comm. Zone Udaipur",
     "mobileNo": null,
     "stdCode": "294",
-    "office": "2527074",
+    "officeAddress": "2527074",
     "faxNo": "2527074",
     "email": "ac.uda.excise@rajasthan.gov.in"
   },
@@ -165,7 +165,7 @@
     "designation": "Excise Controlroom",
     "mobileNo": null,
     "stdCode": "294",
-    "office": "2412274",
+    "officeAddress": "2412274",
     "faxNo": "2524308",
     "email": "ctrlroom.ho.excise@rajasthan.gov.in"
   },
@@ -175,7 +175,7 @@
     "designation": "Dy. F.A.",
     "mobileNo": "912942427094",
     "stdCode": "294",
-    "office": "2427094",
+    "officeAddress": "2427094",
     "faxNo": "2526801",
     "email": "fa.udaipur.excise@rajasthan.gov.in"
   },
@@ -185,17 +185,17 @@
     "designation": "Deputy Legal Remembrancer",
     "mobileNo": null,
     "stdCode": "0294",
-    "office": "2527086 (115)",
+    "officeAddress": "2527086 (115)",
     "faxNo": "2526801",
     "email": "sjlr.ho.excise@rajasthan.gov.in"
   },
   {
     "sno": 20,
     "name": "Sh.-",
-    "designation": "Sr. Legal officer",
+    "designation": "Sr. Legal officeAddressr",
     "mobileNo": null,
     "stdCode": "0294",
-    "office": "2527086(114)",
+    "officeAddress": "2527086(114)",
     "faxNo": "0294-2526801",
     "email": "sjlr.ho.excise@rajasthan.gov.in"
   },
@@ -205,7 +205,7 @@
     "designation": "Additional Director, HO Udaipur [IT Section]",
     "mobileNo": "912942527086",
     "stdCode": "0294",
-    "office": "2527086",
+    "officeAddress": "2527086",
     "faxNo": null,
     "email": "shweta.doit@rajasthan.gov.in"
   },
@@ -215,7 +215,7 @@
     "designation": "ACP (Dy.Director), Zone Jaipur",
     "mobileNo": "8559975883",
     "stdCode": "0141",
-    "office": "2744236",
+    "officeAddress": "2744236",
     "faxNo": null,
     "email": "acp.jaipur.excise@rajasthan.gov.in"
   },
@@ -225,7 +225,7 @@
     "designation": "ACP (Dy.Director), HO Udaipur [IT Section]",
     "mobileNo": "912942527086",
     "stdCode": "0294",
-    "office": "2527086",
+    "officeAddress": "2527086",
     "faxNo": null,
     "email": "kkkhandelwal.doit@rajasthan.gov.in"
   },
@@ -235,7 +235,7 @@
     "designation": "ACP (Dy. Director), HO Udaipur [IT Section]",
     "mobileNo": "912942527086",
     "stdCode": "0294",
-    "office": "2527086",
+    "officeAddress": "2527086",
     "faxNo": null,
     "email": "preetigupta.doit@rajasthan.gov.in"
   },
@@ -245,7 +245,7 @@
     "designation": "Programmer, HO, Udaipur [IT Section]",
     "mobileNo": "912942527086",
     "stdCode": "0294",
-    "office": "2527086",
+    "officeAddress": "2527086",
     "faxNo": null,
     "email": "prog2.ho.excise@rajasthan.gov.in"
   },
@@ -255,7 +255,7 @@
     "designation": "Deo Ajmer",
     "mobileNo": "8769000786; 9414249464",
     "stdCode": "145",
-    "office": "2970364",
+    "officeAddress": "2970364",
     "faxNo": "2970364",
     "email": "deo.ajmer.excise@rajasthan.gov.in"
   },
@@ -265,7 +265,7 @@
     "designation": "DEO Bhilwara",
     "mobileNo": "9929050130",
     "stdCode": "1482",
-    "office": "232718",
+    "officeAddress": "232718",
     "faxNo": null,
     "email": "deo.bhilwara.excise@rajasthan.gov.in"
   },
@@ -275,7 +275,7 @@
     "designation": "DEO Nagour",
     "mobileNo": "8619258121",
     "stdCode": "1582",
-    "office": "240019",
+    "officeAddress": "240019",
     "faxNo": "240019",
     "email": "deo.nagaur.excise@rajasthan.gov.in"
   },
@@ -285,7 +285,7 @@
     "designation": "DEO Tonk",
     "mobileNo": "9829083162",
     "stdCode": "1432",
-    "office": "294561",
+    "officeAddress": "294561",
     "faxNo": "248282",
     "email": "deo.tonk.excise@rajasthan.gov.in"
   },
@@ -295,7 +295,7 @@
     "designation": "DEO Bharatpur",
     "mobileNo": "9461714258",
     "stdCode": "5644",
-    "office": "225477",
+    "officeAddress": "225477",
     "faxNo": null,
     "email": "deo.bharatpur.excise@rajasthan.gov.in"
   },
@@ -305,7 +305,7 @@
     "designation": "DEO Dholpur",
     "mobileNo": "9413948052",
     "stdCode": "5642",
-    "office": "220763",
+    "officeAddress": "220763",
     "faxNo": "220763",
     "email": "deo.dholpur.excise@rajasthan.gov.in"
   },
@@ -315,7 +315,7 @@
     "designation": "DEO Karauli",
     "mobileNo": "8078683365",
     "stdCode": "7464",
-    "office": "220271",
+    "officeAddress": "220271",
     "faxNo": null,
     "email": "deo.karauli@rajasthan.gov.in"
   },
@@ -325,7 +325,7 @@
     "designation": "DEO Sawai Madhopur",
     "mobileNo": "9928086194",
     "stdCode": "7462",
-    "office": "222008",
+    "officeAddress": "222008",
     "faxNo": "223636",
     "email": "deo.sawaima.excise@rajasthan.gov.in"
   },
@@ -335,7 +335,7 @@
     "designation": "DEO Bikaner",
     "mobileNo": "8829015875",
     "stdCode": "151",
-    "office": "2200884",
+    "officeAddress": "2200884",
     "faxNo": "2530017",
     "email": "deo.bikaner.excise@rajasthan.gov.in"
   },
@@ -345,7 +345,7 @@
     "designation": "DEO Churu",
     "mobileNo": "9413345077",
     "stdCode": "1562",
-    "office": "250307",
+    "officeAddress": "250307",
     "faxNo": "250275",
     "email": "deo.churu.excise@rajasthan.gov.in"
   },
@@ -355,7 +355,7 @@
     "designation": "DEO Hanumangarh",
     "mobileNo": "9414026122",
     "stdCode": "1552",
-    "office": "222088",
+    "officeAddress": "222088",
     "faxNo": "223507",
     "email": "deo.hanuamn.excise@rajasthan.gov.in"
   },
@@ -365,7 +365,7 @@
     "designation": "DEO Ganganagar",
     "mobileNo": "8302772152",
     "stdCode": "154",
-    "office": "2470182",
+    "officeAddress": "2470182",
     "faxNo": "2471045",
     "email": "deo.sgnr.excise@rajasthan.gov.in"
   },
@@ -375,7 +375,7 @@
     "designation": "DEO Alwar",
     "mobileNo": "9413471531",
     "stdCode": "144",
-    "office": "2732400",
+    "officeAddress": "2732400",
     "faxNo": "2732400",
     "email": "deo.alwar.excise@rajasthan.gov.in"
   },
@@ -385,7 +385,7 @@
     "designation": "DEO Behror",
     "mobileNo": "9829181904",
     "stdCode": "01494",
-    "office": null,
+    "officeAddress": null,
     "faxNo": "243764",
     "email": "deo.behror.excise@rajasthan.gov.in"
   },
@@ -395,7 +395,7 @@
     "designation": "DEO Dausa",
     "mobileNo": "9828171729",
     "stdCode": "1427",
-    "office": "224180",
+    "officeAddress": "224180",
     "faxNo": "230990",
     "email": "deo.dausa.excise@rajasthan.gov.in"
   },
@@ -405,7 +405,7 @@
     "designation": "DEO Jaipur City",
     "mobileNo": "9953922266 ; 9983992999",
     "stdCode": "141",
-    "office": "2743196",
+    "officeAddress": "2743196",
     "faxNo": "2743196",
     "email": "deo.jaipur.excise@rajasthan.gov.in"
   },
@@ -415,7 +415,7 @@
     "designation": "DEO Jaipur Rural",
     "mobileNo": "9414060352",
     "stdCode": "141",
-    "office": "2744580",
+    "officeAddress": "2744580",
     "faxNo": "2740829",
     "email": "deo.jaipurr.excise@rajasthan.gov.in"
   },
@@ -425,7 +425,7 @@
     "designation": "DEO (Pros.) Jaipur",
     "mobileNo": "9414606189",
     "stdCode": "141",
-    "office": "2740706",
+    "officeAddress": "2740706",
     "faxNo": "2742489",
     "email": "deopros.jpr.excise@rajasthan.gov.in"
   },
@@ -435,7 +435,7 @@
     "designation": "DEO Jhunjhunu",
     "mobileNo": "9414084226",
     "stdCode": "1592",
-    "office": "232904",
+    "officeAddress": "232904",
     "faxNo": "232904",
     "email": "deo.jhunjhunu.excise@rajasthan.gov.in"
   },
@@ -445,7 +445,7 @@
     "designation": "DEO Sikar",
     "mobileNo": "9414055949",
     "stdCode": "1572",
-    "office": "248650",
+    "officeAddress": "248650",
     "faxNo": "248650",
     "email": "deo.sikar.excise@rajasthan.gov.in"
   },
@@ -455,7 +455,7 @@
     "designation": "DEO Barmer",
     "mobileNo": "9414205169",
     "stdCode": null,
-    "office": null,
+    "officeAddress": null,
     "faxNo": null,
     "email": "deo.barmer.excise@rajasthan.gov.in"
   },
@@ -465,7 +465,7 @@
     "designation": "DEO Jaisalmer",
     "mobileNo": "9414429527",
     "stdCode": "2992",
-    "office": "251608",
+    "officeAddress": "251608",
     "faxNo": null,
     "email": "deo.jaisal.excise@rajasthan.gov.in"
   },
@@ -475,7 +475,7 @@
     "designation": "DEO Jalore",
     "mobileNo": "9772342255",
     "stdCode": "2973",
-    "office": "222543",
+    "officeAddress": "222543",
     "faxNo": "222207",
     "email": "deo.jalore.excise@rajasthan.gov.in"
   },
@@ -485,7 +485,7 @@
     "designation": "DEO Jodhpur",
     "mobileNo": "9799847001 ; 9460232858",
     "stdCode": "291",
-    "office": "2555324",
+    "officeAddress": "2555324",
     "faxNo": "2650394",
     "email": "deo.jodhpur.excise@rajasthan.gov.in"
   },
@@ -495,7 +495,7 @@
     "designation": "DEO (Pros.), Jodhpur",
     "mobileNo": "9983956325",
     "stdCode": "291",
-    "office": "2650394",
+    "officeAddress": "2650394",
     "faxNo": "2650394, 2650396",
     "email": "deopros.jdp.excise@rajasthan.gov.in"
   },
@@ -505,7 +505,7 @@
     "designation": "DEO Pali",
     "mobileNo": "9460959351",
     "stdCode": "2932",
-    "office": "297111",
+    "officeAddress": "297111",
     "faxNo": "257806",
     "email": "deo.pali.excise@rajasthan.gov.in"
   },
@@ -515,7 +515,7 @@
     "designation": "DEO Sirohi",
     "mobileNo": "9983201234",
     "stdCode": "2972",
-    "office": "220709",
+    "officeAddress": "220709",
     "faxNo": "220709",
     "email": "deo.sirohi.excise@rajasthan.gov.in"
   },
@@ -525,7 +525,7 @@
     "designation": "DEO Baran",
     "mobileNo": "9414431249",
     "stdCode": "7453",
-    "office": "231526",
+    "officeAddress": "231526",
     "faxNo": "231526",
     "email": "deo.baran.excise@rajasthan.gov.in"
   },
@@ -535,7 +535,7 @@
     "designation": "DEO Bundi",
     "mobileNo": "8290979439",
     "stdCode": "747",
-    "office": "2457249",
+    "officeAddress": "2457249",
     "faxNo": "2444958",
     "email": "deo.bundi.excise@rajasthan.gov.in"
   },
@@ -545,7 +545,7 @@
     "designation": "DEO Jhalawar",
     "mobileNo": "9252550001",
     "stdCode": "7432",
-    "office": "232651",
+    "officeAddress": "232651",
     "faxNo": "0",
     "email": "deo.jhalawa.excise@rajasthan.gov.in"
   },
@@ -555,7 +555,7 @@
     "designation": "DEO Kota",
     "mobileNo": "9667095599",
     "stdCode": "744",
-    "office": "2365623",
+    "officeAddress": "2365623",
     "faxNo": "5122744",
     "email": "deo.kota.excise@rajasthan.gov.in"
   },
@@ -565,7 +565,7 @@
     "designation": "DEO Banswara",
     "mobileNo": "9829044264",
     "stdCode": "2962",
-    "office": "250560",
+    "officeAddress": "250560",
     "faxNo": "250560",
     "email": "deo.bans.excise@rajasthan.gov.in"
   },
@@ -575,7 +575,7 @@
     "designation": "DEO Chittorgarh",
     "mobileNo": "7427008335",
     "stdCode": "1472",
-    "office": "241587",
+    "officeAddress": "241587",
     "faxNo": "241587",
     "email": "deo.chittor.excise@rajasthan.gov.in"
   },
@@ -585,7 +585,7 @@
     "designation": "DEO Dungarpur",
     "mobileNo": "9414005065",
     "stdCode": "2964",
-    "office": "230009",
+    "officeAddress": "230009",
     "faxNo": "230009",
     "email": "deo.dungarpur.excise@rajasthan.gov.in"
   },
@@ -595,7 +595,7 @@
     "designation": "DEO Pratapgarh",
     "mobileNo": "94141 55826",
     "stdCode": "1478",
-    "office": "222330",
+    "officeAddress": "222330",
     "faxNo": "222330",
     "email": "deo.prtpgarh.excise@rajasthan.gov.in"
   },
@@ -605,7 +605,7 @@
     "designation": "DEO Rajsamand",
     "mobileNo": "9530078868",
     "stdCode": null,
-    "office": null,
+    "officeAddress": null,
     "faxNo": null,
     "email": "deo.rajsamand.excise@rajasthan.gov.in"
   },
@@ -615,7 +615,7 @@
     "designation": "DEO Udaipur",
     "mobileNo": "9116765599",
     "stdCode": "294",
-    "office": "2427360",
+    "officeAddress": "2427360",
     "faxNo": null,
     "email": "deo.udaipur.excise@rajasthan.gov.in"
   },
@@ -625,7 +625,7 @@
     "designation": "DEO, Distillery. Udaipur",
     "mobileNo": "9928912551",
     "stdCode": "294",
-    "office": "2411640",
+    "officeAddress": "2411640",
     "faxNo": null,
     "email": "deoprod.udr.excise@rajasthan.gov.in"
   }

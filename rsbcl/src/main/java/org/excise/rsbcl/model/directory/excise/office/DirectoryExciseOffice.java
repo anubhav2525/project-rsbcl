@@ -32,8 +32,9 @@ public class DirectoryExciseOffice {
     @Size(min = 10,message = "Mobile no. should min 10 digits")
     private String mobileNo;
     private String stdCode;
-    private String office;
+    private String officeAddress;
     private String faxNo;
+    private String imageUrl;
 
     @NotNull(message = "Email is required")
     @Size(min = 10,max = 50,message = "Email should be characters between 10 to 50")

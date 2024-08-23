@@ -40,10 +40,14 @@ public class ActsPoliciesService {
     }
 
     // get data as batch of 10 pagination
-    public Page<ActsPolicies> getPaginatedActsPolicies(int page, int size) {
-        // Create a PageRequest with page number and size (in this case size is 10)
-        PageRequest pageRequest = PageRequest.of(page, size);
-        return actsPoliciesRepo.findAll(pageRequest);
+    public Response<Page<ActsPolicies>> getPaginatedActsPolicies(int page, int size) {
+        try {
+            PageRequest pageRequest = PageRequest.of(page, size);
+            Page<ActsPolicies> actsPoliciesPage = actsPoliciesRepo.findAll(pageRequest);
+            return new Response<>("Success", "Fetched paginated acts policies", actsPoliciesPage);
+        } catch (Exception e) {
+            return new Response<>("Error", "Failed to fetch paginated acts policies: " + e.getMessage(), null);
+        }
     }
 
     public Response<ActsPolicies> saveActsPolicies(ActsPoliciesDAO actsPoliciesDAO) {

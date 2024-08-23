@@ -2,10 +2,8 @@ package org.excise.rsbcl.controllers.actsPolicies;
 
 import org.bson.types.ObjectId;
 import org.excise.rsbcl.dao.actsPolicies.ActsPoliciesDAO;
-import org.excise.rsbcl.model.actsPolicies.ActsPolicies;
 import org.excise.rsbcl.services.actsPolicies.ActsPoliciesService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -23,11 +21,8 @@ public class ActsPoliciesController {
 
     // Endpoint to get paginated data
     @GetMapping("/public/acts-policies")
-    public ResponseEntity<Page<ActsPolicies>> getPaginatedActsPolicies(@RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "10") int size) {
-
-        // Call the service to get paginated data
-        Page<ActsPolicies> actsPoliciesPage = actsPoliciesService.getPaginatedActsPolicies(page, size);
-        return ResponseEntity.ok(actsPoliciesPage);
+    public ResponseEntity<?> getPaginatedActsPolicies(@RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "10") int size) {
+        return createResponseEntity(actsPoliciesService.getPaginatedActsPolicies(page, size));
     }
 
     @GetMapping("/public/acts-policies/latest-five/{department}")

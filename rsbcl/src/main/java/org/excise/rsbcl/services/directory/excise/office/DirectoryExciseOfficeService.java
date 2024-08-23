@@ -5,9 +5,13 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.bson.types.ObjectId;
+import org.excise.rsbcl.model.actsPolicies.ActsPolicies;
 import org.excise.rsbcl.model.directory.excise.office.DirectoryExciseOffice;
 import org.excise.rsbcl.repository.directory.excise.office.DirectoryExciseOfficeRepo;
+import org.excise.rsbcl.services.actsPolicies.ActsPoliciesService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -19,14 +23,13 @@ public class DirectoryExciseOfficeService {
     @Autowired
     private DirectoryExciseOfficeRepo directoryExciseOfficeRepo;
 
-    public Response<List<DirectoryExciseOffice>> getAll() {
+    public Response<Page<DirectoryExciseOffice>> getPaginatedDirectoryExcise(int page,int size){
         try {
-            List<DirectoryExciseOffice> directoryExciseOffices = directoryExciseOfficeRepo.findAll();
-            if (!directoryExciseOffices.isEmpty())
-                return new Response<>("Success", "Directory found", directoryExciseOffices);
-            return new Response<>("Error404", "Directories not found", null);
+            PageRequest pageRequest = PageRequest.of(page, size);
+            Page<DirectoryExciseOffice> directoryExciseOfficePage = directoryExciseOfficeRepo.findAll(pageRequest);
+            return new Response<>("Success", "Fetched paginated acts policies", directoryExciseOfficePage);
         } catch (Exception e) {
-            return new Response<>("Error", e.getMessage(), null);
+            return new Response<>("Error", "Failed to fetch paginated acts policies: " + e.getMessage(), null);
         }
     }
 
@@ -78,7 +81,7 @@ public class DirectoryExciseOfficeService {
             oldDirectoryExciseOffice.setDesignation((directoryExciseOffice.getDesignation() != null && !directoryExciseOffice.getDesignation().equals(oldDirectoryExciseOffice.getDesignation())) ? directoryExciseOffice.getDesignation() : oldDirectoryExciseOffice.getDesignation());
             oldDirectoryExciseOffice.setMobileNo((directoryExciseOffice.getMobileNo() != null && !directoryExciseOffice.getMobileNo().equals(oldDirectoryExciseOffice.getMobileNo())) ? directoryExciseOffice.getMobileNo() : oldDirectoryExciseOffice.getMobileNo());
             oldDirectoryExciseOffice.setStdCode((directoryExciseOffice.getStdCode() != null && !directoryExciseOffice.getStdCode().equals(oldDirectoryExciseOffice.getStdCode())) ? directoryExciseOffice.getStdCode() : oldDirectoryExciseOffice.getStdCode());
-            oldDirectoryExciseOffice.setOffice((directoryExciseOffice.getOffice() != null && !directoryExciseOffice.getOffice().equals(oldDirectoryExciseOffice.getOffice())) ? directoryExciseOffice.getOffice() : oldDirectoryExciseOffice.getOffice());
+            oldDirectoryExciseOffice.setOfficeAddress((directoryExciseOffice.getOfficeAddress() != null && !directoryExciseOffice.getOfficeAddress().equals(oldDirectoryExciseOffice.getOfficeAddress())) ? directoryExciseOffice.getOfficeAddress() : oldDirectoryExciseOffice.getOfficeAddress());
             oldDirectoryExciseOffice.setFaxNo((directoryExciseOffice.getFaxNo() != null && !directoryExciseOffice.getFaxNo().equals(oldDirectoryExciseOffice.getFaxNo())) ? directoryExciseOffice.getFaxNo() : oldDirectoryExciseOffice.getFaxNo());
             oldDirectoryExciseOffice.setEmail((directoryExciseOffice.getEmail() != null && !directoryExciseOffice.getEmail().equals(oldDirectoryExciseOffice.getEmail())) ? directoryExciseOffice.getEmail() : oldDirectoryExciseOffice.getEmail());
             oldDirectoryExciseOffice.setLastUpdate(LocalDateTime.now());

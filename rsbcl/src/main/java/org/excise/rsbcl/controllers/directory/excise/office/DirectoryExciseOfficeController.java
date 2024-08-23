@@ -21,9 +21,8 @@ public class DirectoryExciseOfficeController {
     }
 
     @GetMapping("/v1/public/directory/excise-offices")
-    public ResponseEntity<?> getAll() {
-        DirectoryExciseOfficeService.Response<List<DirectoryExciseOffice>> response = directoryExciseOfficeService.getAll();
-        return createResponseEntity(response);
+    public ResponseEntity<?> getPaginatedDirectoryExcise(@RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "10") int size) {
+        return createResponseEntity(directoryExciseOfficeService.getPaginatedDirectoryExcise(page, size));
     }
 
     @GetMapping("/v1/auth/directory/excise-office/id/{id}")
