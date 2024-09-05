@@ -9,6 +9,7 @@ import org.excise.rsbcl.dao.actsPolicies.ActsPoliciesDAO;
 import org.excise.rsbcl.model.actsPolicies.ActsPolicies;
 import org.excise.rsbcl.repository.actsPolicies.ActsPoliciesRepo;
 import org.excise.rsbcl.services.cloudinary.CloudinaryService;
+import org.excise.rsbcl.services.newsUpdates.NewsUpdatesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -34,12 +35,14 @@ public class ActsPoliciesService {
 
     public Response<List<ActsPolicies>> getActsPoliciesFive(String department) {
         // Find news by department and sort by lastUpdate in descending order
-        List<ActsPolicies> latestActs = actsPoliciesRepo.findByDepartment(department, Sort.by(Sort.Direction.DESC, "lastUpdate")).stream().limit(5) // Limit to the latest 5 records
+        List<ActsPolicies> latestActs = actsPoliciesRepo.findByDepartment(department.toUpperCase(), Sort.by(Sort.Direction.DESC, "lastUpdate")).stream().limit(5) // Limit to the latest 5 records
                 .collect(Collectors.toList());
+        if (latestActs.isEmpty())
+            return new Response<>("Error", "NO content " + department, latestActs);
         return new Response<>("Success", "Fetched latest 5 records for department: " + department, latestActs);
     }
 
-    // get data as batch of 10 pagination
+        // get data as batch of 10 pagination
     public Response<Page<ActsPolicies>> getPaginatedActsPolicies(int page, int size) {
         try {
             PageRequest pageRequest = PageRequest.of(page, size);
@@ -86,8 +89,8 @@ public class ActsPoliciesService {
         if (existingRecord.isPresent()) {
             try {
                 ActsPolicies actsPolicies = existingRecord.get();
-                actsPolicies.setTitle(actsPoliciesDAO.getTitle());
-                actsPolicies.setDescription(actsPoliciesDAO.getDescription());
+                actsPolicies.setTitle(actsPoliciesDAO.getTitle().trim());
+                actsPolicies.setDescription(actsPoliciesDAO.getDescription().trim());
                 actsPolicies.setDepartment(actsPoliciesDAO.getDepartment());
                 actsPolicies.setLastUpdate(actsPoliciesDAO.getLastUpdate());
                 actsPolicies.setNewsStatus(actsPoliciesDAO.getNewsStatus());

@@ -6,10 +6,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.bson.types.ObjectId;
 import org.excise.rsbcl.model.inFocus.InFocus;
-import org.excise.rsbcl.model.newsUpdates.NewsUpdates;
 import org.excise.rsbcl.repository.inFocus.InFocusRepo;
-import org.excise.rsbcl.services.newsUpdates.NewsUpdatesService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
@@ -36,12 +36,21 @@ public class InFocusService {
         }
     }
 
+    public Response<Page<InFocus>> getAllInfousPage(int page, int size) {
+        try {
+            PageRequest pageRequest = PageRequest.of(page, size);
+            Page<InFocus> inFocusPage = inFocusRepo.findAll(pageRequest);
+            return new Response<>("Success", "Fetched paginated acts policies", inFocusPage);
+        } catch (Exception e) {
+            return new Response<>("Error", "Failed to fetch paginated acts policies: " + e.getMessage(), null);
+        }
+    }
+
     // get by id
     public Response<Optional<InFocus>> getInFocusById(ObjectId id) {
         try {
             Optional<InFocus> inFocusOptional = inFocusRepo.findById(id);
-            if (inFocusOptional.isEmpty())
-                return new Response<>("Error404", "No content", null);
+            if (inFocusOptional.isEmpty()) return new Response<>("Error404", "No content", null);
             return new Response<>("Success", "Data found", inFocusOptional);
         } catch (Exception e) {
             return new Response<>("Error", "Failed to fetch news updates: " + e.getMessage(), null);

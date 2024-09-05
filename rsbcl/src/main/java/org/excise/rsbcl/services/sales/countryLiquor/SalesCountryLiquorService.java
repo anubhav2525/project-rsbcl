@@ -1,7 +1,13 @@
 package org.excise.rsbcl.services.sales.countryLiquor;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.excise.rsbcl.controllers.sales.beer.SalesBeerController;
+import org.excise.rsbcl.model.sales.beer.SalesBeer;
 import org.excise.rsbcl.model.sales.countryLiquor.SalesCountryLiquor;
 import org.excise.rsbcl.repository.sales.countryLiquor.SalesCountryLiquorRepo;
+import org.excise.rsbcl.services.sales.beer.SalesBeerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -30,5 +36,32 @@ public class SalesCountryLiquorService {
 
     public List<SalesCountryLiquor> getSalesBeerByYearAndCategory(int year, String category) {
         return salesCountryLiquorRepo.findByYearAndCategory(year, category);
+    }
+
+    public Response<?> saveSalesCLs(List<SalesCountryLiquor> salesCountryLiquors) {
+        try {
+            salesCountryLiquorRepo.saveAll(salesCountryLiquors);
+            return new Response<>("Success", "saved", null);
+        } catch (Exception e) {
+            return new Response<>("Error", e.getMessage(), null);
+        }
+    }
+
+    public Response<?> saveSalesCL(SalesCountryLiquor salesCountryLiquor) {
+        try {
+            salesCountryLiquorRepo.save(salesCountryLiquor);
+            return new Response<>("Success", "saved", null);
+        } catch (Exception e) {
+            return new Response<>("Error", e.getMessage(), null);
+        }
+    }
+
+    @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class Response<T> {
+        private String status;
+        private String message;
+        private T data;
     }
 }

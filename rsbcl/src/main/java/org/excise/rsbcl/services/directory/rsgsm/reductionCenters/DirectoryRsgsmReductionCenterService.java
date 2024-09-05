@@ -8,9 +8,12 @@ import org.bson.types.ObjectId;
 import org.excise.rsbcl.model.directory.rsgsm.reductionCenters.DirectoryRsgsmReductionCenter;
 import org.excise.rsbcl.repository.directory.rsgsm.reductionCenters.DirectoryRsgsmReductionCenterRepo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -18,11 +21,11 @@ public class DirectoryRsgsmReductionCenterService {
     @Autowired
     private DirectoryRsgsmReductionCenterRepo directoryRsgsmReductionCenterRepo;
 
-    public Response<List<DirectoryRsgsmReductionCenter>> getAll() {
+    public Response<Page<DirectoryRsgsmReductionCenter>> getPaginatedDirectoryRSGSMReductionCenter(int page, int size) {
         try {
-            List<DirectoryRsgsmReductionCenter> directoryRsgsmReductionCenters = directoryRsgsmReductionCenterRepo.findAll();
-            if (directoryRsgsmReductionCenters.isEmpty()) return new Response<>("Error404", "No content", null);
-            return new Response<>("Success", "Content found", directoryRsgsmReductionCenters);
+            PageRequest pageRequest = PageRequest.of(page, size);
+            Page<DirectoryRsgsmReductionCenter> directoryRsgsmReductionCenters = directoryRsgsmReductionCenterRepo.findAll(pageRequest);
+            return new Response<>("Success", "Fetched paginated rsgsm reduction centers", directoryRsgsmReductionCenters);
         } catch (Exception e) {
             return new Response<>("Error", e.getMessage(), null);
         }
@@ -45,6 +48,31 @@ public class DirectoryRsgsmReductionCenterService {
             directoryRsgsmReductionCenter.setLastUpdate(LocalDateTime.now());
             directoryRsgsmReductionCenterRepo.save(directoryRsgsmReductionCenter);
             return new Response<>("Success", "Saved successfully", directoryRsgsmReductionCenter);
+        } catch (Exception e) {
+            return new Response<>("Error", e.getMessage(), null);
+        }
+    }
+
+    public Response<List<DirectoryRsgsmReductionCenter>> saveList(List<DirectoryRsgsmReductionCenter> directoryRsgsmReductionCenterList) {
+        try {
+            List<DirectoryRsgsmReductionCenter> lists = new ArrayList<>();
+            for (DirectoryRsgsmReductionCenter newData : directoryRsgsmReductionCenterList) {
+                newData.setLastUpdate(LocalDateTime.now());
+                lists.add(newData);
+            }
+            // save depots one by one
+            boolean status = false;
+            // error list
+            List<DirectoryRsgsmReductionCenter> errorData = new ArrayList<>();
+            for (DirectoryRsgsmReductionCenter directory : directoryRsgsmReductionCenterList) {
+                Response<DirectoryRsgsmReductionCenter> response = save(directory);
+                if (!(response.getStatus().equals("Success"))) {
+                    status = true;
+                    errorData.add(directory);
+                }
+            }
+            if (status) return new Response<>("Error", "Data has error", errorData);
+            return new Response<>("Success", "Saved successfully", lists);
         } catch (Exception e) {
             return new Response<>("Error", e.getMessage(), null);
         }

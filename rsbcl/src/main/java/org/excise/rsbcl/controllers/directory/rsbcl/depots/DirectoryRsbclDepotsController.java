@@ -21,9 +21,8 @@ public class DirectoryRsbclDepotsController {
     }
 
     @GetMapping("/v1/public/directory/rsbcl-depots")
-    public ResponseEntity<?> getAll() {
-        DirectoryRsbclDepotsService.Response<List<DirectoryRsbclDepots>> response = directoryRsbclDepotsService.getAll();
-        return createResponseEntity(response);
+    public ResponseEntity<?> getPaginatedDirectoryRSBCLDepots(@RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "10") int size) {
+        return createResponseEntity(directoryRsbclDepotsService.getPaginatedDirectoryRSBCLDepots(page, size));
     }
 
     @GetMapping("/v1/auth/directory/rsbcl-depot/id/{id}")
@@ -33,7 +32,7 @@ public class DirectoryRsbclDepotsController {
     }
 
     @PostMapping("/v1/auth/directory/rsbcl-depot")
-    public ResponseEntity<?> saveDepot(@RequestBody DirectoryRsbclDepots directoryRsbclDepots) {
+    public ResponseEntity<?> saveDepot(@ModelAttribute DirectoryRsbclDepots directoryRsbclDepots) {
         DirectoryRsbclDepotsService.Response<DirectoryRsbclDepots> response = directoryRsbclDepotsService.saveDepot(directoryRsbclDepots);
         return createResponseEntity(response);
     }

@@ -34,8 +34,12 @@ public class NewsUpdatesService {
 
     public Response<List<NewsUpdates>> getNewsUpdatesFive(String department) {
         // Find news by department and sort by lastUpdate in descending order
-        List<NewsUpdates> latestNews = newsUpdatesRepo.findByDepartment(department, Sort.by(Sort.Direction.DESC, "lastUpdate")).stream().limit(5) // Limit to the latest 5 records
+        List<NewsUpdates> latestNews = newsUpdatesRepo.findByDepartment(department.toUpperCase(), Sort.by(Sort.Direction.DESC, "lastUpdate"))
+                .stream()
+                .limit(5) // Limit to the latest 5 records
                 .collect(Collectors.toList());
+        if(latestNews.isEmpty())
+            return new Response<>("Error", "NO content " + department, latestNews);
         return new Response<>("Success", "Fetched latest 5 records for department: " + department, latestNews);
     }
 
@@ -45,20 +49,19 @@ public class NewsUpdatesService {
             // Create a PageRequest with page number and size
             PageRequest pageRequest = PageRequest.of(page, size);
             Page<NewsUpdates> newsUpdatesPage = newsUpdatesRepo.findAll(pageRequest);
-
             return new Response<>("Success", "Fetched paginated news updates", newsUpdatesPage);
         } catch (Exception e) {
             return new Response<>("Error", "Failed to fetch paginated news updates: " + e.getMessage(), null);
         }
     }
 
-    public Response<Optional<NewsUpdates>> getNewsUpdatesById(ObjectId id){
-        try{
-            Optional<NewsUpdates> newsUpdates=newsUpdatesRepo.findById(id);
-            if(newsUpdates.isEmpty())
-                return new Response<>("Error404","No content",null);
-            return new Response<>("Success","Data found",newsUpdates);
-        }catch (Exception e){
+    public Response<Optional<NewsUpdates>> getNewsUpdatesById(ObjectId id) {
+        try {
+            Optional<NewsUpdates> newsUpdates = newsUpdatesRepo.findById(id);
+            if (newsUpdates.isEmpty())
+                return new Response<>("Error404", "No content", null);
+            return new Response<>("Success", "Data found", newsUpdates);
+        } catch (Exception e) {
             return new Response<>("Error", "Failed to fetch news updates: " + e.getMessage(), null);
         }
     }
@@ -68,9 +71,8 @@ public class NewsUpdatesService {
             // calculate file size
             long sizeInBytes = newsUpdatesDAO.getDocument().getSize();
 
-            if (sizeInBytes > 50 * 1024 * 1024) {
+            if (sizeInBytes > 50 * 1024 * 1024)
                 return new Response<>("Error", "File size too large. Maximum allowed size is 50MB.", null);
-            }
 
             String fileSize = formatFileSize(sizeInBytes);
 
@@ -78,10 +80,10 @@ public class NewsUpdatesService {
             String documentUrl = cloudinaryService.uploadFileToCloudinary(newsUpdatesDAO.getDocument());
 
             NewsUpdates newsUpdates = new NewsUpdates();
-            newsUpdates.setTitle(newsUpdatesDAO.getTitle());
-            newsUpdates.setDescription(newsUpdatesDAO.getDescription());
+            newsUpdates.setTitle(newsUpdatesDAO.getTitle().trim());
+            newsUpdates.setDescription(newsUpdatesDAO.getDescription().trim());
             newsUpdates.setNewsStatus(newsUpdatesDAO.getNewsStatus());
-            newsUpdates.setDepartment(newsUpdatesDAO.getDepartment());
+            newsUpdates.setDepartment(newsUpdatesDAO.getDepartment().toUpperCase());
             newsUpdates.setLastUpdate(LocalDate.now());
             newsUpdates.setDocumentLinkUrl(documentUrl);
             newsUpdates.setFileSize(fileSize);

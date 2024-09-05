@@ -32,7 +32,7 @@ public class DirectoryExciseOfficeController {
     }
 
     @PostMapping("/v1/auth/directory/excise-office")
-    public ResponseEntity<?> saveDirectory(@RequestBody DirectoryExciseOffice directoryExciseOffice) {
+    public ResponseEntity<?> saveDirectory(@ModelAttribute DirectoryExciseOffice directoryExciseOffice) {
         DirectoryExciseOfficeService.Response<DirectoryExciseOffice> response = directoryExciseOfficeService.saveDirectory(directoryExciseOffice);
         return createResponseEntity(response);
     }

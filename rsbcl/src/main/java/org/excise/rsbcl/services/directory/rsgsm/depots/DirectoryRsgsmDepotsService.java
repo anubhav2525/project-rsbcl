@@ -8,22 +8,23 @@ import org.bson.types.ObjectId;
 import org.excise.rsbcl.model.directory.rsgsm.depots.DirectoryRsgsmDepots;
 import org.excise.rsbcl.repository.directory.rsgsm.depots.DirectoryRsgsmDepotsRepo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
-import java.util.List;
 
 @Service
 public class DirectoryRsgsmDepotsService {
     @Autowired
     private DirectoryRsgsmDepotsRepo directoryRsgsmDepotsRepo;
 
-    public Response<List<DirectoryRsgsmDepots>> getAll() {
+    public Response<Page<DirectoryRsgsmDepots>> getPaginatedDirectoryRSGSMDepots(int page, int size) {
         try {
-            List<DirectoryRsgsmDepots> directoryRsgsmDepots = directoryRsgsmDepotsRepo.findAll();
-            if (directoryRsgsmDepots.isEmpty()) return new Response<>("Error404", "No content", null);
-            return new Response<>("Success", "Content found", directoryRsgsmDepots);
+            PageRequest pageRequest = PageRequest.of(page, size);
+            Page<DirectoryRsgsmDepots> directoryRsgsmDepots = directoryRsgsmDepotsRepo.findAll(pageRequest);
+            return new Response<>("Success", "Fetched paginated rsgsm depots", directoryRsgsmDepots);
         } catch (Exception e) {
             return new Response<>("Error", e.getMessage(), null);
         }
@@ -39,8 +40,7 @@ public class DirectoryRsgsmDepotsService {
         }
     }
 
-    @Transactional
-    public Response<DirectoryRsgsmDepots> save(DirectoryRsgsmDepots directoryRsgsmDepots) {
+    public Response<DirectoryRsgsmDepots> saveDirectory(DirectoryRsgsmDepots directoryRsgsmDepots) {
         try {
             DirectoryRsgsmDepots directoryRsgsmDepot = directoryRsgsmDepotsRepo.save(directoryRsgsmDepots);
             return new Response<>("Success", "Data saved", directoryRsgsmDepot);

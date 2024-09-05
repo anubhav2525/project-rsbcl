@@ -21,9 +21,8 @@ public class DirectoryRsgsmReductionCenterController {
     }
 
     @GetMapping("/v1/public/directory/rsgsm-reductionCenters")
-    public ResponseEntity<?> getAllRecords() {
-        DirectoryRsgsmReductionCenterService.Response<List<DirectoryRsgsmReductionCenter>> response = directoryRsgsmReductionCenterService.getAll();
-        return createResponseEntity(response);
+    public ResponseEntity<?> getPaginatedDirectoryRSGSMReductionCenter(@RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "10") int size) {
+        return createResponseEntity(directoryRsgsmReductionCenterService.getPaginatedDirectoryRSGSMReductionCenter(page, size));
     }
 
     @GetMapping("/v1/auth/directory/rsgsm-reductionCenter/id/{id}")
@@ -33,9 +32,14 @@ public class DirectoryRsgsmReductionCenterController {
     }
 
     @PostMapping("/v1/auth/directory/rsgsm-reductionCenter")
-    public ResponseEntity<?> saveRc(@RequestBody DirectoryRsgsmReductionCenter directoryRsgsmReductionCenter) {
+    public ResponseEntity<?> saveRc(@ModelAttribute DirectoryRsgsmReductionCenter directoryRsgsmReductionCenter) {
         DirectoryRsgsmReductionCenterService.Response<DirectoryRsgsmReductionCenter> response = directoryRsgsmReductionCenterService.save(directoryRsgsmReductionCenter);
         return createResponseEntity(response);
+    }
+
+    @PostMapping("/v1/auth/directory/rsgsm-reductionCenter/save-entries")
+    public ResponseEntity<?> saveRcList(@RequestBody List<DirectoryRsgsmReductionCenter> directoryRsgsmReductionCenterList) {
+        return createResponseEntity(directoryRsgsmReductionCenterService.saveList(directoryRsgsmReductionCenterList));
     }
 
     @DeleteMapping("/v1/auth/directory/rsgsm-reductionCenter/id/{id}")

@@ -12,7 +12,9 @@ import org.excise.rsbcl.services.actsPolicies.ActsPoliciesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -23,13 +25,13 @@ public class DirectoryExciseOfficeService {
     @Autowired
     private DirectoryExciseOfficeRepo directoryExciseOfficeRepo;
 
-    public Response<Page<DirectoryExciseOffice>> getPaginatedDirectoryExcise(int page,int size){
+    public Response<Page<DirectoryExciseOffice>> getPaginatedDirectoryExcise(int page, int size) {
         try {
             PageRequest pageRequest = PageRequest.of(page, size);
             Page<DirectoryExciseOffice> directoryExciseOfficePage = directoryExciseOfficeRepo.findAll(pageRequest);
-            return new Response<>("Success", "Fetched paginated acts policies", directoryExciseOfficePage);
+            return new Response<>("Success", "Fetched paginated excise offices", directoryExciseOfficePage);
         } catch (Exception e) {
-            return new Response<>("Error", "Failed to fetch paginated acts policies: " + e.getMessage(), null);
+            return new Response<>("Error", "Failed to fetch paginated excise offices: " + e.getMessage(), null);
         }
     }
 
@@ -56,6 +58,7 @@ public class DirectoryExciseOfficeService {
         }
     }
 
+    @Transactional
     public Response<List<DirectoryExciseOffice>> saveDirectories(List<DirectoryExciseOffice> directoryExciseOffices) {
         try {
             List<DirectoryExciseOffice> directoryExciseOffices1 = new ArrayList<>();
@@ -70,6 +73,7 @@ public class DirectoryExciseOfficeService {
         }
     }
 
+    @Transactional
     public Response<DirectoryExciseOffice> updateDirectory(ObjectId id, DirectoryExciseOffice directoryExciseOffice) {
         try {
 

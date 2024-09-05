@@ -33,8 +33,7 @@ public class NewsUpdates {
     @NotNull(message = "Department is required")
     @NotEmpty(message = "Department cannot be empty")
     private String department;
-
-    private String fileSize;  // Optional field
+    private String fileSize;
 
     @NotNull(message = "Last update date is required")
     private LocalDate lastUpdate;

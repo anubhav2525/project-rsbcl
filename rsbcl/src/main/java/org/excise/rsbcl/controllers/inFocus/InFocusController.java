@@ -24,6 +24,12 @@ public class InFocusController {
         return createResponseEntity(inFocusService.getAll());
     }
 
+    // Endpoint to get paginated data
+    @GetMapping("/public/inFocuses-page")
+    public ResponseEntity<?> getPaginatedInFocus(@RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "10") int size) {
+        return createResponseEntity(inFocusService.getAllInfousPage(page, size));
+    }
+
     @GetMapping("/auth/inFocus/id/{id}")
     public ResponseEntity<?> getInFocusById(@PathVariable ObjectId id) {
         return createResponseEntity(inFocusService.getInFocusById(id));

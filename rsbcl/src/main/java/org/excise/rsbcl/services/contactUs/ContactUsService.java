@@ -5,8 +5,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.bson.types.ObjectId;
+import org.excise.rsbcl.dao.contactUs.ContactUsDAO;
 import org.excise.rsbcl.model.contactUs.ContactUs;
 import org.excise.rsbcl.repository.contactus.ContactUsRepo;
+import org.excise.rsbcl.services.cloudinary.CloudinaryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -20,8 +22,12 @@ public class ContactUsService {
     @Autowired
     private final ContactUsRepo contactUsRepo;
 
-    public ContactUsService(ContactUsRepo contactUsRepo) {
+    @Autowired
+    private final CloudinaryService cloudinaryService;
+
+    public ContactUsService(ContactUsRepo contactUsRepo, CloudinaryService cloudinaryService) {
         this.contactUsRepo = contactUsRepo;
+        this.cloudinaryService = cloudinaryService;
     }
 
     public Response<List<ContactUs>> getAllContactUs() {
@@ -44,15 +50,23 @@ public class ContactUsService {
         }
     }
 
-    public Response<ContactUs> saveContactUs(ContactUs contactUs) {
+    public Response<ContactUs> saveContactUs(ContactUsDAO contactUsDAO) {
         try {
-            Optional<ContactUs> oldContact = contactUsRepo.findByBranch(contactUs.getBranch());
-            if (oldContact.isEmpty()) {
-                contactUs.setLastUpdate(LocalDateTime.now());
-                ContactUs newContactUs = contactUsRepo.save(contactUs);
+            ContactUs oldContact = contactUsRepo.findByBranch(contactUsDAO.getBranch()).orElse(null);
+            if (oldContact != null) {
+                String imageUrl = cloudinaryService.uploadFileToCloudinary(contactUsDAO.getImage());
+                oldContact.setContactNo(contactUsDAO.getContactNo());
+                oldContact.setBranch(contactUsDAO.getBranch());
+                oldContact.setAddress(contactUsDAO.getAddress());
+                oldContact.setEmail(contactUsDAO.getEmail());
+                oldContact.setStatus(contactUsDAO.isStatus());
+                oldContact.setFaxNo(contactUsDAO.getFaxNo());
+                oldContact.setImageLink(imageUrl);
+                oldContact.setLastUpdate(LocalDateTime.now());
+                ContactUs newContactUs = contactUsRepo.save(oldContact);
                 return new Response<>("Success", "Contact saved successfully", newContactUs);
             } else {
-                return new Response<>("Error208", "This Contact already exists !!", contactUs);
+                return new Response<>("Error208", "This Contact already exists !!", null);
             }
         } catch (Exception e) {
             return new Response<>("Error", e.getMessage(), null);

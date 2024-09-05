@@ -32,8 +32,6 @@ public class NewsUpdatesDAO {
     private String department;
 
     private String fileSize;  // Optional field
-
-    @NotNull(message = "Last update date is required")
     private LocalDate lastUpdate;
     private MultipartFile document;
 

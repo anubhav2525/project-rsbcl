@@ -33,7 +33,6 @@ public class DirectoryRsbclDepots {
     @Size(max = 255, message = "Deport address max 255 characters")
     private String address;
 
-    @Indexed(unique = true)
     @NotNull(message = "Deport email address not be empty")
     @Size(min = 4, max = 50, message = "Deport email address must be 1 to 50 characters")
     private String email;

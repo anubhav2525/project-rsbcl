@@ -5,11 +5,13 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.bson.types.ObjectId;
-import org.excise.rsbcl.dao.MobileAppDao;
+import org.excise.rsbcl.dao.mobileApp.MobileAppDao;
 import org.excise.rsbcl.model.mobileApp.MobileApp;
 import org.excise.rsbcl.repository.mobileApp.MobileAppRepo;
 import org.excise.rsbcl.services.cloudinary.CloudinaryService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -40,6 +42,16 @@ public class MobileAppService {
             }
         } catch (Exception e) {
             return new Response<>("Error", e.getMessage(), null);
+        }
+    }
+
+    public Response<Page<MobileApp>> getPaginatedMobileApps(int page, int size) {
+        try {
+            PageRequest pageRequest = PageRequest.of(page, size);
+            Page<MobileApp> mobileAppPage = mobileAppRepo.findAll(pageRequest);
+            return new Response<>("Success", "Fetched paginated mobile apps", mobileAppPage);
+        } catch (Exception e) {
+            return new Response<>("Error", "Failed to fetch paginated mobile apps: " + e.getMessage(), null);
         }
     }
 
@@ -79,14 +91,12 @@ public class MobileAppService {
                 newMobileApp.setDescription(mobileAppDao.getDescription());
                 newMobileApp.setLink(mobileAppDao.getLink());
                 newMobileApp.setSuggestion(mobileAppDao.getSuggestion());
-                newMobileApp.setVersion(mobileAppDao.getVersion());
+                newMobileApp.setVersion(mobileAppDao.getVersion().toLowerCase());
                 newMobileApp.setDocumentLink(documentLink);
                 newMobileApp.setApplicationImageLink(applicationImageLink);
                 newMobileApp.setVideoLink(videoLink);
-                newMobileApp.setStatus(mobileAppDao.isStatus());
+                newMobileApp.setStatus(mobileAppDao.getStatus());
                 newMobileApp.setLastUpdate(LocalDateTime.now());
-
-                // Save to MongoDB
                 MobileApp savedApp = mobileAppRepo.save(newMobileApp);
                 return new Response<>("Saved", "Mobile app saved successfully", savedApp);
             } else {
@@ -123,7 +133,7 @@ public class MobileAppService {
                 existingMobileApp.setSuggestion((mobileApp.getSuggestion() != null && !mobileApp.getSuggestion().equals(existingMobileApp.getSuggestion()) ? mobileApp.getSuggestion() : existingMobileApp.getSuggestion()));
                 existingMobileApp.setDocumentLink((mobileApp.getDocumentLink() != null && !mobileApp.getDocumentLink().equals(existingMobileApp.getDocumentLink()) ? mobileApp.getDocumentLink() : existingMobileApp.getDocumentLink()));
                 existingMobileApp.setVideoLink((mobileApp.getVideoLink() != null && !mobileApp.getVideoLink().equals(existingMobileApp.getVideoLink()) ? mobileApp.getVideoLink() : existingMobileApp.getVideoLink()));
-                existingMobileApp.setStatus(mobileApp.isStatus());
+                existingMobileApp.setStatus(mobileApp.getStatus());
                 existingMobileApp.setLastUpdate(LocalDateTime.now());
                 mobileAppRepo.save(existingMobileApp);
                 return new Response<>("Success", "Mobile app updated successfully", existingMobileApp);

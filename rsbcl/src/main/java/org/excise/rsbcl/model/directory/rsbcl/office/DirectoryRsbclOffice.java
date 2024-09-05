@@ -29,7 +29,6 @@ public class DirectoryRsbclOffice {
     @Size(min = 4, max = 50, message = "Name must be 1 to 50 characters")
     private String name;
 
-    @Indexed(unique = true)
     @NotNull(message = "Email address not be empty")
     @Size(min = 4, max = 50, message = "Email address must be 1 to 50 characters")
     private String email;

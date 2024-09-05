@@ -1,10 +1,13 @@
-package org.excise.rsbcl.dao;
+package org.excise.rsbcl.dao.mobileApp;
 
+import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.bson.types.ObjectId;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.time.LocalDateTime;
@@ -13,6 +16,8 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class MobileAppDao {
+    private ObjectId id;
+
     @NotNull(message = "App name cannot be empty")
     @Size(min = 1, max = 100, message = "App name must be between 1 and 100 characters")
     private String appName;
@@ -40,6 +45,9 @@ public class MobileAppDao {
     @Size(min = 1, max = 50, message = "Version must be between 1 and 50 characters")
     private String version;
 
-    private boolean status = true;
+    @NotNull(message = "Status not be null")
+    @NotEmpty(message = "Status not be empty")
+    @Pattern(regexp = "ACTIVE|REMOVED|DELETED|INACTIVE", message = "Status should be ACTIVE, REMOVED, DELETED, INACTIVE")
+    private String status;
     private LocalDateTime lastUpdate;
 }

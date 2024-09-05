@@ -22,7 +22,7 @@ public class UserController {
     }
 
     @PostMapping("/login")
-    public ResponseEntity<?> login(@RequestBody UserLoginAssests userLoginAssests) {
+    public ResponseEntity<?> login(@ModelAttribute UserLoginAssests userLoginAssests) {
         UsersService.Response<String> response = usersService.login(userLoginAssests);
         if (response.getStatus().equals("Success")) {
             return ResponseEntity.ok(response);

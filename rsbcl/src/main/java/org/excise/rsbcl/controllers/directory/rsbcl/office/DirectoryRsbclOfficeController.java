@@ -21,9 +21,8 @@ public class DirectoryRsbclOfficeController {
     }
 
     @GetMapping("/v1/public/directory/rsbcl-offices")
-    public ResponseEntity<?> getAll() {
-        DirectoryRsbclOfficeService.Response<List<DirectoryRsbclOffice>> response = directoryRsbclOfficeService.getAll();
-        return createResponseEntity(response);
+    public ResponseEntity<?> getPaginatedDirectoryRSBCLOffice(@RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "10") int size) {
+        return createResponseEntity(directoryRsbclOfficeService.getPaginatedDirectoryRSBCLOffice(page, size));
     }
 
     @GetMapping("/v1/auth/directory/rsbcl-office/id/{id}")
@@ -45,7 +44,7 @@ public class DirectoryRsbclOfficeController {
     }
 
     @PostMapping("/v1/auth/directory/rsbcl-office")
-    public ResponseEntity<?> saveDirectory(@RequestBody DirectoryRsbclOffice directoryRsbclOffice) {
+    public ResponseEntity<?> saveDirectory(@ModelAttribute DirectoryRsbclOffice directoryRsbclOffice) {
         DirectoryRsbclOfficeService.Response<DirectoryRsbclOffice> response = directoryRsbclOfficeService.saveDirectory(directoryRsbclOffice);
         return createResponseEntity(response);
     }

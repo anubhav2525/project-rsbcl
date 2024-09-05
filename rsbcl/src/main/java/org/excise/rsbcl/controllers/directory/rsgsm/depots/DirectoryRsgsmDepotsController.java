@@ -8,8 +8,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @RestController
 @RequestMapping("/api")
 public class DirectoryRsgsmDepotsController {
@@ -21,33 +19,28 @@ public class DirectoryRsgsmDepotsController {
     }
 
     @GetMapping("/v1/public/directory/rsgsm-depots")
-    public ResponseEntity<?> getAll() {
-        DirectoryRsgsmDepotsService.Response<List<DirectoryRsgsmDepots>> response = directoryRsgsmDepotsService.getAll();
-        return createResponseEntity(response);
+    public ResponseEntity<?> getPaginatedDirectoryRSGSMDepots(@RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "10") int size) {
+        return createResponseEntity(directoryRsgsmDepotsService.getPaginatedDirectoryRSGSMDepots(page, size));
     }
 
     @GetMapping("/v1/auth/directory/rsgsm-depot/id/{id}")
     public ResponseEntity<?> getById(@PathVariable("id") ObjectId id) {
-        DirectoryRsgsmDepotsService.Response<DirectoryRsgsmDepots> response = directoryRsgsmDepotsService.getById(id);
-        return createResponseEntity(response);
+        return createResponseEntity(directoryRsgsmDepotsService.getById(id));
     }
 
     @PostMapping("/v1/auth/directory/rsgsm-depot")
     public ResponseEntity<?> saveDepot(@RequestBody DirectoryRsgsmDepots directoryRsgsmDepots) {
-        DirectoryRsgsmDepotsService.Response<DirectoryRsgsmDepots> response = directoryRsgsmDepotsService.save(directoryRsgsmDepots);
-        return createResponseEntity(response);
+        return createResponseEntity(directoryRsgsmDepotsService.saveDirectory(directoryRsgsmDepots));
     }
 
     @PutMapping("/v1/auth/directory/rsgsm-depot/id/{id}")
     public ResponseEntity<?> updateById(@PathVariable("id") ObjectId id, @RequestBody DirectoryRsgsmDepots directoryRsgsmDepots) {
-        DirectoryRsgsmDepotsService.Response<DirectoryRsgsmDepots> response = directoryRsgsmDepotsService.updateById(id, directoryRsgsmDepots);
-        return createResponseEntity(response);
+        return createResponseEntity(directoryRsgsmDepotsService.updateById(id, directoryRsgsmDepots));
     }
 
     @DeleteMapping("/v1/auth/directory/rsgsm-depot/id/{id}")
     public ResponseEntity<?> deleteById(@PathVariable("id") ObjectId id) {
-        DirectoryRsgsmDepotsService.Response<Void> response = directoryRsgsmDepotsService.deleteById(id);
-        return createResponseEntity(response);
+        return createResponseEntity(directoryRsgsmDepotsService.deleteById(id));
     }
 
     private <T> ResponseEntity<?> createResponseEntity(DirectoryRsgsmDepotsService.Response<T> response) {

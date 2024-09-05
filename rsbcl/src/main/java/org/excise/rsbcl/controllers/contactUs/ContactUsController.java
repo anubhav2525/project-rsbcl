@@ -1,23 +1,15 @@
 package org.excise.rsbcl.controllers.contactUs;
 
-import jakarta.validation.ConstraintViolation;
-import jakarta.validation.Valid;
-import jakarta.validation.Validation;
-import jakarta.validation.Validator;
 import org.bson.types.ObjectId;
+import org.excise.rsbcl.dao.contactUs.ContactUsDAO;
 import org.excise.rsbcl.model.contactUs.ContactUs;
 import org.excise.rsbcl.services.contactUs.ContactUsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.BeanPropertyBindingResult;
-import org.springframework.validation.BindingResult;
-import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 @RestController
 @RequestMapping("/api")
@@ -42,30 +34,12 @@ public class ContactUsController {
     }
 
     @PostMapping("/v1/auth/contact")
-    public ResponseEntity<?> saveContactUs(@Valid @RequestBody ContactUs contactUs, BindingResult bindingResult) {
-        if(bindingResult.hasErrors()){
-            return ResponseEntity.badRequest().body(bindingResult.getAllErrors());
-        }
-        ContactUsService.Response<ContactUs> response = contactUsService.saveContactUs(contactUs);
-        return createResponseEntity(response);
+    public ResponseEntity<?> saveContactUs(@ModelAttribute ContactUsDAO contactUsDAO) {
+        return createResponseEntity(contactUsService.saveContactUs(contactUsDAO));
     }
 
     @PostMapping("/v1/auth/contact/save-entries")
-    public ResponseEntity<?> saveContactUsList(@Valid @RequestBody List<ContactUs> contactUsList,BindingResult bindingResult) {
-        // error validation
-        List<ObjectError> allErrors = new ArrayList<>(bindingResult.getAllErrors());
-        for (int i = 0; i < contactUsList.size(); i++) {
-            ContactUs contactUs = contactUsList.get(i);
-            BindingResult contactBindingResult = new BeanPropertyBindingResult(contactUs, "contactList[" + i + "]");
-            Validator validator = Validation.buildDefaultValidatorFactory().getValidator();
-            Set<ConstraintViolation<ContactUs>> violations = validator.validate(contactUs);
-            for (ConstraintViolation<ContactUs> violation : violations) {
-                allErrors.add(new ObjectError("contactList[" + i + "]." + violation.getPropertyPath(), violation.getMessage()));
-            }
-        }
-        if (!allErrors.isEmpty()) {
-            return ResponseEntity.badRequest().body(allErrors);
-        }
+    public ResponseEntity<?> saveContactUsList(@RequestBody List<ContactUs> contactUsList) {
 
         // call the respective method
         ContactUsService.Response<List<ContactUs>> response = contactUsService.saveContactUses(contactUsList);

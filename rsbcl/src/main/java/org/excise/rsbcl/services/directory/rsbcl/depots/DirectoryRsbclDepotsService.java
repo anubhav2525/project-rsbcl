@@ -5,9 +5,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.bson.types.ObjectId;
+import org.excise.rsbcl.model.directory.excise.office.DirectoryExciseOffice;
 import org.excise.rsbcl.model.directory.rsbcl.depots.DirectoryRsbclDepots;
 import org.excise.rsbcl.repository.directory.rsbcl.depots.DirectoryRsbclDepotsRepo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -20,11 +23,11 @@ public class DirectoryRsbclDepotsService {
     @Autowired
     private DirectoryRsbclDepotsRepo directoryRsbclDepotsRepo;
 
-    public Response<List<DirectoryRsbclDepots>> getAll() {
+    public Response<Page<DirectoryRsbclDepots>> getPaginatedDirectoryRSBCLDepots(int page, int size) {
         try {
-            List<DirectoryRsbclDepots> directoryRsbclDepots = directoryRsbclDepotsRepo.findAll();
-            if (directoryRsbclDepots.isEmpty()) return new Response<>("Error404", "No content", null);
-            return new Response<>("Success", "Directories found", directoryRsbclDepots);
+            PageRequest pageRequest = PageRequest.of(page, size);
+            Page<DirectoryRsbclDepots> directoryRsbclDepots = directoryRsbclDepotsRepo.findAll(pageRequest);
+            return new Response<>("Success", "Fetched paginated rsbcl depots", directoryRsbclDepots);
         } catch (Exception e) {
             return new Response<>("Error", e.getMessage(), null);
         }

@@ -7,7 +7,10 @@ import lombok.Setter;
 import org.bson.types.ObjectId;
 import org.excise.rsbcl.model.directory.rsbcl.office.DirectoryRsbclOffice;
 import org.excise.rsbcl.repository.directory.rsbcl.office.DirectoryRsbclOfficeRepo;
+import org.excise.rsbcl.services.directory.excise.office.DirectoryExciseOfficeService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -20,11 +23,11 @@ public class DirectoryRsbclOfficeService {
     @Autowired
     private DirectoryRsbclOfficeRepo directoryRsbclOfficeRepo;
 
-    public Response<List<DirectoryRsbclOffice>> getAll() {
+    public Response<Page<DirectoryRsbclOffice>> getPaginatedDirectoryRSBCLOffice(int page, int size) {
         try {
-            List<DirectoryRsbclOffice> directoryRsbclOffices = directoryRsbclOfficeRepo.findAll();
-            if (directoryRsbclOffices.isEmpty()) return new Response<>("Error404", "No content", null);
-            return new Response<>("Success", "Directory found", directoryRsbclOffices);
+            PageRequest pageRequest = PageRequest.of(page, size);
+            Page<DirectoryRsbclOffice> directoryRsbclOffices = directoryRsbclOfficeRepo.findAll(pageRequest);
+            return new Response<>("Success", "Fetched paginated rsbcl offices", directoryRsbclOffices);
         } catch (Exception e) {
             return new Response<>("Error", e.getMessage(), null);
         }
@@ -74,11 +77,7 @@ public class DirectoryRsbclOfficeService {
                     errorData.add(directory);
                 }
             }
-
-            // if any one data has error
             if (status) return new Response<>("Error", "Data has error", errorData);
-
-            // all correct
             return new Response<>("Success", "Data's saved", lists);
         } catch (Exception e) {
             return new Response<>("Error", e.getMessage(), null);

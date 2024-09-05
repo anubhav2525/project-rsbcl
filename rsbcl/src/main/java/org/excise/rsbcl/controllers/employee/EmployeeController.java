@@ -40,10 +40,7 @@ public class EmployeeController {
     }
 
     @PostMapping("/v1/auth/employee")
-    public ResponseEntity<?> saveEmployee(@Valid @RequestBody Employee employee, BindingResult bindingResult) {
-        if (bindingResult.hasErrors()) {
-            return ResponseEntity.badRequest().body(bindingResult.getAllErrors());
-        }
+    public ResponseEntity<?> saveEmployee( @RequestBody Employee employee){
         EmployeeService.Response<?> response = employeeService.saveEmployee(employee);
         return createResponseEntity(response);
     }

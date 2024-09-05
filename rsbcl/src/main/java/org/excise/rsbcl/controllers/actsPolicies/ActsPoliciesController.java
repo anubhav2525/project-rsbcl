@@ -35,12 +35,12 @@ public class ActsPoliciesController {
         return createResponseEntity(actsPoliciesService.saveActsPolicies(actsPoliciesDAO));
     }
 
-    @PutMapping("/auth/acts-policies/{id}")
+    @PutMapping("/auth/acts-policies/id/{id}")
     public ResponseEntity<?> updateActsPolicies(@PathVariable ObjectId id, @ModelAttribute ActsPoliciesDAO actsPoliciesDAO) {
         return createResponseEntity(actsPoliciesService.updateActsPolicies(id, actsPoliciesDAO));
     }
 
-    @DeleteMapping("/auth/acts-policies/{id}")
+    @DeleteMapping("/auth/acts-policies/id/{id}")
     public ResponseEntity<?> deleteActsPolicies(@PathVariable ObjectId id) {
         return createResponseEntity(actsPoliciesService.deleteActsPolicies(id));
     }
